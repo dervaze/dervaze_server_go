@@ -1,0 +1,127 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.dervaze.rpc";
+option java_outer_classname = "DervazeProto";
+option objc_class_prefix = "DRVZ";
+option go_package = "dervaze.com/dervazepb";
+
+package dervaze;
+// Dervaze RPC Services
+service Dervaze {
+  rpc VisencToOttoman(OttomanWord) returns(OttomanWord) {}
+  rpc OttomanToVisenc(OttomanWord) returns(OttomanWord) {}
+  rpc SearchRoots(SearchRequest) returns(RootSet) {}
+  rpc Translate(TranslateRequest) returns(TranslateResponse) {}
+}
+
+enum SearchType { PREFIX = 0; FUZZY = 1; REGEX = 2; }
+
+enum Req { NEVER = 0; MAYBE = 1; ALWAYS = 2; }
+
+message SearchRequest {
+  oneof field {
+    string auto = 1;
+    string turkishLatin = 2;
+    string visenc = 3;
+    string ottoman = 4;
+    int32 abjad = 7;
+  }
+  SearchType searchType = 14;
+  int32 resultLimit = 15;
+}
+
+message OttomanWord {
+  string visenc = 1;
+  string unicode = 2;
+  int32 abjad = 3;
+  repeated string visencLetters = 4;
+  string searchKey = 5;
+  string dotlessSearchKey = 6;
+}
+
+enum PartOfSpeech { NOUN = 0; VERB = 1; PROPER_NOUN = 2; }
+
+message Root {
+  string turkishLatin = 1;
+  OttomanWord ottoman = 2;
+  string lastVowel = 3;
+  string lastConsonant = 4;
+  string effectiveLastVowel = 5;
+  string effectiveTurkishLatin = 6;
+  string effectiveVisenc = 7;
+
+  int32 abjad = 8;
+
+  PartOfSpeech partOfSpeech = 9;
+
+  bool endsWithVowel = 16;
+  bool hasSingleVowel = 17;
+  bool lastVowelHard = 18;
+  bool lastConsonantHard = 19;
+  bool hasConsonantSoftening = 20;
+}
+
+message RootSet { repeated Root roots = 1; }
+
+message Suffix {
+  string turkishLatin = 1;
+  OttomanWord ottoman = 2;
+  string morphologicalClass = 3;
+  string requiredLastVowel = 4;
+  PartOfSpeech requiresPOS = 5;
+  Req requiresEndsWithVowel = 6;
+  Req requiresHasSingleVowel = 7;
+  Req requiresLastConsonantHard = 8;
+  string setsLastVowelTo = 9;
+  Req requiresContinuationSuffix = 10;
+  repeated string invalidateSuffixClasses = 11;
+  PartOfSpeech convertsPOSto = 12;
+  bool endsWithVowel = 13;
+}
+
+message SuffixSet {
+  repeated Suffix suffixes = 1;
+  string tag = 2;
+}
+
+enum TranslationDirection { tr2otm = 0; otm2tr = 1; }
+
+// message Translation {
+//   Root root = 1;
+//   repeated Suffix suffixes = 2;
+//   string remaining = 3;
+//   TranslationDirection direction = 4;
+//   OttomanWord ottomanRemaining = 5;
+// }
+
+message TranslateRequest {
+  oneof r {
+    string turkishLatin = 2;
+    string visenc = 3;
+    string ottoman = 4;
+  }
+}
+
+message TranslationWord {
+  Root root = 1;
+  repeated Suffix suffixes = 2;
+  string remaining = 3;
+  TranslationDirection direction = 4;
+  OttomanWord ottomanRemaining = 5;
+}
+
+message TranslationVariety {
+  repeated TranslationWord varieties = 1;
+  TranslationDirection direction = 2;
+}
+
+message TranslationSentence {
+  repeated TranslationVariety words = 1;
+  TranslationDirection direction = 2;
+}
+
+message TranslateResponse {
+  TranslateRequest request = 1;
+  repeated TranslationSentence sentences = 2;
+}
