@@ -1,7 +1,6 @@
 package dervaze
 
 import (
-	"deneme/dervaze/dervaze"
 	"regexp"
 	"strings"
 )
