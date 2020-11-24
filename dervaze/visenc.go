@@ -143,19 +143,18 @@ func DotlessSearchKey(s string) {
 	return sk.ReplaceAllLiteralString(s, "")
 }
 
-func SplitVisenc(s string)
+func SplitVisenc(s string) {
+
+}
 
 
 OttomanWord getOttomanWord({String visenc, String ottoman}) {
-  var ow = OttomanWord.create();
-  ow.unicode = unorm.nfkc(ottoman ?? toOttoman(visenc));
-  ow.visenc = visenc ?? toVisenc(ottoman);
-  ow.abjad = toAbjad(ow.visenc);
-  ow.searchKey = ow.visenc.replaceAll(RegExp("), "");
-  ow.dotlessSearchKey =
-      ow.visenc.replaceAll(RegExp("\([oui][0123456789]+\)"), "");
   ow.visencLetters.addAll(splitVisenc(ow.searchKey));
   return ow;
+}
+
+func VisencToUnicode(s string) {
+  
 }
 
 String toOttoman(String v,
@@ -245,6 +244,49 @@ int toAbjad(String s) {
   return abjad_sum;
 }
 
+func TFstring(condition bool, ifTrue, ifFalse string) string {
+	if condition {
+		return ifTrue } else {
+			return ifFalse
+		}
+}
+func TFint(condition bool, ifTrue, ifFalse int) int {
+	if condition {
+		return ifTrue } else {
+			return ifFalse
+		}
+}
+
+func SplitVisenc(s string, addInvalidLetters bool) []string {
+	slen := len(s)
+	maxVisencLen := 5
+	start := 0
+	end := TFint(start + maxVisencLen < slen, start+maxVisencLen + 1, slen + 1)
+	group := make([]string, 0, len(s))
+
+	for start < slen {
+		visenc, exists := visencToOttoman[s[start:end]]
+		if exists {
+			group.add(visenc)
+			start = end
+			end = TFint(start + maxVisencLen < slen, start+maxVisencLen + 1, slen + 1)
+		} else {
+			if end > start + 1 {
+				end -= 1
+			} else {
+				if addInvalidLetters {
+					group.add(s[start:end])
+				}
+				start += 1
+				end = TFint(start + maxVisencLen < slen, start+maxVisencLen + 1, slen + 1)
+			}
+		}
+		
+	}
+
+	return group
+}
+
 List<String> splitVisenc(String v,
     {bool addInvalidLetters = true, int maxVisencLength = 5}) {
   var vlen = v.length;
@@ -276,113 +318,113 @@ List<String> splitVisenc(String v,
   return elements;
 }
 
-const VISENC_TO_OTTOMAN = {
-  'c': 'ء',
-  'eo6': 'آ',
-  // 'A': 'آ',
-  'e': 'ا',
-  'eo5': 'أ',
-  'eu5': 'إ',
-  // 'E': 'أ',
-  'bu1': 'ب',
-  // 'B': 'ب',
-  'bu3': 'پ',
-  // 'P': 'پ',
-  'bo2': 'ت',
-  // 'T': 'ت',
-  'bo3': 'ث',
-  'xu1': 'ج',
-  // 'C': 'ج',
-  'xu3': 'چ',
-  // 'Ç': 'چ',
-  'x': 'ح',
-  'xo1': 'خ',
-  // 'X': 'خ',
-  'do1': 'ذ',
-  'd': 'د',
-  'ro1': 'ز',
-  'r': 'ر',
-  // 'Z': 'ز',
-  'ro3': 'ژ',
-  // 'J': 'ژ',
-  's': 'س',
-  'so3': 'ش',
-  // 'S': 'ش',
-  // 'Ş': 'ش',
-  'z': 'ص',
-  'zo1': 'ض',
-  // 'D': 'ض',
-  't': 'ط',
-  'to1': 'ظ',
-  'a': 'ع',
-  'ao1': 'غ',
-  // 'G': 'غ',
-  'fo1': 'ف',
-  // 'F': 'ف',
-  'fo2': 'ق',
-  // 'Q': 'ق',
-  'lo5': 'ك',
-  'ko5': 'ك',
-  'k': 'ک',
-  'ko7': 'گ',
-  // 'K': 'گ',
-  'ko3': 'ڭ',
-  // 'lo5o3': 'ڭ',
-  'l': 'ل',
-  'm': 'م',
-  'bo1': 'ن',
-  // 'N': 'ن',
-  'w': 'و',
-  'wo5': 'ؤ',
-  'h': 'ه',
-  // 'h': 'ە',
-  // 'h': '\u06D5',
-  'ho2': 'ة',
-  'y': 'ی', // x6cc
-  // 'y': 'ى', // x649
-  'bu2': 'ي',
-  // 'Y': 'ي',
-  'yo5': 'ئ',
-  'bo5': 'ئ',
-  'n0': '۰',
-  'n1': '۱',
-  'n2': '۲',
-  'n3': '۳',
-  'n4': '۴',
-  'n5': '۵',
-  'n6': '۶',
-  'n7': '۷',
-  'n8': '۸',
-  'n9': '۹',
-  '&zwnj;': '\u200C',
-  '||': '\u200C',
-  '<>': '\u200C',
-  '&zwj;': '\u200D',
-  '><': '\u200D',
-  '&lrm;': '\u200E',
-  '&rlm;': '\u200F',
-  '&ls;': '\u2028',
-  '&ps;': '\u2028',
-  '&lre;': '\u202A',
-  '&rle;': '\u202B',
-  '&pdf;': '\u202C',
-  '&lro;': '\u202D',
-  '&rlo;': '\u202D',
-  '&bom;': '\uFEFF',
-  'o4': '\u064E',
-  'u4': '\u0650',
-  'o9': '\u064F',
-  'u44': '\u064D',
-  'o44': '\u064B',
-  'o99': '\u064C',
-  'o8': '\u0651',
-  'o0': '\u0652',
-  'o6': '\u0653',
-  ' ': ' ',
-  'bot': '\u0679',
-  'o5': '\u0654',
-  'u5': '\u0655',
-};
+var VISENC_TO_OTTOMAN = map[string]string {
+  "c": "ء",
+  "eo6": "آ",
+  // "A": "آ",
+  "e": "ا",
+  "eo5": "أ",
+  "eu5": "إ",
+  // "E": "أ",
+  "bu1": "ب",
+  // "B": "ب",
+  "bu3": "پ",
+  // "P": "پ",
+  "bo2": "ت",
+  // "T": "ت",
+  "bo3": "ث",
+  "xu1": "ج",
+  // "C": "ج",
+  "xu3": "چ",
+  // "Ç": "چ",
+  "x": "ح",
+  "xo1": "خ",
+  // "X": "خ",
+  "do1": "ذ",
+  "d": "د",
+  "ro1": "ز",
+  "r": "ر",
+  // "Z": "ز",
+  "ro3": "ژ",
+  // "J": "ژ",
+  "s": "س",
+  "so3": "ش",
+  // "S": "ش",
+  // "Ş": "ش",
+  "z": "ص",
+  "zo1": "ض",
+  // "D": "ض",
+  "t": "ط",
+  "to1": "ظ",
+  "a": "ع",
+  "ao1": "غ",
+  // "G": "غ",
+  "fo1": "ف",
+  // "F": "ف",
+  "fo2": "ق",
+  // "Q": "ق",
+  "lo5": "ك",
+  "ko5": "ك",
+  "k": "ک",
+  "ko7": "گ",
+  // "K": "گ",
+  "ko3": "ڭ",
+  // "lo5o3": "ڭ",
+  "l": "ل",
+  "m": "م",
+  "bo1": "ن",
+  // "N": "ن",
+  "w": "و",
+  "wo5": "ؤ",
+  "h": "ه",
+  // "h": "ە",
+  // "h": "\u06D5",
+  "ho2": "ة",
+  "y": "ی", // x6cc
+  // "y": "ى", // x649
+  "bu2": "ي",
+  // "Y": "ي",
+  "yo5": "ئ",
+  "bo5": "ئ",
+  "n0": "۰",
+  "n1": "۱",
+  "n2": "۲",
+  "n3": "۳",
+  "n4": "۴",
+  "n5": "۵",
+  "n6": "۶",
+  "n7": "۷",
+  "n8": "۸",
+  "n9": "۹",
+  "&zwnj;": "\u200C",
+  "||": "\u200C",
+  "<>": "\u200C",
+  "&zwj;": "\u200D",
+  "><": "\u200D",
+  "&lrm;": "\u200E",
+  "&rlm;": "\u200F",
+  "&ls;": "\u2028",
+  "&ps;": "\u2028",
+  "&lre;": "\u202A",
+  "&rle;": "\u202B",
+  "&pdf;": "\u202C",
+  "&lro;": "\u202D",
+  "&rlo;": "\u202D",
+  "&bom;": "\uFEFF",
+  "o4": "\u064E",
+  "u4": "\u0650",
+  "o9": "\u064F",
+  "u44": "\u064D",
+  "o44": "\u064B",
+  "o99": "\u064C",
+  "o8": "\u0651",
+  "o0": "\u0652",
+  "o6": "\u0653",
+  " ": " ",
+  "bot": "\u0679",
+  "o5": "\u0654",
+  "u5": "\u0655",
+}
 
 List<String> visencKeyOrder = VISENC_TO_OTTOMAN.keys.toList()
   ..sort((a, b) => b.length.compareTo(a.length));
