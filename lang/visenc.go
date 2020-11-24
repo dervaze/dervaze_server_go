@@ -1,4 +1,4 @@
-package dervaze
+package lang
 
 import (
 	"errors"

@@ -1,4 +1,4 @@
-module dervaze_server
+module dervaze
 
 go 1.13
 

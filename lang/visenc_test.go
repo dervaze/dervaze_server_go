@@ -1,4 +1,4 @@
-package dervaze
+package lang
 
 import (
 	"fmt"
@@ -62,4 +62,16 @@ func TestSplitVisenc(t *testing.T) {
 			t.Fail()
 		}
 	}
+}
+
+func TestMakeOttomanWord(t *testing.T) {
+
+	ow, err := MakeOttomanWord("emre", "emrh")
+
+	if err != nil {
+		t.Fail()
+		t.Log(err)
+	}
+
+	t.Log(ow)
 }
