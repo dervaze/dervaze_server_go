@@ -29,24 +29,36 @@ func TestEndsWithVowel(t *testing.T) {
 
 	for i, o := range testDict {
 		if EndsWithVowel(i) != o {
-			t.Log(fmt.Sprintf("%s, %s fails for EndsWithVowel", i, o))
+			t.Log(fmt.Sprintf("%s, %t fails for EndsWithVowel", i, o))
 			t.Fail()
 		}
 	}
 }
 
+func CompareSlicesString(slice1, slice2 []string) bool {
+	if len(slice1) != len(slice2) {
+		return false
+	}
+	for i, v := range slice1 {
+		if slice2[i] != v {
+			return false
+		}
+	}
+	return true
+}
+
 func TestSplitVisenc(t *testing.T) {
 
 	testDict := map[string][]string{
-		"emre":     []string{"e", "m", "r", "h"},
+		"emrh":     []string{"e", "m", "r", "h"},
 		"efo2bu2x": []string{"e", "fo2", "bu2", "x"},
-		"ağbo1eo5": []string{"a", "ğ", "bo1", "eo5"},
+		"aübo1eo5": []string{"a", "ü", "bo1", "eo5"},
 		"fo3d":     []string{"f", "o", "3", "d"},
 		"brdh":     []string{"b", "r", "d", "h"},
 	}
 	for i, o := range testDict {
-		if SplitVisenc(i) != o {
-			t.Log(fmt.Sprintf("%s, %s fails for SplitVisenc", i, o))
+		if CompareSlicesString(SplitVisenc(i, true), o) == false {
+			t.Log(fmt.Sprintf("SplitVisenc(%s) returns %s instead of %s", i, SplitVisenc(i, true), o))
 			t.Fail()
 		}
 	}

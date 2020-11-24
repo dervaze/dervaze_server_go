@@ -33,9 +33,9 @@ var effectiveLastVowelRegexes = map[*regexp.Regexp]string{
 }
 
 // MakeRoot builds a Root from Latin and Visenc spelling of a word by automatically filling other information
-func MakeRoot(latin string, visenc string, pos dervaze.PartOfSpeech) dervaze.Root {
+func MakeRoot(latin string, visenc string, pos PartOfSpeech) Root {
 
-	ow := dervaze.OttomanWord{
+	ow := OttomanWord{
 		Visenc:           visenc,
 		Unicode:          VisencToUnicode(visenc),
 		Abjad:            VisencToAbjad(visenc),
@@ -44,7 +44,7 @@ func MakeRoot(latin string, visenc string, pos dervaze.PartOfSpeech) dervaze.Roo
 		DotlessSearchKey: DotlessSearchKey(visenc),
 	}
 
-	r := dervaze.Root{
+	r := Root{
 		TurkishLatin:       latin,
 		Ottoman:            &ow,
 		LastVowel:          LastVowel(latin),
@@ -112,7 +112,7 @@ func LastConsonant(s string) string {
 }
 
 // UpdateEffectiveSoftening updates the EffectiveTurkishLatin, EffectiveVisenc and HasConsonantSoftening by checking suffixes for spelling
-func UpdateEffectiveSoftening(r *dervaze.Root) {
+func UpdateEffectiveSoftening(r *Root) {
 
 	if strings.HasSuffix(r.TurkishLatin, "k") &&
 		strings.HasSuffix(r.Ottoman.Visenc, "fo2") {

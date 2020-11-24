@@ -258,7 +258,8 @@ var visencToAbjad = map[string]int32{
 	"ao1": 1000,
 }
 
-func MakeOttomanWord(visenc string, unicode string) (*dervaze.OttomanWord, error) {
+// MakeOttomanWord builds an OttomanWord from either visenc or unicode
+func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 	if visenc == "" && unicode == "" {
 		return nil, errors.New("Need either visenc or ottoman")
 	}
@@ -281,7 +282,7 @@ func MakeOttomanWord(visenc string, unicode string) (*dervaze.OttomanWord, error
 
 	dotlessSearchKey := DotlessSearchKey(visenc)
 
-	return &dervaze.OttomanWord{
+	return &OttomanWord{
 		Visenc:           visenc,
 		Unicode:          normalized,
 		Abjad:            abjad,
@@ -339,6 +340,7 @@ func UnicodeToAbjad(s string) int32 {
 	return VisencToAbjad(UnicodeToVisenc(s))
 }
 
+// TFstring returns ifTrue or ifFalse according to condition
 func TFstring(condition bool, ifTrue, ifFalse string) string {
 	if condition {
 		return ifTrue
@@ -346,6 +348,8 @@ func TFstring(condition bool, ifTrue, ifFalse string) string {
 		return ifFalse
 	}
 }
+
+// TFString returns ifTrue or ifFalse according to condition
 func TFint(condition bool, ifTrue, ifFalse int) int {
 	if condition {
 		return ifTrue
@@ -354,28 +358,30 @@ func TFint(condition bool, ifTrue, ifFalse int) int {
 	}
 }
 
+// SplitVisenc splits s and returns letter groups according to visencToUnicode keys
 func SplitVisenc(s string, addInvalidLetters bool) []string {
 	slen := len(s)
 	maxVisencLen := 5
 	start := 0
-	end := TFint(start+maxVisencLen < slen, start+maxVisencLen+1, slen+1)
+	end := TFint(start+maxVisencLen < slen, start+maxVisencLen, slen)
 	group := make([]string, 0, len(s))
 
 	for start < slen {
-		visenc, exists := visencToUnicode[s[start:end]]
+		_, exists := visencToUnicode[s[start:end]]
 		if exists {
-			group = append(group, visenc)
+			group = append(group, s[start:end])
 			start = end
-			end = TFint(start+maxVisencLen < slen, start+maxVisencLen+1, slen+1)
+			end = TFint(start+maxVisencLen < slen, start+maxVisencLen, slen)
 		} else {
 			if end > start+1 {
 				end--
+
 			} else {
 				if addInvalidLetters {
 					group = append(group, s[start:end])
 				}
 				start++
-				end = TFint(start+maxVisencLen < slen, start+maxVisencLen+1, slen+1)
+				end = TFint(start+maxVisencLen < slen, start+maxVisencLen, slen)
 			}
 		}
 
