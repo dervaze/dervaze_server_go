@@ -40,14 +40,14 @@ func MakeRoot(latin string, visenc string, pos dervaze.PartOfSpeech) dervaze.Roo
 		Visenc:           visenc,
 		Unicode:          VisencToUnicode(visenc),
 		Abjad:            VisencToAbjad(visenc),
-		VisencLetters:    VisencLetters(visenc),
-		SearchKey:        VisencToSearchKey(visenc),
-		DotlessSearchKey: VisencToDotlessSearchKey(visenc),
+		VisencLetters:    SplitVisenc(visenc, true),
+		SearchKey:        SearchKey(visenc),
+		DotlessSearchKey: DotlessSearchKey(visenc),
 	}
 
 	r := dervaze.Root{
 		TurkishLatin:       latin,
-		Ottoman:            ow,
+		Ottoman:            &ow,
 		LastVowel:          LastVowel(latin),
 		LastConsonant:      LastConsonant(latin),
 		EffectiveLastVowel: EffectiveLastVowel(latin),
@@ -63,7 +63,7 @@ func MakeRoot(latin string, visenc string, pos dervaze.PartOfSpeech) dervaze.Roo
 		HasConsonantSoftening: false,
 	}
 
-	UpdateEffectiveSoftening(r)
+	UpdateEffectiveSoftening(&r)
 
 	return r
 }
@@ -88,9 +88,8 @@ func LastVowelHard(s string) bool {
 	ev := EffectiveLastVowel(s)
 	if ev == "a" || ev == "ı" || ev == "o" || ev == "u" {
 		return true
-	} else {
-		return false
 	}
+	return false
 }
 
 // EffectiveLastVowel checks a word agains effectiveLastVowelRegexes to determine the vowel that governs vowel harmonization rules

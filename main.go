@@ -1,7 +1,7 @@
 package main
 
 import (
-	dervazepb "deneme/dervaze.com/dervazepb"
+	"dervaze"
 	"encoding/csv"
 	"fmt"
 	"path/filepath"
@@ -31,8 +31,8 @@ func loadWordFiles() {
 
 func main() {
 
-	dervaze_server.MakeRoot("emre", "emrh")
-	ow := dervazepb.OttomanWord{
+	dervaze.MakeRoot("emre", "emrh")
+	ow := dervaze.OttomanWord{
 
 		Visenc:           "aa",
 		Unicode:          "bb",
