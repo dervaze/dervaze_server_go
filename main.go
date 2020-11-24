@@ -7,36 +7,6 @@ import (
 	"path/filepath"
 )
 
-func makeRoot(latin string, visenc string, pos dervazepb.PartOfSpeech) dervazepb.Root
-{
-
-	ow := OttomanWord{
-		Visenc: visenc,
-		Unicode: VisencToUnicode(visenc),
-		Abjad: VisencToAbjad(visenc),
-		VisencLetters: VisencLetters(visenc),
-		SearchKey: VisencToSearchKey(visenc),
-		DotlessSearchKey: VisencToDotlessSearchKey(visenc)
-	}
-
-	r := dervazepb.Root{
-		TurkishLatin: latin,
-		Ottoman: ow,
-		LastVowel: LatinLastVowel(latin),
-		LastConsonant: LatinLastConsonant(latin),
-		EffectiveLastVowel: LatinEffectiveLastVowel(latin),
-		EffectiveTurkishLatin: LatinEffectiveTurkishLatin(latin),
-		EffectiveVisenc: LatinEffectiveVisenc,
-		Abjad: ow.Abjad,
-		PartOfSpeech: pos,
-		EndsWithVowel: LatinEndsWithVowel(latin),
-		HasSingleVowel: LatinHasSingleVowel(latin),
-		LastVowelHard: LatinLastVowelHard(latin),
-		LastConsonantHard: LatinLastConsonantHard(latin),
-		HasConsonantSoftening: LatinHasConsonantSoftening(latin)
-	}
-}
-
 func loadWordFiles() {
 	verbFiles, err := filepath.Glob("assets/csv/v/*.csv")
 	if err != nil {
