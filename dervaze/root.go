@@ -9,6 +9,7 @@ import (
 // VOWELS are the all Roman vowels recognized
 const VOWELS = "aâeıioöuûü"
 
+var vowelRegex *regexp.Regexp = regexp.MustCompile(`[aeıioöuüâîûAEIİOÖUÜÂÎÛ]`)
 var ultimateVowelRegex *regexp.Regexp = regexp.MustCompile(`.*([aâeıiîoöuüû])[^aâeıiîoöuüû]*$`)
 var ultimateConsonantRegex *regexp.Regexp = regexp.MustCompile(`.*([^aâeıiîoöuüû])[aâeıiîoöuüû]*$`)
 var vowelsRegex *regexp.Regexp = regexp.MustCompile(`([aâeıiîoöuüû])`)
@@ -67,51 +68,53 @@ func MakeRoot(latin string, visenc string, pos dervaze.PartOfSpeech) dervaze.Roo
 	return r
 }
 
+// EndsWithVowel Checks whether a string ends with a vowel
 func EndsWithVowel(s string) bool {
 	return endsWithVowelRegex.MatchString(s)
 }
 
+// HasSingleVowel checks whether a string has a single vowel
 func HasSingleVowel(s string) bool {
 	return hasSingleVowelRegex.MatchString(s)
 }
 
+// LastConsonantHard checks whether a word has a final "fstkçşhp"
 func LastConsonantHard(s string) bool {
 	return lastConsonantHardRegex.MatchString(s)
 }
 
+// LastVowelHard checks whether a word ends with one of aıou
 func LastVowelHard(s string) bool {
 	ev := EffectiveLastVowel(s)
-	if ev == 'a' || ev == 'ı' || ev == 'o' || ev == 'u' {
+	if ev == "a" || ev == "ı" || ev == "o" || ev == "u" {
 		return true
 	} else {
 		return false
 	}
 }
 
+// EffectiveLastVowel checks a word agains effectiveLastVowelRegexes to determine the vowel that governs vowel harmonization rules
 func EffectiveLastVowel(s string) string {
 	for r, v := range effectiveLastVowelRegexes {
 		if r.MatchString(s) {
 			return v
 		}
 	}
+	return LastVowel(s)
 }
 
+// LastVowel returns the last vowel of a word
 func LastVowel(s string) string {
 	return ultimateVowelRegex.FindString(s)
 }
+
+// LastConsonant returns the last consonant of a word
 func LastConsonant(s string) string {
 	return ultimateConsonantRegex.FindString(s)
 }
 
-func UpdateEffectiveSoftening(r *Root) {
-	// these may be modified below according to conditions
-	if !(r.hasEffectiveTurkishLatin() &&
-		r.hasEffectiveVisenc() &&
-		r.hasHasConsonantSoftening()) {
-		r.EffectiveTurkishLatin = r.TurkishLatin
-		r.EffectiveVisenc = r.Ottoman.Visenc
-		r.HasConsonantSoftening = false
-	}
+// UpdateEffectiveSoftening updates the EffectiveTurkishLatin, EffectiveVisenc and HasConsonantSoftening by checking suffixes for spelling
+func UpdateEffectiveSoftening(r *dervaze.Root) {
 
 	if strings.HasSuffix(r.TurkishLatin, "k") &&
 		strings.HasSuffix(r.Ottoman.Visenc, "fo2") {
@@ -140,9 +143,5 @@ func UpdateEffectiveSoftening(r *Root) {
 		r.EffectiveTurkishLatin = r.TurkishLatin[0:tll-1] + "d"
 		r.HasConsonantSoftening = true
 	}
-
-}
-
-func LatinEndsWithVowel(latin string) bool {
 
 }
