@@ -31,6 +31,7 @@ func loadWordFiles() {
 
 func main() {
 
+	dervaze_server.MakeRoot("emre", "emrh")
 	ow := dervazepb.OttomanWord{
 
 		Visenc:           "aa",
