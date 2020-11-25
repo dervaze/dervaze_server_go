@@ -4,19 +4,22 @@ import (
 	dervaze "dervaze/lang"
 	"encoding/csv"
 	"fmt"
-	"io"
-	"ioutil"
+	"github.com/golang/protobuf/proto"
+	"io/ioutil"
 	"log"
+	"os"
 	"path/filepath"
+	"strings"
+	"time"
 )
 
-func readCSVFile(filename string, pos dervaze.PartOfSpeech, roots *[]Root, rooti *int) []Root {
-	data, err = ioutil.ReadFile(filename)
+func readCSVFile(filename string, pos dervaze.PartOfSpeech, roots []dervaze.Root, rooti *int) {
+	data, err := ioutil.ReadFile(filename)
 	if err != nil {
 		log.Println(err)
 	}
 
-	csvr := csv.NewReader(string(data))
+	csvr := csv.NewReader(strings.NewReader(string(data)))
 	records, err := csvr.ReadAll()
 	if err != nil {
 		log.Println(err)
@@ -26,18 +29,18 @@ func readCSVFile(filename string, pos dervaze.PartOfSpeech, roots *[]Root, rooti
 		if len(record) == 2 {
 			latin := record[0]
 			visenc := record[1]
-			*roots[*rooti] = dervaze.MakeRoot(latin, visenc, pos)
-			*rooti++
+			roots[*rooti] = dervaze.MakeRoot(latin, visenc, pos)
+			(*rooti)++
 		} else {
-			log.Println("Record error in %s line %d - %s", vfn, i, record)
+			log.Println("Record error in %s line %d - %s", filename, i, record)
 
 		}
 	}
 }
 
-func loadWordFiles() []Root {
+func loadWordFiles() []dervaze.Root {
 
-	roots := make([]Root, 0, 250000)
+	roots := make([]dervaze.Root, 0, 250000)
 	rooti := 0
 
 	verbFiles, err := filepath.Glob("../../assets/rootdata/v/*.csv")
@@ -59,22 +62,49 @@ func loadWordFiles() []Root {
 	fmt.Println(properFiles)
 
 	for _, fn := range verbFiles {
-		readCSVFile(fn, dervaze.PartOfSpeech_VERB, &roots, &rooti)
+		readCSVFile(fn, dervaze.PartOfSpeech_VERB, roots[:], &rooti)
 	}
 	for _, fn := range nounFiles {
-		readCSVFile(fn, dervaze.PartOfSpeech_NOUN, &roots, &rooti)
+		readCSVFile(fn, dervaze.PartOfSpeech_NOUN, roots[:], &rooti)
 	}
 
 	for _, fn := range properFiles {
-		readCSVFile(fn, dervaze.PartOfSpeech_PROPER_NOUN, &roots, &rooti)
+		readCSVFile(fn, dervaze.PartOfSpeech_PROPER_NOUN, roots[:], &rooti)
 	}
 
-	Log.Println("Read %d records", rooti)
+	log.Println("Read %d records", rooti)
+
+	return roots[:]
 
 }
 
-func storeProtobuf(roots []Root) {
-	dervaze.
+func storeProtobuf(roots []dervaze.Root) {
+	t := time.Now().Format("2006-01-02-03-04-05")
+	filename := fmt.Sprintf("dervaze-roots-%s.bin", t)
+	file, err := os.OpenFile(
+		filename,
+		os.O_APPEND|os.O_CREATE,
+		0666,
+	)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	// Write bytes to file
+	totalBytes := 0
+	for i, r := range roots {
+		byteSlice, err := proto.Marshal(r)
+		if err != nil {
+			log.Fatal(err)
+		}
+		bytesWritten, err := file.Write(byteSlice)
+		if err != nil {
+			log.Fatal(err)
+		}
+		totalBytes += bytesWritten
+	}
+	log.Printf("%s: Wrote %d bytes.\n", filename, totalBytes)
 }
 
 func main() {
@@ -92,5 +122,6 @@ func main() {
 	// fmt.Println(ow.Abjad)
 
 	roots := loadWordFiles()
+	storeProtobuf(roots)
 
 }
