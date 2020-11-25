@@ -1,9 +1,11 @@
 package lang
 
 import (
-	"github.com/golang/protobuf/proto"
+	"io/ioutil"
 	"log"
 	"os"
+
+	"github.com/golang/protobuf/proto"
 )
 
 func SaveRootSetProtobuf(filename string, rootset *RootSet) {
@@ -68,5 +70,20 @@ func SaveRootSetProtobuf(filename string, rootset *RootSet) {
 	// log.Printf("%s: Wrote %d bytes.\n", filename, totalBytes)
 }
 
-// func LoadRootSetProtobuf() RootSet {
-// }
+func LoadRootSetProtobuf(filename string) *RootSet {
+
+	byteSlice, err := ioutil.ReadFile(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	rootSet := &RootSet{}
+
+	err = proto.Unmarshal(byteSlice, rootSet)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return rootSet
+}

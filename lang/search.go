@@ -1,7 +1,11 @@
 package lang
 
 import (
+	"errors"
+	"fmt"
 	"github.com/tchap/go-patricia/patricia"
+	"log"
+	"strconv"
 )
 
 var rootSet *RootSet
@@ -35,9 +39,17 @@ func InitSearch(protobuffile string) {
 func SearchTurkishLatin(turkishLatin string) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
-		results = append(results, rootSet.Roots[item])
+		i, ok := item.(int)
+		if ok {
+			results = append(results, rootSet.Roots[i])
+		} else {
+			log.Printf("Error for %s in SearchTurkishLatin", item)
+			return errors.New("item error")
+		}
+		return nil
+
 	}
-	turkishLatinTrie.VisitPrefixes(turkishLatin, visitFunc)
+	turkishLatinTrie.VisitPrefixes(patricia.Prefix(turkishLatin), visitFunc)
 
 	return results
 
@@ -46,9 +58,16 @@ func SearchTurkishLatin(turkishLatin string) []*Root {
 func SearchVisenc(visenc string) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
-		results = append(results, rootSet.Roots[item])
+		i, ok := item.(int)
+		if ok {
+			results = append(results, rootSet.Roots[i])
+		} else {
+			log.Printf("Error for %s in SearchVisenc", item)
+			return errors.New("item error")
+		}
+		return nil
 	}
-	visencTrie.VisitPrefixes(visenc, visitFunc)
+	visencTrie.VisitPrefixes(patricia.Prefix(visenc), visitFunc)
 
 	return results
 }
@@ -56,9 +75,49 @@ func SearchVisenc(visenc string) []*Root {
 func SearchUnicode(unicode string) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
-		results = append(results, rootSet.Roots[item])
+		i, ok := item.(int)
+		if ok {
+			results = append(results, rootSet.Roots[i])
+		} else {
+			log.Printf("Error for %s in SearchUnicode", item)
+			return errors.New("item error")
+		}
+		return nil
 	}
-	unicodeTrie.VisitPrefixes(unicode, visitFunc)
+	unicodeTrie.VisitPrefixes(patricia.Prefix(unicode), visitFunc)
 
 	return results
+}
+
+func SearchAbjad(abjad int32) []*Root {
+	results := make([]*Root, 0)
+
+	for _, r := range rootSet.Roots {
+		if r.Ottoman.Abjad == abjad {
+			results = append(results, r)
+		}
+	}
+	return results
+}
+
+func SearchAll(term string) []*Root {
+	results := make([]*Root, 0)
+	val, err := strconv.Atoi(term)
+	if err == nil {
+		results = append(results, SearchAbjad(int32(val))...)
+	}
+
+	results = append(results, SearchTurkishLatin(term)...)
+	results = append(results, SearchUnicode(term)...)
+	results = append(results, SearchVisenc(term)...)
+
+	return results
+}
+
+func PrintRoots(roots []*Root) string {
+	out := ""
+	for i, r := range roots {
+		out += fmt.Sprintf("%d - %s | %s | %s | %d\n", i, r.TurkishLatin, r.Ottoman.Unicode, r.Ottoman.Visenc, r.Ottoman.Abjad)
+	}
+	return out
 }
