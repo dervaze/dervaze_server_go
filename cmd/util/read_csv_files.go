@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"time"
+	// "time"
 	"unicode/utf8"
 )
 
-func readCSVFile(filename string, pos dervaze.PartOfSpeech) []dervaze.Root {
+func readCSVFile(filename string, pos dervaze.PartOfSpeech) []*dervaze.Root {
 	data, err := ioutil.ReadFile(filename)
 	if err != nil {
 		log.Println(err)
@@ -26,13 +26,13 @@ func readCSVFile(filename string, pos dervaze.PartOfSpeech) []dervaze.Root {
 		log.Println(err)
 	}
 
-	roots := make([]dervaze.Root, 0)
+	roots := make([]*dervaze.Root, 0)
 
 	for i, record := range records {
 		if len(record) == 2 {
 			latin := record[0]
 			visenc := record[1]
-			roots = append(roots, dervaze.MakeRoot(latin, visenc, pos))
+			roots = append(roots, &dervaze.MakeRoot(latin, visenc, pos))
 		} else {
 			log.Println("Record error in %s line %d - %s", filename, i, record)
 		}
@@ -41,8 +41,6 @@ func readCSVFile(filename string, pos dervaze.PartOfSpeech) []dervaze.Root {
 }
 
 func loadWordFiles() []dervaze.Root {
-
-	roots := make([]dervaze.Root, 0)
 
 	verbFiles, err := filepath.Glob("../../assets/rootdata/v/*.csv")
 	if err != nil {
@@ -58,75 +56,29 @@ func loadWordFiles() []dervaze.Root {
 		properFiles = make([]string, 0)
 	}
 
+	rootset = new(dervaze.RootSet)
+
 	for _, fn := range verbFiles {
 		fmt.Println("%s\n", fn)
 		froots := readCSVFile(fn, dervaze.PartOfSpeech_VERB)
-		roots = append(roots, froots...)
+		rootset.Roots = append(rootset.Roots, froots...)
 	}
 	for _, fn := range nounFiles {
 		fmt.Println("%s\n", fn)
 		froots := readCSVFile(fn, dervaze.PartOfSpeech_NOUN)
-		roots = append(roots, froots...)
+		rootset.Roots = append(rootset.Roots, froots...)
 	}
 
 	for _, fn := range properFiles {
 		fmt.Println("%s\n", fn)
 		froots := readCSVFile(fn, dervaze.PartOfSpeech_PROPER_NOUN)
-		roots = append(roots, froots...)
+		rootset.Roots = append(rootset.Roots, froots...)
 	}
 
-	log.Println("Read %d records", len(roots))
+	log.Println("Read %d records", len(rootset.Roots))
 
-	return roots[:]
+	return rootset
 
-}
-
-func storeProtobuf(roots []dervaze.Root) {
-	t := time.Now().Format("2006-01-02-03-04-05")
-	filename := fmt.Sprintf("dervaze-roots-%s.bin", t)
-	file, err := os.OpenFile(
-		filename,
-		os.O_APPEND|os.O_CREATE|os.O_WRONLY,
-		0666,
-	)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
-
-	// Write bytes to file
-	totalBytes := 0
-	for i, r := range roots {
-		byteSlice, err := proto.Marshal(&r)
-		if err != nil {
-			// log.Println(string(r.Ottoman.Unicode))
-			// log.Printf("Ottoman.Unicode: %x %t ", r.Ottoman.Unicode, utf8.ValidString(r.Ottoman.Unicode))
-			// log.Printf("Ottoman.Visenc: %x %t", r.Ottoman.Visenc, utf8.ValidString(r.Ottoman.Visenc))
-			// log.Printf("Turkish Latin %x %t", r.TurkishLatin, utf8.ValidString(r.TurkishLatin))
-			log.Println(r)
-			// log.Println(utf8.ValidString(r.TurkishLatin))
-			// log.Println(utf8.ValidString(strings.Join(r.Ottoman.VisencLetters, "")))
-			// log.Println(utf8.ValidString(r.Ottoman.SearchKey))
-			// log.Println(utf8.ValidString(r.Ottoman.DotlessSearchKey))
-			// log.Println(utf8.ValidString(r.LastVowel))
-			// log.Println(utf8.ValidString(r.LastConsonant))
-			// log.Println(utf8.ValidString(r.EffectiveLastVowel))
-			log.Println(r.EffectiveTurkishLatin)
-			log.Println(utf8.ValidString(r.EffectiveTurkishLatin))
-			// log.Println(utf8.ValidString(r.EffectiveVisenc))
-			// log.Println(proto.MarshalTextString(&r))
-			log.Println(err)
-		}
-		bytesWritten, err := file.Write(byteSlice)
-		if err != nil {
-			log.Fatal(err)
-		}
-		totalBytes += bytesWritten
-		if i%1000 == 0 {
-			fmt.Println("%d\n", i)
-		}
-	}
-	log.Printf("%s: Wrote %d bytes.\n", filename, totalBytes)
 }
 
 func main() {
@@ -143,7 +95,7 @@ func main() {
 	// }
 	// fmt.Println(ow.Abjad)
 
-	roots := loadWordFiles()
-	storeProtobuf(roots)
+	rootset := loadWordFiles()
+	SaveRootSetProtobuf(rootset)
 
 }
