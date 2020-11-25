@@ -3,15 +3,13 @@ package main
 import (
 	dervaze "dervaze/lang"
 	"encoding/csv"
+	"flag"
 	"fmt"
-	"github.com/golang/protobuf/proto"
 	"io/ioutil"
 	"log"
-	"os"
 	"path/filepath"
 	"strings"
 	// "time"
-	"unicode/utf8"
 )
 
 func readCSVFile(filename string, pos dervaze.PartOfSpeech) []*dervaze.Root {
@@ -32,7 +30,8 @@ func readCSVFile(filename string, pos dervaze.PartOfSpeech) []*dervaze.Root {
 		if len(record) == 2 {
 			latin := record[0]
 			visenc := record[1]
-			roots = append(roots, &dervaze.MakeRoot(latin, visenc, pos))
+			root := dervaze.MakeRoot(latin, visenc, pos)
+			roots = append(roots, &root)
 		} else {
 			log.Println("Record error in %s line %d - %s", filename, i, record)
 		}
@@ -40,42 +39,46 @@ func readCSVFile(filename string, pos dervaze.PartOfSpeech) []*dervaze.Root {
 	return roots[:]
 }
 
-func loadWordFiles() []dervaze.Root {
+func loadWordFiles(rootdatadir string) *dervaze.RootSet {
 
-	verbFiles, err := filepath.Glob("../../assets/rootdata/v/*.csv")
+	verbglob := fmt.Sprintf("%s/v/*.csv", rootdatadir)
+	nounglob := fmt.Sprintf("%s/n/*.csv", rootdatadir)
+	propernounglob := fmt.Sprintf("%s/p/*.csv", rootdatadir)
+
+	verbFiles, err := filepath.Glob(verbglob)
 	if err != nil {
 		verbFiles = make([]string, 0)
 	}
 
-	nounFiles, err := filepath.Glob("../../assets/rootdata/n/*.csv")
+	nounFiles, err := filepath.Glob(nounglob)
 	if err != nil {
 		nounFiles = make([]string, 0)
 	}
-	properFiles, err := filepath.Glob("../../assets/rootdata/p/*.csv")
+	properFiles, err := filepath.Glob(propernounglob)
 	if err != nil {
 		properFiles = make([]string, 0)
 	}
 
-	rootset = new(dervaze.RootSet)
+	rootset := new(dervaze.RootSet)
 
 	for _, fn := range verbFiles {
-		fmt.Println("%s\n", fn)
+		fmt.Printf("%s\n", fn)
 		froots := readCSVFile(fn, dervaze.PartOfSpeech_VERB)
 		rootset.Roots = append(rootset.Roots, froots...)
 	}
 	for _, fn := range nounFiles {
-		fmt.Println("%s\n", fn)
+		fmt.Printf("%s\n", fn)
 		froots := readCSVFile(fn, dervaze.PartOfSpeech_NOUN)
 		rootset.Roots = append(rootset.Roots, froots...)
 	}
 
 	for _, fn := range properFiles {
-		fmt.Println("%s\n", fn)
+		fmt.Printf("%s\n", fn)
 		froots := readCSVFile(fn, dervaze.PartOfSpeech_PROPER_NOUN)
 		rootset.Roots = append(rootset.Roots, froots...)
 	}
 
-	log.Println("Read %d records", len(rootset.Roots))
+	log.Printf("Read %d records", len(rootset.Roots))
 
 	return rootset
 
@@ -83,19 +86,14 @@ func loadWordFiles() []dervaze.Root {
 
 func main() {
 
-	// dervaze.MakeRoot("emre", "emrh")
-	// ow := dervaze.OttomanWord{
-	//
-	// 	Visenc:           "aa",
-	// 	Unicode:          "bb",
-	// 	Abjad:            123,
-	// 	VisencLetters:    []string{"a", "a"},
-	// 	SearchKey:        "aa",
-	// 	DotlessSearchKey: "dd",
-	// }
-	// fmt.Println(ow.Abjad)
+	var inputdir string
+	var outputfile string
+	flag.StringVar(&inputdir, "i", "assets/rootdata/", "Input dir where n/ v/ p/ directories reside")
+	flag.StringVar(&outputfile, "o", "assets/dervaze-rootset.protobuf", "Output file to store the protobuf file")
 
-	rootset := loadWordFiles()
-	SaveRootSetProtobuf(rootset)
+	flag.Parse()
+
+	rootset := loadWordFiles(inputdir)
+	dervaze.SaveRootSetProtobuf(outputfile, rootset)
 
 }

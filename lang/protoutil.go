@@ -1,12 +1,14 @@
 package lang
 
+import (
+	"github.com/golang/protobuf/proto"
+	"log"
+	"os"
+)
 
-const PROTOBUFFILENAME := "assets/dervaze-rootset.protobuf"
-
-func SaveRootSetProtobuf(rootset RootSet) {
+func SaveRootSetProtobuf(filename string, rootset *RootSet) {
 	// t := time.Now().Format("2006-01-02-03-04-05")
 	// filename := fmt.Sprintf("dervaze-roots-%s.bin", t)
-	filename := PROTOBUFFILENAME
 	file, err := os.OpenFile(
 		filename,
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY,
@@ -17,7 +19,7 @@ func SaveRootSetProtobuf(rootset RootSet) {
 	}
 	defer file.Close()
 
-	byteSlice, err := proto.Marshal(&rootset)
+	byteSlice, err := proto.Marshal(rootset)
 
 	if err != nil {
 		log.Fatal(err)
@@ -25,10 +27,9 @@ func SaveRootSetProtobuf(rootset RootSet) {
 
 	bytesWritten, err := file.Write(byteSlice)
 
-		if err != nil {
-			log.Fatal(err)
-		}
-
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	log.Printf("%s: Wrote %d bytes.\n", filename, bytesWritten)
 
@@ -67,6 +68,5 @@ func SaveRootSetProtobuf(rootset RootSet) {
 	// log.Printf("%s: Wrote %d bytes.\n", filename, totalBytes)
 }
 
-
-func LoadRootSetProtobuf() RootSet {
-}
+// func LoadRootSetProtobuf() RootSet {
+// }

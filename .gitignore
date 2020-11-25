@@ -48,3 +48,7 @@ Thumbs.db
 *.mov
 *.wmv
 
+
+assets/dervaze-roots.protobuf
+assets/dervaze-rootset.protobuf
+dervaze-rootset.protobuf
