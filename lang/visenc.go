@@ -5,6 +5,8 @@ import (
 	"regexp"
 
 	"golang.org/x/text/unicode/norm"
+	"log"
+	"unicode/utf8"
 )
 
 var visencToUnicode = map[string]string{
@@ -272,8 +274,16 @@ func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 		normalized = norm.NFKC.String(VisencToUnicode(visenc))
 	}
 
+	if !utf8.ValidString(normalized) {
+		log.Println("Invalid UTF-8 for Unicode: %s", normalized)
+	}
+
 	if len(visenc) > 0 {
 		visenc = UnicodeToVisenc(unicode)
+	}
+
+	if !utf8.ValidString(visenc) {
+		log.Println("Invalid UTF-8 for Visenc: %s", visenc)
 	}
 
 	abjad := VisencToAbjad(visenc)
@@ -292,12 +302,12 @@ func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 }
 
 func SearchKey(s string) string {
-	sk := regexp.MustCompile(`\([oui][0456789]+\)`)
+	sk := regexp.MustCompile(`([oui][0456789]+)`)
 	return sk.ReplaceAllLiteralString(s, "")
 }
 
 func DotlessSearchKey(s string) string {
-	sk := regexp.MustCompile(`\([oui][0123456789]+\)`)
+	sk := regexp.MustCompile(`([oui][0123456789]+)`)
 	return sk.ReplaceAllLiteralString(s, "")
 }
 

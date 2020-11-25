@@ -11,6 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+	"unicode/utf8"
 )
 
 func readCSVFile(filename string, pos dervaze.PartOfSpeech) []dervaze.Root {
@@ -98,6 +99,12 @@ func storeProtobuf(roots []dervaze.Root) {
 	for i, r := range roots {
 		byteSlice, err := proto.Marshal(&r)
 		if err != nil {
+			log.Println(string(r.Ottoman.Unicode))
+			log.Println("Ottoman.Unicode: %t", utf8.ValidString(r.Ottoman.Unicode))
+			log.Println("Ottoman.Visenc: %t", utf8.ValidString(r.Ottoman.Visenc))
+			log.Println("Ottoman.String: %t", utf8.ValidString(r.Ottoman.String()))
+			log.Println(utf8.ValidString(r.String()))
+			log.Println(r)
 			log.Fatal(err)
 		}
 		bytesWritten, err := file.Write(byteSlice)
