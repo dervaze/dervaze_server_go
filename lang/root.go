@@ -1,6 +1,7 @@
 package lang
 
 import (
+	"log"
 	"regexp"
 	"strings"
 )
@@ -35,18 +36,19 @@ var effectiveLastVowelRegexes = map[*regexp.Regexp]string{
 // MakeRoot builds a Root from Latin and Visenc spelling of a word by automatically filling other information
 func MakeRoot(latin string, visenc string, pos PartOfSpeech) Root {
 
-	ow := OttomanWord{
-		Visenc:           visenc,
-		Unicode:          VisencToUnicode(visenc),
-		Abjad:            VisencToAbjad(visenc),
-		VisencLetters:    SplitVisenc(visenc, true),
-		SearchKey:        SearchKey(visenc),
-		DotlessSearchKey: DotlessSearchKey(visenc),
+	if visenc == "" {
+		log.Println("Empty visenc for latin", latin)
+	}
+
+	ow, err := MakeOttomanWord(visenc, "")
+
+	if err != nil {
+		log.Println(err)
 	}
 
 	r := Root{
 		TurkishLatin:       latin,
-		Ottoman:            &ow,
+		Ottoman:            ow,
 		LastVowel:          LastVowel(latin),
 		LastConsonant:      LastConsonant(latin),
 		EffectiveLastVowel: EffectiveLastVowel(latin),
@@ -116,29 +118,33 @@ func UpdateEffectiveSoftening(r *Root) {
 
 	if strings.HasSuffix(r.TurkishLatin, "k") &&
 		strings.HasSuffix(r.Ottoman.Visenc, "fo2") {
-		tll := len(r.TurkishLatin)
-		r.EffectiveTurkishLatin = r.TurkishLatin[0:tll-1] + "ğ"
+		tlr := []rune(r.TurkishLatin)
+		tll := len(tlr)
+
+		r.EffectiveTurkishLatin = string(tlr[0:tll-1]) + "ğ"
 		ovl := len(r.Ottoman.Visenc)
 		r.EffectiveVisenc = r.Ottoman.Visenc[0:ovl-3] + "ao1"
 		r.HasConsonantSoftening = true
 	}
 
 	if strings.HasSuffix(r.TurkishLatin, "p") && strings.HasSuffix(r.Ottoman.Visenc, "bu1") {
-		tll := len(r.TurkishLatin)
-		r.EffectiveTurkishLatin = r.TurkishLatin[0:tll-1] + "b"
+		tlr := []rune(r.TurkishLatin)
+		tll := len(tlr)
+		r.EffectiveTurkishLatin = string(tlr[0:tll-1]) + "b"
 		r.HasConsonantSoftening = true
 	}
 
 	if strings.HasSuffix(r.TurkishLatin, "ç") && strings.HasSuffix(r.Ottoman.Visenc, "xu1") {
-		tll := len(r.TurkishLatin)
-		r.EffectiveTurkishLatin = r.TurkishLatin[0:tll-1] + "c"
+		tlr := []rune(r.TurkishLatin)
+		tll := len(tlr)
+		r.EffectiveTurkishLatin = string(tlr[0:tll-1]) + "c"
 		r.HasConsonantSoftening = true
 	}
 
 	if strings.HasSuffix(r.TurkishLatin, "t") && strings.HasSuffix(r.Ottoman.Visenc, "d") {
-
-		tll := len(r.TurkishLatin)
-		r.EffectiveTurkishLatin = r.TurkishLatin[0:tll-1] + "d"
+		tlr := []rune(r.TurkishLatin)
+		tll := len(tlr)
+		r.EffectiveTurkishLatin = string(tlr[0:tll-1]) + "d"
 		r.HasConsonantSoftening = true
 	}
 

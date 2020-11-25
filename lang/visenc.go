@@ -266,34 +266,40 @@ func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 		return nil, errors.New("Need either visenc or ottoman")
 	}
 
+	var clean_visenc string
+	if len(visenc) == 0 {
+		clean_visenc = UnicodeToVisenc(unicode)
+	} else {
+		clean_visenc = regexp.MustCompile("[^a-z0-9 |<>]+").ReplaceAllLiteralString(visenc, "")
+		if clean_visenc != visenc {
+			log.Printf("Cleaned Visenc %s -> %s", visenc, clean_visenc)
+		}
+	}
+
 	var normalized string
 
-	if len(unicode) > 0 {
-		normalized = norm.NFKC.String(unicode)
+	if len(unicode) == 0 {
+		normalized = norm.NFKC.String(VisencToUnicode(clean_visenc))
 	} else {
-		normalized = norm.NFKC.String(VisencToUnicode(visenc))
+		normalized = norm.NFKC.String(unicode)
 	}
 
 	if !utf8.ValidString(normalized) {
-		log.Println("Invalid UTF-8 for Unicode: %s", normalized)
+		log.Printf("Invalid UTF-8 for Unicode: %s", normalized)
 	}
 
-	if len(visenc) > 0 {
-		visenc = UnicodeToVisenc(unicode)
+	if !utf8.ValidString(clean_visenc) {
+		log.Println("Invalid UTF-8 for Visenc: %s", clean_visenc)
 	}
 
-	if !utf8.ValidString(visenc) {
-		log.Println("Invalid UTF-8 for Visenc: %s", visenc)
-	}
+	abjad := VisencToAbjad(clean_visenc)
 
-	abjad := VisencToAbjad(visenc)
+	searchKey := SearchKey(clean_visenc)
 
-	searchKey := SearchKey(visenc)
-
-	dotlessSearchKey := DotlessSearchKey(visenc)
+	dotlessSearchKey := DotlessSearchKey(clean_visenc)
 
 	return &OttomanWord{
-		Visenc:           visenc,
+		Visenc:           clean_visenc,
 		Unicode:          normalized,
 		Abjad:            abjad,
 		SearchKey:        searchKey,
