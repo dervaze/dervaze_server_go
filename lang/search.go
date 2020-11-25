@@ -49,7 +49,7 @@ func SearchTurkishLatin(turkishLatin string) []*Root {
 		return nil
 
 	}
-	turkishLatinTrie.VisitPrefixes(patricia.Prefix(turkishLatin), visitFunc)
+	turkishLatinTrie.VisitSubtree(patricia.Prefix(turkishLatin), visitFunc)
 
 	return results
 
@@ -67,7 +67,7 @@ func SearchVisenc(visenc string) []*Root {
 		}
 		return nil
 	}
-	visencTrie.VisitPrefixes(patricia.Prefix(visenc), visitFunc)
+	visencTrie.VisitSubtree(patricia.Prefix(visenc), visitFunc)
 
 	return results
 }
@@ -84,7 +84,7 @@ func SearchUnicode(unicode string) []*Root {
 		}
 		return nil
 	}
-	unicodeTrie.VisitPrefixes(patricia.Prefix(unicode), visitFunc)
+	unicodeTrie.VisitSubtree(patricia.Prefix(unicode), visitFunc)
 
 	return results
 }

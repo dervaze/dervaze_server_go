@@ -58,7 +58,7 @@ func TestSplitVisenc(t *testing.T) {
 	}
 	for i, o := range testDict {
 		if CompareSlicesString(SplitVisenc(i, true), o) == false {
-			t.Log(fmt.Sprintf("SplitVisenc(%s) returns %s instead of %s", i, SplitVisenc(i, true), o))
+			t.Log(fmt.Sprintf("SplitVisenc(%s, true) returns %s instead of %s", i, SplitVisenc(i, true), o))
 			t.Fail()
 		}
 	}
@@ -74,4 +74,19 @@ func TestMakeOttomanWord(t *testing.T) {
 	}
 
 	t.Log(ow)
+}
+
+func TestVisencToAbjad(t *testing.T) {
+	testDict := map[string]int32{
+		"emrh":      246,
+		"mlk":       90,
+		"ewao1wro1": 1020}
+
+	for i, o := range testDict {
+		res := VisencToAbjad(i)
+		if res != o {
+			t.Log(fmt.Sprintf("VisencToAbjad(%s) gives %d. It should be %d", i, res, o))
+			t.Fail()
+		}
+	}
 }

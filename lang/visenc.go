@@ -289,7 +289,7 @@ func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 	}
 
 	if !utf8.ValidString(clean_visenc) {
-		log.Println("Invalid UTF-8 for Visenc: %s", clean_visenc)
+		log.Printf("Invalid UTF-8 for Visenc: %s", clean_visenc)
 	}
 
 	abjad := VisencToAbjad(clean_visenc)
@@ -340,6 +340,7 @@ func UnicodeToVisenc(s string) string {
 	return out
 }
 
+// VisencToAbjad calculates the abjad value for the given word in Visenc
 func VisencToAbjad(s string) int32 {
 	visencLetters := SplitVisenc(s, false)
 	var out int32 = 0
@@ -352,6 +353,7 @@ func VisencToAbjad(s string) int32 {
 	return out
 }
 
+// UnicodeToAbjad calculates the abjad value for a word given in Unicode by converting it to Visenc first
 func UnicodeToAbjad(s string) int32 {
 	return VisencToAbjad(UnicodeToVisenc(s))
 }
@@ -376,28 +378,30 @@ func TFint(condition bool, ifTrue, ifFalse int) int {
 
 // SplitVisenc splits s and returns letter groups according to visencToUnicode keys
 func SplitVisenc(s string, addInvalidLetters bool) []string {
-	slen := len(s)
+	// FIXME convert s to []rune and process that
+	r := []rune(s)
+	rlen := len(r)
 	maxVisencLen := 5
 	start := 0
-	end := TFint(start+maxVisencLen < slen, start+maxVisencLen, slen)
-	group := make([]string, 0, len(s))
+	end := TFint(start+maxVisencLen < rlen, start+maxVisencLen, rlen)
+	group := make([]string, 0, len(r))
 
-	for start < slen {
-		_, exists := visencToUnicode[s[start:end]]
+	for start < rlen {
+		_, exists := visencToUnicode[string(r[start:end])]
 		if exists {
-			group = append(group, s[start:end])
+			group = append(group, string(r[start:end]))
 			start = end
-			end = TFint(start+maxVisencLen < slen, start+maxVisencLen, slen)
+			end = TFint(start+maxVisencLen < rlen, start+maxVisencLen, rlen)
 		} else {
 			if end > start+1 {
 				end--
 
 			} else {
 				if addInvalidLetters {
-					group = append(group, s[start:end])
+					group = append(group, string(r[start:end]))
 				}
 				start++
-				end = TFint(start+maxVisencLen < slen, start+maxVisencLen, slen)
+				end = TFint(start+maxVisencLen < rlen, start+maxVisencLen, rlen)
 			}
 		}
 
