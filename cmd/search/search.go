@@ -1,0 +1,105 @@
+package main
+
+import (
+	dervaze "dervaze/lang"
+	"github.com/chzyer/readline"
+)
+
+// TODO Write real completion with word lists etc
+var completer = readline.NewPrefixCompleter(
+	readline.PcItem("mode",
+		readline.PcItem("vi"),
+		readline.PcItem("emacs"),
+	),
+	readline.PcItem("login"),
+	readline.PcItem("say",
+		readline.PcItemDynamic(listFiles("./"),
+			readline.PcItem("with",
+				readline.PcItem("following"),
+				readline.PcItem("items"),
+			),
+		),
+		readline.PcItem("hello"),
+		readline.PcItem("bye"),
+	),
+	readline.PcItem("setprompt"),
+	readline.PcItem("setpassword"),
+	readline.PcItem("bye"),
+	readline.PcItem("help"),
+	readline.PcItem("go",
+		readline.PcItem("build", readline.PcItem("-o"), readline.PcItem("-v")),
+		readline.PcItem("install",
+			readline.PcItem("-v"),
+			readline.PcItem("-vv"),
+			readline.PcItem("-vvv"),
+		),
+		readline.PcItem("test"),
+	),
+	readline.PcItem("sleep"),
+)
+
+func filterInput(r rune) (rune, bool) {
+	switch r {
+	// block CtrlZ feature
+	case readline.CharCtrlZ:
+		return r, false
+	}
+	return r, true
+}
+func main() {
+
+	l, err := readline.NewEx(&readline.Config{
+		Prompt:              "\033[31m»\033[0m ",
+		HistoryFile:         "/tmp/dervaze.tmp",
+		AutoComplete:        completer,
+		InterruptPrompt:     "^C",
+		EOFPrompt:           "exit",
+		HistorySearchFold:   true,
+		FuncFilterInputRune: filterInput,
+	})
+
+	if err != nil {
+		panic(err)
+	}
+	defer l.Close()
+
+	log.SetOutput(l.Stderr())
+
+	for {
+		line, err := l.Readline()
+		if err == readline.ErrInterrupt {
+			if len(line) == 0 {
+				break
+			} else {
+				continue
+			}
+		} else if err == io.EOF {
+			break
+		}
+
+		line = strings.TrimSpace(line)
+		switch {
+		case strings.HasPrefix(line, "v2o "):
+			println(dervaze.VisencToUnicode(line[4:]))
+		case strings.HasPrefix(line, "o2v "):
+			println(dervaze.UnicodeToVisenc(line[4:]))
+		case strings.HasPrefix(line, "t "):
+			println(dervaze.SearchTurkishLatin(line[2:]))
+		case strings.HasPrefix(line, "v "):
+			println(dervaze.SearchVisenc(line[2:]))
+		case strings.HasPrefix(line, "u "):
+			println(dervaze.SearchUnicode(line[2:]))
+		case strings.HasPrefix(line, "a "):
+			n, err := int(line[2:0])
+			if err != nil {
+				println("Need a number for abjad search a ")
+			} else {
+				println(dervaze.SearchAbjad(n))
+			}
+
+		default:
+			println(dervaze.SearchAll(line))
+		}
+	}
+exit:
+}
