@@ -32,7 +32,7 @@ func buildTries(rootset *RootSet) (*patricia.Trie, *patricia.Trie, *patricia.Tri
 }
 
 func InitSearch(protobuffile string) {
-	RootSet = LoadRootSetProtobuf(protobuffile)
+	rootSet = LoadRootSetProtobuf(protobuffile)
 	turkishLatinTrie, visencTrie, unicodeTrie = buildTries(rootSet)
 }
 
