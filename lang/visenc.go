@@ -342,7 +342,8 @@ func UnicodeToVisenc(s string) string {
 
 // VisencToAbjad calculates the abjad value for the given word in Visenc
 func VisencToAbjad(s string) int32 {
-	visencLetters := SplitVisenc(s, false)
+	cleaned := SearchKey(s)
+	visencLetters := SplitVisenc(cleaned, false)
 	var out int32 = 0
 	for _, v := range visencLetters {
 		value, exists := visencToAbjad[v]

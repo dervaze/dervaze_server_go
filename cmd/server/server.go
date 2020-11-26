@@ -2,6 +2,7 @@ package main
 
 import (
 	dervaze "dervaze/lang"
+	// "encoding/json"
 	"flag"
 	"fmt"
 	"log"
@@ -15,6 +16,19 @@ import (
 	// "google.golang.org/protobuf/proto"
 )
 
+func transformRoots(roots []*dervaze.Root, transformer func(*dervaze.Root) *dervaze.Root) *dervaze.RootSet {
+	out := make([]*dervaze.Root, len(roots))
+
+	for i, r := range roots {
+		out[i] = transformer(r)
+	}
+
+	r := dervaze.RootSet{
+		Roots: out,
+	}
+	return &r
+}
+
 // ## `/v1/json/prefix/tr/{word}
 //
 // Sends a list of Turkish words starting with `word` sorted by length
@@ -25,29 +39,32 @@ import (
 //
 
 func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
+
+	transformer := func(root *dervaze.Root) *dervaze.Root {
+		r := dervaze.Root{
+			TurkishLatin: root.TurkishLatin,
+		}
+		return &r
+	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
 	roots := dervaze.SearchTurkishLatin(vars["word"])
 	log.Printf("roots: %s", roots)
+
+	outputRootSet := transformRoots(roots, transformer)
 	marshaler := jsonpb.Marshaler{
 		OrigName:     true,
 		EnumsAsInts:  false,
-		EmitDefaults: true,
+		EmitDefaults: false,
 		Indent:       "  ",
 	}
-	marshalStr := "["
-	for _, r := range roots {
-		jsonStr, err := marshaler.MarshalToString(r)
-		if err == nil {
-			marshalStr += jsonStr + ","
-		} else {
-			log.Printf("Error in Marshaling %s", r)
-		}
+	jsonStr, err := marshaler.MarshalToString(outputRootSet)
+
+	if err == nil {
+		fmt.Fprintln(w, "", jsonStr)
+	} else {
+		log.Printf("Marshal Error: %s", err)
 	}
-
-	marshalStr += "]"
-
-	fmt.Fprintln(w, "", marshalStr)
 }
 
 // ## `/v1/json/prefix/ot/{word}
@@ -60,6 +77,33 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 //
 
 func JsonPrefixOt(w http.ResponseWriter, r *http.Request) {
+	transformer := func(root *dervaze.Root) *dervaze.Root {
+		r := dervaze.Root{
+			Ottoman: OttomanWord{
+				Unicode: root.Ottoman.Unicode 
+			}
+		}
+		return &r
+	}
+	vars := mux.Vars(r)
+	log.Printf("JsonPrefixTr Vars: %s", vars)
+	roots := dervaze.SearchUnicode(vars["word"])
+	log.Printf("roots: %s", roots)
+
+	outputRootSet := transformRoots(roots, transformer)
+	marshaler := jsonpb.Marshaler{
+		OrigName:     true,
+		EnumsAsInts:  false,
+		EmitDefaults: false,
+		Indent:       "  ",
+	}
+	jsonStr, err := marshaler.MarshalToString(outputRootSet)
+
+	if err == nil {
+		fmt.Fprintln(w, "", jsonStr)
+	} else {
+		log.Printf("Marshal Error: %s", err)
+	}
 }
 
 // ## `/v1/json/calc/abjad/{word}
@@ -72,6 +116,14 @@ func JsonPrefixOt(w http.ResponseWriter, r *http.Request) {
 // ```
 //
 func JsonCalcAbjad(w http.ResponseWriter, r *http.Request) {
+
+	
+	vars := mux.Vars(r)
+	log.Printf("JsonPrefixTr Vars: %s", vars)
+	abjad := dervaze.UnicodeToAbjad(vars["word"])
+	str := ftm.Sprintf("{ \"ottoman_unicode\": \"%s\", \"abjad\": %d }", vars["word"], abjad)
+	fmt.Fprintln(w, "", str)
+
 }
 
 // ## `/v1/json/exact/tr/{word}
