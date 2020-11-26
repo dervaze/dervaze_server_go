@@ -13,11 +13,11 @@ var turkishLatinTrie *patricia.Trie
 var visencTrie *patricia.Trie
 var unicodeTrie *patricia.Trie
 
-func buildTrie(roots []*Root, keyfunc func(*Root) string) *patricia.Trie {
+func buildTrie(roots []*Root, keyfunc func(*Root, int) string) *patricia.Trie {
 	trie := patricia.NewTrie()
 
 	for i, r := range roots {
-		trie.Insert(patricia.Prefix(keyfunc(r)), i)
+		trie.Insert(patricia.Prefix(keyfunc(r, i)), i)
 	}
 
 	return trie
@@ -25,9 +25,9 @@ func buildTrie(roots []*Root, keyfunc func(*Root) string) *patricia.Trie {
 }
 
 func buildTries(rootset *RootSet) (*patricia.Trie, *patricia.Trie, *patricia.Trie) {
-	turkishLatinTrie := buildTrie(rootset.Roots, func(r *Root) string { return r.TurkishLatin })
-	visencTrie := buildTrie(rootset.Roots, func(r *Root) string { return r.Ottoman.Visenc })
-	unicodeTrie := buildTrie(rootset.Roots, func(r *Root) string { return r.Ottoman.Unicode })
+	turkishLatinTrie := buildTrie(rootset.Roots, func(r *Root, i int) string { return r.TurkishLatin + "#" + string(i) })
+	visencTrie := buildTrie(rootset.Roots, func(r *Root, i int) string { return r.Ottoman.Visenc + "#" + string(i) })
+	unicodeTrie := buildTrie(rootset.Roots, func(r *Root, i int) string { return r.Ottoman.Unicode + "#" + string(i) })
 	return turkishLatinTrie, visencTrie, unicodeTrie
 }
 
@@ -50,9 +50,11 @@ func SearchTurkishLatin(turkishLatin string) []*Root {
 
 	}
 	turkishLatinTrie.VisitSubtree(patricia.Prefix(turkishLatin), visitFunc)
-
 	return results
+}
 
+func SearchTurkishLatinExact(turkishLatin string) []*Root {
+	return SearchTurkishLatin(turkishLatin + "#")
 }
 
 func SearchVisenc(visenc string) []*Root {
@@ -72,6 +74,10 @@ func SearchVisenc(visenc string) []*Root {
 	return results
 }
 
+func SearchVisencExact(visenc string) []*Root {
+	return SearchVisenc(visenc + "#")
+}
+
 func SearchUnicode(unicode string) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
@@ -87,6 +93,10 @@ func SearchUnicode(unicode string) []*Root {
 	unicodeTrie.VisitSubtree(patricia.Prefix(unicode), visitFunc)
 
 	return results
+}
+
+func SearchUnicodeExact(unicode string) []*Root {
+	return SearchUnicode(unicode + "#")
 }
 
 func SearchAbjad(abjad int32) []*Root {
