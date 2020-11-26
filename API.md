@@ -75,14 +75,14 @@ Returns records with abjad == `number`
 ```
 [ { "ottoman_unicode": "word",
     "latin": "abdc",
-    "abjad": 1234,
+    "abjad": number,
     "meanings": [
         {"source": "dervaze",
          "meaning": "meaning 1 of word"}]
     },
-    { "ottoman_unicode": "word",
+    { "ottoman_unicode": "drwo",
     "latin": "anbdn",
-    "abjad": 2191,
+    "abjad": number,
     "meanings": [
         {"source": "kanar",
          "meaning": "meaning 1 of word"}]
