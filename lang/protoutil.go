@@ -1,11 +1,10 @@
 package lang
 
 import (
+	"github.com/golang/protobuf/proto"
 	"io/ioutil"
 	"log"
 	"os"
-
-	"github.com/golang/protobuf/proto"
 )
 
 func SaveRootSetProtobuf(filename string, rootset *RootSet) {

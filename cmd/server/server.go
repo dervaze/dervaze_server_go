@@ -2,11 +2,17 @@ package main
 
 import (
 	dervaze "dervaze/lang"
+	"flag"
 	"fmt"
-	"github.com/golang/protobuf/proto"
-	"github.com/gorilla/mux"
+	"log"
 	"net/http"
-	"path/filepath"
+	"time"
+
+	"github.com/golang/protobuf/jsonpb"
+	// "github.com/golang/protobuf/proto"
+	"github.com/gorilla/mux"
+	// "google.golang.org/protobuf/encoding/protojson"
+	// "google.golang.org/protobuf/proto"
 )
 
 // ## `/v1/json/prefix/tr/{word}
@@ -23,12 +29,25 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 	log.Printf("JsonPrefixTr Vars: %s", vars)
 	roots := dervaze.SearchTurkishLatin(vars["word"])
 	log.Printf("roots: %s", roots)
-	jsonBytes, err := proto.MarshalMessageSetJSON(roots)
-	if err == nil {
-		fmt.Fprintln(w, "", jsonBytes)
-	} else {
-		log.Fatal(err)
+	marshaler := jsonpb.Marshaler{
+		OrigName:     true,
+		EnumsAsInts:  false,
+		EmitDefaults: true,
+		Indent:       "  ",
 	}
+	marshalStr := "["
+	for _, r := range roots {
+		jsonStr, err := marshaler.MarshalToString(r)
+		if err == nil {
+			marshalStr += jsonStr + ","
+		} else {
+			log.Printf("Error in Marshaling %s", r)
+		}
+	}
+
+	marshalStr += "]"
+
+	fmt.Fprintln(w, "", marshalStr)
 }
 
 // ## `/v1/json/prefix/ot/{word}
@@ -39,6 +58,10 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 // [ "word", "worda", "wordb", "wordabc"]
 // ```
 //
+
+func JsonPrefixOt(w http.ResponseWriter, r *http.Request) {
+}
+
 // ## `/v1/json/calc/abjad/{word}
 //
 // Calculates abjad for the `word` given in unicode
@@ -48,6 +71,9 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 // "abjad": 1234 }
 // ```
 //
+func JsonCalcAbjad(w http.ResponseWriter, r *http.Request) {
+}
+
 // ## `/v1/json/exact/tr/{word}
 //
 // Returns records with Turkish Latin == `word`
@@ -69,6 +95,9 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 //     }]
 //     ```
 //
+func JsonExactTr(w http.ResponseWriter, r *http.Request) {
+}
+
 // ## `/v1/json/exact/ot/{word}
 //
 // Returns records with Ottoman == `word`
@@ -90,6 +119,8 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 //     }]
 //     ```
 //
+func JsonExactOt(w http.ResponseWriter, r *http.Request) {}
+
 // ## `/v1/json/exact/abjad/{number}
 //
 // Returns records with abjad == `number`
@@ -112,6 +143,8 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 //     ```
 //
 //
+func JsonExactAbjad(w http.ResponseWriter, r *http.Request) {}
+
 // ## `/v1/json/v2u/{word}
 //
 // Converts `word` from visenc to unicode
@@ -121,6 +154,8 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 // "ottoman_unicode": <unicode>}
 // ```
 //
+func JsonV2U(w http.ResponseWriter, r *http.Request) {}
+
 // ## `/v1/json/u2v/{word}
 //
 // Converts `word` from unicode to visenc
@@ -130,6 +165,7 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 // "ottoman_unicode": <word>}
 // ```
 //
+func JsonU2V(w http.ResponseWriter, r *http.Request) {}
 
 func server() {
 
@@ -144,12 +180,21 @@ func server() {
 	router.HandleFunc("/v1/json/v2u/{word}", JsonV2U)
 	router.HandleFunc("/v1/json/u2v/{word}", JsonU2V)
 
+	srv := &http.Server{
+		Handler:      router,
+		Addr:         "0.0.0.0:9876",
+		WriteTimeout: 15 * time.Second,
+		ReadTimeout:  15 * time.Second,
+	}
+
+	log.Fatal(srv.ListenAndServe())
+
 }
 
 func main() {
 
 	var inputfile string
-	flag.StringVar(&inputfile, "i", "assets/dervaze-rootset.protobuf", "protobuffer file to load roots")
+	flag.StringVar(&inputfile, "i", "../../assets/dervaze-rootset.protobuf", "protobuffer file to load roots")
 
 	flag.Parse()
 	dervaze.InitSearch(inputfile)
