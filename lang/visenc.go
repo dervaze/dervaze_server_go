@@ -3,261 +3,47 @@ package lang
 import (
 	"errors"
 	"regexp"
+	"strings"
 
 	"golang.org/x/text/unicode/norm"
 	"log"
 	"unicode/utf8"
 )
 
-var visencToUnicode = map[string]string{
-	"c":   "ء",
-	"eo6": "آ",
-	// "A": "آ",
-	"e":   "ا",
-	"eo5": "أ",
-	"eu5": "إ",
-	// "E": "أ",
-	"bu1": "ب",
-	// "B": "ب",
-	"bu3": "پ",
-	// "P": "پ",
-	"bo2": "ت",
-	// "T": "ت",
-	"bo3": "ث",
-	"xu1": "ج",
-	// "C": "ج",
-	"xu3": "چ",
-	// "Ç": "چ",
-	"x":   "ح",
-	"xo1": "خ",
-	// "X": "خ",
-	"do1": "ذ",
-	"d":   "د",
-	"ro1": "ز",
-	"r":   "ر",
-	// "Z": "ز",
-	"ro3": "ژ",
-	// "J": "ژ",
-	"s":   "س",
-	"so3": "ش",
-	// "S": "ش",
-	// "Ş": "ش",
-	"z":   "ص",
-	"zo1": "ض",
-	// "D": "ض",
-	"t":   "ط",
-	"to1": "ظ",
-	"a":   "ع",
-	"ao1": "غ",
-	// "G": "غ",
-	"fo1": "ف",
-	// "F": "ف",
-	"fo2": "ق",
-	// "Q": "ق",
-	"lo5": "ك",
-	"ko5": "ك",
-	"k":   "ک",
-	"ko7": "گ",
-	// "K": "گ",
-	"ko3": "ڭ",
-	// "lo5o3": "ڭ",
-	"l":   "ل",
-	"m":   "م",
-	"bo1": "ن",
-	// "N": "ن",
-	"w":   "و",
-	"wo5": "ؤ",
-	"h":   "ه",
-	// "h": "ە",
-	// "h": "\u06D5",
-	"ho2": "ة",
-	"y":   "ی", // x6cc
-	// "y": "ى", // x649
-	"bu2": "ي",
-	// "Y": "ي",
-	"yo5":    "ئ",
-	"bo5":    "ئ",
-	"n0":     "۰",
-	"n1":     "۱",
-	"n2":     "۲",
-	"n3":     "۳",
-	"n4":     "۴",
-	"n5":     "۵",
-	"n6":     "۶",
-	"n7":     "۷",
-	"n8":     "۸",
-	"n9":     "۹",
-	"&zwnj;": "\u200C",
-	"||":     "\u200C",
-	"<>":     "\u200C",
-	"&zwj;":  "\u200D",
-	"><":     "\u200D",
-	"&lrm;":  "\u200E",
-	"&rlm;":  "\u200F",
-	"&ls;":   "\u2028",
-	"&ps;":   "\u2028",
-	"&lre;":  "\u202A",
-	"&rle;":  "\u202B",
-	"&pdf;":  "\u202C",
-	"&lro;":  "\u202D",
-	"&rlo;":  "\u202D",
-	"&bom;":  "\uFEFF",
-	"o4":     "\u064E",
-	"u4":     "\u0650",
-	"o9":     "\u064F",
-	"u44":    "\u064D",
-	"o44":    "\u064B",
-	"o99":    "\u064C",
-	"o8":     "\u0651",
-	"o0":     "\u0652",
-	"o6":     "\u0653",
-	" ":      " ",
-	"bot":    "\u0679",
-	"o5":     "\u0654",
-	"u5":     "\u0655",
-}
+// MakeRoot builds a Root from Latin and Visenc spelling of a word by automatically filling other information
+func MakeRoot(latin string, visenc string, pos PartOfSpeech) Root {
 
-var unicodeToVisenc = map[string]string{
-	"ء": "c",
-	"آ": "eo6",
-	// "آ": "A",
-	"ا": "e",
-	"أ": "eo5",
-	"إ": "eu5",
-	// "أ": "E",
-	"ب": "bu1",
-	// "ب": "B",
-	"پ": "bu3",
-	// "پ": "P",
-	"ت": "bo2",
-	// "ت": "T",
-	"ث": "bo3",
-	"ج": "xu1",
-	// "ج": "C",
-	"چ": "xu3",
-	// "چ": "Ç",
-	"ح": "x",
-	"خ": "xo1",
-	// "خ": "X",
-	"د": "d",
-	"ذ": "do1",
-	"ر": "r",
-	"ز": "ro1",
-	// "ز": "Z",
-	"ژ": "ro3",
-	// "ژ": "J",
-	"س": "s",
-	"ش": "so3",
-	// "ش": "S",
-	// "ش": "Ş",
-	"ص": "z",
-	"ض": "zo1",
-	// "ض": "D",
-	"ط": "t",
-	"ظ": "to1",
-	"ع": "a",
-	"غ": "ao1",
-	// "غ": "G",
-	"ف": "fo1",
-	// "ف": "F",
-	"ق": "fo2",
-	// "ق": "Q",
-	// "ك": "lo5",
-	"ك": "k",
-	"ک": "k",
-	"گ": "ko7",
-	// "گ": "K",
-	"ڭ": "ko3",
-	// "ڭ": "lo5o3",
-	"ل": "l",
-	"م": "m",
-	"ن": "bo1",
-	// "ن": "N",
-	"و": "w",
-	"ؤ": "wo5",
-	"ه": "h",
-	"ە": "h",
-	"ة": "ho2",
-	"ی": "y", // x6cc
-	"ى": "y", // x649
-	"ي": "bu2",
-	// "ي": "Y",
-	// "ئ": "yo5",
-	"ئ": "bo5",
-	"۰": "n0",
-	"۱": "n1",
-	"۲": "n2",
-	"۳": "n3",
-	"۴": "n4",
-	"۵": "n5",
-	"۶": "n6",
-	"۷": "n7",
-	"۸": "n8",
-	"۹": "n9",
-	// "\u200C": "&zwnj;",
-	"\u200C": "||",
-	// "\u200C": "<>",
-	// "\u200D": "&zwj;",
-	"\u200D": "><",
-	"\u200E": "&lrm;",
-	"\u200F": "&rlm;",
-	"\u2028": "&ls;",
-	// "\u2028": "&ps;",
-	"\u202A": "&lre;",
-	"\u202B": "&rle;",
-	"\u202C": "&pdf;",
-	"\u202D": "&lro;",
-	// "\u202D": "&rlo;",
-	"\uFEFF": "&bom;",
-	"\u064E": "o4",
-	"\u0650": "u4",
-	"\u064F": "o9",
-	"\u064D": "u44",
-	"\u064B": "o44",
-	"\u064C": "o99",
-	"\u0651": "o8",
-	"\u0652": "o0",
-	"\u0653": "o6",
-	" ":      " ",
-	"\u0679": "bot",
-	"\u0654": "o5",
-	"\u0655": "u5",
-}
+	if visenc == "" {
+		log.Println("Empty visenc for latin", latin)
+	}
 
-var visencToAbjad = map[string]int32{
-	"e":   1,
-	"bu1": 2,
-	"bu3": 2,
-	"xu1": 3,
-	"xu3": 3,
-	"d":   4,
-	"h":   5,
-	"w":   6,
-	"ro1": 7,
-	"ro3": 7,
-	"x":   8,
-	"t":   9,
-	"y":   10,
-	"bu2": 10,
-	"k":   20,
-	"ko7": 20,
-	"l":   30,
-	"m":   40,
-	"bo1": 50,
-	"s":   60,
-	"a":   70,
-	"fo1": 80,
-	"z":   90,
-	"fo2": 100,
-	"r":   200,
-	"so3": 300,
-	"bo2": 400,
-	"bo3": 500,
-	"xo1": 600,
-	"do1": 700,
-	"zo1": 800,
-	"to1": 900,
-	"ao1": 1000,
+	ow, err := MakeOttomanWord(visenc, "")
+
+	if err != nil {
+		log.Println(err)
+	}
+
+	r := Root{
+		TurkishLatin:       latin,
+		Ottoman:            ow,
+		LastVowel:          LastVowel(latin),
+		LastConsonant:      LastConsonant(latin),
+		EffectiveLastVowel: EffectiveLastVowel(latin),
+		Abjad:              ow.Abjad,
+		PartOfSpeech:       pos,
+		EndsWithVowel:      EndsWithVowel(latin),
+		HasSingleVowel:     HasSingleVowel(latin),
+		LastVowelHard:      LastVowelHard(latin),
+		LastConsonantHard:  LastConsonantHard(latin),
+		// following three will be updated
+		EffectiveTurkishLatin: latin,
+		EffectiveVisenc:       ow.Visenc,
+		HasConsonantSoftening: false,
+	}
+
+	UpdateEffectiveSoftening(&r)
+
+	return r
 }
 
 // MakeOttomanWord builds an OttomanWord from either visenc or unicode
@@ -307,16 +93,19 @@ func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 	}, nil
 }
 
+// SearchKey removes non letter diacritics from visenc string
 func SearchKey(s string) string {
 	sk := regexp.MustCompile(`([oui][0456789]+)`)
 	return sk.ReplaceAllLiteralString(s, "")
 }
 
+// DotlessSearchKey removes all dots and signs from visenc string
 func DotlessSearchKey(s string) string {
 	sk := regexp.MustCompile(`([oui][0123456789]+)`)
 	return sk.ReplaceAllLiteralString(s, "")
 }
 
+// VisencToUnicode converts a visenc string to unicode representation
 func VisencToUnicode(s string) string {
 	visenc := SplitVisenc(s, false)
 
@@ -327,6 +116,7 @@ func VisencToUnicode(s string) string {
 	return out
 }
 
+// UnicodeToVisenc converts a unicode string to visenc representation
 func UnicodeToVisenc(s string) string {
 	out := ""
 
@@ -357,24 +147,6 @@ func VisencToAbjad(s string) int32 {
 // UnicodeToAbjad calculates the abjad value for a word given in Unicode by converting it to Visenc first
 func UnicodeToAbjad(s string) int32 {
 	return VisencToAbjad(UnicodeToVisenc(s))
-}
-
-// TFstring returns ifTrue or ifFalse according to condition
-func TFstring(condition bool, ifTrue, ifFalse string) string {
-	if condition {
-		return ifTrue
-	} else {
-		return ifFalse
-	}
-}
-
-// TFString returns ifTrue or ifFalse according to condition
-func TFint(condition bool, ifTrue, ifFalse int) int {
-	if condition {
-		return ifTrue
-	} else {
-		return ifFalse
-	}
 }
 
 // SplitVisenc splits s and returns letter groups according to visencToUnicode keys
@@ -427,4 +199,85 @@ func ContainsDigits(s string) bool {
 		}
 	}
 	return false
+}
+
+// EndsWithVowel Checks whether a string ends with a vowel
+func EndsWithVowel(s string) bool {
+	return endsWithVowelRegex.MatchString(s)
+}
+
+// HasSingleVowel checks whether a string has a single vowel
+func HasSingleVowel(s string) bool {
+	return hasSingleVowelRegex.MatchString(s)
+}
+
+// LastConsonantHard checks whether a word has a final "fstkçşhp"
+func LastConsonantHard(s string) bool {
+	return lastConsonantHardRegex.MatchString(s)
+}
+
+// LastVowelHard checks whether a word ends with one of aıou
+func LastVowelHard(s string) bool {
+	ev := EffectiveLastVowel(s)
+	if ev == "a" || ev == "ı" || ev == "o" || ev == "u" {
+		return true
+	}
+	return false
+}
+
+// EffectiveLastVowel checks a word agains effectiveLastVowelRegexes to determine the vowel that governs vowel harmonization rules
+func EffectiveLastVowel(s string) string {
+	for r, v := range effectiveLastVowelRegexes {
+		if r.MatchString(s) {
+			return v
+		}
+	}
+	return LastVowel(s)
+}
+
+// LastVowel returns the last vowel of a word
+func LastVowel(s string) string {
+	return ultimateVowelRegex.FindString(s)
+}
+
+// LastConsonant returns the last consonant of a word
+func LastConsonant(s string) string {
+	return ultimateConsonantRegex.FindString(s)
+}
+
+// UpdateEffectiveSoftening updates the EffectiveTurkishLatin, EffectiveVisenc and HasConsonantSoftening by checking suffixes for spelling
+func UpdateEffectiveSoftening(r *Root) {
+
+	if strings.HasSuffix(r.TurkishLatin, "k") &&
+		strings.HasSuffix(r.Ottoman.Visenc, "fo2") {
+		tlr := []rune(r.TurkishLatin)
+		tll := len(tlr)
+
+		r.EffectiveTurkishLatin = string(tlr[0:tll-1]) + "ğ"
+		ovl := len(r.Ottoman.Visenc)
+		r.EffectiveVisenc = r.Ottoman.Visenc[0:ovl-3] + "ao1"
+		r.HasConsonantSoftening = true
+	}
+
+	if strings.HasSuffix(r.TurkishLatin, "p") && strings.HasSuffix(r.Ottoman.Visenc, "bu1") {
+		tlr := []rune(r.TurkishLatin)
+		tll := len(tlr)
+		r.EffectiveTurkishLatin = string(tlr[0:tll-1]) + "b"
+		r.HasConsonantSoftening = true
+	}
+
+	if strings.HasSuffix(r.TurkishLatin, "ç") && strings.HasSuffix(r.Ottoman.Visenc, "xu1") {
+		tlr := []rune(r.TurkishLatin)
+		tll := len(tlr)
+		r.EffectiveTurkishLatin = string(tlr[0:tll-1]) + "c"
+		r.HasConsonantSoftening = true
+	}
+
+	if strings.HasSuffix(r.TurkishLatin, "t") && strings.HasSuffix(r.Ottoman.Visenc, "d") {
+		tlr := []rune(r.TurkishLatin)
+		tll := len(tlr)
+		r.EffectiveTurkishLatin = string(tlr[0:tll-1]) + "d"
+		r.HasConsonantSoftening = true
+	}
+
 }

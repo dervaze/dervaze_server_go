@@ -17,6 +17,41 @@ Characteristics of a Golang test function:
     Must be saved in a file named something_test.go such as: addition_test.go
 */
 
+// func SearchKey(s string) string {
+func TestSearchKey(t *testing.T) {
+	testDict := map[string]string{
+		"elfo1":        "elfo1",
+		"emrh":         "emrh",
+		"eo5mrh":       "emrh",
+		"eo6mro1h":     "emro1h",
+		"eo5so3ro8bu2": "eso3rbu2"}
+
+	for i, o := range testDict {
+		if SearchKey(i) != o {
+			t.Log(fmt.Sprintf("%s, %t fails for SearchKey", i, o))
+			t.Fail()
+		}
+	}
+}
+
+// func DotlessSearchKey(s string) string {
+func TestDotlessSearchKey(t *testing.T) {
+	testDict := map[string]string{
+		"elfo1":        "elf",
+		"emrh":         "emrh",
+		"eo5mrh":       "emrh",
+		"eo6mro1h":     "emrh",
+		"eo5so3ro8bu2": "esrb"}
+
+	for i, o := range testDict {
+		if DotlessSearchKey(i) != o {
+			t.Log(fmt.Sprintf("%s, %t fails for DotlessSearchKey", i, o))
+			t.Fail()
+		}
+	}
+}
+
+// func EndsWithVowel(s string) bool {
 func TestEndsWithVowel(t *testing.T) {
 	testDict := map[string]bool{
 		"emre":   true,
@@ -35,18 +70,7 @@ func TestEndsWithVowel(t *testing.T) {
 	}
 }
 
-func CompareSlicesString(slice1, slice2 []string) bool {
-	if len(slice1) != len(slice2) {
-		return false
-	}
-	for i, v := range slice1 {
-		if slice2[i] != v {
-			return false
-		}
-	}
-	return true
-}
-
+// func SplitVisenc(s string, addInvalidLetters bool) []string {
 func TestSplitVisenc(t *testing.T) {
 
 	testDict := map[string][]string{
@@ -57,13 +81,14 @@ func TestSplitVisenc(t *testing.T) {
 		"brdh":     []string{"b", "r", "d", "h"},
 	}
 	for i, o := range testDict {
-		if CompareSlicesString(SplitVisenc(i, true), o) == false {
+		if CompareStringSlices(SplitVisenc(i, true), o) == false {
 			t.Log(fmt.Sprintf("SplitVisenc(%s, true) returns %s instead of %s", i, SplitVisenc(i, true), o))
 			t.Fail()
 		}
 	}
 }
 
+// func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 func TestMakeOttomanWord(t *testing.T) {
 
 	ow, err := MakeOttomanWord("emre", "emrh")
@@ -76,6 +101,7 @@ func TestMakeOttomanWord(t *testing.T) {
 	t.Log(ow)
 }
 
+// func VisencToAbjad(s string) int32 {
 func TestVisencToAbjad(t *testing.T) {
 	testDict := map[string]int32{
 		"emrh":      246,
@@ -90,3 +116,42 @@ func TestVisencToAbjad(t *testing.T) {
 		}
 	}
 }
+
+// func MakeRoot(latin string, visenc string, pos PartOfSpeech) Root {
+func TestMakeRoot(t *testing.T) { t.Fail() }
+
+// func VisencToUnicode(s string) string {
+func TestVisencToUnicode(t *testing.T) { t.Fail() }
+
+// func UnicodeToVisenc(s string) string {
+func TestUnicodeToVisenc(t *testing.T) { t.Fail() }
+
+// func UnicodeToAbjad(s string) int32 {
+func TestUnicodeToAbjad(t *testing.T) { t.Fail() }
+
+// func ContainsArabicChars(s string) bool {
+func TestContainsArabicChars(t *testing.T) { t.Fail() }
+
+// func ContainsDigits(s string) bool {
+func TestContainsDigits(t *testing.T) { t.Fail() }
+
+// func HasSingleVowel(s string) bool {
+func TestHasSingleVowel(t *testing.T) { t.Fail() }
+
+// func LastConsonantHard(s string) bool {
+func TestLastConsonantHard(t *testing.T) { t.Fail() }
+
+// func LastVowelHard(s string) bool {
+func TestLastVowelHard(t *testing.T) { t.Fail() }
+
+// func EffectiveLastVowel(s string) string {
+func TestEffectiveLastVowel(t *testing.T) { t.Fail() }
+
+// func LastVowel(s string) string {
+func TestLastVowel(t *testing.T) { t.Fail() }
+
+// func LastConsonant(s string) string {
+func TestLastConsonant(t *testing.T) { t.Fail() }
+
+// func UpdateEffectiveSoftening(r *Root) {
+func TestUpdateEffectiveSoftening(t *testing.T) { t.Fail() }
