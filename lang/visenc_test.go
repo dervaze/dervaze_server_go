@@ -28,7 +28,7 @@ func TestSearchKey(t *testing.T) {
 
 	for i, o := range testDict {
 		if SearchKey(i) != o {
-			t.Log(fmt.Sprintf("%s, %t fails for SearchKey", i, o))
+			t.Log(fmt.Sprintf("%s, %s fails for SearchKey", i, o))
 			t.Fail()
 		}
 	}
@@ -45,7 +45,7 @@ func TestDotlessSearchKey(t *testing.T) {
 
 	for i, o := range testDict {
 		if DotlessSearchKey(i) != o {
-			t.Log(fmt.Sprintf("%s, %t fails for DotlessSearchKey", i, o))
+			t.Log(fmt.Sprintf("%s, %s fails for DotlessSearchKey", i, o))
 			t.Fail()
 		}
 	}
