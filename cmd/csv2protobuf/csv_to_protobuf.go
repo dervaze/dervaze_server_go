@@ -88,8 +88,8 @@ func main() {
 
 	var inputdir string
 	var outputfile string
-	flag.StringVar(&inputdir, "i", "assets/rootdata/", "Input dir where n/ v/ p/ directories reside")
-	flag.StringVar(&outputfile, "o", "assets/dervaze-rootset.protobuf", "Output file to store the protobuf file")
+	flag.StringVar(&inputdir, "i", "../../assets/rootdata/", "Input dir where n/ v/ p/ directories reside")
+	flag.StringVar(&outputfile, "o", "../../assets/dervaze-rootset.protobuf", "Output file to store the protobuf file")
 
 	flag.Parse()
 
