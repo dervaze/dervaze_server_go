@@ -328,7 +328,7 @@ func JsonU2V(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "", str)
 }
 
-func server() {
+func server(host, port string) {
 
 	router := mux.NewRouter().StrictSlash(true)
 
@@ -343,7 +343,7 @@ func server() {
 
 	srv := &http.Server{
 		Handler:      router,
-		Addr:         "0.0.0.0:9876",
+		Addr:         host + ":" + port,
 		WriteTimeout: 15 * time.Second,
 		ReadTimeout:  15 * time.Second,
 	}
@@ -355,9 +355,20 @@ func server() {
 func main() {
 
 	var inputfile string
+	var port string
+	var host string
+
 	flag.StringVar(&inputfile, "i", "../../assets/dervaze-rootset.protobuf", "protobuffer file to load roots")
+	flag.StringVar(&host, "h", "127.0.0.1", "IP address or hostname to listen to")
+	flag.StringVar(&port, "p", "9876", "port to listen to")
 
 	flag.Parse()
+
+	fmt.Println("Starting Server")
+	flag.VisitAll(func(f *flag.Flag) {
+		fmt.Printf("%s=%s [%s] \n", f.Name, f.Value.String(), f.Usage)
+	})
+
 	dervaze.InitSearch(inputfile)
-	server()
+	server(host, port)
 }
