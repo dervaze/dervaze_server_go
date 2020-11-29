@@ -89,6 +89,34 @@ func GetRootSet() *RootSet {
 	return rootSet
 }
 
+func GetTurkishLatinTrie() *patricia.Trie {
+	return turkishLatinTrie
+}
+
+func GetVisencTrie() *patricia.Trie {
+	return visencTrie
+}
+
+func GetUnicodeTrie() *patricia.Trie {
+	return unicodeTrie
+}
+
+func GetTurkishLatinIndex() *map[rune][]string {
+	return turkishLatinIndex
+}
+
+func GetVisencIndex() *map[rune][]string {
+	return visencIndex
+}
+
+func GetUnicodeIndex() *map[rune][]string {
+	return unicodeIndex
+}
+
+func GetAbjadIndex() *map[int32][]int {
+	return abjadIndex
+}
+
 func PrefixSearchTurkishLatin(turkishLatin string) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
