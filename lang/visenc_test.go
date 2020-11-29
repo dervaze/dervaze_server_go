@@ -74,11 +74,11 @@ func TestEndsWithVowel(t *testing.T) {
 func TestSplitVisenc(t *testing.T) {
 
 	testDict := map[string][]string{
-		"emrh":     []string{"e", "m", "r", "h"},
-		"efo2bu2x": []string{"e", "fo2", "bu2", "x"},
-		"aübo1eo5": []string{"a", "ü", "bo1", "eo5"},
-		"fo3d":     []string{"f", "o", "3", "d"},
-		"brdh":     []string{"b", "r", "d", "h"},
+		"emrh":     {"e", "m", "r", "h"},
+		"efo2bu2x": {"e", "fo2", "bu2", "x"},
+		"aübo1eo5": {"a", "ü", "bo1", "eo5"},
+		"fo3d":     {"f", "o", "3", "d"},
+		"brdh":     {"b", "r", "d", "h"},
 	}
 	for i, o := range testDict {
 		if CompareStringSlices(SplitVisenc(i, true), o) == false {

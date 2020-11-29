@@ -3,6 +3,7 @@ package main
 import (
 	dervaze "dervaze/lang"
 	"strconv"
+
 	// "encoding/json"
 	"flag"
 	"fmt"
@@ -49,7 +50,7 @@ func JsonPrefixTr(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	roots := dervaze.SearchTurkishLatin(vars["word"])
+	roots := dervaze.RegexSearchTurkishLatin(vars["word"])
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -88,7 +89,7 @@ func JsonPrefixOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	roots := dervaze.SearchUnicode(vars["word"])
+	roots := dervaze.RegexSearchUnicode(vars["word"])
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -141,7 +142,7 @@ func JsonExactTr(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.SearchTurkishLatinExact(vars["word"])
+	roots := dervaze.PrefixSearchTurkishLatinExact(vars["word"])
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -194,7 +195,7 @@ func JsonExactOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.SearchUnicodeExact(vars["word"])
+	roots := dervaze.PrefixSearchUnicodeExact(vars["word"])
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -252,7 +253,7 @@ func JsonExactAbjad(w http.ResponseWriter, r *http.Request) {
 	val, err := strconv.Atoi(vars["word"])
 	var roots []*dervaze.Root
 	if err == nil {
-		roots = dervaze.SearchAbjad(int32(val))
+		roots = dervaze.IndexSearchAbjad(int32(val))
 	} else {
 		log.Printf("Error in SearchAbjad parameter: %s", vars["word"])
 		roots = make([]*dervaze.Root, 0)

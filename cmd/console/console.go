@@ -91,21 +91,27 @@ func console() {
 		case strings.HasPrefix(line, "o2v "):
 			println(dervaze.UnicodeToVisenc(line[4:]))
 		case strings.HasPrefix(line, "t "):
-			println(dervaze.PrintRoots(dervaze.SearchTurkishLatin(line[2:])))
+			println(dervaze.PrintRoots(dervaze.RegexSearchTurkishLatin(line[2:])))
 		case strings.HasPrefix(line, "v "):
-			println(dervaze.PrintRoots(dervaze.SearchVisenc(line[2:])))
+			println(dervaze.PrintRoots(dervaze.RegexSearchVisenc(line[2:])))
 		case strings.HasPrefix(line, "u "):
-			println(dervaze.PrintRoots(dervaze.SearchUnicode(line[2:])))
+			println(dervaze.PrintRoots(dervaze.RegexSearchUnicode(line[2:])))
+		case strings.HasPrefix(line, "pt "):
+			println(dervaze.PrintRoots(dervaze.PrefixSearchTurkishLatin(line[2:])))
+		case strings.HasPrefix(line, "pv "):
+			println(dervaze.PrintRoots(dervaze.PrefixSearchVisenc(line[2:])))
+		case strings.HasPrefix(line, "pu "):
+			println(dervaze.PrintRoots(dervaze.PrefixSearchUnicode(line[2:])))
 		case strings.HasPrefix(line, "a "):
 			n, err := strconv.Atoi(line[2:])
 			if err != nil {
 				println("Need a number for abjad search a ")
 			} else {
-				println(dervaze.PrintRoots(dervaze.SearchAbjad(int32(n))))
+				println(dervaze.PrintRoots(dervaze.IndexSearchAbjad(int32(n))))
 			}
 		case line == "":
 		default:
-			println(dervaze.PrintRoots(dervaze.SearchAll(line)))
+			println(dervaze.PrintRoots(dervaze.RegexSearchAuto(line)))
 		}
 	}
 }

@@ -3,11 +3,12 @@ package lang
 import (
 	"errors"
 	"fmt"
-	"github.com/tchap/go-patricia/patricia"
 	"log"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/tchap/go-patricia/patricia"
 )
 
 var rootSet *RootSet
@@ -296,6 +297,21 @@ func RegexSearchVisenc(word string) []*Root {
 	}
 
 	return results
+}
+
+func RegexSearchAuto(word string) []*Root {
+
+	if ContainsArabicChars(word) {
+		return RegexSearchUnicode(word)
+	} else if ContainsDigits(word) {
+		if val, err := strconv.Atoi(word); err == nil {
+			return IndexSearchAbjad(int32(val))
+		} else {
+			return RegexSearchVisenc(word)
+		}
+	} else {
+		return RegexSearchTurkishLatin(word)
+	}
 }
 
 func IndexSearchAbjad(abjad int32) []*Root {
