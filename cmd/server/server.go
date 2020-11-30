@@ -2,6 +2,7 @@ package main
 
 import (
 	dervaze "dervaze/lang"
+	"os/exec"
 	"strconv"
 
 	// "encoding/json"
@@ -388,6 +389,16 @@ func JSONU2V(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "", str)
 }
 
+// JSONVersion sends git version information
+func JSONVersion(w http.ResponseWriter, r *http.Request) {
+	w.Header().Add("Access-Control-Allow-Origin", "*")
+	out, err := exec.Command("git log --summary --max-count 1").Output()
+	if err == nil {
+		fmt.Fprintln(w, "", out)
+	} else {
+		fmt.Fprintln(w, "", err)
+	}
+}
 func server(host, port string) {
 
 	router := mux.NewRouter().StrictSlash(true)
@@ -403,7 +414,7 @@ func server(host, port string) {
 	router.HandleFunc("/v1/json/calc/abjad/{word}", JSONCalcAbjad)
 	router.HandleFunc("/v1/json/v2u/{word}", JSONV2U)
 	router.HandleFunc("/v1/json/u2v/{word}", JSONU2V)
-
+	router.HandleFunc("/v1/version/", JSONVersion)
 	srv := &http.Server{
 		Handler:      router,
 		Addr:         host + ":" + port,
