@@ -230,10 +230,10 @@ func RegexSearchTurkishLatin(word string) []*Root {
 
 	runes := []rune(word)
 	var sb strings.Builder
-	sb.WriteString(".*")
+	sb.WriteString(".?")
 	for _, r := range runes {
 		sb.WriteRune(r)
-		sb.WriteString(".*")
+		sb.WriteString(".?")
 	}
 
 	searchRegex := regexp.MustCompile(sb.String())
@@ -254,10 +254,10 @@ func RegexSearchUnicode(word string) []*Root {
 
 	runes := []rune(word)
 	var sb strings.Builder
-	sb.WriteString(".*")
+	sb.WriteString(".?")
 	for _, r := range runes {
 		sb.WriteRune(r)
-		sb.WriteString(".*")
+		sb.WriteString(".?")
 	}
 
 	searchRegex := regexp.MustCompile(sb.String())
@@ -279,10 +279,10 @@ func RegexSearchVisenc(word string) []*Root {
 	visencLetters := SplitVisenc(word, false)
 
 	var sb strings.Builder
-	sb.WriteString(".*")
+	sb.WriteString(".?")
 	for _, v := range visencLetters {
 		sb.WriteString(v)
-		sb.WriteString(".*")
+		sb.WriteString(".?")
 	}
 
 	searchRegex := regexp.MustCompile(sb.String())

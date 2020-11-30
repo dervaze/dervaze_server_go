@@ -2,7 +2,10 @@ package lang
 
 import (
 	"fmt"
+	"reflect"
 	"testing"
+
+	"github.com/tchap/go-patricia/patricia"
 )
 
 /*
@@ -55,3 +58,20 @@ func TestPrefixSearchTurkishLatin(t *testing.T) {
 // func RegexSearchVisenc(word string) []*Root {
 // func IndexSearchAbjad(abjad int32) []*Root {
 // func PrintRoots(roots []*Root) string {
+
+func TestGetTurkishLatinTrie(t *testing.T) {
+	tests := []struct {
+		name string
+		want *patricia.Trie
+	}{
+		{"turkishLatinTrie", turkishLatinTrie},
+	}
+	InitSearch(PROTOBUFFILE)
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := GetTurkishLatinTrie(); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("GetTurkishLatinTrie() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
