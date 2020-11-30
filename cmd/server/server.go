@@ -68,6 +68,7 @@ func JSONPrefixTr(w http.ResponseWriter, r *http.Request) {
 	outputRootSet := transformRoots(roots, transformer)
 
 	if m, err := marshalRoots(outputRootSet); err == nil {
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 		fmt.Fprintln(w, "", m)
 	}
 }
@@ -98,6 +99,7 @@ func JSONPrefixOt(w http.ResponseWriter, r *http.Request) {
 	outputRootSet := transformRoots(roots, transformer)
 
 	if m, err := marshalRoots(outputRootSet); err == nil {
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 		fmt.Fprintln(w, "", m)
 	}
 }
@@ -142,6 +144,7 @@ func JSONExactTr(w http.ResponseWriter, r *http.Request) {
 
 	outputRootSet := transformRoots(roots, transformer)
 	if m, err := marshalRoots(outputRootSet); err == nil {
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 		fmt.Fprintln(w, "", m)
 	}
 }
@@ -186,6 +189,7 @@ func JSONExactOt(w http.ResponseWriter, r *http.Request) {
 
 	outputRootSet := transformRoots(roots, transformer)
 	if m, err := marshalRoots(outputRootSet); err == nil {
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 		fmt.Fprintln(w, "", m)
 	}
 }
@@ -211,6 +215,7 @@ func JSONSearchTr(w http.ResponseWriter, r *http.Request) {
 	outputRootSet := transformRoots(roots, transformer)
 
 	if m, err := marshalRoots(outputRootSet); err == nil {
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 		fmt.Fprintln(w, "", m)
 	}
 }
@@ -235,6 +240,7 @@ func JSONSearchOt(w http.ResponseWriter, r *http.Request) {
 
 	outputRootSet := transformRoots(roots, transformer)
 	if m, err := marshalRoots(outputRootSet); err == nil {
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 		fmt.Fprintln(w, "", m)
 	}
 }
@@ -263,6 +269,7 @@ func JSONSearchAuto(w http.ResponseWriter, r *http.Request) {
 
 	outputRootSet := transformRoots(roots, transformer)
 	if m, err := marshalRoots(outputRootSet); err == nil {
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 		fmt.Fprintln(w, "", m)
 	}
 }
@@ -316,6 +323,9 @@ func JSONExactAbjad(w http.ResponseWriter, r *http.Request) {
 
 	outputRootSet := transformRoots(roots, transformer)
 	if m, err := marshalRoots(outputRootSet); err == nil {
+
+		w.Header().Add("Access-Control-Allow-Origin", "*")
+
 		fmt.Fprintln(w, "", m)
 	}
 }
@@ -331,7 +341,7 @@ func JSONExactAbjad(w http.ResponseWriter, r *http.Request) {
 // ```
 //
 func JSONCalcAbjad(w http.ResponseWriter, r *http.Request) {
-
+	w.Header().Add("Access-Control-Allow-Origin", "*")
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
 	abjad := dervaze.UnicodeToAbjad(vars["word"])
@@ -351,6 +361,7 @@ func JSONCalcAbjad(w http.ResponseWriter, r *http.Request) {
 // ```
 //
 func JSONV2U(w http.ResponseWriter, r *http.Request) {
+	w.Header().Add("Access-Control-Allow-Origin", "*")
 	vars := mux.Vars(r)
 	log.Printf("JsonV2U Vars: %s", vars)
 	unicode := dervaze.VisencToUnicode(vars["word"])
@@ -369,6 +380,7 @@ func JSONV2U(w http.ResponseWriter, r *http.Request) {
 // ```
 //
 func JSONU2V(w http.ResponseWriter, r *http.Request) {
+	w.Header().Add("Access-Control-Allow-Origin", "*")
 	vars := mux.Vars(r)
 	log.Printf("JsonU2V Vars: %s", vars)
 	visenc := dervaze.UnicodeToVisenc(vars["word"])
