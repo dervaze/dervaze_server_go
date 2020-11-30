@@ -4,6 +4,7 @@ import (
 	dervaze "dervaze/lang"
 	"os/exec"
 	"strconv"
+	"strings"
 
 	// "encoding/json"
 	"flag"
@@ -394,7 +395,9 @@ func JSONVersion(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	out, err := exec.Command("git", "log", "--summary", "--max-count", "1").Output()
 	if err == nil {
-		fmt.Fprintln(w, "", string(out))
+		head := strings.Split(strings(out), "\n")
+		head = head[:3]
+		fmt.Fprintln(w, "", strings.Join(head, "\n"))
 	} else {
 		fmt.Fprintln(w, "", string(err.Error()))
 	}
