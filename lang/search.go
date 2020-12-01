@@ -170,7 +170,7 @@ func PrefixSearchTurkishLatin(turkishLatin string, maxLen int) []*Root {
 
 	results = filterResults(results)
 	results = sortByLength(results)
-	if maxLen > len(results) {
+	if maxLen < len(results) {
 		results = results[:maxLen]
 	}
 
@@ -199,7 +199,7 @@ func PrefixSearchVisenc(visenc string, maxLen int) []*Root {
 
 	results = filterResults(results)
 	results = sortByLength(results)
-	if maxLen > len(results) {
+	if maxLen < len(results) {
 		results = results[:maxLen]
 	}
 
@@ -228,7 +228,7 @@ func PrefixSearchUnicode(unicode string, maxLen int) []*Root {
 
 	results = filterResults(results)
 	results = sortByLength(results)
-	if maxLen > len(results) {
+	if maxLen < len(results) {
 		results = results[:maxLen]
 	}
 
@@ -254,7 +254,7 @@ func PrefixSearchAll(term string, maxLen int) []*Root {
 
 	results = filterResults(results)
 	results = sortByLength(results)
-	if maxLen > len(results) {
+	if maxLen < len(results) {
 		results = results[:maxLen]
 	}
 
@@ -318,7 +318,7 @@ func RegexSearchTurkishLatin(word string, maxLen int) []*Root {
 
 	results = filterResults(results)
 	results = sortByLength(results)
-	if maxLen > len(results) {
+	if maxLen < len(results) {
 		results = results[:maxLen]
 	}
 
@@ -349,7 +349,7 @@ func RegexSearchUnicode(word string, maxLen int) []*Root {
 
 	results = filterResults(results)
 	results = sortByLength(results)
-	if maxLen > len(results) {
+	if maxLen < len(results) {
 		results = results[:maxLen]
 	}
 
@@ -381,7 +381,7 @@ func RegexSearchVisenc(word string, maxLen int) []*Root {
 
 	results = filterResults(results)
 	results = sortByLength(results)
-	if maxLen > len(results) {
+	if maxLen < len(results) {
 		results = results[:maxLen]
 	}
 
