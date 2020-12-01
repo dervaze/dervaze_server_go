@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 
@@ -72,6 +73,31 @@ func buildAbjadIndex(roots []*Root) *map[int32][]int {
 	return &m
 }
 
+// filterResults filters the identical elements by checking TurkishLatin and Unicode
+func filterResults(roots []*Root) []*Root {
+	theSet := map[string]*Root{}
+	outList := make([]*Root, 0, len(roots))
+
+	for _, r := range roots {
+		k := r.TurkishLatin + r.Ottoman.Unicode
+		_, exists := theSet[k]
+		if !exists {
+			theSet[k] = r
+			outList = append(outList, r)
+		}
+	}
+	return outList
+}
+
+// sorts roots by length of TurkishLatin
+func sortByLength(roots []*Root) []*Root {
+	sort.Slice(roots, func(i, j int) bool {
+		return len(roots[i].TurkishLatin) < len(roots[j].TurkishLatin)
+	})
+	return roots
+}
+
+// InitSearch loads protobuf file and builds Trie and []string indices for turkishLatin, visenc and unicode
 func InitSearch(protobuffile string) {
 	rootSet = LoadRootSetProtobuf(protobuffile)
 
@@ -118,7 +144,7 @@ func GetAbjadIndex() *map[int32][]int {
 	return abjadIndex
 }
 
-func PrefixSearchTurkishLatin(turkishLatin string) []*Root {
+func PrefixSearchTurkishLatin(turkishLatin string, maxLen int) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
 		i, ok := item.(int)
@@ -132,14 +158,22 @@ func PrefixSearchTurkishLatin(turkishLatin string) []*Root {
 
 	}
 	turkishLatinTrie.VisitSubtree(patricia.Prefix(turkishLatin), visitFunc)
+
+	results = filterResults(results)
+	results = sortByLength(results)
+	if maxLen > len(results) {
+		results = results[:maxLen]
+	}
+
 	return results
 }
 
+// PrefixSearchTurkishLatinExact returns a single Root where Root.TurkishLatin == turkishLatin
 func PrefixSearchTurkishLatinExact(turkishLatin string) []*Root {
-	return PrefixSearchTurkishLatin(turkishLatin + "#")
+	return PrefixSearchTurkishLatin(turkishLatin+"#", 1)
 }
 
-func PrefixSearchVisenc(visenc string) []*Root {
+func PrefixSearchVisenc(visenc string, maxLen int) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
 		i, ok := item.(int)
@@ -153,14 +187,20 @@ func PrefixSearchVisenc(visenc string) []*Root {
 	}
 	visencTrie.VisitSubtree(patricia.Prefix(visenc), visitFunc)
 
+	results = filterResults(results)
+	results = sortByLength(results)
+	if maxLen > len(results) {
+		results = results[:maxLen]
+	}
+
 	return results
 }
 
 func PrefixSearchVisencExact(visenc string) []*Root {
-	return PrefixSearchVisenc(visenc + "#")
+	return PrefixSearchVisenc(visenc+"#", 1)
 }
 
-func PrefixSearchUnicode(unicode string) []*Root {
+func PrefixSearchUnicode(unicode string, maxLen int) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
 		i, ok := item.(int)
@@ -174,23 +214,35 @@ func PrefixSearchUnicode(unicode string) []*Root {
 	}
 	unicodeTrie.VisitSubtree(patricia.Prefix(unicode), visitFunc)
 
+	results = filterResults(results)
+	results = sortByLength(results)
+	if maxLen > len(results) {
+		results = results[:maxLen]
+	}
+
 	return results
 }
 
 func PrefixSearchUnicodeExact(unicode string) []*Root {
-	return PrefixSearchUnicode(unicode + "#")
+	return PrefixSearchUnicode(unicode+"#", 1)
 }
 
-func PrefixSearchAll(term string) []*Root {
+func PrefixSearchAll(term string, maxLen int) []*Root {
 	results := make([]*Root, 0)
 	val, err := strconv.Atoi(term)
 	if err == nil {
-		results = append(results, IndexSearchAbjad(int32(val))...)
+		results = append(results, IndexSearchAbjad(int32(val), maxLen)...)
 	}
 
-	results = append(results, PrefixSearchTurkishLatin(term)...)
-	results = append(results, PrefixSearchUnicode(term)...)
-	results = append(results, PrefixSearchVisenc(term)...)
+	results = append(results, PrefixSearchTurkishLatin(term, maxLen)...)
+	results = append(results, PrefixSearchUnicode(term, maxLen)...)
+	results = append(results, PrefixSearchVisenc(term, maxLen)...)
+
+	results = filterResults(results)
+	results = sortByLength(results)
+	if maxLen > len(results) {
+		results = results[:maxLen]
+	}
 
 	return results
 }
@@ -226,7 +278,7 @@ func indexRegexSearch(keylist []string, r *regexp.Regexp) []*Root {
 	return roots
 }
 
-func RegexSearchTurkishLatin(word string) []*Root {
+func RegexSearchTurkishLatin(word string, maxLen int) []*Root {
 
 	runes := []rune(word)
 	var sb strings.Builder
@@ -247,10 +299,16 @@ func RegexSearchTurkishLatin(word string) []*Root {
 		results = append(results, docResults...)
 	}
 
+	results = filterResults(results)
+	results = sortByLength(results)
+	if maxLen > len(results) {
+		results = results[:maxLen]
+	}
+
 	return results
 }
 
-func RegexSearchUnicode(word string) []*Root {
+func RegexSearchUnicode(word string, maxLen int) []*Root {
 
 	runes := []rune(word)
 	var sb strings.Builder
@@ -271,10 +329,16 @@ func RegexSearchUnicode(word string) []*Root {
 		results = append(results, docResults...)
 	}
 
+	results = filterResults(results)
+	results = sortByLength(results)
+	if maxLen > len(results) {
+		results = results[:maxLen]
+	}
+
 	return results
 }
 
-func RegexSearchVisenc(word string) []*Root {
+func RegexSearchVisenc(word string, maxLen int) []*Root {
 
 	visencLetters := SplitVisenc(word, false)
 
@@ -296,25 +360,31 @@ func RegexSearchVisenc(word string) []*Root {
 		results = append(results, docResults...)
 	}
 
+	results = filterResults(results)
+	results = sortByLength(results)
+	if maxLen > len(results) {
+		results = results[:maxLen]
+	}
+
 	return results
 }
 
-func RegexSearchAuto(word string) []*Root {
+func RegexSearchAuto(word string, maxLen int) []*Root {
 
 	if ContainsArabicChars(word) {
-		return RegexSearchUnicode(word)
+		return RegexSearchUnicode(word, maxLen)
 	} else if ContainsDigits(word) {
 		if val, err := strconv.Atoi(word); err == nil {
-			return IndexSearchAbjad(int32(val))
+			return IndexSearchAbjad(int32(val), maxLen)
 		} else {
-			return RegexSearchVisenc(word)
+			return RegexSearchVisenc(word, maxLen)
 		}
 	} else {
-		return RegexSearchTurkishLatin(word)
+		return RegexSearchTurkishLatin(word, maxLen)
 	}
 }
 
-func IndexSearchAbjad(abjad int32) []*Root {
+func IndexSearchAbjad(abjad int32, maxLen int) []*Root {
 
 	indices, exists := (*abjadIndex)[abjad]
 
@@ -326,6 +396,12 @@ func IndexSearchAbjad(abjad int32) []*Root {
 
 	for i, v := range indices {
 		roots[i] = rootSet.Roots[v]
+	}
+
+	roots = filterResults(roots)
+	roots = sortByLength(roots)
+	if maxLen > len(roots) {
+		roots = roots[:maxLen]
 	}
 
 	return roots
