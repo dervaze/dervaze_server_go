@@ -1,12 +1,14 @@
 package lang
 
 import (
-	"github.com/golang/protobuf/proto"
 	"io/ioutil"
 	"log"
 	"os"
+
+	"github.com/golang/protobuf/proto"
 )
 
+// SaveRootSetProtobuf saves rootset to a filename
 func SaveRootSetProtobuf(filename string, rootset *RootSet) {
 	// t := time.Now().Format("2006-01-02-03-04-05")
 	// filename := fmt.Sprintf("dervaze-roots-%s.bin", t)
@@ -69,6 +71,7 @@ func SaveRootSetProtobuf(filename string, rootset *RootSet) {
 	// log.Printf("%s: Wrote %d bytes.\n", filename, totalBytes)
 }
 
+// LoadRootSetProtobuf loads protobuffer file
 func LoadRootSetProtobuf(filename string) *RootSet {
 
 	byteSlice, err := ioutil.ReadFile(filename)

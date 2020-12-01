@@ -112,38 +112,47 @@ func InitSearch(protobuffile string) {
 	abjadIndex = buildAbjadIndex(rootSet.Roots)
 }
 
+// GetRootSet returns the rootSet whole package uses
 func GetRootSet() *RootSet {
 	return rootSet
 }
 
+// GetTurkishLatinTrie returns a trie keeping turkishLatin roots
 func GetTurkishLatinTrie() *patricia.Trie {
 	return turkishLatinTrie
 }
 
+// GetVisencTrie returns a trie keeping visenc of roots
 func GetVisencTrie() *patricia.Trie {
 	return visencTrie
 }
 
+// GetUnicodeTrie returns a trie for unicode roots
 func GetUnicodeTrie() *patricia.Trie {
 	return unicodeTrie
 }
 
+// GetTurkishLatinIndex returns turkishLatinIndex
 func GetTurkishLatinIndex() *map[rune][]string {
 	return turkishLatinIndex
 }
 
+// GetVisencIndex returns visencIndex
 func GetVisencIndex() *map[rune][]string {
 	return visencIndex
 }
 
+// GetUnicodeIndex returns unicode index
 func GetUnicodeIndex() *map[rune][]string {
 	return unicodeIndex
 }
 
+// GetAbjadIndex returns index of all roots sharing common abjad value
 func GetAbjadIndex() *map[int32][]int {
 	return abjadIndex
 }
 
+// PrefixSearchTurkishLatin returns list of roots whose TurkishLatin begins with `turkishLatin`
 func PrefixSearchTurkishLatin(turkishLatin string, maxLen int) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
@@ -173,6 +182,7 @@ func PrefixSearchTurkishLatinExact(turkishLatin string) []*Root {
 	return PrefixSearchTurkishLatin(turkishLatin+"#", 1)
 }
 
+// PrefixSearchVisenc returns list of roots whose Visenc starts with `visenc`
 func PrefixSearchVisenc(visenc string, maxLen int) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
@@ -196,10 +206,12 @@ func PrefixSearchVisenc(visenc string, maxLen int) []*Root {
 	return results
 }
 
+// PrefixSearchVisencExact returns a maximum of 10 Root having Visenc = `visenc`
 func PrefixSearchVisencExact(visenc string) []*Root {
-	return PrefixSearchVisenc(visenc+"#", 1)
+	return PrefixSearchVisenc(visenc+"#", 10)
 }
 
+// PrefixSearchUnicode searches roots by unicode string
 func PrefixSearchUnicode(unicode string, maxLen int) []*Root {
 	results := make([]*Root, 0)
 	visitFunc := func(_ patricia.Prefix, item patricia.Item) error {
@@ -223,10 +235,12 @@ func PrefixSearchUnicode(unicode string, maxLen int) []*Root {
 	return results
 }
 
+//PrefixSearchUnicodeExact returns maximum 10 roots with having a prefix unicode
 func PrefixSearchUnicodeExact(unicode string) []*Root {
-	return PrefixSearchUnicode(unicode+"#", 1)
+	return PrefixSearchUnicode(unicode+"#", 10)
 }
 
+// PrefixSearchAll runs PrefixSearchTurkishLatin, PrefixSearchUnicode, PrefixSearchVisenc, IndexSearchAbjad and combines results.
 func PrefixSearchAll(term string, maxLen int) []*Root {
 	results := make([]*Root, 0)
 	val, err := strconv.Atoi(term)
@@ -250,7 +264,8 @@ func PrefixSearchAll(term string, maxLen int) []*Root {
 func splitRootKeyFromIndex(k string) (int, error) {
 	elements := strings.Split(k, "#")
 	if len(elements) != 2 {
-		return -1, errors.New(fmt.Sprintf("Malformed Index String %s", k))
+
+		return -1, fmt.Errorf("Malformed Index String %s", k)
 	}
 
 	i, err := strconv.Atoi(elements[1])
@@ -278,6 +293,8 @@ func indexRegexSearch(keylist []string, r *regexp.Regexp) []*Root {
 	return roots
 }
 
+// RegexSearchTurkishLatin searches word in the string index via regexes.
+// `word` is searched as `.?w.?o.?r.?d.?`
 func RegexSearchTurkishLatin(word string, maxLen int) []*Root {
 
 	runes := []rune(word)
@@ -308,6 +325,7 @@ func RegexSearchTurkishLatin(word string, maxLen int) []*Root {
 	return results
 }
 
+// RegexSearchUnicode searches `word` in unicode indices
 func RegexSearchUnicode(word string, maxLen int) []*Root {
 
 	runes := []rune(word)
@@ -338,6 +356,7 @@ func RegexSearchUnicode(word string, maxLen int) []*Root {
 	return results
 }
 
+// RegexSearchVisenc searches word in visencIndices
 func RegexSearchVisenc(word string, maxLen int) []*Root {
 
 	visencLetters := SplitVisenc(word, false)
@@ -369,6 +388,7 @@ func RegexSearchVisenc(word string, maxLen int) []*Root {
 	return results
 }
 
+// RegexSearchAuto searches word in either of RegexSearchUnicode, RegexSearchTurkishLatin, RegexSearchVisenc and IndexSearchAbjad
 func RegexSearchAuto(word string, maxLen int) []*Root {
 
 	if ContainsArabicChars(word) {
@@ -376,14 +396,13 @@ func RegexSearchAuto(word string, maxLen int) []*Root {
 	} else if ContainsDigits(word) {
 		if val, err := strconv.Atoi(word); err == nil {
 			return IndexSearchAbjad(int32(val), maxLen)
-		} else {
-			return RegexSearchVisenc(word, maxLen)
 		}
-	} else {
-		return RegexSearchTurkishLatin(word, maxLen)
+		return RegexSearchVisenc(word, maxLen)
 	}
+	return RegexSearchTurkishLatin(word, maxLen)
 }
 
+// IndexSearchAbjad searches returns list roots containing `abjad` as value
 func IndexSearchAbjad(abjad int32, maxLen int) []*Root {
 
 	indices, exists := (*abjadIndex)[abjad]
@@ -407,6 +426,7 @@ func IndexSearchAbjad(abjad int32, maxLen int) []*Root {
 	return roots
 }
 
+// PrintRoots returns roots' TurkishLatin, Unicode, Visenc and Abjad as a single string
 func PrintRoots(roots []*Root) string {
 	out := ""
 	for i, r := range roots {

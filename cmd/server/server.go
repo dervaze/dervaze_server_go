@@ -20,6 +20,9 @@ import (
 	// "google.golang.org/protobuf/proto"
 )
 
+// MAXRESULTLEN shows the maximum number of elements returned from searches
+const MAXRESULTLEN = 20
+
 func transformRoots(roots []*dervaze.Root, transformer func(*dervaze.Root) *dervaze.Root) *dervaze.RootSet {
 	out := make([]*dervaze.Root, len(roots))
 
@@ -64,7 +67,7 @@ func JSONPrefixTr(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	roots := dervaze.RegexSearchTurkishLatin(vars["word"])
+	roots := dervaze.RegexSearchTurkishLatin(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -95,7 +98,7 @@ func JSONPrefixOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	roots := dervaze.RegexSearchUnicode(vars["word"])
+	roots := dervaze.RegexSearchUnicode(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -211,7 +214,7 @@ func JSONSearchTr(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.RegexSearchTurkishLatin(vars["word"])
+	roots := dervaze.RegexSearchTurkishLatin(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -237,7 +240,7 @@ func JSONSearchOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.RegexSearchUnicode(vars["word"])
+	roots := dervaze.RegexSearchUnicode(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -266,7 +269,7 @@ func JSONSearchAuto(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.RegexSearchAuto(vars["word"])
+	roots := dervaze.RegexSearchAuto(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -316,7 +319,7 @@ func JSONExactAbjad(w http.ResponseWriter, r *http.Request) {
 	val, err := strconv.Atoi(vars["word"])
 	var roots []*dervaze.Root
 	if err == nil {
-		roots = dervaze.IndexSearchAbjad(int32(val))
+		roots = dervaze.IndexSearchAbjad(int32(val), MAXRESULTLEN)
 	} else {
 		log.Printf("Error in SearchAbjad parameter: %s", vars["word"])
 		roots = make([]*dervaze.Root, 0)

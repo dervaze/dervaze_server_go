@@ -5,9 +5,10 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/text/unicode/norm"
 	"log"
 	"unicode/utf8"
+
+	"golang.org/x/text/unicode/norm"
 )
 
 // MakeRoot builds a Root from Latin and Visenc spelling of a word by automatically filling other information
@@ -52,20 +53,20 @@ func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 		return nil, errors.New("Need either visenc or ottoman")
 	}
 
-	var clean_visenc string
+	var cleanVisenc string
 	if len(visenc) == 0 {
-		clean_visenc = UnicodeToVisenc(unicode)
+		cleanVisenc = UnicodeToVisenc(unicode)
 	} else {
-		clean_visenc = regexp.MustCompile("[^a-z0-9 |<>]+").ReplaceAllLiteralString(visenc, "")
-		if clean_visenc != visenc {
-			log.Printf("Cleaned Visenc %s -> %s", visenc, clean_visenc)
+		cleanVisenc = regexp.MustCompile("[^a-z0-9 |<>]+").ReplaceAllLiteralString(visenc, "")
+		if cleanVisenc != visenc {
+			log.Printf("Cleaned Visenc %s -> %s", visenc, cleanVisenc)
 		}
 	}
 
 	var normalized string
 
 	if len(unicode) == 0 {
-		normalized = norm.NFKC.String(VisencToUnicode(clean_visenc))
+		normalized = norm.NFKC.String(VisencToUnicode(cleanVisenc))
 	} else {
 		normalized = norm.NFKC.String(unicode)
 	}
@@ -74,18 +75,18 @@ func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 		log.Printf("Invalid UTF-8 for Unicode: %s", normalized)
 	}
 
-	if !utf8.ValidString(clean_visenc) {
-		log.Printf("Invalid UTF-8 for Visenc: %s", clean_visenc)
+	if !utf8.ValidString(cleanVisenc) {
+		log.Printf("Invalid UTF-8 for Visenc: %s", cleanVisenc)
 	}
 
-	abjad := VisencToAbjad(clean_visenc)
+	abjad := VisencToAbjad(cleanVisenc)
 
-	searchKey := SearchKey(clean_visenc)
+	searchKey := SearchKey(cleanVisenc)
 
-	dotlessSearchKey := DotlessSearchKey(clean_visenc)
+	dotlessSearchKey := DotlessSearchKey(cleanVisenc)
 
 	return &OttomanWord{
-		Visenc:           clean_visenc,
+		Visenc:           cleanVisenc,
 		Unicode:          normalized,
 		Abjad:            abjad,
 		SearchKey:        searchKey,
@@ -182,7 +183,7 @@ func SplitVisenc(s string, addInvalidLetters bool) []string {
 	return group
 }
 
-// Checks whether the string contains unicode runes between 0600 and 06FF
+// ContainsArabicChars checks whether the string contains unicode runes between 0600 and 06FF
 func ContainsArabicChars(s string) bool {
 	for _, r := range s {
 		if r >= 0x0600 && r <= 0x06FF {
@@ -192,6 +193,7 @@ func ContainsArabicChars(s string) bool {
 	return false
 }
 
+// ContainsDigits returns true if `s` contains any digits
 func ContainsDigits(s string) bool {
 	for _, r := range s {
 		if r >= 0x0030 && r <= 0x0039 {
