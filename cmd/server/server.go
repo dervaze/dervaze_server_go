@@ -395,7 +395,7 @@ func JSONVersion(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	out, err := exec.Command("git", "log", "--summary", "--max-count", "1").Output()
 	if err == nil {
-		head := strings.Split(strings(out), "\n")
+		head := strings.Split(string(out), "\n")
 		head = head[:3]
 		fmt.Fprintln(w, "", strings.Join(head, "\n"))
 	} else {
