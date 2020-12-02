@@ -52,6 +52,30 @@ func marshalRoots(outputRootSet *dervaze.RootSet) (string, error) {
 	return "", err
 }
 
+// validSearchCharacters defines all characters accepted for search
+var validSearchCharacters = []rune(dervaze.AllSearchableArabic + dervaze.AllSearchableLatin)
+var validSearchCharMap = make(map[rune]rune, len(validSearchCharacters))
+var validSearchMapInit = false
+
+func cleanUpSearchString(s string) string {
+	if !validSearchMapInit {
+		for _, r := range validSearchCharacters {
+			validSearchCharMap[r] = r
+		}
+	}
+
+	sb := strings.Builder{}
+
+	for _, r := range []rune(s) {
+		if _, exists := validSearchCharMap[r]; exists {
+			sb.WriteRune(r)
+		}
+	}
+
+	return sb.String()
+
+}
+
 // JSONPrefixTr makes a prefix search with the word
 // ## `/v1/json/prefix/tr/{word}
 //

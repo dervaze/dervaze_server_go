@@ -4,7 +4,8 @@ import (
 	"regexp"
 )
 
-var visencToUnicode = map[string]string{
+// VisencToUnicodeMap is the correspondence table for visenc to unicode
+var VisencToUnicodeMap = map[string]string{
 	"c":   "ء",
 	"eo6": "آ",
 	// "A": "آ",
@@ -112,7 +113,8 @@ var visencToUnicode = map[string]string{
 	"u5":     "\u0655",
 }
 
-var unicodeToVisenc = map[string]string{
+// UnicodeToVisencMap shows correspondence between visenc and unicode
+var UnicodeToVisencMap = map[string]string{
 	"ء": "c",
 	"آ": "eo6",
 	// "آ": "A",
@@ -219,7 +221,15 @@ var unicodeToVisenc = map[string]string{
 	"\u0655": "u5",
 }
 
-var visencToAbjad = map[string]int32{
+// AllSearchableArabic defines the characters accepted for search for Arabic strings
+const AllSearchableArabic = `ءآاأإبپتثجچحخدذرزژسشصضطظعغفقكکگڭلمنوؤهەةیىيئ۰۱۲۳۴۵۶۷۸۹
+\u200C\u064E\u0650\u064F\u064D\u064B\u064C\u0651\u0652\u0653 \u0679\u0654\u0655`
+
+// AllSearchableLatin defines the characters accepted for search for Latin strings
+const AllSearchableLatin = `abcçdefgğhıijklmnoöprsştuüvyzxwqABCÇDEFGĞHIIJKLMNOÖPRSŞTUÜVYZXWQ1234567890 `
+
+// VisencToAbjadMap shows abjad numerals for each visenc
+var VisencToAbjadMap = map[string]int32{
 	"e":   1,
 	"bu1": 2,
 	"bu3": 2,
