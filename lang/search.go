@@ -419,7 +419,7 @@ func IndexSearchAbjad(abjad int32, maxLen int) []*Root {
 
 	roots = filterResults(roots)
 	roots = sortByLength(roots)
-	if maxLen > len(roots) {
+	if maxLen < len(roots) {
 		roots = roots[:maxLen]
 	}
 
