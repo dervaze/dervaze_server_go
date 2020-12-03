@@ -112,7 +112,7 @@ func VisencToUnicode(s string) string {
 
 	out := ""
 	for _, v := range visenc {
-		out += visencToUnicode[v]
+		out += VisencToUnicodeMap[v]
 	}
 	return out
 }
@@ -122,7 +122,7 @@ func UnicodeToVisenc(s string) string {
 	out := ""
 
 	for _, u := range s {
-		v, exists := unicodeToVisenc[string(u)]
+		v, exists := UnicodeToVisencMap[string(u)]
 		if exists {
 			out += v
 		}
@@ -137,7 +137,7 @@ func VisencToAbjad(s string) int32 {
 	visencLetters := SplitVisenc(cleaned, false)
 	var out int32 = 0
 	for _, v := range visencLetters {
-		value, exists := visencToAbjad[v]
+		value, exists := VisencToAbjadMap[v]
 		if exists {
 			out += value
 		}
@@ -160,7 +160,7 @@ func SplitVisenc(s string, addInvalidLetters bool) []string {
 	group := make([]string, 0, len(r))
 
 	for start < rlen {
-		_, exists := visencToUnicode[string(r[start:end])]
+		_, exists := VisencToUnicodeMap[string(r[start:end])]
 		if exists {
 			group = append(group, string(r[start:end]))
 			start = end
