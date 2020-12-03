@@ -420,7 +420,7 @@ func JSONU2V(w http.ResponseWriter, r *http.Request) {
 // JSONVersion sends git version information
 func JSONVersion(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
-	out, err := exec.Command("git", "log", "--summary", "--max-count", "1").Output()
+	out, err := exec.Command("git", "log", "--oneline", "--max-count", "1").Output()
 	if err == nil {
 		head := strings.Split(string(out), "\n")
 		head = head[:3]
