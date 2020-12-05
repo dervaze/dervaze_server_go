@@ -307,7 +307,27 @@ func TestLastVowelHard(t *testing.T) {
 }
 
 // func EffectiveLastVowel(s string) string {
-func TestEffectiveLastVowel(t *testing.T) { t.Fail() }
+func TestEffectiveLastVowel(t *testing.T) {
+	testDict := map[string]string{
+		"kalas":  "a",
+		"hâl":    "i",
+		"nihâl":  "i",
+		"nihâle": "e",
+		"fitr":   "i",
+		"fikir":  "i",
+		"sağır":  "ı",
+		"sağîr":  "i",
+		"dûn":    "u",
+		"duhûl":  "ü"}
+
+	for w, lv := range testDict {
+		if r := EffectiveLastVowel(w); r != lv {
+			t.Log(fmt.Sprintf("Fails for %s -> %s -- returns %s", w, lv, r))
+			t.Fail()
+		}
+	}
+
+}
 
 // func LastVowel(s string) string {
 func TestLastVowel(t *testing.T) {
@@ -346,5 +366,28 @@ func TestLastConsonant(t *testing.T) {
 	}
 }
 
+func runUEST(r1, r2 Root, t *testing.T) {
+
+	if r1.EffectiveVisenc != r2.EffectiveVisenc {
+		t.Log(fmt.Sprintf("Fails for %s != %s", r1.EffectiveVisenc, r2.EffectiveVisenc))
+		t.Fail()
+	}
+
+	if r1.EffectiveTurkishLatin != r2.EffectiveTurkishLatin {
+		t.Log(fmt.Sprintf("Fails for %s != %s", r1.EffectiveTurkishLatin, r2.EffectiveTurkishLatin))
+		t.Fail()
+	}
+}
+
 // func UpdateEffectiveSoftening(r *Root) {
-func TestUpdateEffectiveSoftening(t *testing.T) { t.Fail() }
+func TestUpdateEffectiveSoftening(t *testing.T) {
+
+	runUEST(MakeRoot("salağ", "zeleao1", PartOfSpeech_NOUN),
+		MakeRoot("salak", "zelefo2", PartOfSpeech_NOUN), t)
+
+	runUEST(MakeRoot("malağ", "meleao1", PartOfSpeech_NOUN),
+		MakeRoot("malak", "melefo2", PartOfSpeech_NOUN), t)
+
+	runUEST(MakeRoot("yalağ", "yeleao1", PartOfSpeech_NOUN),
+		MakeRoot("yalak", "yelefo2", PartOfSpeech_NOUN), t)
+}

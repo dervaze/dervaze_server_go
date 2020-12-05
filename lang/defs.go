@@ -269,8 +269,8 @@ var VisencToAbjadMap = map[string]int32{
 const VOWELS = "aâeıioöuûü"
 
 var vowelRegex *regexp.Regexp = regexp.MustCompile(`[aeıioöuüâîûAEIİOÖUÜÂÎÛ]`)
-var ultimateVowelRegex *regexp.Regexp = regexp.MustCompile(`.*([aâeıiîoöuüû])[^aâeıiîoöuüû]*$`)
-var ultimateConsonantRegex *regexp.Regexp = regexp.MustCompile(`.*([^aâeıiîoöuüû])[aâeıiîoöuüû]*$`)
+var ultimateVowelRegex *regexp.Regexp = regexp.MustCompile(`([aâeıiîoöuüû])[^aâeıiîoöuüû]*$`)
+var ultimateConsonantRegex *regexp.Regexp = regexp.MustCompile(`([^aâeıiîoöuüû])[aâeıiîoöuüû]*$`)
 var vowelsRegex *regexp.Regexp = regexp.MustCompile(`([aâeıiîoöuüû])`)
 var consonantsRegex *regexp.Regexp = regexp.MustCompile(`([bcçdfgğhjklmnpqrsştvwyxz])`)
 var endsWithVowelRegex *regexp.Regexp = regexp.MustCompile(`.*[aeıioöuüâûî][']?$`)

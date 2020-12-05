@@ -239,12 +239,20 @@ func EffectiveLastVowel(s string) string {
 
 // LastVowel returns the last vowel of a word
 func LastVowel(s string) string {
-	return ultimateVowelRegex.FindString(s)
+	m := ultimateVowelRegex.FindAllStringSubmatch(s, -1)
+	if len(m) > 0 {
+		return m[0][1]
+	}
+	return ""
 }
 
 // LastConsonant returns the last consonant of a word
 func LastConsonant(s string) string {
-	return ultimateConsonantRegex.FindString(s)
+	m := ultimateConsonantRegex.FindAllStringSubmatch(s, -1)
+	if len(m) > 0 {
+		return m[0][1]
+	}
+	return ""
 }
 
 // UpdateEffectiveSoftening updates the EffectiveTurkishLatin, EffectiveVisenc and HasConsonantSoftening by checking suffixes for spelling
