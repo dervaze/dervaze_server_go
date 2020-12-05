@@ -24,10 +24,10 @@ func readCSVFile(filename string, pos dervaze.PartOfSpeech) []*dervaze.Root {
 		log.Println(err)
 	}
 
-	roots := make([]*dervaze.Root, 0)
+	roots := make([]*dervaze.Root, 0, len(records))
 
 	for i, record := range records {
-		if len(record) == 2 {
+		if len(record) >= 2 {
 			latin := record[0]
 			visenc := record[1]
 			root := dervaze.MakeRoot(latin, visenc, pos)
