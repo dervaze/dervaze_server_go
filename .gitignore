@@ -50,5 +50,6 @@ Thumbs.db
 
 
 assets/dervaze-roots.protobuf
-assets/dervaze-rootset.protobuf
+assets/dervaze-rootset*
+assets/dervaze-suffixset*
 dervaze-rootset.protobuf
