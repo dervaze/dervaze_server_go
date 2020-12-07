@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/golang/protobuf/pbjson"
+	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 )
 
@@ -21,13 +21,19 @@ func SaveSuffixSetJSON(filename string, suffixset *SuffixSet) {
 	}
 	defer file.Close()
 
-	jsonString, err := pbjson.Marshal(suffixset)
+	marshaler := jsonpb.Marshaler{
+		OrigName:     false,
+		EnumsAsInts:  false,
+		EmitDefaults: true,
+		Indent:       "  ",
+	}
+	jsonString, err := marshaler.MarshalToString(suffixset)
 
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	bytesWritten, err := file.Write(jsonString)
+	bytesWritten, err := file.WriteString(jsonString)
 
 	if err != nil {
 		log.Fatal(err)
@@ -48,14 +54,20 @@ func SaveRootSetJSON(filename string, rootset *RootSet) {
 		log.Fatal(err)
 	}
 	defer file.Close()
+	marshaler := jsonpb.Marshaler{
+		OrigName:     false,
+		EnumsAsInts:  false,
+		EmitDefaults: true,
+		Indent:       "  ",
+	}
 
-	jsonString, err := pbjson.Marshal(rootset)
+	jsonString, err := marshaler.MarshalToString(rootset)
 
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	bytesWritten, err := file.Write(jsonString)
+	bytesWritten, err := file.WriteString(jsonString)
 
 	if err != nil {
 		log.Fatal(err)
