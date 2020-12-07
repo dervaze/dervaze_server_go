@@ -13,8 +13,8 @@ import (
 )
 
 // readRecord reads a single line of CSV and returns a Root type
-func readRecord(record []string, pos dervaze.PartOfSpeech) *Root {
-	if records[0][0] == '#' {
+func readRecord(record []string, pos dervaze.PartOfSpeech) *dervaze.Root {
+	if record[0][0] == '#' {
 		return nil
 	}
 
@@ -45,7 +45,7 @@ func readCSVFile(filename string, pos dervaze.PartOfSpeech) []*dervaze.Root {
 		if r := readRecord(record, pos); r != nil {
 			roots = append(roots, r)
 		} else {
-			log.Println("Record error in %s line %d - %s", filename, i, record)
+			log.Printf("Record error in %s line %d - %s", filename, i, record)
 		}
 	}
 	return roots[:]
@@ -100,81 +100,87 @@ func generateSuffixData(rootset *dervaze.RootSet) (*dervaze.RootSet, *dervaze.Su
 
 	// generate map of roots
 
-	rootMap := make(map[string][]*Root, 0, len(roots))
-	suffixList := make([]int, 0, len(roots))
-	suffixes := make([]*Suffix, 0)
+	rootMap := make(map[string]([]*dervaze.Root), len(rootset.Roots))
+	suffixList := make([]int, 0, len(rootset.Roots))
+	suffixes := make([]*dervaze.Suffix, 0)
 
 	for i, r := range rootset.Roots {
 		if !strings.Contains(r.TurkishLatin, "_") {
-			ll, exists := rootMap[r.TurkishLatin]
+			_, exists := rootMap[r.TurkishLatin]
 			if !exists {
-				rootMap[r.TurkishLatin] = make([]*Root, 0, 5)
+				rootMap[r.TurkishLatin] = make([]*dervaze.Root, 0, 5)
 			}
 			rootMap[r.TurkishLatin] = append(rootMap[r.TurkishLatin], r)
 		} else {
 			suffixList = append(suffixList, i)
 		}
+	}
 
-		// for each element in the suffix list, generate a suffix record from corresponding root
+	// for each element in the suffix list, generate a suffix record by splitting root
 
-		for _, si := range suffixList {
-			s := rootset[si]
-			tr := s.TurkishLatin
-			ve := s.Ottoman.Visenc
+	for _, si := range suffixList {
+		s := rootset.Roots[si]
+		tr := s.TurkishLatin
+		ve := s.Ottoman.Visenc
 
-			tr_els := strings(tr, "_")
-			if len(tr_els) != 2 {
-				log.Println("Skipping suffixes for %s. Multiple or no suffix parts", tr)
-				continue
-			}
+		trEls := strings.Split(tr, "_")
+		if len(trEls) != 2 {
+			log.Printf("Skipping suffixes for %s. Multiple or no suffix parts", tr)
+			continue
+		}
 
-			tr_root := tr_els[0]
-			tr_suffix := tr_els[1]
+		trRoot := trEls[0]
+		trSuffix := trEls[1]
 
-			tr_root_orig, exists := rootMap[tr_root]
-			if !exists {
-				log.Println("No orig root for %s found", tr)
-			}
+		trRootOrig, exists := rootMap[trRoot]
+		if !exists {
+			log.Printf("No orig root for %s found", tr)
+		}
 
-			for j, tro := range tr_root_orig {
-				if strings.HasPrefix(ve, tro.Ottoman.Visenc) {
-					log.Println("Found orig root for %s - %s => %s - %s", tr, ve, tro.TurkishLatin, tro.Ottoman.Visenc)
-					ve_suffix := strings.TrimPrefix(ve, tro.Ottoman.Visenc)
-					log.Println("Suffix Correspondence: %s - %s", tr_suffix, ve_suffix)
+		// for all visenc candidates, check if any of them has the same prefix with our current visenc word
 
-					suffixPOS := s.PartOfSpeech
-					suffixRLV := tro.LastVowel
-					// we don't have Req_MAYBE here because we need more than one example for that
-					var suffixREWV Req
-					if tro.EndsWithVowel {
-						suffixREWV = dervaze.Req_ALWAYS
-					} else {
-						suffixREWV = dervaze.Req_NEVER
-					}
+		for _, tro := range trRootOrig {
+			if strings.HasPrefix(ve, tro.Ottoman.Visenc) {
+				log.Printf("Found orig root for %s - %s => %s - %s", tr, ve, tro.TurkishLatin, tro.Ottoman.Visenc)
+				veSuffix := strings.TrimPrefix(ve, tro.Ottoman.Visenc)
+				log.Printf("Suffix Correspondence: %s - %s", trSuffix, veSuffix)
 
-					var suffixRHSV Req
+				suffixPOS := s.PartOfSpeech
+				suffixRLV := tro.LastVowel
+				// we don't have Req_MAYBE here because we need more than one example for that
+				var suffixREWV dervaze.Req
+				if tro.EndsWithVowel {
+					suffixREWV = dervaze.Req_ALWAYS
+				} else {
+					suffixREWV = dervaze.Req_NEVER
+				}
 
-					if tro.HasSingleVowel {
-						suffixRHSV = dervaze.Req_ALWAYS
-					} else {
-						suffixRHSV = dervaze.Req_NEVER
-					}
+				var suffixRHSV dervaze.Req
 
-					var suffixLCH Req
-					if tro.LastVowelHard {
-						suffixLCH = dervaze.Req_ALWAYS
-					} else {
-						suffixLCH = dervaze.Req_NEVER
-					}
+				if tro.HasSingleVowel {
+					suffixRHSV = dervaze.Req_ALWAYS
+				} else {
+					suffixRHSV = dervaze.Req_NEVER
+				}
 
-					suffixSLV := s.LastVowel
+				var suffixLCH dervaze.Req
+				if tro.LastVowelHard {
+					suffixLCH = dervaze.Req_ALWAYS
+				} else {
+					suffixLCH = dervaze.Req_NEVER
+				}
 
-					suffixCPOS := tro.PartOfSpeech
-					suffixEWV := s.EndsWithVowel
+				suffixSLV := s.LastVowel
 
-					suffix := Suffix{
-						TurkishLatin:              tr_suffix,
-						Ottoman:                   dervaze.MakeOttomanWord(ve_suffix, ""),
+				suffixCPOS := tro.PartOfSpeech
+				suffixEWV := s.EndsWithVowel
+
+				ot, err := dervaze.MakeOttomanWord(veSuffix, "")
+
+				if err == nil {
+					suffix := dervaze.Suffix{
+						TurkishLatin:              trSuffix,
+						Ottoman:                   ot,
 						MorphologicalClass:        "auto",
 						RequiredLastVowel:         suffixRLV,
 						RequiresPOS:               suffixPOS,
@@ -184,32 +190,33 @@ func generateSuffixData(rootset *dervaze.RootSet) (*dervaze.RootSet, *dervaze.Su
 						SetsLastVowelTo:           suffixSLV,
 						ConvertsPOSto:             suffixCPOS,
 						EndsWithVowel:             suffixEWV}
+					log.Printf("Adding suffix: %s", suffix.String())
+					suffixes = append(suffixes, &suffix)
+				} else {
+					log.Printf("Error in Ottoman Word: %s", err.Error())
+
 				}
 
-				log.Println("Adding suffix: %s", string(suffix))
-				suffixes = append(suffixes, &suffix)
 			}
 
 		}
 
-		// delete elements in suffix list from rootset by generating a new rootset
+	}
+	// delete elements in suffix list from rootset by generating a new rootset
 
-		only_roots := make([]*Root, 0, len(rootset.Roots))
+	onlyRoots := make([]*dervaze.Root, 0, len(rootset.Roots))
 
-		for _, root_list := range rootMap {
-			only_roots = append(only_roots, root_list...)
-		}
-
-		log.Println("Generated %d suffixes", len(suffixes))
-		log.Println("Roots now has %d elements", len(only_roots))
-
-		suffixSet := SuffixSet{Suffixes: suffixes}
-		newRootSet := RootSet{Roots: only_roots}
-
-		return &newRootSet, &suffixSet
-
+	for _, rootList := range rootMap {
+		onlyRoots = append(onlyRoots, rootList...)
 	}
 
+	log.Printf("Generated %d suffixes", len(suffixes))
+	log.Printf("Roots now has %d elements", len(onlyRoots))
+
+	suffixSet := dervaze.SuffixSet{Suffixes: suffixes}
+	newRootSet := dervaze.RootSet{Roots: onlyRoots}
+
+	return &newRootSet, &suffixSet
 }
 
 func main() {
@@ -217,15 +224,28 @@ func main() {
 	var inputdir string
 	var rootsetfile string
 	var suffixsetfile string
+	var format string
+	t := time.Now().Format("2006-01-02-03-04-05")
 	flag.StringVar(&inputdir, "i", "../../assets/rootdata/", "Input dir where n/ v/ p/ directories reside")
-	flag.StringVar(&rootsetfile, "r", fmt.Sprintf("../../assets/dervaze-rootset-%s.protobuf", ""), "Output file to store the rootset file")
-	flag.StringVar(&suffixsetfile, "s", fmt.Sprintf("../../assets/dervaze-suffixset-%s.protobuf", ""), "Output file to store the suffixset file")
+	flag.StringVar(&rootsetfile, "r", fmt.Sprintf("../../assets/dervaze-rootset-%s.protobuf", t), "Output file to store the rootset file")
+	flag.StringVar(&suffixsetfile, "s", fmt.Sprintf("../../assets/dervaze-suffixset-%s.protobuf", t), "Output file to store the suffixset file")
+	flag.StringVar(&format, "f", "protobuf", "Output file to store the suffixset file")
 
 	flag.Parse()
 
 	rootset := loadWordFiles(inputdir)
-	suffixset, newrootset := generateSuffixData(rootset)
-	dervaze.SaveRootSetProtobuf(rootsetfile, newrootset)
-	dervaze.SaveSuffixSetProtobuf(suffixsetfile, suffixset)
+	newrootset, suffixset := generateSuffixData(rootset)
+	if format == "protobuf" {
+		dervaze.SaveRootSetProtobuf(rootsetfile, newrootset)
+		dervaze.SaveSuffixSetProtobuf(suffixsetfile, suffixset)
+
+	} else if format == "json" {
+
+		dervaze.SaveRootSetJSON(rootsetfile, newrootset)
+		dervaze.SaveSuffixSetJSON(suffixsetfile, suffixset)
+
+	} else {
+		println("format should be either protobuf or json")
+	}
 
 }

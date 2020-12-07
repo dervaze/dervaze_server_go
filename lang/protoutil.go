@@ -5,13 +5,96 @@ import (
 	"log"
 	"os"
 
+	"github.com/golang/protobuf/pbjson"
 	"github.com/golang/protobuf/proto"
 )
 
+// SaveSuffixSetJSON saves a suffix set to a JSON file
+func SaveSuffixSetJSON(filename string, suffixset *SuffixSet) {
+	file, err := os.OpenFile(
+		filename,
+		os.O_APPEND|os.O_CREATE|os.O_WRONLY,
+		0666,
+	)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	jsonString, err := pbjson.Marshal(suffixset)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	bytesWritten, err := file.Write(jsonString)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	log.Printf("%s: Wrote %d bytes.\n", filename, bytesWritten)
+
+}
+
+// SaveRootSetJSON saves a root set to a JSON file
+func SaveRootSetJSON(filename string, rootset *RootSet) {
+	file, err := os.OpenFile(
+		filename,
+		os.O_APPEND|os.O_CREATE|os.O_WRONLY,
+		0666,
+	)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	jsonString, err := pbjson.Marshal(rootset)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	bytesWritten, err := file.Write(jsonString)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	log.Printf("%s: Wrote %d bytes.\n", filename, bytesWritten)
+
+}
+
+// SaveSuffixSetProtobuf saves a suffix set to a protobuf file
+func SaveSuffixSetProtobuf(filename string, suffixset *SuffixSet) {
+	file, err := os.OpenFile(
+		filename,
+		os.O_APPEND|os.O_CREATE|os.O_WRONLY,
+		0666,
+	)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	byteSlice, err := proto.Marshal(suffixset)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	bytesWritten, err := file.Write(byteSlice)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	log.Printf("%s: Wrote %d bytes.\n", filename, bytesWritten)
+
+}
+
 // SaveRootSetProtobuf saves rootset to a filename
 func SaveRootSetProtobuf(filename string, rootset *RootSet) {
-	// t := time.Now().Format("2006-01-02-03-04-05")
-	// filename := fmt.Sprintf("dervaze-roots-%s.bin", t)
 	file, err := os.OpenFile(
 		filename,
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY,
