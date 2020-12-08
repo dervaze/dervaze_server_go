@@ -3,9 +3,10 @@ FROM golang:1.14
 WORKDIR /go/src/app
 COPY . .
 
-RUN go build -v cmd/server/server.go 
+RUN go build -v bin/rest_server/server.go 
+RUN go build -v bin/csv2protobuf/csv_to_protobuf.go
 # RUN go install -v ./...
-RUN go run cmd/csv2protobuf/csv_to_protobuf.go -o assets/dervaze-rootset.protobuf -i assets/rootdata/
+RUN ./csv_to_protobuf -i assets/rootdata/ -r assets/dervaze-rootset.protobuf -s assets/dervaze-suffixset.protobuf -f protobuf
 EXPOSE 9876
 RUN ls -R >> /dev/log
 ENTRYPOINT ["./server", "-i", "assets/dervaze-rootset.protobuf", "-h", "0.0.0.0", "-p", "9876"]
