@@ -434,6 +434,20 @@ func RegexSearchAuto(regexp *regexp.Regexp, maxLen int) []*Root {
 	return RegexSearchTurkishLatin(regexp, maxLen)
 }
 
+// PrefixSearchAuto searches word in either of PrefixSearchUnicode, PrefixSearchTurkishLatin, PrefixSearchVisenc and IndexSearchAbjad
+func PrefixSearchAuto(word string, maxLen int) []*Root {
+
+	if ContainsArabicChars(word) {
+		return PrefixSearchUnicode(word, maxLen)
+	} else if ContainsDigits(word) {
+		if val, err := strconv.Atoi(word); err == nil {
+			return IndexSearchAbjad(int32(val), maxLen)
+		}
+		return PrefixSearchVisenc(word, maxLen)
+	}
+	return PrefixSearchTurkishLatin(word, maxLen)
+}
+
 // IndexSearchAbjad searches returns list roots containing `abjad` as value
 func IndexSearchAbjad(abjad int32, maxLen int) []*Root {
 
