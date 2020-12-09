@@ -2,7 +2,7 @@ o aralık,ewl erelfo2
 oba,ewbu1h
 oba,ewbu1h||
 objektif,ewbu1ro3h||kbo2bu2fo1
-objektif,ewbu1ro3h<>kbo2yfo1
+objektif,ewbu1ro3h||kbo2yfo1
 objektif,ewbu1ro3kbo2yfo1
 o,bo5w
 obur,abu1wr
@@ -16,9 +16,9 @@ ocakçı,ewxu1efo2xu1y
 ocak,ewxu1efo2
 ocaklarının,ewxu1efo2lrybo1ko3
 ocak süpüren,ewxu1efo2 sbu3wrebo1
-odabaşı,ewth<>bu1eso3y
 odabaşı,ewth||bu1eso3y
-odacı,ewth<>xu1y
+odabaşı,ewth||bu1eso3y
+odacı,ewth||xu1y
 odacı,ewth||xu1y
 odacık,ewth xu1fo2
 odacıkta,ewth||xu1fo2dh
@@ -27,7 +27,7 @@ odadaki,ewth||dh||ky
 odadan,ewth||dbo1
 oda,ewde
 oda,ewth
-oda,ewth<>
+oda,ewth||
 oda,ewth||
 odalarda,ewth||lrdh
 odaları,ewth||lry
@@ -35,7 +35,7 @@ odalarında,ewth||lrbo1dh
 odalarından,ewth||lrbo1dbo1
 odalarını,ewth||lrybo1y
 odalarının,ewth||lrybo1ko3
-odalık,ewth<>lfo2
+odalık,ewth||lfo2
 odalık,ewth||lfo2
 odalık,ewth lfo2
 odama,ewth||mh
@@ -58,7 +58,7 @@ odasını,ewth||sbo1y
 odasının,ewth||sbo1ko3
 odaya,ewth||yh
 odayı,ewth||yy
-odeon,ewdh<>ewbo1
+odeon,ewdh||ewbo1
 odeon,ewdh||ewbo1
 od,ewd
 odise,ewdbu2sh
@@ -194,7 +194,7 @@ oksid,ewfo2sbu2d
 oksid,ewfo2syd
 oksijen,ewfo2sbu2ro3h||bo1
 oksijen,ewfo2syro3bo1
-oksijen,ewfo2syro3h<>bo1
+oksijen,ewfo2syro3h||bo1
 okşuyor,ewfo2so3yywr
 oktant,ewfo2bo2ebo1bo2
 oktav,ewfo2bo2ew
@@ -561,7 +561,7 @@ olacağınız,ewlexu1ao1ko3ro1
 olacağınızı,ewlexu1ao1ko3ro1y
 olacağız,ewlexu1ao1ro1
 olacak,ewlexu1fo2
-olacak,ewlh<>xu1fo2
+olacak,ewlh||xu1fo2
 olacak,ewlh||xu1fo2
 olacak,ewlh xu1fo2
 olacaklardı,ewlexu1fo2lrdy
@@ -1068,7 +1068,7 @@ oluyorum,ewlwywrm
 oluyoruz,ewlwywrro1
 o mahalde,ewl mxldh
 o mahalde,ewl mxldh||
-omlet,ewmlh<>bo2
+omlet,ewmlh||bo2
 omlet,ewmlh||bo2
 omnibüs,ewmbo1bu2bu1ws
 omnibüs,ewmbo1ybu1ws
@@ -1172,7 +1172,7 @@ onda,ebo1dh
 onda,ebo1dh||
 onda,ewbo1dh
 ondaki,ewbo1dh||ky
-ondalık,ewbo1dh<>lfo2
+ondalık,ewbo1dh||lfo2
 ondalık,ewbo1dh||lfo2
 ondalık,ewbo1dh lfo2
 ondan başka,ebo1dbo1 bu1so3fo2h
@@ -1307,11 +1307,11 @@ onyedinci,ewbo1 ydbo1xu1y
 onyedincisi,ewbo1 ydybo1xu1ysy
 on-yirmi,ewbo1 yko7rmy
 oof,ewfo1
-opera,ewbu3h<>re
+opera,ewbu3h||re
 opera,ewbu3h||re
 operasyon,ewbu3h||resbu2wbo1
-operasyon,ewbu3h<>resywbo1
-operatör,ewbu3h<>rebo2wr
+operasyon,ewbu3h||resywbo1
+operatör,ewbu3h||rebo2wr
 operatör,ewbu3h||rebo2wr
 operatörle,ewbu3rebo2wrlh
 oportünism,ewbu3wrbo2wbo1bu2ro1m
@@ -1408,9 +1408,9 @@ orduyu,ewrdwyy
 or,ewr
 organıdır,ewrao1ebo1ydr
 organize,ewrao1ebo1yro1h
-orhaneli,ewrxo1ebo1<>eyly
+orhaneli,ewrxo1ebo1||eyly
 orhan,ewrxo1ebo1
-orhangazi,ewrxo1ebo1<>ao1ero1y
+orhangazi,ewrxo1ebo1||ao1ero1y
 orijinaldir,ewryro3ybo1eldr
 orijinal,ewrbu2ro3bo1el
 orijinal,ewryro3bo1el
@@ -1448,7 +1448,7 @@ ortadan,ewrbo2h||dbo1
 orta direk,ewrth dbu2rk
 orta direk,ewrth dyrk
 ortaelçi,ewrbo2h||ebu2lxu3y
-ortaelçi,ewrbo2h<>eylxu3y
+ortaelçi,ewrbo2h||eylxu3y
 orta elçi,ewrth ebu2lxu3y
 orta elçi,ewrth eylxu3y
 orta,ewrbo2h
@@ -1456,7 +1456,7 @@ orta,ewrbo2h||
 orta,ewrth
 orta,ewrth||
 ortağı,ewrbo2eao1y
-ortahalli,ewrbo2h<>xely
+ortahalli,ewrbo2h||xely
 ortahalli,ewrbo2h||xely
 ortak,ewrbo2efo2
 ortak,ewrbo2lfo2
@@ -1465,8 +1465,8 @@ ortaklarıdır,ewrbo2efo2lrydr
 ortakları,ewrbo2efo2lry
 ortaklaşa,ewrbo2efo2leso3h
 ortaklaşa,ewrbo2efo2leso3h||
-ortala,ewrbo2h<>le
-ortalamak,ewrbo2h<>lemfo2
+ortala,ewrbo2h||le
+ortalamak,ewrbo2h||lemfo2
 ortalamak,ewrbo2h||lemfo2
 ortalarında,ewrbo2h||lrbo1dh
 ortalarındaki,ewrbo2h||lrbo1dh||ky
@@ -1475,7 +1475,7 @@ ortalığa,ewrbo2h||lao1h
 ortalığı,ewrbo2h||lao1y
 ortalık ağarması,ewrth lfo2 eao1ermsy
 ortalık ağarması,ewrth lfo2 eao1rmsy
-ortalık,ewrbo2h<>lfo2
+ortalık,ewrbo2h||lfo2
 ortalık,ewrbo2h||lfo2
 ortalık,ewrbo2h lfo2
 ortalık,ewrth lfo2
@@ -1503,7 +1503,7 @@ orta yeri,ewrbo2h yry
 orta yerlerine doğru,ewrbo2h bu2rlrbu2bo1h twao1ry
 orta yerlerine doğru,ewrbo2h yrlrybo1h twao1ry
 ortodoks,ewrbo2wdwfo2s
-ortopedi,ewrbo2wbu3h<>dy
+ortopedi,ewrbo2wbu3h||dy
 ortopedi,ewrbo2wbu3h||dy
 oruca,ewrwxu1h
 oruç,ewrwxu1

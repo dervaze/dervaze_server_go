@@ -544,7 +544,7 @@ nallarıyla,bo1ellrylh,ناللریله
 nallat,bo1allebo2,نعللات
 nallatmak,bo1allebo2mfo2,نعللاتمق
 nallı,bo1ally,نعللی
-nallıhan,bo1aly<>xo1ebo1,نعلی‌خان
+nallıhan,bo1aly||xo1ebo1,نعلی‌خان
 nalân,bo1elebo1,نالان
 nalça,bo1alxu3h,نعلچه
 nalça,bo1alxu3h||,نعلچه‌
@@ -732,7 +732,7 @@ nane,bo1abo1ea,نعناع
 nane,bo1abo1h,نعنه
 nane,bo1abo1h||,نعنه‌
 nane,bo1ebo1h||,نانه‌
-nanemolla,bo1ebo1h<>mbo1le,نانه‌منلا
+nanemolla,bo1ebo1h||mbo1le,نانه‌منلا
 nangün,bo1ebo1ko7wbo1,نانگون
 nankör,bo1ebo1kwr,نانکور
 nankördür,bo1ebo1kwrdr,نانکوردر
@@ -947,13 +947,11 @@ natüralist,bo1ebo2wrelbu2sbo2,ناتوراليست
 natüralist,bo1ebo2wrelysbo2,ناتورالیست
 natüralizm,bo1ebo2wrelbu2ro1m,ناتوراليزم
 natüralizm,bo1ebo2wrelyro1m,ناتورالیزم
-natürel,bo1ebo2wrh<>l,ناتوره‌ل
 natürel,bo1ebo2wrh||l,ناتوره‌ل
 natüvan,bo1ebo2webo1,ناتوان
 natık,bo1etfo2,ناطق
 natık,bo1o4etu4fo2o0,نَاطِقْ
 natıka,bo1etfo2h||,ناطقه‌
-natıkalı,bo1etfo2h<>ly,ناطقه‌لی
 natıkalı,bo1etfo2h||ly,ناطقه‌لی
 natıkaperdaz,bo1etfo2h bu3rdero1,ناطقه پرداز
 natır,bo1etr,ناطر
@@ -1533,7 +1531,6 @@ nebîlerin,bo1bu1ylrko3,نبیلرڭ
 nebînin,bo1bu1y||bo1ko3,نبی‌نڭ
 nebîre,bo1bu1bu2rh,نبيره
 nebîsiz,bo1bu1y||sro1,نبی‌سز
-nebülöz,bo1h<>bu1wlwro1,نه‌بولوز
 nebülöz,bo1h||bu1wlwro1,نه‌بولوز
 necabet,bo1xu1ebu1bo2,نجابت
 necabeti,bo1xu1ebu1bo2y,نجابتی
@@ -1987,7 +1984,7 @@ nefîr,bo1fo1bu2r,نفير
 nefîs şey,bo1fo1bu2s so3y,نفيس شی
 nefîs,bo1fo1bu2s,نفيس
 nef’,bo1fo1a,نفع
-negatif,bo1h<>ao1ebo2yfo1,نه‌غاتیف
+negatif,bo1h||ao1ebo2yfo1,نه‌غاتیف
 negatif,bo1h||ao1ebo2bu2fo1,نه‌غاتيف
 nehar,bo1her,نهار
 nehar-ı,bo1heru4,نهارِ
@@ -2169,14 +2166,12 @@ nerede,bo1rh dh||,نره ده‌
 nerede,bo1rh||dh,نره‌ده
 nerededir,bo1rh||dh||dr,نره‌ده‌در
 nereden,bo1rh dbo1,نره دن
-nereden,bo1rh<>dbo1,نره‌دن
 nereden,bo1rh||dbo1,نره‌دن
 neredesiniz,bo1rdh||sko3ro1,نرده‌سڭز
 nerelerde,bo1rh lrdh,نره لرده
 nerelerde,bo1rh lrdh||,نره لرده‌
 nerelere,bo1rh lrh,نره لره
 nerelere,bo1rh lrh||,نره لره‌
-nereli,bo1rh<>ly,نره‌لی
 nereli,bo1rh||ly,نره‌لی
 nerelisin,bo1rh||lysko3,نره‌لیسڭ
 neresinde,bo1rh||sbo1dh,نره‌سنده
@@ -2185,7 +2180,7 @@ neresinden,bo1rh||sbo1dbo1,نره‌سندن
 neresini,bo1rh||sbo1y,نره‌سنی
 nereye,bo1rh bu2h,نره يه
 nereye,bo1rh yh||,نره یه‌
-nereye,bo1rh<>yh||,نره‌یه‌
+nereye,bo1rh||yh||,نره‌یه‌
 nereye,bo1rh||bu2h,نره‌يه
 nereye,bo1rh||yh,نره‌یه
 nereyedir,bo1rh||yh||dr,نره‌یه‌در
@@ -2358,7 +2353,7 @@ netice-i,bo1bo2yxu1hu4,نتیجهِ
 neticede,bo1bo2yxu1h||dh,نتیجه‌ده
 neticeden,bo1bo2yxu1h||dbo1,نتیجه‌دن
 neticedir,bo1bo2yxu1h||dr,نتیجه‌در
-neticelen,bo1bo2yxu1h<>lbo1,نتیجه‌لن
+neticelen,bo1bo2yxu1h||lbo1,نتیجه‌لن
 neticelendi,bo1bo2yxu1h||lbo1dy,نتیجه‌لندی
 neticelendirilmeli,bo1bo2yxu1h||lbo1dyrlmly,نتیجه‌لندیرلملی
 neticelendirmek,bo1bo2yxu1h||lbo1dyrmk,نتیجه‌لندیرمک
@@ -2367,7 +2362,7 @@ neticeleneceğini,bo1bo2yxu1h||lbo1h||xu1ko7bo1y,نتیجه‌لنه‌جگنی
 neticelenen,bo1bo2yxu1h||lh||bo1bo1,نتیجه‌له‌نن
 neticelenir,bo1bo2yxu1h||lbo1yr,نتیجه‌لنیر
 neticelenmek,bo1bo2bu2xu1h||lbo1mk,نتيجه‌لنمک
-neticelenmek,bo1bo2yxu1h<>lbo1mk,نتیجه‌لنمک
+neticelenmek,bo1bo2yxu1h||lbo1mk,نتیجه‌لنمک
 neticelenmesi,bo1bo2yxu1h||lbo1msy,نتیجه‌لنمسی
 neticelenmesidir,bo1bo2yxu1h||lbo1mh||sydr,نتیجه‌لنمه‌سیدر
 neticelenmesini,bo1bo2yxu1h||lbo1mh||sbo1y,نتیجه‌لنمه‌سنی
@@ -2392,7 +2387,7 @@ neticelerle,bo1bo2yxu1h||lrlh,نتیجه‌لرله
 neticeli,bo1bo2yxu1h||ly,نتیجه‌لی
 neticelik,bo1bo2yxu1h||lk,نتیجه‌لک
 neticenin,bo1bo2yxu1h||bo1ko3,نتیجه‌نڭ
-neticepezir,bo1bo2yxu1h<>bu3do1yr,نتیجه‌پذیر
+neticepezir,bo1bo2yxu1h||bu3do1yr,نتیجه‌پذیر
 neticesi,bo1bo2yxu1h||sy,نتیجه‌سی
 neticesidir,bo1bo2yxu1h||sydr,نتیجه‌سیدر
 neticesinde,bo1bo2yxu1h||sbo1dh,نتیجه‌سنده
@@ -2605,7 +2600,6 @@ nevmîdiye,bo1wmydy||yh,نومیدی‌یه
 nevmîdîye,bo1wmydy||yh,نومیدی‌یه
 nevnihal,bo1wbo1hel,نونهال
 nevralji,mwrelro3y,مورالژی
-nevrastenik,bo1wresbo2h<>bo1yk,نوراسته‌نیک
 nevrastenik,bo1wresbo2h||bo1yk,نوراسته‌نیک
 nevres,bo1wrs,نورس
 nevresîde,bo1o4wo0ro4sydh,نَوْرَسیده
@@ -3048,7 +3042,7 @@ neşve,bo1so3wh||,نشوه‌
 neşve-i,bo1so3whu4,نشوهِ
 neşvedar,bo1so3wh der,نشوه دار
 neşvedâr,bo1so3wh der,نشوه دار
-neşveyab,bo1so3wh<>yebu1,نشوه‌یاب
+neşveyab,bo1so3wh||yebu1,نشوه‌یاب
 neşveyâb,bo1so3wh||yebu1,نشوه‌یاب
 neşvünema,bo1so3w w bo1me,نشو و نما
 neşvünema,bo1so3wwbo1me,نشوونما
@@ -3059,15 +3053,12 @@ neşîde,bo1so3bu2dh,نشيده
 neşîdelerini,bo1so3ydh||lrybo1y,نشیده‌لرینی
 neş’e,bo1so3bo5h,نشئه
 neş’e,bo1so3bo5h||,نشئه‌
-neş’elen,bo1so3bo5h<>lbo1,نشئه‌لن
-neş’elendir,bo1so3bo5h<>lbo1dyr,نشئه‌لندیر
-neş’elendirmek,bo1so3bo5h<>lbo1dyrmk,نشئه‌لندیرمک
+neş’elen,bo1so3bo5h||lbo1,نشئه‌لن
+neş’elendir,bo1so3bo5h||lbo1dyr,نشئه‌لندیر
+neş’elendirmek,bo1so3bo5h||lbo1dyrmk,نشئه‌لندیرمک
 neş’elendirmek,bo1so3bo5h||lbo1dbu2rmk,نشئه‌لنديرمک
-neş’elenmek,bo1so3bo5h<>lbo1mk,نشئه‌لنمک
 neş’elenmek,bo1so3bo5h||lbo1mk,نشئه‌لنمک
-neş’eli,bo1so3bo5h<>ly,نشئه‌لی
 neş’eli,bo1so3bo5h||ly,نشئه‌لی
-neş’esiz,bo1so3bo5h<>sro1,نشئه‌سز
 neş’esiz,bo1so3bo5h||sro1,نشئه‌سز
 neş’et,bo1so3bo5bo2,نشئت
 neş’et,bo1so3eo5bo2,نشأت
@@ -3473,7 +3464,7 @@ nisâb,bo1zebu1,نصاب
 nisâbını bulmamak,bo1zebu1bo1y bu1wlmemfo2,نصابنی بولمامق
 nisâr,bo1bo3er,نثار
 nitak-ı,bo1tefo2u4,نطاقِ
-nitekim,bo1bo2h<>kym,نته‌کیم
+nitekim,bo1bo2h||kym,نته‌کیم
 nitekim,bo1bo2h||kbu2m,نته‌کيم
 nitekim,bo1bo2h||kym,نته‌کیم
 niyabet,bo1yebu1bo2,نیابت
@@ -3856,11 +3847,8 @@ nokta,bo1fo2th||,نقطه‌
 nokta-i ihtirak,bo1fo2th exbo2refo2,نقطه احتراق
 nokta-i ihtirâk,bo1fo2th exbo2refo2,نقطه احتراق
 nokta-i ittisal,bo1o9fo2o0to4u4 eu4bo2u4o8zo4elo0,نُقْطَِ اِتِّصَالْ
-nokta-i ittisal,bo1o9fo2o0to4u4 eu4bo2u4o8zo4elo0,نُقْطَِ اِتِّصَالْ
-nokta-i kemal,bo1o9fo2o0to4u4 ko4mo4elo0,نُقْطَِ کَمَالْ
 nokta-i kemal,bo1o9fo2o0to4u4 ko4mo4elo0,نُقْطَِ کَمَالْ
 nokta-i nazar,bo1fo2thc bo1to1r,نقطهء نظر
-nokta-i nazar,bo1o9fo2o0to4u4 bo1o4to1o4ro0,نُقْطَِ نَظَرْ
 nokta-i nazar,bo1o9fo2o0to4u4 bo1o4to1o4ro0,نُقْطَِ نَظَرْ
 nokta-i,bo1fo2thu4,نقطهِ
 nokta-i̇ i̇tti̇sal,bo1o9fo2o0to4u4 eu4bo2u4o8zo4elo0,نُقْطَِ اِتِّصَالْ
@@ -3874,8 +3862,7 @@ noktadaki,bo1fo2th||dh||ky,نقطه‌ده‌کی
 noktadan,bo1fo2th||dbo1,نقطه‌دن
 noktadandır,bo1fo2th||dbo1dr,نقطه‌دندر
 noktadır,bo1fo2th||dr,نقطه‌در
-noktala,bo1fo2th<>le,نقطه‌لا
-noktalamak,bo1fo2th<>lemfo2,نقطه‌لامق
+noktala,bo1fo2th||le,نقطه‌لا
 noktalamak,bo1fo2th||lemfo2,نقطه‌لامق
 noktalar,bo1fo2th||lr,نقطه‌لر
 noktalara,bo1fo2th||lrh,نقطه‌لره
@@ -4958,7 +4945,6 @@ nükte,bo1o9ko0bo2o4h||,نُکْتَه‌
 nükte-i,bo1kbo2hu4,نکتهِ
 nüktecik,bo1kbo2h||xu1k,نکته‌جک
 nüktedan,bo1kbo2h debo1,نکته دان
-nüktedan,bo1kbo2h<>debo1,نکته‌دان
 nüktedan,bo1kbo2h||debo1,نکته‌دان
 nüktede,bo1kbo2h||dh,نکته‌ده
 nükteden,bo1kbo2h||dbo1,نکته‌دن
@@ -5033,7 +5019,6 @@ nümunelerinden,bo1mwbo1h||lrbo1dbo1,نمونه‌لرندن
 nümunelerine,bo1mwbo1h||lrybo1h,نمونه‌لرینه
 nümunelerini,bo1mwbo1h||lrybo1y,نمونه‌لرینی
 nümunelerle,bo1mwbo1h||lrlh,نمونه‌لرله
-nümunelik,bo1mwbo1h<>lk,نمونه‌لک
 nümunelik,bo1mwbo1h||lk,نمونه‌لک
 nümunenin,bo1mwbo1h||bo1ko3,نمونه‌نڭ
 nümunesi,bo1mwbo1h||sy,نمونه‌سی
@@ -5066,7 +5051,6 @@ nüsha,bo1sxo1h||,نسخه‌
 nüsha-i ahar,bo1o9so0xo1o4u4 eo6xo1o4ro0,نُسْخَِ آخَرْ
 nüsha-i camia,bo1o9so0xo1o4u4 xu1o4emu4ao4h||,نُسْخَِ جَامِعَه‌
 nüsha-i câmia,bo1o9so0xo1o4u4 xu1o4emu4ao4h,نُسْخَِ جَامِعَه
-nüsha-i enver,bo1o9so0xo1o4u4 eo4bo1o0wo4ro0,نُسْخَِ اَنْوَرْ
 nüsha-i enver,bo1o9so0xo1o4u4 eo4bo1o0wo4ro0,نُسْخَِ اَنْوَرْ
 nüsha-i âhar,bo1o9so0xo1o4u4 eo6xo1o4ro0,نُسْخَِ آخَرْ
 nüsha-i,bo1sxo1hu4,نسخهِ

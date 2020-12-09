@@ -159,7 +159,7 @@ lâğv,lao1w
 lağzi̇ş,lao1ro1so3
 lağziş,lao1ro1so3
 lağz,lao1ro1
-lahana,lexbo1h<>
+lahana,lexbo1h||
 lâhana,lexbo1h||
 lahana,lexo1ebo1e
 lâhana,lexo1ebo1e
@@ -358,7 +358,7 @@ lalettayin,le aly elbo2ayybo1
 lalezar,lelh ro1er
 lâlezar,lelh ro1er
 lâlezinciri,lelh||ro1bo1xu1bu2ry
-lalezinciri,lelh<>ro1bo1xu1yry
+lalezinciri,lelh||ro1bo1xu1yry
 la,lh
 la'l,lal
 la’l,lal
@@ -435,11 +435,11 @@ la’net,labo1bo2
 lanet,labo1bo2
 lâ’net,labo1bo2
 lanetlediler,labo1bo2ldylr
-la’netle,labo1bo2lh<>
+la’netle,labo1bo2lh||
 lanetle,labo1bo2lh
-la’netlemek,labo1bo2lh<>mk
+la’netlemek,labo1bo2lh||mk
 lâ’netlemek,labo1bo2lh||mk
-la’netleme,labo1bo2lh<>mh||
+la’netleme,labo1bo2lh||mh||
 lâ’netleme,labo1bo2lh||mh
 lanetler,labo1bo2lr
 lanetli,labo1bo2ly
@@ -450,7 +450,7 @@ langırlungur,lebo1ao1yrlwbo1ao1wr
 lâ'nın,lebo1ko3
 lânolin,lebo1wlbu2bo1
 lanolin,lebo1wlybo1
-lapacı,lebu3h<>xu1y
+lapacı,lebu3h||xu1y
 lâpacı,lebu3h||xu1y
 lapadak,lebu3h dfo2
 lapa gibi heyet,lebu3h kbu1y hbu2bo5bo2
@@ -465,7 +465,7 @@ lapcın,lebu3xu3ybo1
 lapçin,lebu3xu3ybo1
 lap içeri girmek,lebu3 ebu2xu3rw kbu2rmk
 lap içeri girmek,lebu3 eyxu3rw kyrmk
-laplap,lebu3<>lebu3
+laplap,lebu3||lebu3
 lâplâp,lebu3||lebu3
 lapseki,lebu3sky
 lara,lrh
@@ -522,7 +522,7 @@ lâtifâne,ltyfo1ebo1h
 latifdir,ltyfo1dr
 latîfeci,ltbu2fo1h||xu1y
 latîfeci,ltbu2fo1h xu1y
-latifeci,ltyfo1h<>xu1y
+latifeci,ltyfo1h||xu1y
 latifeci,ltyfo1h xu1y
 latifede,ltyfo1h||dh
 lâtifede,ltyfo1h||dh
@@ -878,11 +878,11 @@ lehimizdedir,lhmro1dh||dr
 lehimizdeki,lhmro1dh||ky
 lehimizde,lhmro1dh
 lehimize,lhmro1h
-lehimle,lhymlh<>
+lehimle,lhymlh||
 lehimlemek,lhbu2mlh||mk
 lehimlemek,lhbu2mlmk
 lehîmlemek,lhbu2mlmk
-lehimlemek,lhymlh<>mk
+lehimlemek,lhymlh||mk
 lehimlemek,lhymlmk
 lehimlen,lhymlbo1
 lehimlenmek,lhbu2mlbo1mk
@@ -937,7 +937,7 @@ lei̇m,lbo5ym
 leim,lbo5ym
 leîm,lyo5ym
 lekad,lfo2d
-lekeci,lkh<>xu1y
+lekeci,lkh||xu1y
 lekeci,lkh||xu1y
 lekedar,lkh||der
 lekedar,lkh der
@@ -947,25 +947,25 @@ leked,lkd
 leke etmek,lkh e
 leke-i,lkh'u4
 lekeledi,lkh||ldy
-lekele,lkh<>lh<>
-lekelemek,lkh<>lh<>mk
+lekele,lkh||lh||
+lekelemek,lkh||lh||mk
 lekelemek,lkh||lh||mk
 lekelemek,lkh lmk
 lekelendiren,lkh||lbo1dyrbo1
 lekelendirmeğe,lkh||lbo1dyrmko7h
 lekelendirmek,lkh lbo1drmk
-lekelen,lkh<>lbo1
-lekelenmek,lkh<>lbo1mk
+lekelen,lkh||lbo1
+lekelenmek,lkh||lbo1mk
 lekelenmek,lkh||lbo1mk
 lekelenmek,lkh lbo1mk
 lekelerden,lkh||lrdbo1
 lekeleri,lkh||lry
 lekeleriyle,lkh||lrylh
-lekelet,lkh<>lbo2
-lekeletmek,lkh<>lbo2mk
+lekelet,lkh||lbo2
+lekeletmek,lkh||lbo2mk
 lekeletmek,lkh||lbo2mk
 lekeli,lkh lw
-lekeli,lkh<>ly
+lekeli,lkh||ly
 lekeli,lkh||ly
 leke,lkh
 leke,lkh||
@@ -973,9 +973,9 @@ lekenin,lkh||bo1ko3
 lekesi,lkh||sy
 lekesini,lkh||sbo1y
 lekesinin,lkh||sbo1ko3
-lekesizlik,lkh<>sro1lk
 lekesizlik,lkh||sro1lk
-lekesiz,lkh<>sro1
+lekesizlik,lkh||sro1lk
+lekesiz,lkh||sro1
 lekesiz,lkh||sro1
 lekeyi,lkh||yy
 le,lh
@@ -1323,7 +1323,7 @@ leyle-i kadir,lo4bu2o0lo4u4 fo2o4du4ro0
 leyle-i̇ kadi̇r,lo4yo0lo4ۀu4 fo2o4du4ro0
 leyle-i kadir,lo4yo0lo4ۀu4 fo2o4du4ro0
 leyle-i,lylh'u4
-leylekfırtınası,lko7lk fo1wrtbo1h<>sy
+leylekfırtınası,lko7lk fo1wrtbo1h||sy
 leylekfırtınası,lko7lk fo1wrtbo1h||sy
 leylek,lklk
 leylek,lko7lk
@@ -1493,8 +1493,8 @@ lider,lbu2dh||r
 liderlere,lydrlrh
 liderleri,lydrlry
 liderlik,lbu2dh||rlk
-liderlik,lydh<>rlk
-lider,lydh<>r
+liderlik,lydh||rlk
+lider,lydh||r
 lieb,leo5bu1
 lieclillah,u4lexu1lu4 eellh
 li̇fafe,lfo1efo1h||
@@ -1565,7 +1565,7 @@ limanlık,lbu2mebo1lfo2
 limanlık,lymebo1lfo2
 liman,lymebo1
 limanodası,lbu2mebo1 ewth||sy
-limanodası,lymebo1 ewth<>sy
+limanodası,lymebo1 ewth||sy
 limanreisi,lbu2mebo1 rbo5bu2sy
 limanreisi,lymebo1 rbo5ysy
 liman reyisi paşa,lbu2mebo1 reo5bu2sy bu3eso3e
@@ -1580,7 +1580,7 @@ limmî'dir,lu4mo8ydr
 limmî,lmo8y
 limmiyet,lmo8u4yo4bo2
 limonatacı,lbu2mwbo1eth||xu1y
-limonatacı,lymwbo1eth<>xu1y
+limonatacı,lymwbo1eth||xu1y
 limonata,lbu2mwbo1eth
 limonata,lymwbo1eth||
 limonayvası,lbu2mwbo1 eo6bu2wesy
@@ -1769,7 +1769,7 @@ litoğrafya,lbu2bo2wao1refo1bu2e
 litoğrafya,lybo2wao1refo1ye
 litre,lbu2bo2rh
 litrelik,lbu2bo2rh||lk
-litrelik,lybo2rh<>lk
+litrelik,lybo2rh||lk
 litre,lybo2rh||
 li-ümm,lem
 livalık,lwelfo2
@@ -1847,7 +1847,7 @@ logaritma,lao1erbo2mh
 logaritma,lao1erbo2mh||
 logaritme,lwao1erbu2bo2mh
 logaritme,lwao1erybo2mh||
-löğusalık,lxo1wzh<>lfo2
+löğusalık,lxo1wzh||lfo2
 löğusalık,lxo1wzh||lfo2
 loğusalık vakti,lwao1wsh lfo2 wfo2bo2y
 lögusa,lxo1wzh
@@ -1856,17 +1856,17 @@ lohusa,lxo1wzh
 loid,lwyd
 lokali,lwfo2ely
 lokantacılık,lwfo2bo1th||xu1bu2lfo2
-lokantacılık,lwfo2bo1th<>xu1ylfo2
-lokantacı,lwfo2bo1th<>xu1y
+lokantacılık,lwfo2bo1th||xu1ylfo2
+lokantacı,lwfo2bo1th||xu1y
 lokantacı,lwfo2bo1th||xu1y
 lokanta,lwfo2bo1th
 lokanta,lwfo2bo1th||
 lokanta,lwfo2ebo1dh
 lokanta,lwfo2ebo1dh||
-lokanta,lwfo2ebo1th<>
+lokanta,lwfo2ebo1th||
 lokanta,lwfo2ebo1th||
 lokavt,lwfo2eo6wbo2
-lokmacı,lfo2mh<>xu1y
+lokmacı,lfo2mh||xu1y
 lokmacı,lfo2mh||xu1y
 lokmadan,lfo2mh||dbo1
 lokmalardan,lfo2mh||lrdbo1
@@ -1898,10 +1898,10 @@ londra,lwbo1drh
 londra,lwbo1drh||
 löparle,lw bu3erlh
 lopbadak,lwbu3bu3edefo2
-loplop,lwbu3<>lwbu3
+loplop,lwbu3||lwbu3
 loplop,lwbu3||lwbu3
 lop,lwbu3
-lopurlopur,lwbu3wr<>lwbu3wr
+lopurlopur,lwbu3wr||lwbu3wr
 lopurlopur,lwbu3wr||lwbu3wr
 lord,lwrd
 lorpeyniri,lwrbu3bu2bo1bu2ry
@@ -1975,17 +1975,17 @@ lükslerini,lwkslrybo1y
 lüks,lwks
 lüküs,lwkws
 lüküstür,lwkwsdr
-lüleburgaz,lwlh<>bu1wrao1ero1
+lüleburgaz,lwlh||bu1wrao1ero1
 lüleci çamuru,lwlh xu1y xu3emwry
-lüleciçamuru,lwlh<>xu1y xu3emwry
 lüleciçamuru,lwlh||xu1y xu3emwry
-lüleci,lwlh<>xu1y
+lüleciçamuru,lwlh||xu1y xu3emwry
+lüleci,lwlh||xu1y
 lüleci,lwlh||xu1y
 lule,lwlh||
 lûle,lwlh
 lüle,lwlh
 lüle,lwlh||
-lületaşı,lwlh<>teso3y
+lületaşı,lwlh||teso3y
 lületaşı,lwlh||teso3y
 lü'lü,lwo5lwo5
 lü’lü,lwo5lwo5

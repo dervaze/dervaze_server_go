@@ -136,7 +136,7 @@ pak-damenlik,bu3ekdembo1lk
 pâk-dâmenlik,bu3ekdembo1lk
 pâk'e,bu3ekh
 paket,bu3ekbo2
-paket,bu3ekh<>bo2
+paket,bu3ekh||bo2
 paket,bu3ekh||bo2
 paketi,bu3ekbo2y
 paketleri,bu3ekbo2lry
@@ -210,7 +210,7 @@ palazla,bu3elero1le
 palazlamak,bu3elero1lemfo2
 paldırküldür,bu3eldbu2rkwldwr
 paldırküldür,bu3eldyrkwldwr
-palet,bu3elh<>bo2
+palet,bu3elh||bo2
 palet,bu3elh||bo2
 palto,bu3elbo2w
 palto,bu3eltw
@@ -247,17 +247,17 @@ pandomima,bu3ebo1dwmbu2me
 pandomima,bu3ebo1dwmyme
 panik,bu3ebo1bu2k
 panik,bu3ebo1yk
-pankreas,bu3ebo1fo2rh<>eo6s
+pankreas,bu3ebo1fo2rh||eo6s
 pankreas,bu3ebo1fo2rh||eo6s
 pansiyon,bu3ebo1sbu2wbo1
 pansiyon,bu3ebo1sywbo1
 pantalomba,bu3bo1telwmbu1h
 pantalomba,bu3bo1telwmbu1h||
 panteîsm,bu3ebo1bo2h||bo5bu2ro1m
-panteism,bu3ebo1bo2h<>bo5yro1m
+panteism,bu3ebo1bo2h||bo5yro1m
 panteist,bu3ebo1bo2h||bo5bu2sbo2
-panteist,bu3ebo1bo2h<>bo5ysbo2
-panteon,bu3ebo1bo2h<>bo5wbo1
+panteist,bu3ebo1bo2h||bo5ysbo2
+panteon,bu3ebo1bo2h||bo5wbo1
 panteon,bu3ebo1bo2h||bo5wbo1
 pantolon,bu3ebo1tlwbo1
 pantolon,bu3ebo1twlwbo1
@@ -314,7 +314,7 @@ papuş,bu3ebu3wso3
 pâpûş,bu3ebu3wso3
 papuşcu (papuccu),bu3ebu3wso3xu1y
 papyekuşe,bu3ebu3bu2h||fo2wso3h
-papyekuşe,bu3ebu3yh<>fo2wso3h||
+papyekuşe,bu3ebu3yh||fo2wso3h||
 para,bu3ere
 para,bu3erh
 para,bu3erh||
@@ -355,7 +355,7 @@ param,bu3erh||m
 paramdan,bu3erh||mdbo1
 paramız,bu3erh||mro1
 paramla,bu3erh||mlh
-paramparça,bu3erem<>bu3erxu3e
+paramparça,bu3erem||bu3erxu3e
 paramparça,bu3erem||bu3erxu3e
 paramparça,bu3erh||m bu3erxu3h
 paranın,bu3erh||bo1ko3
@@ -372,7 +372,7 @@ parasızlık,bu3eresro1lfo2
 parasızlıktan,bu3erh||sro1lfo2dbo1
 paraşüt,bu3ereso3wbo2
 paraşütlerle,bu3ereso3wbo2lrlh
-paratoner,bu3erebo2wbo1h<>r
+paratoner,bu3erebo2wbo1h||r
 paratoner,bu3erebo2wbo1h||r
 paravana,bu3erewebo1e
 paravanalar,bu3erewebo1h||lr
@@ -395,7 +395,7 @@ parçadan,bu3erxu3h||dbo1
 parçadır,bu3erxu3h||dr
 parça-i,bu3erxu3h'u4
 parça koymak,bu3erxu3h fo2wmfo2
-parçakpurçak,bu3erxu3efo2<>bu3wrxu3efo2
+parçakpurçak,bu3erxu3efo2||bu3wrxu3efo2
 parçakpurçak,bu3erxu3efo2||bu3wrxu3efo2
 parçala,bu3erxu3ele
 parçaladı,bu3erxu3h||ledy
@@ -565,7 +565,7 @@ parlamasını,bu3erlemesbo1y
 parlamasının,bu3erlemesbo1ko3
 parlamayacaktı,bu3erlemyh||xu1fo2dy
 parlamayı,bu3erlemeyy
-parlamenter,bu3erlmebo1bo2h<>r
+parlamenter,bu3erlmebo1bo2h||r
 parlamenter,bu3erlmebo1bo2h||r
 parlamento,bu3erlembo1bo2w
 parlâmento,bu3erlembo1bo2w
@@ -684,7 +684,7 @@ parti'ye,bu3erbo2y||yh
 partiye,bu3erbo2y||yh
 parti'yi,bu3erbo2y||yy
 partiyi,bu3erbo2y||yy
-partner,bu3erbo2bo1h<>r
+partner,bu3erbo2bo1h||r
 partner,bu3erbo2bo1h||r
 paşa,bu3eso3e
 paşa gemisi,bu3eso3ekmbu2sy
@@ -771,7 +771,7 @@ patiska,bu3ebo2ysfo2h
 pati̇ska,bu3o4ebo2u4so0fo2ho4
 patiska,bu3o4ebo2u4so0fo2ho4
 patiskadan,bu3ebo2ysfo2h||dbo1
-patküt,bu3ebo2<>kwbo2
+patküt,bu3ebo2||kwbo2
 patküt,bu3ebo2||kwbo2
 patla,bu3ebo2le
 patladı,bu3etledy
@@ -940,7 +940,7 @@ pazarlaşmak,bu3ero1erleso3mfo2
 pazarlık,bu3ero1erlfo2
 pazarlık etmek,bu3ero1erlfo2 e
 pazartesi,bu3ero1erebu2rbo2h||sy
-pazartesi,bu3ero1ereyrbo2h<>sy
+pazartesi,bu3ero1ereyrbo2h||sy
 pazı,bu3ero1y
 p,bu3
 peçe,bu3xu3h
@@ -953,11 +953,11 @@ peçete,bu3xu3bo2h||
 peçeyi,bu3xu3h||yy
 pedagog,bu3dh||ao1wao1
 pedagoglar,bu3dh||ao1wao1lr
-pedagoji,bu3h<>deao1wro3y
 pedagoji,bu3h||deao1wro3y
-pedagok,bu3h<>deao1wao1
+pedagoji,bu3h||deao1wro3y
 pedagok,bu3h||deao1wao1
-pedal,bu3h<>del
+pedagok,bu3h||deao1wao1
+pedal,bu3h||del
 pedal,bu3h||del
 pedegoglar,bu3dh||ao1wao1lr
 pederane,bu3drebo1h
@@ -1009,10 +1009,10 @@ pehlû,bu3hlw
 pehnaver,bu3hbo1ewr
 pehnâver,bu3hbo1ewr
 pehn,bu3hbo1
-pehpeh,bu3h<>h<>bu3h<>h||
+pehpeh,bu3h||h||bu3h||h||
 pehpeh,bu3h||h||bu3h||h
-pehpehle,bu3h<>h<>bu3h<>hlh<>
-pehpehlemek,bu3h<>h<>bu3h<>hlh<>mk
+pehpehle,bu3h||h||bu3h||hlh||
+pehpehlemek,bu3h||h||bu3h||hlh||mk
 pehpehlemek,bu3h||h||bu3h||hlh||mk
 pehriz,bu3rhbu2ro1
 pehriz,bu3rhyro1
@@ -1158,11 +1158,11 @@ pelit,bu3lybo2
 pelte,bu3lbo2h
 pelte,bu3lbo2h||
 peltek,bu3lbo2k
-pelteklen,bu3lbo2sklh<>bo1
-pelteklenmek,bu3lbo2sklh<>bo1mk
+pelteklen,bu3lbo2sklh||bo1
 pelteklenmek,bu3lbo2sklh||bo1mk
-peltekleş,bu3lbo2sklh<>so3
-peltekleşmek,bu3lbo2sklh<>so3mk
+pelteklenmek,bu3lbo2sklh||bo1mk
+peltekleş,bu3lbo2sklh||so3
+peltekleşmek,bu3lbo2sklh||so3mk
 peltekleşmek,bu3lbo2sklh||so3mk
 pelteklik,bu3lbo2klk
 pelteklik,bu3lbo2sklk
@@ -1170,9 +1170,9 @@ peltek söylemek,bu3lbo2k swbu2lmk
 peltek söylemek,bu3lbo2k swylmk
 pembe,bu3bo1bu1h
 pembe,bu3bo1bu1h||
-pembelik,bu3bo1bu1h<>lk
 pembelik,bu3bo1bu1h||lk
-pembemsi,bu3bo1bu1h<>msy
+pembelik,bu3bo1bu1h||lk
+pembemsi,bu3bo1bu1h||msy
 pembemsi,bu3bo1bu1h||msy
 penah,bu3bo1eh
 penah,bu3bo1eh||
@@ -1181,7 +1181,7 @@ penahgâh,bu3bo1ehko7eh
 penahi,bu3bo1ehy
 penahı,bu3bo1ehy
 penâhî,bu3bo1ehy
-penaltı,bu3h<>bo2elbo2y
+penaltı,bu3h||bo2elbo2y
 penaltı,bu3h||bo2elbo2y
 penbe,bu3bo1bu1h
 penbe,bu3bo1bu1h||
@@ -1194,24 +1194,24 @@ pençe,bu3bo1xu1h||
 pençe,bu3bo1xu3h
 pençe,bu3bo1xu3h||
 pençe-i,bu3bo1xu3h'u4
-pençele,bu3bo1xu3h<>lh<>
-pençelemek,bu3bo1xu3h<>lh<>mk
+pençele,bu3bo1xu3h||lh||
+pençelemek,bu3bo1xu3h||lh||mk
 pençelemek,bu3bo1xu3h||lh||mk
 pençeleri,bu3bo1xu3h||lry
 pençelerine,bu3bo1xu3h||lrybo1h
 pençelerini,bu3bo1xu3h||lrybo1y
-pençeleş,bu3bo1xu3h<>lh<>so3
-pençeleşmek,bu3bo1xu3h<>lh<>so3mk
+pençeleş,bu3bo1xu3h||lh||so3
+pençeleşmek,bu3bo1xu3h||lh||so3mk
 pençeleşmek,bu3bo1xu3h||lh||so3mk
 pençeleşmek,bu3bo1xu3h||lso3mk
 pençeleşmesi,bu3bo1xu3h||lso3mh||sy
-pençeli,bu3bo1xu3h<>ly
+pençeli,bu3bo1xu3h||ly
 pençeli,bu3bo1xu3h||ly
 pençenin,bu3bo1xu3h||bo1ko3
-pencere,bu3bo1xu1h<>rh||
+pencere,bu3bo1xu1h||rh||
 pencere,bu3bo1xu1h||rh
 pencere,bu3bo1xu1rh
-pencere,bu3bo1xu1rh<>
+pencere,bu3bo1xu1rh||
 pencere,bu3bo1xu1rh||
 pencerede,bu3bo1xu1rh||dh
 pencereden,bu3bo1xu1rh||dbo1
@@ -1265,25 +1265,25 @@ pencüyek,bu3bo1xu1 w yk
 pend,bu3bo1d
 pendname,bu3bo1dbo1emh
 pendname,bu3bo1dbo1emh||
-peni,bu3h<>bo1y
+peni,bu3h||bo1y
 peni,bu3h||bo1y
 penir,bu3bo1bu2r
 penîr,bu3bo1bu2r
 penir,bu3bo1yr
-pepe,bu3h<>bu3h||
+pepe,bu3h||bu3h||
 pepe,bu3h||bu3h
 pepeği söylemek,bu3bu3ky swbu2lmk
 pepeği söylemek,bu3bu3ky swylmk
-pepele,bu3h<>bu3h<>lh<>
+pepele,bu3h||bu3h||lh||
 pepeleme,bu3bu3ky swbu2lmk
-pepelemek,bu3h<>bu3h<>lh<>mk
 pepelemek,bu3h||bu3h||lh||mk
-pepelik,bu3h<>bu3h<>lk
+pepelemek,bu3h||bu3h||lh||mk
 pepelik,bu3h||bu3h||lk
-pepemelik,bu3h<>bu3h<>mh<>lk
+pepelik,bu3h||bu3h||lk
+pepemelik,bu3h||bu3h||mh||lk
 pepemelik,bu3h||bu3h||mh||lk
 pepsin,bu3h||bu3sbu2bo1
-pepsin,bu3h<>bu3sybo1
+pepsin,bu3h||bu3sybo1
 perakende,bu3rekbo1dh
 perakende,bu3rekbo1dh||
 per,bu3r
@@ -1293,9 +1293,9 @@ perçin,bu3rxu3ybo1
 perçindir,bu3rxu3ybo1dr
 perçin etmek,bu3rxu3bu2bo1 e
 perçin etmek,bu3rxu3ybo1 e
-perçinle,bu3rxu3ybo1lh<>
+perçinle,bu3rxu3ybo1lh||
 perçinlemek,bu3rxu3bu2bo1lh||mk
-perçinlemek,bu3rxu3ybo1lh<>mk
+perçinlemek,bu3rxu3ybo1lh||mk
 perçinleşir,bu3rxu3ybo1lh||so3yr
 perçinleşmiştir,bu3rxu3ybo1lso3mso3dr
 perçinli,bu3rxu3bu2bo1ly
@@ -1310,9 +1310,9 @@ perdaz,bu3rdero1
 perde-birunane,bu3rdh||bu1yrwbo1ebo1h
 perde,bu3rdh
 perde,bu3rdh||
-perdeci,bu3rdh<>xu1y
 perdeci,bu3rdh||xu1y
-perdedar,bu3rdh<>der
+perdeci,bu3rdh||xu1y
+perdedar,bu3rdh||der
 perdedar,bu3rdh||der
 perdedar,bu3rdh der
 perdedâr,bu3rdh||der
@@ -1340,15 +1340,15 @@ perde-i zāhiriye,bu3o4ro0do4u4 to1o4ehu4ru4bu2o4h
 perde-i zĀhiriye,bu3o4ro0do4u4 to1o4ehu4ru4bu2o4h
 perde-i̇ zāhi̇ri̇ye,bu3o4ro0do4ۀu4 to1o4ehu4ru4yo4h||
 perde-i zāhiriye,bu3o4ro0do4ۀu4 to1o4ehu4ru4yo4h||
-perdele,bu3rdh<>lh<>
+perdele,bu3rdh||lh||
 perdeledim,bu3rdh||lh||dm
-perdelemek,bu3rdh<>lh<>mk
 perdelemek,bu3rdh||lh||mk
-perdelen,bu3rdh<>lh<>bo1
+perdelemek,bu3rdh||lh||mk
+perdelen,bu3rdh||lh||bo1
 perdelendikleri,bu3rdh||lbo1dyklry
 perdelenir,bu3rdh||lh||bo1yr
 perdelenirse,bu3rdh||lbo1yrsh
-perdelenmek,bu3rdh<>lh<>bo1mk
+perdelenmek,bu3rdh||lh||bo1mk
 perdelenmek,bu3rdh||lh||bo1mk
 perdelenmesini,bu3rdh||lbo1mh||sbo1y
 perdelenmiş,bu3rdh||lbo1mso3
@@ -1368,7 +1368,7 @@ perdelerini,bu3rdh||lrybo1y
 perdelerinin,bu3rdh||lrybo1ko3
 perdeleriyle,bu3rdh||lrylh
 perdelerle,bu3rdh||lrlh
-perdeli,bu3rdh<>ly
+perdeli,bu3rdh||ly
 perdeli,bu3rdh||ly
 perdenin,bu3rdh||bo1ko3
 perdesi,bu3rdh||sy
@@ -1379,14 +1379,14 @@ perdesine,bu3rdh||sbo1h
 perdesini,bu3rdh||sbo1y
 perdesinin,bu3rdh||sbo1ko3
 perdesiyle,bu3rdh||sylh
-perdesiz,bu3rdh<>sro1
 perdesiz,bu3rdh||sro1
-perdesizlik,bu3rdh<>sro1lk
+perdesiz,bu3rdh||sro1
+perdesizlik,bu3rdh||sro1lk
 perdesizlik,bu3rdh||sro1lk
 perdeye,bu3rdh||yh
 perdeyi,bu3rdh||yy
 perend,bu3rbo1d
-perendebaz,bu3rbo1dh<>bu1ero1
+perendebaz,bu3rbo1dh||bu1ero1
 perendebâz,bu3rbo1dh||bu1ero1
 perende,bu3rbo1dh
 perende,bu3rbo1dh||
@@ -1439,8 +1439,8 @@ pergeli,bu3rko7ery
 pergelin,bu3rko7erko3
 pergelini,bu3rko7erybo1y
 pergeliyle,bu3rko7erylh
-pergelle,bu3rko7lh<>
-pergellemek,bu3rko7lh<>mk
+pergelle,bu3rko7lh||
+pergellemek,bu3rko7lh||mk
 pergellemek,bu3rko7lh||mk
 perhîz,bu3rhbu2ro1
 perhiz,bu3rhyro1
@@ -1520,11 +1520,11 @@ permi,bu3rmy
 perniyân,bu3rbo1bu2ebo1
 perniyan,bu3rbo1yebo1
 perno,bu3rbo1w
-peron,bu3h<>rwbo1
+peron,bu3h||rwbo1
 peron,bu3h||rwbo1
 perşembe,bu3bo1xu1so3bo1bu1h
 perşembe,bu3bo1xu1so3bo1bu1h||
-perşembe,bu3rso3bo1bu1h<>
+perşembe,bu3rso3bo1bu1h||
 perşembe,bu3rso3bo1bu1h||
 pertavsız,bu3rbo2wswro1
 pertek,bu3rbo2k
@@ -1606,10 +1606,10 @@ peşîmân (pişman) olmak,bu3so3bu2mebo1 ew
 peşiman (pişman) olmak,bu3so3ymebo1 ew
 peşimdeki,bu3so3ymdh||ky
 pesimist,bu3h||sbu2mbu2sbo2
-pesimist,bu3h<>symysbo2
+pesimist,bu3h||symysbo2
 peşimizde,bu3so3ymro1dh
 pesimizm,bu3h||sbu2mbu2ro1m
-pesimizm,bu3h<>symyro1m
+pesimizm,bu3h||symyro1m
 peşin,bu3bu2so3bu2bo1
 pesîn,bu3sbu2bo1
 peşin,bu3so3bu2bo1
@@ -1759,15 +1759,15 @@ peykidir,bu3ykydr
 peykisiniz,bu3ykysko3ro1
 peyklerin,bu3yklrko3
 peykleriyle,bu3yklrylh
-peyle,bu3ylh<>
+peyle,bu3ylh||
 peylemek,bu3bu2lh||mk
-peylemek,bu3ylh<>mk
-peylen,bu3ylh<>bo1
+peylemek,bu3ylh||mk
+peylen,bu3ylh||bo1
 peylenmek,bu3bu2lh||bo1mk
-peylenmek,bu3ylh<>bo1mk
-peyleş,bu3ylh<>so3
+peylenmek,bu3ylh||bo1mk
+peyleş,bu3ylh||so3
 peyleşmek,bu3bu2lh||so3mk
-peyleşmek,bu3ylh<>so3mk
+peyleşmek,bu3ylh||so3mk
 peymâ,bu3bu2me
 peyma,bu3yme
 peymana,bu3ymebo1h
@@ -1783,13 +1783,13 @@ peynircilik,bu3bo1bu2rxu1bu2lk
 peynircilik,bu3bo1yrxu1ylk
 peynirden,bu3ybo1yrdbo1
 peyniri,bu3ybo1yry
-peynirlen,bu3ybo1yrlh<>bo1
+peynirlen,bu3ybo1yrlh||bo1
 peynirlenmek,bu3bu2bo1bu2rlh||bo1mk
-peynirlenmek,bu3ybo1yrlh<>bo1mk
+peynirlenmek,bu3ybo1yrlh||bo1mk
 peyrev,bu3bu2rw
 peyrev,bu3yrw
 peyzaj,bu3h||bu2ro1ero3
-peyzaj,bu3h<>yro1ero3
+peyzaj,bu3h||yro1ero3
 pezevenk,bu3ro1wbo1k
 piç,bu3bu2xu3
 pîç,bu3bu2xu3
@@ -1805,7 +1805,7 @@ piç vermek,bu3yxu3 wyrmk
 pide,bu3bu2dh
 pide,bu3ydh||
 pidelik,bu3bu2dh||lk
-pidelik,bu3ydh<>lk
+pidelik,bu3ydh||lk
 pıhtı,bu3xo1bo2y
 pıhtılan,bu3xo1bo2ylebo1
 pıhtılanma,bu3xo1bo2lebo1mh
@@ -1839,7 +1839,7 @@ piliç,bu3lxu1
 piliç,bu3ylyxu3
 piliçleri,bu3ylyxu3lry
 pılıpırtı,bu3bu2ly||bu3bu2rbo2y
-pılıpırtı,bu3yly<>bu3yrbo2y
+pılıpırtı,bu3yly||bu3yrbo2y
 pilot,bu3bu2lwbo2
 pilot,bu3ylwbo2
 pınar başı,bu3bu2ker bu1eso3y
@@ -1855,19 +1855,19 @@ pınarın,bu3wko3erko3
 pınarlara,bu3yko3erlrh
 pınarlar,bu3wko3erlr
 pînedûzlükten,bu3ybo1h||dwro1lfo2dbo1
-pinekle,bu3ybo1klh<>
+pinekle,bu3ybo1klh||
 pineklemek,bu3bu2bo1klh||mk
-pineklemek,bu3ybo1klh<>mk
+pineklemek,bu3ybo1klh||mk
 pinhan,bu3bo1hebo1
 pinti,bu3bo1bo2y
 pinti,bu3bu2bo1bo2y
 pinti,bu3ybo1bo2y
-pintilen,bu3ybo1bo2ylh<>bo1
+pintilen,bu3ybo1bo2ylh||bo1
 pintilenmek,bu3bu2bo1bo2bu2lh||bo1mk
-pintilenmek,bu3ybo1bo2ylh<>bo1mk
-pintileş,bu3ybo1bo2ylh<>so3
+pintilenmek,bu3ybo1bo2ylh||bo1mk
+pintileş,bu3ybo1bo2ylh||so3
 pintileşmek,bu3bu2bo1bo2bu2lh||so3mk
-pintileşmek,bu3ybo1bo2ylh<>so3mk
+pintileşmek,bu3ybo1bo2ylh||so3mk
 pintilik,bu3bu2bo1bo2bu2llk
 pintilik,bu3ybo1bo2yllk
 pipo,bu3bu2bu3w
@@ -1890,9 +1890,9 @@ pir,bu3۪yro0
 pire,bu3bu2rh
 pire,bu3yrh
 pire,bu3yrh||
-pirelen,bu3yrh<>lh<>bo1
+pirelen,bu3yrh||lh||bo1
 pirelenmek,bu3bu2rh||lh||bo1mk
-pirelenmek,bu3yrh<>lh<>bo1mk
+pirelenmek,bu3yrh||lh||bo1mk
 pireler,bu3yrh||lr
 pirenin,bu3yrh||bo1ko3
 pireotu,bu3bu2rh ewbo2y
@@ -2035,21 +2035,21 @@ piskopos,bu3sfo2bu2ws
 piskopos,bu3sfo2bu3ws
 piskopos,bu3sfo2yws
 piskoposluk,bu3sfo2bu3wslfo2
-pisle,bu3yslh<>
+pisle,bu3yslh||
 pislemek,bu3bu2slh||mk
-pislemek,bu3yslh<>mk
-pislen,bu3yslh<>bo1
+pislemek,bu3yslh||mk
+pislen,bu3yslh||bo1
 pislendirdiği,bu3yslbo1dyrdyko7y
 pislenir,bu3yslh||bo1yr
 pislenmek,bu3bu2slh||bo1mk
-pislenmek,bu3yslh<>bo1mk
+pislenmek,bu3yslh||bo1mk
 pislerin,bu3yslrko3
-pisleş,bu3yslh<>so3
+pisleş,bu3yslh||so3
 pisleşmek,bu3bu2slh||so3mk
-pisleşmek,bu3yslh<>so3mk
-pislet,bu3yslh<>bo2
+pisleşmek,bu3yslh||so3mk
+pislet,bu3yslh||bo2
 pisletmek,bu3bu2slh||bo2mk
-pisletmek,bu3yslh<>bo2mk
+pisletmek,bu3yslh||bo2mk
 pisliği,bu3yslko7y
 pislik,bu3bu2slk
 pislik,bu3slk
@@ -2166,16 +2166,16 @@ platin,bu3lebo2ybo1
 plâtonik,bu3lebo2wbo1bu2k
 platonik,bu3lebo2wbo1yk
 plonjon,bu1lwbo1ro3wbo1
-pohpoh,bu3wh<>bu3wh||
+pohpoh,bu3wh||bu3wh||
 pohpoh,bu3wh||bu3wh
-pohpohla,bu3wh<>bu3whle
-pohpohlamak,bu3wh<>bu3whlemfo2
+pohpohla,bu3wh||bu3whle
+pohpohlamak,bu3wh||bu3whlemfo2
 pohpohlamak,bu3wh||bu3whlemfo2
 poiça,bu3wlbu2xu3h
 poiça,bu3wlyxu3h||
 poilip,bu3wlbu2bu3
 poilip,bu3wlybu3
-poker,bu3wkh<>r
+poker,bu3wkh||r
 poker,bu3wkh||r
 polad,bu3wled
 polat,bu3wlet
@@ -2208,7 +2208,7 @@ politikacılara,bu3wlybo2yfo2h||xu1ylrh
 politikasına,bu3wlybo2yfo2h||sbo1h
 polonya,bu3wlwbo1ye
 pomak,bu3wmefo2
-porselen,bu3wrslh<>bo1
+porselen,bu3wrslh||bo1
 porselen,bu3wrslh||bo1
 porsiyon,bu3wrsbu2wbo1
 porsiyon,bu3wrsywbo1
@@ -2239,11 +2239,11 @@ posa,bu3wzy
 posalan,bu3wzelebo1
 posalanmak,bu3wzelebo1mfo2
 posbıyık,bu3wz||bu1bu2bu2fo2
-posbıyık,bu3wz<>bu1yyfo2
+posbıyık,bu3wz||bu1yyfo2
 posof,bu3wsxo1wfo1
 posta,bu3wsbo2h
 posta,bu3wsbo2h||
-postacı,bu3wsbo2h<>xu1y
+postacı,bu3wsbo2h||xu1y
 postacı,bu3wsbo2h||xu1y
 postacıları,bu3wsbo2h||xu1ylry
 postacılığı,bu3wsbo2h||xu1ylao1y
@@ -2251,7 +2251,7 @@ postacılık,bu3wsbo2h||xu1ylfo2
 postacısı,bu3wsbo2h||xu1ysy
 postada,bu3wsbo2h||dh
 postadan,bu3wsbo2h||dbo1
-postahane,bu3wsbo2h<>xo1ebo1h||
+postahane,bu3wsbo2h||xo1ebo1h||
 postahane,bu3wsbo2h xo1ebo1h||
 postahâne,bu3wsbo2h||xo1ebo1h
 postahâne,bu3wsbo2h xo1ebo1h
@@ -2267,7 +2267,7 @@ posta memuru,bu3wsbo2h meo5mwry
 posta memûru,bu3wsbo2h meo5mwry
 posta nazırı,bu3wsbo2h bo1eto1ry
 posta nâzırı,bu3wsbo2h bo1eto1ry
-postane,bu3wsbo2h<>xo1ebo1h||
+postane,bu3wsbo2h||xo1ebo1h||
 postâne,bu3wsbo2h||xo1ebo1h
 postaya,bu3wsbo2h||yh
 postaya vermek,bu3wsbo2h bu2h wbu2rmk
@@ -2322,7 +2322,7 @@ prazvana,bu3rero1webo1h
 prazvana,bu3rero1webo1h||
 prencapta,???????
 prens,bu3rbo1s
-prens,bu3rh<>bo1s
+prens,bu3rh||bo1s
 prensibi,bu3rbo1sbu1y
 prensibidir,bu3rbo1sbu1ydr
 prensibimiz,bu3rbo1sbu1mro1
@@ -2334,7 +2334,7 @@ prensibini,bu3rbo1sbu1bo1y
 prensibiyle,bu3rbo1sbu1ylh
 prensip,bu3rbo1sbu1
 prensip,bu3rh||bo1sbu2bu3
-prensip,bu3rh<>bo1sybu3
+prensip,bu3rh||bo1sybu3
 prensipler,bu3rbo1sybu1lr
 prensipleri,bu3rbo1sybu1lry
 prensiplerimize,bu3rbo1sbu1lrymro1h
@@ -2348,7 +2348,7 @@ prensiplerle,bu3rbo1sybu1lrlh
 prenslik,bu3rbo1slk
 pres,bu3u4ro4so0
 prestijini,bu3rsbo2yro3ybo1y
-presto,bu3rh<>sbo2w
+presto,bu3rh||sbo2w
 presto,bu3rh||sbo2w
 prev,bu3rh||w
 prim,bu3rbu2m
@@ -2380,17 +2380,17 @@ proğramlarının,bu3rwao1remlrybo1ko3
 proje,bu3rwro3h
 proje,bu3rwro3h||
 projeksiyon,bu3rwro3h||ksbu2wbo1
-projeksiyon,bu3rwro3h<>ksywbo1
+projeksiyon,bu3rwro3h||ksywbo1
 projeksiyon,bu3rwro3ksywbo1
-projektör,bu3rwro3h<>ksbo2wr
+projektör,bu3rwro3h||ksbo2wr
 projektör,bu3rwro3h||ksbo2wr
 projektörlerle,bu3rwro3kbo2wrlrlh
 projektör-misal,bu3rwro3kbo2wrmbo3el
 projektörü,bu3rwro3kbo2wry
-proleter,bu3rwlh<>bo2r
+proleter,bu3rwlh||bo2r
 proleter,bu3rwlh||bo2r
 proleterya,bu3rwlh||bo2erbu2e
-proleterya,bu3rwlh<>bo2erye
+proleterya,bu3rwlh||bo2erye
 propaganda,bu3rwbu3eao1bo1dh
 propaganda,bu3rwbu3eao1ebo1de
 propagandacı,bu3rwbu3eao1ebo1dexu1y
@@ -2455,7 +2455,7 @@ pul ile yapıştırmak,bu3wl ebu2lh bu2ebu3so3drmfo2
 pul ile yapıştırmak,bu3wl eylh yebu3so3drmfo2
 pülümür,bu3lwmr
 pülverizatör,bu3wlwh||rbu2ro1ebo2wr
-pülverizatör,bu3wlwh<>ryro1ebo2wr
+pülverizatör,bu3wlwh||ryro1ebo2wr
 pür-alîl,bu3ralyl
 pur,bu3r
 pür,bu3r
@@ -2537,8 +2537,8 @@ purutluğa,bu3rwbo2lao1h
 purutluk,bu3rwbo2lfo2
 purutlukta,bu3rwbo2lfo2dh
 pürüz,bu3wrwro1
-pürüzlen,bu3wrwro1lh<>bo1
-pürüzlenmek,bu3wrwro1lh<>bo1mk
+pürüzlen,bu3wrwro1lh||bo1
+pürüzlenmek,bu3wrwro1lh||bo1mk
 pürüzlenmek,bu3wrwro1lh||bo1mk
 pürüzlü,bu3rwro1lw
 pürüzlü,bu3wrwro1lw
@@ -2573,7 +2573,7 @@ pusla,bu3wzlh
 pusla,bu3wzlh||
 puslada,bu3wzlh||dh
 pusladaki,bu3wzlh||dh||ky
-puslalık,bu3wzlh<>lfo2
+puslalık,bu3wzlh||lfo2
 puslalık,bu3wzlh||lfo2
 puslan,bu3wzlebo1
 puslanmak,bu3wzlebo1mfo2

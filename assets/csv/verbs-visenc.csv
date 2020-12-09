@@ -160,21 +160,21 @@ başvur,F,
 becer,F,bu1xu1r
 bekin,F,
 bekit,F,
-bekle,F,bu1klh<>
+bekle,F,bu1klh||
 beler,F,
 belgele,F,
 belir,F,bu1lyr
 belirle,F,
 belirt,F,
-belle,F,bu1lh<>
+belle,F,bu1lh||
 benilde,F,
-benimse,F,bu1bo1msh<>
-benze,F,bu1lo5o3ro1h<>
-benzet,F,bu1lo5o3ro1h<>bo2
+benimse,F,bu1bo1msh||
+benze,F,bu1lo5o3ro1h||
+benzet,F,bu1lo5o3ro1h||bo2
 benzeş,F,
 berki,F,
 bert,F,
-besle,F,bu1slh<>
+besle,F,bu1slh||
 betimle,F,
 beyaned,T,
 beyanet,F,
@@ -194,7 +194,7 @@ bitiş,F,bu1ybo2yso3
 biç,F,bu1yxu3
 bocala,F,bu1wxu1ele
 bodosla,F,
-bohçala,F,bu1wao1xu3h<>le
+bohçala,F,bu1wao1xu3h||le
 bokla,F,
 bolal,F,bu1wlel
 bolar,F,
@@ -243,10 +243,10 @@ bük,F,bu1wk
 bükün,F,
 bürü,F,bu1wrw
 bütçele,F,
-bütünle,F,bu1wbo2wbo1lh<>
+bütünle,F,bu1wbo2wbo1lh||
 büyü,F,!MULTIPLE VALUES
 büyükse,F,
-büyüle,F,bu1wywlh<>
+büyüle,F,bu1wywlh||
 büyült,F,
 büz,F,!MULTIPLE VALUES
 büzgüle,F,
@@ -262,7 +262,7 @@ canlandır,F,xu1ebo1lebo1dyr
 carla,F,
 cavla,F,xu1ewle
 cay,F,xu1ey
-cayırda,F,xu1eyyr<>de
+cayırda,F,xu1eyyr||de
 cazırda,F,
 celbet,F,
 cereyaned,T,
@@ -315,7 +315,7 @@ dağla,F,deao1le
 dağıl,F,deao1yl
 dağıt,F,!MULTIPLE VALUES
 de,F,!MULTIPLE VALUES
-debelen,F,dbu1h<>lbo1
+debelen,F,dbu1h||lbo1
 defed,T,
 defet,F,dfo1a eybo2
 defle,F,
@@ -326,7 +326,7 @@ defol,F,
 dehle,F,
 del,F,dl
 delir,F,dlyr
-demetle,F,dmbo2lh<>
+demetle,F,dmbo2lh||
 demirle,F,
 demle,F,
 dene,F,!MULTIPLE VALUES
@@ -344,7 +344,7 @@ deriş,F,
 derle,F,
 derpişed,T,
 derpişet,F,
-destekle,F,dsbo2klh<>
+destekle,F,dsbo2klh||
 destele,F,
 devin,F,
 devir,F,!MULTIPLE VALUES
@@ -364,7 +364,7 @@ değnekle,F,
 deş,F,
 deşele,F,
 di,F,dy
-didikle,F,dydyklh<>
+didikle,F,dydyklh||
 didin,F,dydybo1
 didiş,F,dydyso3
 dik,F,!MULTIPLE VALUES
@@ -372,7 +372,7 @@ dikel,F,
 dikil,F,dykyl
 dikizle,F,
 dil,F,!MULTIPLE VALUES
-dile,F,dylh<>
+dile,F,dylh||
 dilen,F,dylbo1
 dilimle,F,
 din,F,!MULTIPLE VALUES
@@ -384,7 +384,7 @@ dinlen,F,dyklbo1
 diple,F,
 dipçikle,F,
 dire,F,
-diren,F,dyrh<>bo1
+diren,F,dyrh||bo1
 diret,F,
 direş,F,
 dirgenle,F,
@@ -440,20 +440,20 @@ dönüş,F,!MULTIPLE VALUES
 dörtle,F,
 döv,F,
 döğ,F,dwko7
-döşe,F,dwso3h<>
+döşe,F,dwso3h||
 düdükle,F,
 dür,F,dwr
 dürt,F,dwrbo2
 dürtükle,F,
 dürümle,F,
 düz,F,dwro1
-düzel,F,dwro1h<>l
-düzelt,F,dwro1h<>lbo2
+düzel,F,dwro1h||l
+düzelt,F,dwro1h||lbo2
 düzenle,F,
-düzle,F,dwro1lh<>
+düzle,F,dwro1lh||
 düğ,F,
-düğmele,F,dwko7mh<>l
-düğümle,F,dwko7wmlh<>
+düğmele,F,dwko7mh||l
+düğümle,F,dwko7wmlh||
 düş,F,dwso3
 düşle,F,
 düşün,F,dwso3wbo1
@@ -467,17 +467,17 @@ edil,F,eydl
 edin,F,eydbo1
 efsunla,F,
 ek,F,ek
-ekle,F,eklh<>
+ekle,F,eklh||
 eklemle,F,
 eksil,F,eksyl
 ekşi,F,!MULTIPLE VALUES
 eldeed,T,
 eldeet,F,
-ele,F,elh<>
+ele,F,elh||
 elektrikle,F,
 eleştir,F,
 elkoy,F,
-elle,F,eo5llh<>
+elle,F,eo5llh||
 elver,F,eo5lwyr
 em,F,eo5m
 emayla,F,
@@ -493,7 +493,7 @@ endeksle,F,
 ene,F,!MULTIPLE VALUES
 engelle,F,
 enikle,F,
-ensele,F,elo5o3sh<>l
+ensele,F,elo5o3sh||l
 epri,F,
 er,F,!MULTIPLE VALUES
 ergi,F,
@@ -501,18 +501,18 @@ erginle,F,
 eri,F,ery
 erin,F,
 eriş,F,!MULTIPLE VALUES
-ertele,F,eyrbo2h<>lh<>
+ertele,F,eyrbo2h||lh||
 es,F,es
 esenle,F,
 eser,F,ebo3r
 esindir,F,
 esinle,F,
-esirge,F,eo5syrkh<>
+esirge,F,eo5syrkh||
 eski,F,!MULTIPLE VALUES
-esne,F,esbo1h<>
+esne,F,esbo1h||
 esri,F,
 et,F,!MULTIPLE VALUES
-etekle,F,ebo2klh<>
+etekle,F,ebo2klh||
 eterle,F,
 etiketle,F,
 etki,F,
@@ -520,27 +520,27 @@ etkile,F,
 ever,F,eo5wr
 evir,F,eo5wyr
 evlekle,F,
-evlen,F,eo5wlh<>bo1
+evlen,F,eo5wlh||bo1
 evril,F,
 evse,F,
 eyerle,F,
-eyle,F,eylh<>
+eyle,F,eylh||
 ez,F,ero1
-ezberle,F,ero1bu1rlh<>
+ezberle,F,ero1bu1rlh||
 eğ,F,
-eğele,F,eko7h<>l
+eğele,F,eko7h||l
 eğerle,F,
 eğil,F,
 eğin,F,eko7ybo1
 eğir,F,eko7r
 eğit,F,
-eğle,F,eko7lh<>
+eğle,F,eko7lh||
 eğlen,F,eko7lbo1
 eğleş,F,
 eğril,F,eko7rl
 eğrit,F,
 eş,F,!MULTIPLE VALUES
-eşele,F,eo5so3h<>lh<>
+eşele,F,eo5so3h||lh||
 eşin,F,eo5so3ybo1
 eşitle,F,
 eşle,F,
@@ -557,15 +557,15 @@ feshed,T,
 feshet,F,fo1sxo1 eybo2
 fethed,T,
 fethet,F,
-fidele,F,fo1ydh<>l
+fidele,F,fo1ydh||l
 fihristle,F,
 filarizle,F,
-filizle,F,fo1ylyro1lh<>
+filizle,F,fo1ylyro1lh||
 fingirdeş,F,
 firketele,F,
-fiskele,F,fo1yskh<>l
-fitille,F,fo1bo2yllh<>
-fitle,F,fo1ybo2llh<>
+fiskele,F,fo1yskh||l
+fitille,F,fo1bo2yllh||
+fitle,F,fo1ybo2llh||
 fitnele,F,
 fiyatla,F,
 fişle,F,
@@ -580,7 +580,7 @@ frenle,F,
 frezele,F,
 fıkırda,F,fo1yfo2yrde
 fırla,F,!MULTIPLE VALUES
-fırçala,F,fo1yrxu3h<>le
+fırçala,F,fo1yrxu3h||le
 fırınla,F,
 fısfısla,F,
 fısla,F,fo1yzle
@@ -600,7 +600,7 @@ gayreted,T,
 gayretet,F,
 gazla,F,
 geber,F,ko7bu1r
-gecele,F,ko7yxu1h<>l
+gecele,F,ko7yxu1h||l
 gecik,F,ko7xu1yk
 ged,F,
 gedil,F,
@@ -609,7 +609,7 @@ geliş,F,!MULTIPLE VALUES
 gemle,F,
 gencel,F,ko7bo1xu1l
 genelle,F,
-genişle,F,ko7bo1yso3lh<>
+genişle,F,ko7bo1yso3lh||
 genleş,F,
 ger,F,ko7r
 gerek,F,ko7rk
@@ -622,8 +622,8 @@ gerçekleş,F,ko7rxu1klso3
 getir,F,ko7bo2yr
 gev,F,!MULTIPLE VALUES
 gevele,F,
-gevre,F,ko7wrh<>
-gevşe,F,ko7wso3h<>
+gevre,F,ko7wrh||
+gevşe,F,ko7wso3h||
 gez,F,ko7ro1
 gezele,F,
 gezin,F,ko7ro1ybo1
@@ -642,7 +642,7 @@ giriş,F,!MULTIPLE VALUES
 git,F,ko7ybo2
 giy,F,ko7yy
 giyin,F,ko7yybo1
-gizle,F,ko7yro1lh<>
+gizle,F,ko7yro1lh||
 gocun,F,
 gurkla,F,ao1wrfo2le
 gurla,F,
@@ -667,32 +667,32 @@ gözardıed,T,
 gözardıet,F,
 gözardıol,F,
 gözdengeçir,F,
-göze,F,ko7wro1h<>
+göze,F,ko7wro1h||
 gözet,F,ko7wro1bo2
-gözetle,F,ko7wro1bo2lh<>
-gözle,F,ko7wro1lh<>
+gözetle,F,ko7wro1bo2lh||
+gözle,F,ko7wro1lh||
 gözlemle,F,
 gözönündetut,F,
 gözük,F,!MULTIPLE VALUES
 göç,F,ko7wxu3
 göçer,F,ko7wxu3r
 göçür,F,ko7wxu3wr
-göğüsle,F,ko7wko7slh<>
-gübrele,F,ko7wbu1rh<>lh<>
+göğüsle,F,ko7wko7slh||
+gübrele,F,ko7wbu1rh||lh||
 gücen,F,ko7wxu1bo1
 güd,T,
 güdümle,F,
 gül,F,!MULTIPLE VALUES
-gülümse,F,ko7wlwmsh<>
-gümbürde,F,ko7wmbu1wrdh<>
+gülümse,F,ko7wlwmsh||
+gümbürde,F,ko7wmbu1wrdh||
 gümle,F,
 gümrükle,F,
-gümüşle,F,ko7wmwso3lh<>
+gümüşle,F,ko7wmwso3lh||
 güneşle,F,
-günüle,F,ko7wbo1ylh<>
+günüle,F,ko7wbo1ylh||
 güreş,F,!MULTIPLE VALUES
-gürle,F,ko7wrlh<>
-gürülde,F,ko7wrwldh<>
+gürle,F,ko7wrlh||
+gürülde,F,ko7wrwldh||
 güt,F,ko7wbo2
 güven,F,ko7wko7bo1
 güzelleş,F,ko7wro1llso3
@@ -701,7 +701,7 @@ gıcıkla,F,
 gıcırda,F,ao1yxu1yrde
 gıdıkla,F,ao1ydyfo2le
 gırgırla,F,
-haberleş,F,xo1bu1rlh<>so3
+haberleş,F,xo1bu1rlh||so3
 hacamatla,F,
 haczed,T,
 haczet,F,
@@ -726,7 +726,7 @@ hapset,F,
 hapsol,F,
 hapşır,F,
 harca,F,xo1rxu1e
-harekele,F,xrkh<>lh<>
+harekele,F,xrkh||lh||
 hareketed,T,
 hareketet,F,
 harla,F,xo1erle
@@ -785,20 +785,20 @@ ihbarla,F,
 ihlaled,T,
 ihlalet,F,
 ihtiyarla,F,exo1bo2yerle
-ikile,F,eykylh<>
+ikile,F,eykylh||
 ilaned,T,
 ilanet,F,
 ilaçla,F,
 ilerisür,F,
-ilerle,F,eylrylh<>
+ilerle,F,eylrylh||
 ilet,F,eylbo2
-ilikle,F,eylyklh<>
+ilikle,F,eylyklh||
 ilintile,F,
 iliş,F,eylyso3
 ilmikle,F,
 imgele,F,
 imle,F,
-imren,F,eymrh<>bo1
+imren,F,eymrh||bo1
 imzala,F,emzo1ele
 in,F,eybo1
 inan,F,!MULTIPLE VALUES
@@ -809,18 +809,18 @@ incit,F,ebo1xu1ybo2
 indirge,F,
 indükle,F,
 inekle,F,
-inilde,F,eylo5o3yldh<>
-inle,F,ebo1lo5o3lh<>
+inilde,F,eylo5o3yldh||
+inle,F,ebo1lo5o3lh||
 ipile,F,
 irdele,F,
 irkil,F,eyrkyl
-isle,F,eyslh<>
+isle,F,eyslh||
 ispatla,F,
 ispiyonla,F,
-iste,F,eysbo2h<>
+iste,F,eysbo2h||
 istifadeed,T,
 istifadeet,F,
-istifle,F,esbo2yfo1lh<>
+istifle,F,esbo2yfo1lh||
 it,F,eybo2
 itekle,F,
 itele,F,
@@ -831,14 +831,14 @@ izle,F,eyro1l
 iç,F,eyxu3
 içer,F,
 içerle,F,
-iğnele,F,eyko7bo1h<>lh<>
-iğren,F,eyko7rh<>bo1
+iğnele,F,eyko7bo1h||lh||
+iğren,F,eyko7rh||bo1
 iğretile,F,
 işaretle,F,
-işe,F,eyso3h<>
+işe,F,eyso3h||
 işeyara,F,
 işit,F,eyso3ybo2
-işle,F,eyso3lh<>
+işle,F,eyso3lh||
 iştiraked,T,
 iştiraket,F,
 jurnalle,F,
@@ -872,7 +872,7 @@ kamaş,F,fo2emeso3
 kamçıla,F,fo2emxu3yle
 kan,F,!MULTIPLE VALUES
 kana,F,fo2ebo1e
-kancala,F,fo2ebo1xu1h<>le
+kancala,F,fo2ebo1xu1h||le
 kangalla,F,
 kanla,F,
 kantarla,F,
@@ -968,27 +968,27 @@ kaşan,F,
 kaşağıla,F,fo2eso3eao1yle
 kaşı,F,
 kaşıkla,F,
-kefele,F,kfo1h<>l
+kefele,F,kfo1h||l
 kefenle,F,kfo1bo1l
-kekele,F,kkh<>l
+kekele,F,kkh||l
 keleple,F,
 kelepçele,F,
 kemerle,F,
 kemir,F,kmyr
 kemrele,F,
-kenetle,F,kybo1bo2lh<>
+kenetle,F,kybo1bo2lh||
 kepçele,F,
 kert,F,krbo2
 kertikle,F,
 kes,F,ks
-kesele,F,kysh<>lh<>
+kesele,F,kysh||lh||
 kesil,F,ksyl
 kesin,F,
 kesiş,F,ksyso3
 keçele,F,
 keşfed,T,
 keşfet,F,
-kilitle,F,klydlh<>
+kilitle,F,klydlh||
 kille,F,
 kirala,F,krele
 kireçle,F,
@@ -996,7 +996,7 @@ kireçsile,F,
 kirizmala,F,
 kirişle,F,kryso3l
 kirlet,F,kyrlbo2
-kişne,F,kyso3bo1h<>
+kişne,F,kyso3bo1h||
 klorla,F,
 koca,F,!MULTIPLE VALUES
 kocal,F,fo2wxu1el
@@ -1063,27 +1063,27 @@ kuşakla,F,fo2wso3efo2le
 kuşan,F,fo2wso3ebo1
 kuşat,F,fo2wso3ebo2
 köhne,F,khbo1h||
-kökle,F,kwklh<>
-köpekle,F,kwbu3klh<>
+kökle,F,kwklh||
+köpekle,F,kwbu3klh||
 köpüle,F,
 köpür,F,kwbu3wr
 körel,F,
 körükle,F,
-köstekle,F,kwsbo2klh<>
-kötüle,F,kwbo2wlh<>
+köstekle,F,kwsbo2klh||
+kötüle,F,kwbo2wlh||
 kötümse,F,
 közle,F,
 köşekle,F,
 köşele,F,
 küfred,T,
 küfret,F,
-kükre,F,ko7wkrh<>
+kükre,F,ko7wkrh||
 kükürtle,F,
 külle,F,
 kümele,F,
 kündele,F,
 küre,F,!MULTIPLE VALUES
-kürele,F,kwrh<>l
+kürele,F,kwrh||l
 kürü,F,kwrw
 küs,F,!MULTIPLE VALUES
 küsüş,F,
@@ -1147,8 +1147,8 @@ lambala,F,
 lanetle,F,
 lazımgel,F,
 lağvol,F,
-lehimle,F,lhymlh<>
-lekele,F,lkh<>lh<>
+lehimle,F,lhymlh||
+lekele,F,lkh||lh||
 lifle,F,
 limanla,F,lymebo1le
 limonla,F,
@@ -1197,8 +1197,8 @@ merhemle,F,
 methed,T,
 methet,F,
 mevzubahisol,F,
-mimle,F,mymlh<>
-minele,F,mybo1h<>l
+mimle,F,mymlh||
+minele,F,mybo1h||l
 modelle,F,
 morar,F,mwrer
 mortla,F,
@@ -1245,7 +1245,7 @@ nitelen,F,
 niyetlen,F,
 nişanla,F,
 nodulla,F,
-noktala,F,bo1fo2th<>le
+noktala,F,bo1fo2th||le
 numarala,F,
 nötrle,F,
 nüksed,T,
@@ -1270,7 +1270,7 @@ onayla,F,
 oralıol,F,
 oranla,F,ewrebo1le
 orsala,F,
-ortala,F,ewrbo2h<>le
+ortala,F,ewrbo2h||le
 ortaya,F,
 osur,F,
 ota,F,
@@ -1313,24 +1313,24 @@ payandala,F,
 payla,F,bu3eyle
 paylaş,F,bu3eyleso3
 pazarla,F,
-pehpehle,F,bu3h<>h<>bu3h<>hlh<>
+pehpehle,F,bu3h||h||bu3h||hlh||
 pekit,F,
 pekiş,F,bu3kyso3
-pençele,F,bu3bo1xu3h<>lh<>
-pepele,F,bu3h<>bu3h<>lh<>
+pençele,F,bu3bo1xu3h||lh||
+pepele,F,bu3h||bu3h||lh||
 perdahla,F,bu3rdexle
-perdele,F,bu3rdh<>lh<>
-perçinle,F,bu3rxu3ybo1lh<>
+perdele,F,bu3rdh||lh||
+perçinle,F,bu3rxu3ybo1lh||
 peydahla,F,
-peyle,F,bu3ylh<>
+peyle,F,bu3ylh||
 peçele,F,
-pinekle,F,bu3ybo1klh<>
-pisle,F,bu3yslh<>
+pinekle,F,bu3ybo1klh||
+pisle,F,bu3yslh||
 piyazla,F,
 piş,F,bu3yso3
 planla,F,
 planyala,F,
-pohpohla,F,bu3wh<>bu3whle
+pohpohla,F,bu3wh||bu3whle
 pompala,F,
 ponzala,F,
 porsu,F,bu3wzw
@@ -1372,8 +1372,8 @@ reddet,F,rdeybo2
 reddeyle,F,
 rehned,F,
 rehnet,F,
-rendele,F,rbo1dh<>lh<>
-renkle,F,rbo1klh<>
+rendele,F,rbo1dh||lh||
+renkle,F,rbo1klh||
 resimle,F,
 resmed,T,
 resmet,F,
@@ -1451,7 +1451,7 @@ sayıla,F,
 sayımla,F,
 saç,F,zexu3
 saçala,F,
-saçmala,F,zexu3mh<>le
+saçmala,F,zexu3mh||le
 sağ,F,zeao1
 sağal,F,
 sağla,F,zeao1le
@@ -1467,7 +1467,7 @@ sembolizeet,F,
 semerle,F,
 semir,F,smyr
 semizle,F,
-sendele,F,sbo1dh<>l
+sendele,F,sbo1dh||l
 sentezle,F,
 sepele,F,
 sepetle,F,
@@ -1479,8 +1479,8 @@ serinle,F,srybo1l
 serp,F,srbu3
 serpele,F,
 serpiştir,F,
-sersemle,F,srsmlh<>
-sesle,F,sslh<>
+sersemle,F,srsmlh||
+sesle,F,sslh||
 sev,F,sw
 sevgigöster,F,
 sevin,F,swybo1
@@ -1554,7 +1554,7 @@ sömür,F,swmwr
 sön,F,!MULTIPLE VALUES
 sönümle,F,
 söv,F,
-söyle,F,swylh<>
+söyle,F,swylh||
 söze^t,F,
 sözle,F,
 sözleş,F,zwro1lso3
@@ -1593,7 +1593,7 @@ sın,F,
 sına,F,zybo1e
 sınıfla,F,
 sınırla,F,
-sırala,F,zyrh<>le
+sırala,F,zyrh||le
 sırla,F,
 sırnaş,F,
 sırrol,F,
@@ -1666,25 +1666,25 @@ tatbiked,T,
 tatbiket,F,
 tavla,F,!MULTIPLE VALUES
 tavsa,F,bo2ewse
-tazele,F,bo2ero1h<>lh<>
+tazele,F,bo2ero1h||lh||
 taş,F,teso3
 taşla,F,teso3le
 taşı,F,teso3y
 taşın,F,teso3ybo1
 taşır,F,teso3yr
 tedarikle,F,
-tekerle,F,bo2krlh<>
+tekerle,F,bo2krlh||
 tekle,F,
-tekmele,F,bo2kmh<>lh<>
-tekmille,F,bo2kmyllh<>
+tekmele,F,bo2kmh||lh||
+tekmille,F,bo2kmyllh||
 tekrarla,F,bo2krerle
 telala,F,
 telesi,F,
 telle,F,!MULTIPLE VALUES
 tembihle,F,
-temizle,F,bo2myro1lh<>
+temizle,F,bo2myro1lh||
 tep,F,bo2bu3
-tepele,F,bo2bu3h<>lh<>
+tepele,F,bo2bu3h||lh||
 tepikle,F,
 tepin,F,bo2bu3ybo1
 tepirle,F,
@@ -1696,14 +1696,14 @@ tercümeed,T,
 tercümeet,F,
 terked,T,
 terket,F,
-terle,F,bo2rlh<>
+terle,F,bo2rlh||
 tersin,F,
-tersle,F,bo2rslh<>
+tersle,F,bo2rslh||
 tertiple,F,
 testerele,F,
 tetikle,F,
 tevekle,F,
-teyelle,F,bo2ko7llh<>
+teyelle,F,bo2ko7llh||
 tezle,F,
 teşekküred,T,
 teşekküret,F,
@@ -1712,9 +1712,9 @@ teşkilet,F,
 teşviked,T,
 teşviket,F,
 tiksin,F,!MULTIPLE VALUES
-tipile,F,bo2ybu3ylh<>
+tipile,F,bo2ybu3ylh||
 tiple,F,
-titre,F,bo2ybo2rh<>
+titre,F,bo2ybo2rh||
 titremle,F,
 titreş,F,
 tohumla,F,
@@ -1736,7 +1736,7 @@ toprakla,F,twbu3refo2le
 topukla,F,
 torbala,F,
 tornala,F,
-torpille,F,twrbu3yllh<>
+torpille,F,twrbu3yllh||
 tosla,F,
 toz,F,bo2wro1
 tozar,F,
@@ -1757,20 +1757,20 @@ tuzakla,F,
 tuzla,F,!MULTIPLE VALUES
 tuşla,F,
 tökezle,F,
-törpüle,F,bo2wrbu3wlh<>
+törpüle,F,bo2wrbu3wlh||
 töskür,F,
-tüken,F,bo2wkh<>bo1
-tüket,F,bo2wkh<>bo2
+tüken,F,bo2wkh||bo1
+tüket,F,bo2wkh||bo2
 tükür,F,bo2wkwr
 tükürükle,F,
 tümle,F,
-tüne,F,bo2wbo1h<>
-tünekle,F,bo2wbo1klh<>
+tüne,F,bo2wbo1h||
+tünekle,F,bo2wbo1klh||
 tüple,F,
 türe,F,!MULTIPLE VALUES
 türküle,F,
 tüt,F,bo2wbo2
-tütsüle,F,bo2wbo2swlh<>
+tütsüle,F,bo2wbo2swlh||
 tüy,F,!MULTIPLE VALUES
 tık,F,tyfo2
 tıka,F,tyfo2e
@@ -1810,7 +1810,7 @@ ulula,F,
 um,F,ewm
 umursa,F,
 unla,F,
-unut,F,ewbo1h<>bo2
+unut,F,ewbo1h||bo2
 usan,F,ewzebo1
 uslamla,F,
 utan,F,!MULTIPLE VALUES
@@ -1842,7 +1842,7 @@ uğun,F,
 uğurla,F,ewao1wrle
 uğursa,F,
 vaded,T,
-vadet,F,wad<>eybo2
+vadet,F,wad||eybo2
 vakfed,T,
 vakfet,F,wfo2fo1 eybo2
 vakla,F,
@@ -1872,14 +1872,14 @@ vınla,F,
 vırla,F,
 vızla,F,wyro1le
 vızılda,F,wyro1ylde
-yabala,F,yebu1h<>le
+yabala,F,yebu1h||le
 yabancıla,F,
 yabansı,F,
 yadsı,F,
 yadırga,F,yedyrao1e
 yaftala,F,
 yak,F,yefo2
-yakala,F,yefo2h<>le
+yakala,F,yefo2h||le
 yakar,F,yefo2er
 yaklaş,F,bo2efo2leso3
 yakın,F,!MULTIPLE VALUES
@@ -1893,7 +1893,7 @@ yalpala,F,
 yalvar,F,yelwer
 yalıt,F,
 yama,F,!MULTIPLE VALUES
-yamala,F,yemh<>le
+yamala,F,yemh||le
 yamrul,F,
 yamul,F,
 yan,F,yebo1
@@ -1910,7 +1910,7 @@ yap,F,yebu3
 yapış,F,!MULTIPLE VALUES
 yar,F,!MULTIPLE VALUES
 yara,F,!MULTIPLE VALUES
-yarala,F,yerh<>le
+yarala,F,yerh||le
 yaran,F,!MULTIPLE VALUES
 yarat,F,yerebo2
 yaratıl,F,yerebo2yl
@@ -1954,13 +1954,13 @@ yedekle,F,
 yekin,F,
 yelekle,F,ylke
 yelkenle,F,
-yelle,F,yllh<>
-yelpazele,F,ylbu3ero1h<>l
+yelle,F,yllh||
+yelpazele,F,ylbu3ero1h||l
 yelse,F,
 yelten,F,ylbo2bo1
 yemle,F,
 yen,F,!MULTIPLE VALUES
-yenile,F,ylo5o3ylh<>
+yenile,F,ylo5o3ylh||
 yeniş,F,
 yer,F,yr
 yeral,F,
@@ -2050,18 +2050,18 @@ zaptet,F,zo1bu1t eybo2
 zarfla,F,
 zayıfla,F,zo1ayfo1le
 zağla,F,
-zedele,F,ro1dh<>l
+zedele,F,ro1dh||l
 zehirle,F,
 zehrol,F,
-zenginle,F,ro1bo1ko7ybo1lh<>
-ziftle,F,ro1yfo1bo2lh<>
+zenginle,F,ro1bo1ko7ybo1lh||
+ziftle,F,ro1yfo1bo2lh||
 zikred,T,
 zikret,F,
 zincirle,F,ro1bo1xu1yrl
 ziyaned,T,
 ziyanet,F,
 zonkla,F,ro1wbo1fo2le
-zorla,F,ro1wlh<>
+zorla,F,ro1wlh||
 zorlaş,F,
 zorundabırak,F,
 zorundakal,F,
@@ -2102,7 +2102,7 @@ zırılda,F,ro1yrylde
 çatırda,F,
 çatış,F,!MULTIPLE VALUES
 çav,F,
-çayırla,F,xu3eyyr<>le
+çayırla,F,xu3eyyr||le
 çağ,F,xu3eao1
 çağla,F,xu3eao1le
 çağrı,T,
@@ -2111,7 +2111,7 @@ zırılda,F,ro1yrylde
 çaşıtla,F,
 çek,F,xu3k
 çekele,F,
-çekeme,F,xu3kh<>mh<>
+çekeme,F,xu3kh||mh||
 çekil,F,xu3kyl
 çekimle,F,
 çekimsen,F,
@@ -2123,42 +2123,42 @@ zırılda,F,ro1yrylde
 çelikle,F,
 çeliş,F,
 çelmele,F,
-çemberle,F,xu3bo1bu1r<>lh<>
+çemberle,F,xu3bo1bu1r||lh||
 çemenle,F,
 çemkir,F,
-çengelle,F,xu3bo1ko7llh<>
+çengelle,F,xu3bo1ko7llh||
 çenile,F,
 çent,F,xu3bo1bo2
-çentikle,F,xu3bo1bo2yklh<>
-çerçevele,F,xu3rxu3ywh<>lh<>
+çentikle,F,xu3bo1bo2yklh||
+çerçevele,F,xu3rxu3ywh||lh||
 çevir,F,xu3wyr
 çevrele,F,
 çevril,F,xu3wyryl
 çevrile,F,
 çevrin,F,
-çeyrekle,F,xu3yrh<>klh<>
-çeşitle,F,xu3so3ybo2lh<>
+çeyrekle,F,xu3yrh||klh||
+çeşitle,F,xu3so3ybo2lh||
 çeşnile,F,
-çiftele,F,xu3yfo1bo2h<>lh<>
+çiftele,F,xu3yfo1bo2h||lh||
 çiftle,F,
 çile,F,!MULTIPLE VALUES
 çim,F,xu3ym
-çimdikle,F,xu3ymdyklh<>
+çimdikle,F,xu3ymdyklh||
 çimentola,F,
-çirişle,F,xu3yryso3lh<>
+çirişle,F,xu3yryso3lh||
 çise,F,
-çisele,F,xu3ysh<>lh<>
+çisele,F,xu3ysh||lh||
 çit,F,xu3ybo2
 çitile,F,
 çitle,F,
-çivile,F,xu3ywylh<>
-çivitle,F,xu3ywybo2lh<>
+çivile,F,xu3ywylh||
+çivitle,F,xu3ywybo2lh||
 çiyle,F,
 çiz,F,xu3yro1
 çizgile,F,
 çiziktir,F,
 çiçekle,F,
-çiğne,F,xu3yko7bo1h<>
+çiğne,F,xu3yko7bo1h||
 çoksa,F,
 çoğal,F,xu3wao1el
 çoğulla,F,
@@ -2196,7 +2196,7 @@ zırılda,F,ro1yrylde
 çığır,F,xu3yao1yr
 çığırt,F,
 öcal,F,
-öde,F,ewdh<>
+öde,F,ewdh||
 ödünle,F,
 öksür,F,ewkswr
 öl,F,ewl
@@ -2207,7 +2207,7 @@ zırılda,F,ro1yrylde
 önemver,F,
 öner,F,
 öngör,F,
-önle,F,ewlo5o3lh<>
+önle,F,ewlo5o3lh||
 öp,F,ewbu3
 ör,F,ewr
 örgütle,F,
@@ -2215,7 +2215,7 @@ zırılda,F,ro1yrylde
 örnek,F,ewrbo1k
 örnekle,F,
 örnekse,F,
-örsele,F,ewrsh<>l
+örsele,F,ewrsh||l
 ört,F,ewrbo2
 örtün,F,ewrbo2wbo1k
 öt,F,ewbo2
@@ -2230,36 +2230,36 @@ zırılda,F,ro1yrylde
 özen,F,ewro1bo1
 özetle,F,
 özgüle,F,
-özle,F,ewro1lh<>
+özle,F,ewro1lh||
 özümle,F,
 özümse,F,
 öçal,F,
 öğren,F,!MULTIPLE VALUES
-öğret,F,ewko7rh<>bo2
+öğret,F,ewko7rh||bo2
 öğür,F,ewko7wr
 öğürtle,F,
 öğüt,F,!MULTIPLE VALUES
-öğütle,F,ewko7wbo2lh<>
-üfle,F,ewfo1lh<>
+öğütle,F,ewko7wbo2lh||
+üfle,F,ewfo1lh||
 üfür,F,ewfo1wr
 üleş,F,ewlso3
-ünle,F,ewlo5o3lh<>
-üre,F,ewrh<>
+ünle,F,ewlo5o3lh||
+üre,F,ewrh||
 ürk,F,ewrk
 ürper,F,ewrbu3r
 ürü,F,ewrw
-üstele,F,ewsbo2h<>lh<>
+üstele,F,ewsbo2h||lh||
 üsten,F,
 üstlen,F,
 üstüpüle,F,
 üt,F,ewbo2
 ütüle,F,ewbo2wl
-üvey,F,ewwh<>y
+üvey,F,ewwh||y
 üyeol,F,
 üz,F,ewro1
 üzengile,F,
 üzül,F,ewro1l
-üçle,F,ewxu1lh<>
+üçle,F,ewxu1lh||
 üş,F,
 üşen,F,ewso3bo1
 üşü,F,ewso3w
@@ -2312,7 +2312,7 @@ zırılda,F,ro1yrylde
 şişele,F,
 şişin,F,
 şişir,F,so3yso3yr
-şişle,F,so3yso3lh<>
+şişle,F,so3yso3lh||
 şişmanla,F,
 şokeed,T,
 şokeet,F,

@@ -35,9 +35,9 @@ babayane,bu1ebu1eyebo1h||
 bâbâyâne,bu1ebu1eyebo1h
 babayani,bu1ebu1eyebo1h||
 babayâni,bu1ebu1eyebo1h
-babayiğit,bu1ebu1e<>yykybo2
 babayiğit,bu1ebu1e||yykybo2
-babayiğitlik,bu1ebu1e<>yykybo2lk
+babayiğit,bu1ebu1e||yykybo2
+babayiğitlik,bu1ebu1e||yykybo2lk
 babayiğitlik,bu1ebu1e||yykybo2lk
 bab,bu1ebu1
 bâb,bu1ebu1
@@ -49,7 +49,7 @@ babdaki,bu1ebu1dh||ky
 babdan,bu1ebu1dbo1
 bâbdır,bu1ebu1dr
 bab-ı ali,bu1ebu1 aely
-babıali,bu1ebu1<>aely
+babıali,bu1ebu1||aely
 bâb-ı âlî,bu1ebu1 aely
 bab-ı,bu1ebu1u4
 bâb-ı,bu1ebu1u4
@@ -758,7 +758,7 @@ bahr-i siyah,bu1xr syeh||
 bahriye,bu1xryh
 bahriye,bu1xryh||
 bahriyeden,bu1xryh||dbo1
-bahriyeli,bu1xryh<>ly
+bahriyeli,bu1xryh||ly
 bahriyeli,bu1xryh||ly
 bahriyye,bu1xrbu2h
 bahriyye,bu1xryh||
@@ -1352,11 +1352,11 @@ baksan,bu1efo2sh||ko3
 baksanız,bu1efo2sh||ko3ro1
 baksın,bu1efo2sybo1
 baksınlar,bu1efo2sybo1lr
-bakteri,bu1efo2bo2h<>ry
 bakteri,bu1efo2bo2h||ry
-bakteriyolog,bu1efo2bo2h<>ryywlwao1
+bakteri,bu1efo2bo2h||ry
 bakteriyolog,bu1efo2bo2h||ryywlwao1
-bakteriyoloji,bu1efo2bo2h<>ryywlwro3y
+bakteriyolog,bu1efo2bo2h||ryywlwao1
+bakteriyoloji,bu1efo2bo2h||ryywlwro3y
 bakteriyoloji,bu1efo2bo2h||ryywlwro3y
 baktı,bu1efo2dy
 baktığı,bu1efo2dyao1y
@@ -1541,7 +1541,7 @@ balonu,bu1elwbo1y
 balonuna,bu1elwbo1bo1h
 balonuyla,bu1elwbo1ylh
 balpeteği,bu1el bu3bo2ko7y
-baltabaş,bu1elth<>bu1eso3
+baltabaş,bu1elth||bu1eso3
 baltabaş,bu1elth||bu1eso3
 balta,bu1elte
 balta,bu1elth
@@ -1793,7 +1793,7 @@ bârver,bu1erwr
 baryum,bu1erywm
 baryûm,bu1erywm
 başa baş,bu1eso3h bu1eso3
-başabaş,bu1eso3h<>bu1eso3
+başabaş,bu1eso3h||bu1eso3
 başabaş,bu1eso3h||bu1eso3
 başa,bu1eso3h
 basacağım,bu1ezh||xu1ao1m
@@ -1870,7 +1870,7 @@ başbakan'ın,bu1eso3||bu1efo2ebo1ko3
 başbakanlığa,bu1eso3||bu1efo2ebo1lao1h
 baş-başa,bu1eso3 bu1eso3h
 başbaşa,bu1eso3 bu1eso3h
-basbayağı,bu1es<>bu1eyeao1y
+basbayağı,bu1es||bu1eyeao1y
 basbayağı,bu1es||bu1eyeao1y
 baş bodoslaması,bu1eso3 bu1dwslmh sy
 ba's,bu1abo3
@@ -1896,7 +1896,7 @@ başgösterdi,bu1eso3 ko7wsbo2rdy
 başgösterir,bu1eso3 ko7wsbo2rr
 başgösterirse,bu1eso3 ko7wsbo2rrsh
 baş-göz,bu1eso3 ko7wro1
-başgöz,bu1eso3<>ko7wro1
+başgöz,bu1eso3||ko7wro1
 başgöz,bu1eso3||ko7wro1
 başıboş,bu1eso3y||bu1wso3
 başıboş,bu1eso3y bu1wso3
@@ -2070,7 +2070,7 @@ başka,bu1eso3fo2h
 başka,bu1eso3fo2h||
 başka,bu1so3fo2h
 başka,bu1so3fo2h||
-başkaca,bu1eso3fo2h<>xu1h||
+başkaca,bu1eso3fo2h||xu1h||
 başkaca,bu1eso3fo2h||xu1h
 başkadır,bu1eso3fo2h||dr
 başkadırlar,bu1eso3fo2h||drlr
@@ -2095,21 +2095,21 @@ başkalarını,bu1eso3fo2h||lrybo1y
 başkalarının,bu1eso3fo2h||lrybo1ko3
 başkalarıyla,bu1eso3fo2h||lrylh
 başkalarla,bu1eso3fo2h||lrlh
-başkalaş,bu1eso3fo2h<>leso3
+başkalaş,bu1eso3fo2h||leso3
 başkalaşır,bu1eso3fo2h||leso3yr
-başkalaşmak,bu1eso3fo2h<>leso3mfo2
+başkalaşmak,bu1eso3fo2h||leso3mfo2
 başkalaşmak,bu1eso3fo2h||leso3mfo2
 başkalaşmış,bu1eso3fo2h||leso3mso3
 başkalaşmıyor,bu1eso3fo2h||leso3myywr
-başkale,bu1eso3<>fo2lah||
-başkalık,bu1eso3fo2h<>lfo2
+başkale,bu1eso3||fo2lah||
+başkalık,bu1eso3fo2h||lfo2
 başkalık,bu1eso3fo2h||lfo2
 başkanı,bu1eso3fo2ebo1y
 başkanın elfâzını îrâd etmek,bu1so3fo2h bo1k elfo1eto1bo1y ebu2rede
 başkanın elfazını irad etmek,bu1so3fo2h bo1k elfo1eto1bo1y eyrede
 başkanının,bu1eso3fo2ebo1bo1ko3
 başkanlığına,bu1eso3fo2ebo1lao1bo1h
-başkası,bu1eso3fo2h<>sy
+başkası,bu1eso3fo2h||sy
 başkası,bu1eso3fo2h||sy
 başkasına benzetmek,bu1so3fo2h sbo1h bu1kro1bo2mk
 başkasına,bu1eso3fo2h||sbo1h
@@ -2127,7 +2127,7 @@ başka tarafa dönmek,bu1so3fo2h trfo1h dwbo1mk
 başkâtib,bu1eso3 kebo2bu1
 başkâtibi,bu1eso3 kebo2bu1y
 başkâtibini,bu1eso3 kebo2bu1bo1y
-başkatip,bu1eso3<>kebo2bu1
+başkatip,bu1eso3||kebo2bu1
 başkâtip,bu1eso3||kebo2bu1
 başka türlü,bu1so3fo2h drlw
 başka vakit toplanmak üzere meclis şimdilik dağılmak,bu1so3fo2h wfo2bo2 twbu3lebo1mfo2 ewro1rh mxu1ls so3mdbu2lk teao1lmfo2
@@ -2163,7 +2163,7 @@ baskın gelmek,bu1ezfo2bu2bo1 klmk
 baskın gelmek,bu1ezfo2ybo1 klmk
 başkitabet,bu1eso3 kbo2ebu1bo2
 baskıya,bu1ezfo2y||yh
-başkonsolos,bu1eso3<>fo2wbo1swlws
+başkonsolos,bu1eso3||fo2wbo1swlws
 başkonsolos,bu1eso3||fo2wbo1swlws
 baskül,bu1eskwl
 başkumandana,bu1eso3 fo2wmebo1debo1h
@@ -2306,7 +2306,7 @@ başlı başına,bu1eso3lwbu1eso3bo1h
 başlı başına,bu1eso3lwbu1eso3bo1h||
 başlı başına,bu1eso3ly bu1eso3bo1h
 başlı başına,bu1eso3ly bu1eso3bo1h||
-başlıbaşına,bu1eso3ly<>bu1eso3bo1h||
+başlıbaşına,bu1eso3ly||bu1eso3bo1h||
 başlıbaşına,bu1eso3ly||bu1eso3bo1h
 başlıbaşına,bu1eso3ly bu1eso3bo1h
 başlı,bu1eso3ly
@@ -2357,21 +2357,21 @@ basmaz,bu1ezmero1
 basmış,bu1ezmso3
 basmışlar,bu1ezmso3lr
 basmıştır,bu1ezmso3dr
-başmüdür,bu1eso3<>mdyr
+başmüdür,bu1eso3||mdyr
 başmüdür,bu1eso3||mdyr
 başmüdürü,bu1eso3 mdyry
-başmüfettiş,bu1eso3<>mfo1bo2so3
+başmüfettiş,bu1eso3||mfo1bo2so3
 başmüfettiş,bu1eso3||mfo1bo2so3
 başmuharrir,bu1eso3 mxro8r
-başmuharrir,bu1eso3<>mxrr
+başmuharrir,bu1eso3||mxrr
 başmuharrir,bu1eso3||mxrr
 başmurahhası,bu1eso3 mrxo1o8zy
 başmurahhasının,bu1eso3 mrxo1o8zbo1ko3
 baş olmak,bu1eso3 ew
 ba's olunmak,bu1abo3 ewlbo1mfo2
-başörtü,bu1eso3<>ewrbo2w
 başörtü,bu1eso3||ewrbo2w
-başörtülü,bu1eso3<>ewrbo2wly
+başörtü,bu1eso3||ewrbo2w
+başörtülü,bu1eso3||ewrbo2wly
 başörtülü,bu1eso3||ewrbo2wly
 başpapazı,bu1eso3 bu3ebu3esy
 başpapazına,bu1eso3 bu3ebu3esbo1h
@@ -2452,7 +2452,7 @@ bâsur,bu1eswr
 bâsûr,bu1eswr
 baş üstüne,bu1eso3 ewsbo2bo1h
 baş üstüne,bu1eso3 ewsbo2bo1h||
-başvekalet,bu1eso3<>wkelbo2
+başvekalet,bu1eso3||wkelbo2
 başvekâlet,bu1eso3||wkelbo2
 başvekalet,bu1o4eso3o0 wo4ko4elo4bo2o0
 başvekâlet,bu1o4eso3o0 wo4ko4elo4bo2o0
@@ -2461,7 +2461,7 @@ başvekalet-i,bu1eso3 wkelbo2u4
 başvekaletin,bu1eso3 wkelbo2ko3
 baş vekîl,bu1eso3 wkbu2l
 baş vekil,bu1eso3 wkyl
-başvekil,bu1eso3<>wkyl
+başvekil,bu1eso3||wkyl
 başvekil,bu1eso3||wkyl
 başvekil,bu1eso3 wkyl
 başvekilden,bu1eso3 wkyldbo1
@@ -3311,7 +3311,7 @@ beğenmiyor,bu1ko7bo1myywr
 beğenmiyorlar,bu1ko7bo1myywrlr
 beğenmiyorsan,bu1ko7bo1myywrsh||ko3
 beğenmiyorum,bu1ko7bo1myywrm
-begonya,bu1h<>ao1wbo1ye
+begonya,bu1h||ao1wbo1ye
 begonya,bu1h||ao1wbo1ye
 beha,bu1he
 behâ,bu1he
@@ -3326,7 +3326,7 @@ behçet-i,bu1hxu1bo2u4
 behem,bu1hm
 behemehal,bu1hh xel
 behemehâl,bu1hh xel
-behemehal,bu1hmh<>xel
+behemehal,bu1hmh||xel
 behemehal,bu1hmh||xel
 beher,bu1hr
 beherine,bu1hrbu2bo1h
@@ -3358,7 +3358,7 @@ behre,bu1hrh||
 behre,bu1o4ho0ro4h
 behre,bu1o4ho0ro4h||
 behremend,bu1hrmbo1d
-behresiz,bu1hrh<>sro1
+behresiz,bu1hrh||sro1
 behresiz,bu1hrh||sro1
 behresizliğiyle,bu1hrh||sro1lko7ylh
 behreyab,bu1hrh||yebu1
@@ -3438,7 +3438,7 @@ bekir-is,bu1kr el
 bekirler,bu1krlr
 be-kıyamet,bu1o4fo2yembo2
 bekle,bu1klh
-bekle,bu1klh<>
+bekle,bu1klh||
 bekledi,bu1klh||dy
 beklediği,bu1klh||dyko7y
 beklediğim,bu1klh||dyko7m
@@ -3454,7 +3454,7 @@ bekleme,bu1klh||mh
 bekleme,bu1klmh
 bekleme,bu1klmh||
 beklemediğin,bu1klh||mdyko7ko3
-beklemek,bu1klh<>mk
+beklemek,bu1klh||mk
 beklemek,bu1klh||mk
 beklemek,bu1klmk
 beklemeksizin,bu1klh||mksro1ybo1
@@ -3480,7 +3480,7 @@ beklemiyordum,bu1klh||myywrdm
 beklemiyorlar,bu1klh||myywrlr
 beklemiyorum,bu1klh||myywrm
 beklemiyoruz,bu1klh||myywrro1
-beklen,bu1klh<>bo1
+beklen,bu1klh||bo1
 beklenen,bu1klh||bo1bo1
 beklenilemez,bu1klh||bo1ylh||mro1
 beklenilen,bu1klh||bo1ylbo1
@@ -3490,7 +3490,7 @@ beklenilmiştir,bu1klh||bo1lmso3dr
 beklenir,bu1klh||bo1yr
 beklenirken,bu1klh||bo1yrkbo1
 bekleniyordu,bu1klh||bo1yywrdy
-beklenmek,bu1klh<>bo1mk
+beklenmek,bu1klh||bo1mk
 beklenmek,bu1klh||bo1mk
 beklenmez,bu1klbo1mro1
 beklenmiştir,bu1klbo1mso3dr
@@ -3504,14 +3504,14 @@ beklerler,bu1klrlr
 beklerlerdi,bu1klrlrdy
 beklermiş,bu1klrmso3
 beklersin,bu1klrsko3
-bekleş,bu1klh<>so3
+bekleş,bu1klh||so3
 beklesin,bu1klh||sybo1
 bekleşiyor,bu1klh||so3yywr
-bekleşmek,bu1klh<>so3mk
 bekleşmek,bu1klh||so3mk
-beklet,bu1klh<>bo2
+bekleşmek,bu1klh||so3mk
+beklet,bu1klh||bo2
 bekletilmek,bu1klbo2lmk
-bekletmek,bu1klh<>bo2mk
+bekletmek,bu1klh||bo2mk
 bekletmek,bu1klh||bo2mk
 beklettirdi,bu1klbo2dyrdy
 beklettirilmiştir,bu1klbo2dyrylmso3dr
@@ -3741,25 +3741,25 @@ belkıs,bu1lfo2ys
 belkîs'i,bu1lfo2ysy
 belkısî,bu1lfo2ysy
 belkıs'ın,bu1lfo2ysko3
-belladon,bu1h<>lledwbo1
+belladon,bu1h||lledwbo1
 bellâdon,bu1h||lledwbo1
-belle,bu1lh<>
-belleme,bu1lh<>mh||
+belle,bu1lh||
+belleme,bu1lh||mh||
 belleme,bu1lh||mh
-bellemek,bu1lh<>mk
+bellemek,bu1lh||mk
 bellemek,bu1lh||mk
 bellemek,bu1llh||mk
 bellemek,bu1llmk
-bellen,bu1lh<>bo1
-bellenmek,bu1lh<>bo1mk
+bellen,bu1lh||bo1
 bellenmek,bu1lh||bo1mk
-bellenmiş,bu1lh<>bo1mso3
+bellenmek,bu1lh||bo1mk
+bellenmiş,bu1lh||bo1mso3
 bellenmiş,bu1lh||bo1mso3
 bellerinde,bu1llrbo1dh
 bellerine,bu1llrybo1h
 bellerini,bu1llrybo1y
-bellet,bu1lh<>bo2
-belletmek,bu1lh<>bo2mk
+bellet,bu1lh||bo2
+belletmek,bu1lh||bo2mk
 belletmek,bu1lh||bo2mk
 belli başlı,bu1llwbu1eso3lw
 belli başlı,bu1llw bu1eso3lw
@@ -3782,11 +3782,11 @@ belvada,bu1lwo99y||dh
 belva-yı,bu1lwo99yu4
 bel vermek,bu1l wbu2rmk
 bel vermek,bu1l wyrmk
-bembeyaz,bu1m<>bu1yezo1
+bembeyaz,bu1m||bu1yezo1
 bembeyaz,bu1m||bu1yezo1
 bembeyaz,bu1o4mo0 bu1yezo1
 be-mevsim,bu1o4mwsm
-bemol,bu1h<>mwl
+bemol,bu1h||mwl
 bemol,bu1h||mwl
 benadir,bu1bo1edr
 benâdir,bu1bo1edr
@@ -3810,7 +3810,7 @@ bende,bu1bo1dh||
 bendede,bu1bo1dh||dh
 bendedir,bu1bo1dh||dr
 bendegan,bu1bo1dko7ebo1
-bendegan,bu1bo1d<>ko7ebo1
+bendegan,bu1bo1d||ko7ebo1
 bendegân,bu1bo1dko7ebo1
 bendegân,bu1bo1d||ko7ebo1
 bendegânemin,bu1bo1dh||ko7ebo1h||mko3
@@ -3859,7 +3859,7 @@ ben gitmesem,bu1bo1 kbo2msm
 beni adem,bu1bo1y edm
 benî âdem,bu1bo1y edm
 beni̇adem,bu1bo1y eo6dm
-beniadem,bu1bo1y<>eo6dm
+beniadem,bu1bo1y||eo6dm
 beniadem,bu1bo1y eo6dm
 benî-âdem,bu1bo1y eo6dm
 benîâdem,bu1bo1y||eo6dm
@@ -3904,8 +3904,8 @@ benimkidir,bu1bo1mkydr
 benimkiler,bu1bo1mkbu2lr
 benimkiler,bu1bo1mkylr
 benimle,bu1bo1mlh
-benimse,bu1bo1msh<>
-benimsemek,bu1bo1msh<>mk
+benimse,bu1bo1msh||
+benimsemek,bu1bo1msh||mk
 benimsemek,bu1bo1msh||mk
 benimsemektedir,bu1bo1msh||mkdh||dr
 benimsemesine,bu1bo1msh||mh||sbo1h
@@ -3942,7 +3942,7 @@ ben ona bir oyun yaparım,bu1bo1 ekebu1rewbu2wbo1 bu2bu3erm
 ben ona bir oyun yaparım,bu1bo1 ekebu1rewywbo1 ybu3erm
 benu,bu1bo1w
 benû,bu1bo1w
-benze,bu1lo5o3ro1h<>
+benze,bu1lo5o3ro1h||
 benzedi,bu1ko3ro1h||dy
 benzediği,bu1ko3ro1h||dyko7y
 benzediğinden,bu1ko3ro1h||dyko7bo1dbo1
@@ -3955,7 +3955,7 @@ benzemeğe,bu1ko3ro1h||mko7h
 benzemek,bu1ko3ro1h||mk
 benzemek,bu1kro1h mk
 benzemek,bu1kro1mk
-benzemek,bu1lo5o3ro1h<>mk
+benzemek,bu1lo5o3ro1h||mk
 benzemekle,bu1ko3ro1h||mklh
 benzemeklik,bu1ko3ro1h||mklk
 benzemektedir,bu1ko3ro1h||mkdh||dr
@@ -3982,7 +3982,7 @@ benzer,bu1ko3ro1h||r
 benzer,bu1ko3ro1r
 benzer,bu1kro1
 benzer,bu1kro1r
-benzer,bu1lo5o3ro1h<>r
+benzer,bu1lo5o3ro1h||r
 benzerdi,bu1ko3ro1rdy
 benzeri,bu1ko3ro1ry
 benzerin,bu1ko3ro1rko3
@@ -3995,7 +3995,7 @@ benzerlerinin,bu1ko3ro1rlrybo1ko3
 benzerse,bu1ko3ro1rsh
 benzersin,bu1ko3ro1rsko3
 benzersiniz,bu1ko3ro1rsko3ro1
-benzet,bu1lo5o3ro1h<>bo2
+benzet,bu1lo5o3ro1h||bo2
 benzetemezler,bu1ko3ro1h||bo2h||mro1lr
 benzetemiyor,bu1ko3ro1h||bo2h||myywr
 benzeterek,bu1ko3ro1h||bo2h||rk
@@ -4010,12 +4010,12 @@ benzetiyorum,bu1ko3ro1h||bo2yywrm
 benzetme,bu1ko3ro1h||bo2mh
 benzetme,bu1kro1bo2mh
 benzetme,bu1kro1bo2mh||
-benzetme,bu1lo5o3ro1h<>bo2mh||
+benzetme,bu1lo5o3ro1h||bo2mh||
 benzetmeğe,bu1ko3ro1bo2mko7h
 benzetmek,bu1ko3ro1bo2mk
 benzetmek,bu1ko3ro1h||bo2mk
 benzetmek,bu1kro1bo2mk
-benzetmek,bu1lo5o3ro1h<>bo2mk
+benzetmek,bu1lo5o3ro1h||bo2mk
 benzetmesi,bu1ko3ro1bo2mh||sy
 benzetmesinler,bu1ko3ro1bo2mh||sybo1lr
 benzetmiştir,bu1ko3ro1h||bo2mso3dr
@@ -4035,7 +4035,7 @@ benzeyiş,bu1ko3ro1h||yso3
 benzeyiş,bu1ko3ro1h||yyso3
 benzeyiş,bu1kro1h bu2so3
 benzeyiş,bu1kro1h yso3
-benzeyiş,bu1lo5o3ro1h<>yyso3
+benzeyiş,bu1lo5o3ro1h||yyso3
 benzeyişleri,bu1ko3ro1h||yso3lry
 benzeyişlik,bu1ko3ro1h||yso3lk
 benzi atmış,bu1kro1y ebo2mso3
@@ -4572,19 +4572,19 @@ beşkardeş'ler,bu1so3||fo2erdeso3lr
 beşkardeş'lere,bu1so3 fo2erdeso3lrh
 beşkazalı,bu1so3||fo2zo1ely
 beşkazalızade,bu1so3||fo2zo1ely||ro1edh
-besle,bu1slh<>
+besle,bu1slh||
 besledi,bu1slh||dy
 beslediği,bu1slh||dyko7y
 besledikleri,bu1slh||dklry
-besleme,bu1slh<>mh||
+besleme,bu1slh||mh||
 besleme,bu1slh||mh
 besleme,bu1slmh
 besleme,bu1slmh||
-beşleme,bu1so3lh<>mh||
+beşleme,bu1so3lh||mh||
 beşleme,bu1so3lh||mh
 beslemedikleri,bu1slh||mdklry
 beslemeğe,bu1slh||mko7h
-beslemek,bu1slh<>mk
+beslemek,bu1slh||mk
 beslemek,bu1slh||mk
 beslemek,bu1slmk
 beslemek hassası,bu1slmk xo1ezh sy
@@ -4597,7 +4597,7 @@ beslemesinde,bu1slmh||sbo1dh
 beslemeyen,bu1slh||mh||ybo1
 beslemeyeni,bu1slh||mh||ybo1y
 beslemiş,bu1slh||mso3
-beslen,bu1slh<>bo1
+beslen,bu1slh||bo1
 beslendiği,bu1slbo1dyko7y
 beslendiğimi,bu1slbo1dyko7my
 beslendiklerini,bu1slbo1dklrybo1y
@@ -4608,7 +4608,7 @@ besleniyorlar,bu1slh||bo1yywrlr
 besleniyorum,bu1slbo1ywrm
 besleniyoruz,bu1slh||bo1yywrro1
 beslenmek,bu1slbo1mk
-beslenmek,bu1slh<>bo1mk
+beslenmek,bu1slh||bo1mk
 beslenmek,bu1slh||bo1mk
 beslenmeleri,bu1slbo1mh||lry
 beslenmelerine,bu1slbo1mh||lrybo1h
@@ -4624,9 +4624,9 @@ beslerler,bu1slrlr
 beslermiş,bu1slrmso3
 beslesek,bu1slh||sh||k
 beslesin,bu1slh||sybo1
-beslet,bu1slh<>bo2
+beslet,bu1slh||bo2
 besletir,bu1slh||bo2yr
-besletmek,bu1slh<>bo2mk
+besletmek,bu1slh||bo2mk
 besletmek,bu1slh||bo2mk
 beslettirdi,bu1slbo2dyrdy
 beslettireceğim,bu1slbo2dyrh||xu1ko7m
@@ -4672,15 +4672,15 @@ beş-on,bu1so3 ewbo1
 beste,bu1sbo2h
 beste,bu1sbo2h||
 beşte,bu1so3dh
-bestekar,bu1sbo2h<>ker
+bestekar,bu1sbo2h||ker
 bestekar,bu1sbo2h ker
 bestekâr,bu1sbo2h||ker
 bestekâr,bu1sbo2h ker
-bestele,bu1sbo2h<>lh<>
-bestelemek,bu1sbo2h<>lh<>mk
+bestele,bu1sbo2h||lh||
+bestelemek,bu1sbo2h||lh||mk
 bestelemek,bu1sbo2h||lh||mk
 besteleri,bu1sbo2h||lry
-besteli,bu1sbo2h<>ly
+besteli,bu1sbo2h||ly
 besteli,bu1sbo2h||ly
 beşten,bu1so3dbo1
 bestenigar,bu1sbo2h bo1ko7er
@@ -4714,9 +4714,9 @@ beterdir,bu1bo2rdr
 beterdirler,bu1bo2rdrlr
 beteri,bu1bo2ry
 beter'in,bu1bo2rko3
-betonarme,bu1h<>bo2wbo1<>eo6rmh||
+betonarme,bu1h||bo2wbo1||eo6rmh||
 betonarme,bu1h||bo2wbo1||eo6rmh
-beton,bu1h<>bo2wbo1
+beton,bu1h||bo2wbo1
 beton,bu1h||bo2wbo1
 betra,bu1bo2re
 betül,bu1bo2wl
@@ -5054,22 +5054,22 @@ bez destgâhî,bu1ro1dsbo2kehy
 bezdirme,bu1ro1dyrmh
 bezdirmek,bu1ro1drmk
 beze,bu1ro1h
-beze,bu1ro1h<>
+beze,bu1ro1h||
 beze,bu1ro1h||
 bezekar,bu1ro1h ker
 bezekâr,bu1ro1h ker
 bezelye,bu1ro1lbu2h
 bezelye,bu1ro1lyh
 bezelye,bu1ro1lyh||
-bezemek,bu1ro1h<>mk
+bezemek,bu1ro1h||mk
 bezemek,bu1ro1h||mk
 bezemek,bu1ro1h mk
-bezen,bu1ro1h<>bo1
+bezen,bu1ro1h||bo1
 bezen,bu1ro1h||bo1
 bezene,bu1o4ro1o4h||bo1h
 bezenen,bu1o4ro1o4h||bo1bo1
 bezenmek,bu1ro1bo1mk
-bezenmek,bu1ro1h<>bo1mk
+bezenmek,bu1ro1h||bo1mk
 bezenmek,bu1ro1h||bo1mk
 bezersin,bu1ro1h||rsko3
 bezgin,bu1ro1kybo1
@@ -5077,7 +5077,7 @@ bezik,bu1ro1bu1k
 bezinden,bu1ro1bo1dbo1
 bezir,bu1do1r
 bezir,bu1ro1yr
-bezirgan,bu1ero1r<>kebo1
+bezirgan,bu1ero1r||kebo1
 bezirgan,bu1ero1r||kebo1
 bezirgan,bu1ero1rko7ebo1
 bezirgân,bu1ero1rko7ebo1
@@ -5121,7 +5121,7 @@ bi-aman,bu1y emebo1
 biaman,bu1y emebo1
 bîaman,bu1y emebo1
 bî-amân,bu1y emebo1
-biaman,bu1y<>eo5mebo1
+biaman,bu1y||eo5mebo1
 bî-aman,bu1y||eo5mebo1
 bîaman,bu1y||eo5mebo1
 bîaman,bu1y||eo6mebo1
@@ -5145,7 +5145,7 @@ bîbâk,bu1bu2bu1ek
 bibak,bu1ybu1ek
 bibedel,bu1y bu1dl
 bîbedel,bu1y bu1dl
-bibehre,bu1y<>bu1hrh||
+bibehre,bu1y||bu1hrh||
 bibehre,bu1y bu1hrh||
 bîbehre,bu1y||bu1hrh
 bîbehre,bu1y bu1hrh
@@ -5340,7 +5340,7 @@ bidon,bu1ydwbo1
 bîedebane,bu1y||eo5dbu1ebo1h
 biedeb,bu1y edbu1
 bîedeb,bu1y edbu1
-biedeb,bu1y<>eo5dbu1
+biedeb,bu1y||eo5dbu1
 bîedeb,bu1y||eo5dbu1
 bieman,bu1y emebo1
 bîeman,bu1y||emebo1
@@ -5693,7 +5693,7 @@ bildir,bu1yldyr
 bıldır,bu1yldyr
 bıldırcın,bu1ldrxu1bu2bo1
 bıldırcın,bu1ldrxu1ybo1
-bıldırcın,bu1yldyr<>xu1ybo1
+bıldırcın,bu1yldyr||xu1ybo1
 bıldırcın,bu1yldyr||xu1ybo1
 bildirdi,bu1yldyrdy
 bildirdiği,bu1yldyrdyko7y
@@ -5775,7 +5775,7 @@ bilebilirsin,bu1ylh||bu1ylyrsko3
 bile,bu1bu2lh
 bîle,bu1bu2lh
 bile,bu1ylh
-bile,bu1ylh<>
+bile,bu1ylh||
 bile,bu1ylh||
 bileceği,bu1ylh||xu1ko7y
 bileceğiz,bu1ylh||xu1ko7ro1
@@ -5784,14 +5784,14 @@ bilecek,bu1ylh||xu1k
 bileceksin,bu1ylh||xu1ksko3
 bileceksiniz,bu1ylh||xu1ksko3ro1
 bilecektin,bu1ylh||xu1kdko3
-bilecik,bu1ylh<>xu1k
+bilecik,bu1ylh||xu1k
 bileği,bu1lky
-bileği,bu1ylh<>ko7y
+bileği,bu1ylh||ko7y
 bileği,bu1ylh||ko7y
 bileğinde,bu1ylko7bo1dh
 bileğindeki,bu1ylko7bo1dh||ky
 bileği taşı,bu1lky teso3y
-bileğitaşı,bu1ylh<>ko7y teso3y
+bileğitaşı,bu1ylh||ko7y teso3y
 bileğitaşı,bu1ylh||ko7y teso3y
 bilek,bu1lk
 bilek,bu1ylk
@@ -5809,7 +5809,7 @@ bilemediler,bu1ylh||mdylr
 bilemedim,bu1ylh||mdm
 bilemek,bu1bu2lh mk
 bilemek,bu1lh mk
-bilemek,bu1ylh<>mk
+bilemek,bu1ylh||mk
 bilemek,bu1ylh||mk
 bilemek,bu1ylh mk
 bilemeyip,bu1ylh||mywbu1
@@ -5823,7 +5823,7 @@ bilemiyorlar,bu1ylh||myywrlr
 bilemiyorsa,bu1ylh||myywrsh
 bilemiyorum,bu1ylh||myywrm
 bilen,bu1ylbo1
-bilen,bu1ylh<>bo1
+bilen,bu1ylh||bo1
 bilenden,bu1ylbo1dbo1
 bilenin,bu1ylbo1ko3
 bilenler,bu1ylbo1lr
@@ -5831,7 +5831,7 @@ bilenlerdir,bu1ylbo1lrdr
 bilenlere,bu1ylbo1lrh
 bilenleri,bu1ylbo1lry
 bilenlerle,bu1ylbo1lrlh
-bilenmek,bu1ylh<>bo1mk
+bilenmek,bu1ylh||bo1mk
 bilenmek,bu1ylh||bo1mk
 bilerek,bu1lh rk
 bilerek,bu1ylh||rk
@@ -5839,14 +5839,14 @@ bilerler,bu1ylh||rlr
 bilesin,bu1ylh||sko3
 bilesiniz,bu1ylh||sko3ro1
 bilet,bu1ylbo2
-bilet,bu1ylh<>bo2
+bilet,bu1ylh||bo2
 biletci,bu1ylbo2xu1y
 bilete,bu1ylbo2h
 bileti,bu1ylbo2y
 biletine,bu1ylbo2bo1h
 biletini,bu1ylbo2bo1y
 biletleri,bu1ylbo2lry
-biletmek,bu1ylh<>bo2mk
+biletmek,bu1ylh||bo2mk
 biletmek,bu1ylh||bo2mk
 bileyim,bu1ylh||ym
 bî-lezaiz,bu1y||ldo1eyo5do1
@@ -5855,7 +5855,7 @@ bileziği,bu1ylh||ro1yko7y
 bileziğidirler,bu1ylh||ro1yko7ydrlr
 bileziğini,bu1ylh||ro1yko7bo1y
 bilezik,bu1lero1k
-bilezik,bu1ylh<>ro1yk
+bilezik,bu1ylh||ro1yk
 bilezik,bu1ylh||ro1yk
 bilezikleri,bu1ylh||ro1yklry
 bilezlik,bu1ylmro1lk
@@ -6112,7 +6112,7 @@ bilmediğin,bu1ylmh||dyko7ko3
 bilmediğinden,bu1ylmdyko7bo1dbo1
 bilmediğindendir,bu1ylmdyko7bo1dbo1dr
 bilmediğinizi,bu1ylmh||dyko7ko3ro1y
-bilmedik,bu1ylmh<>dk
+bilmedik,bu1ylmh||dk
 bilmedik,bu1ylmh||dk
 bilmedikleri,bu1ylmdklry
 bilmediklerinden,bu1ylmdklrbo1dbo1
@@ -6485,7 +6485,7 @@ bî-nihâye,bu1bu2bo1hebu2h
 bî-nihâye,bu1y bo1hebu2h
 bi-nihaye,bu1y bo1heyh||
 bi-nihaye,bu1ybo1heyh||
-binihaye,bu1y<>bo1heyh||
+binihaye,bu1y||bo1heyh||
 binihaye,bu1y bo1heyh||
 bînihaye,bu1y||bo1heyh
 bînihaye,bu1y bo1heyh
@@ -6575,7 +6575,7 @@ bîpâyan-ı,bu1y||bu3eyebo1u4
 bîpâyanını,bu1y||bu3eyebo1bo1y
 bî-pervâ,bu1bu2bu3rwe
 bi-perva,bu1ybu3rwe
-biperva,bu1y<>bu3rwe
+biperva,bu1y||bu3rwe
 biperva,bu1y bu3rwe
 bîpervâ,bu1y||bu3rwe
 bîpervâ,bu1y bu3rwe
@@ -6869,7 +6869,7 @@ bir defa,bu1rdfo1ah||
 bir değil,bu1rdkl
 birden bire,bu1rdbo1 bu1rh
 birden bire,bu1rdbo1 bu1rh||
-birdenbire,bu1rdbo1<>bu1rh||
+birdenbire,bu1rdbo1||bu1rh||
 birdenbire,bu1rdbo1||bu1rh
 birdenbire,bu1rdbo1 bu1rh
 birden bire uyandırmak,bu1rdbo1 bo1rh ewbu2ebo1drmfo2
@@ -6885,10 +6885,10 @@ bir düziye,bu1rdwro1y bu2h
 bir düziye,bu1rdwro1y yh||
 bir düziyye,bu1rdwro1bu2h
 bir düziyye,bu1rdwro1yh||
-birebir,bu1rh<>bu1r
+birebir,bu1rh||bu1r
 birebir,bu1rh||bu1r
 bire,bu1rh
-birecik,bu1yrh<>xu1k
+birecik,bu1yrh||xu1k
 birer birer,bu1rrbu1rr
 birer,bu1rr
 birerlerine,bu1rrlrybo1h
@@ -7166,7 +7166,7 @@ bi'seti,bu1abo3bo2y
 bi'setim,bu1abo3bo2m
 bi'setine,bu1abo3bo2bo1h
 bi'setten,bu1abo3bo2dbo1
-bisiklet,bu1ysyfo2lh<>bo2
+bisiklet,bu1ysyfo2lh||bo2
 bisiklet,bu1ysyfo2lh||bo2
 bismarck,bu1ysmerfo2
 bismark,bu1ysmerfo2
@@ -7175,7 +7175,7 @@ bismark'lar,bu1ysmerfo2lr
 bismarkları,bu1ysmerfo2lry
 bismillah,bu1sm e||ellh
 bismillâh,bu1sm e||ellh
-bismillah,bu1sm<>ellh||
+bismillah,bu1sm||ellh||
 bismillah,bu1sm||ellh
 bi̇smi̇llah,bu1sm ello8ٰh||
 bi̇smi̇llah,bu1sm ello8h||
@@ -7221,7 +7221,7 @@ bîtâbane,bu1bu2bo2ebu1ebo1h
 bitabane,bu1ybo2ebu1ebo1h||
 bîtâb,bu1bu2bo2ebu1
 bitab,bu1ybo2ebu1
-bitab,bu1y<>bo2ebu1
+bitab,bu1y||bo2ebu1
 bîtab,bu1y||bo2ebu1
 bitamam,bu1u4bo2o4mo4emo0
 bitamamiha,bu1bo2memhe
@@ -7263,7 +7263,7 @@ bitinceye kadar,bu1bo2bo1xu3h bu2h fo2dr
 bitinceye kadar,bu1bo2bo1xu3h yh fo2dr
 bitini,bu1ybo2bo1y
 bitip,bu1ybo2wbu1
-bitir,bu1ybo2yr<>
+bitir,bu1ybo2yr||
 bitirdi,bu1ybo2yrdy
 bitirdiğim,bu1ybo2yrdyko7m
 bitirdiğini,bu1ybo2yrdyko7bo1y
@@ -7289,7 +7289,7 @@ bitirme,bu1ybo2yrmh
 bitirme,bu1ybo2yrmh||
 bitirmek,bu1bo2rmk
 bitirmek,bu1ybo2yrmk
-bitirmek,bu1ybo2yr<>mk
+bitirmek,bu1ybo2yr||mk
 bitirmek,bu1ybo2yr||mk
 bitirmekle,bu1ybo2yrmklh
 bitirmekte,bu1ybo2yrmkdh
@@ -7317,9 +7317,9 @@ bitiştirmektir,bu1ybo2yso3bo2yrmkdr
 bitiyor,bu1ybo2yywr
 bitiyordu,bu1ybo2yywrdy
 bitkin,bu1ybo2kybo1
-bitlen,bu1ybo2lh<>bo1
+bitlen,bu1ybo2lh||bo1
 bitlenmek,bu1bo2lbo1mk
-bitlenmek,bu1ybo2lh<>bo1mk
+bitlenmek,bu1ybo2lh||bo1mk
 bitlenmek,bu1ybo2lh||bo1mk
 bitlerini,bu1ybo2lrybo1y
 bitlis,bu1bo2lys
@@ -7471,7 +7471,7 @@ blançoları,bu1lebo1xu3wlry
 blöf,bu1lwfo1
 bluz,bu1wlwro1
 bobin,bu1wbu1ybo1
-böbrek,bu1wbu1rh<>k
+böbrek,bu1wbu1rh||k
 böbrek,bu1wbu1rh||k
 böbrek,bu1wkrk
 böbrekleri,bu1wbu1rklry
@@ -7483,8 +7483,8 @@ böceğini,bu1wxu1ko7bo1y
 böceğinin,bu1wxu1ko7bo1ko3
 böcek,bu1wxu1k
 böcekkabuğu,bu1wxu1k fo2ebu1wao1y
-böceklen,bu1wxu1klh<>bo1
-böceklenmek,bu1wxu1klh<>bo1mk
+böceklen,bu1wxu1klh||bo1
+böceklenmek,bu1wxu1klh||bo1mk
 böceklenmek,bu1wxu1klh||bo1mk
 böceklere,bu1wxu1klrh
 böceklerin,bu1wxu1klrko3
@@ -7495,7 +7495,7 @@ bodrum,bu1wdrm
 bodrum,bu1wdrwm
 bodur,bu1wdwr
 boğa,bu1wao1e
-boğaça,bu1wao1exu3h<>
+boğaça,bu1wao1exu3h||
 boğaça,bu1wao1exu3h||
 boğaça,bu3wao1exu3h
 boğaça,bu3wao1exu3h||
@@ -7612,11 +7612,11 @@ boğuyor,bu1wao1wywr
 boğuyordu,bu1wao1wywrdy
 bohça,bu1wao1xu3h
 bohça,bu1wao1xu3h||
-bohçacı,bu1wao1xu3h<>xu1y
+bohçacı,bu1wao1xu3h||xu1y
 bohçacı,bu1wao1xu3h||xu1y
 bohça etmek,bu1wao1xu3h e
-bohçala,bu1wao1xu3h<>le
-bohçalamak,bu1wao1xu3h<>lemfo2
+bohçala,bu1wao1xu3h||le
+bohçalamak,bu1wao1xu3h||lemfo2
 bohçalamak,bu1wao1xu3h||lemfo2
 bok,bu1wfo2
 bokluca bülbül,bu1wfo2lwxu1h bu1lbu1l
@@ -7653,7 +7653,7 @@ bölmeleri,bu1wlmh||lry
 bolşevik,bu1o9wlo0so3o4wu4bu2ko0
 bolşevi̇k,bu1o9wlo0so3o4wu4yko0
 bolşevik,bu1o9wlo0so3o4wu4yko0
-bolşevik,bu1wlso3h<>wyk
+bolşevik,bu1wlso3h||wyk
 bolşevik,bu1wlso3h||wyk
 bolşevik,bu1wlso3wyk
 bolşevik'in,bu1wlso3wyko7ko3
@@ -7662,7 +7662,7 @@ bolşeviklere,bu1wlso3wyfo2lrh
 bolşeviklerin,bu1wlso3wyklrko3
 bolşevikliğe,bu1wlso3wyklko7h
 bolşevikliğin,bu1wlso3wyklko7ko3
-bolşeviklik,bu1wlso3h<>wyklk
+bolşeviklik,bu1wlso3h||wyklk
 bolşeviklik,bu1wlso3h||wyklk
 bolşeviklik,bu1wlso3wyklk
 bolşevizm,bu1o9wlo0so3o4wu4bu2ro1u4mo0
@@ -7711,7 +7711,7 @@ bombası,bu1wmbu1esy
 bombasından,bu1wmbu1esbo1dbo1
 bombasıyla,bu1wmbu1esylh
 bombayı,bu1wmbu1eyy
-bomboş,bu1wm<>bu1wso3
+bomboş,bu1wm||bu1wso3
 bomboş,bu1wm||bu1wso3
 bomboş,bu1wm bu1wso3
 bonbon,bu1wbo1bu1wbo1
@@ -7769,7 +7769,7 @@ borda,bu1wrdh
 borda,bu1wrdh||
 bordro,bu1wrdrw
 bordür,bu1wrdwr
-börek,bu1wrh<>k
+börek,bu1wrh||k
 börek,bu1wrh||k
 börek,bu1wrk
 börekçi,bu1wrkxu1y
@@ -7842,12 +7842,12 @@ boşatılmak,bu1wso3ebo2ylmfo2
 boşatmak,bu1wso3ebo2mfo2
 boşboğaza,bu1wso3||bu1wao1ero1h
 boş boğaz,bu1wso3 bu1wao1ero1
-boşboğaz,bu1wso3<>bu1wao1ero1
+boşboğaz,bu1wso3||bu1wao1ero1
 boşboğaz,bu1wso3||bu1wao1ero1
 boşboğaz,bu1wso3 bu1wao1ero1
 boşboğâz,bu1wso3 bu1wao1ero1
 boşboğazlığı,bu1wso3||bu1wao1ero1lao1y
-boşboğazlık,bu1wso3<>bu1wao1ero1lfo2
+boşboğazlık,bu1wso3||bu1wao1ero1lfo2
 boşboğazlık,bu1wso3||bu1wao1ero1lfo2
 boşboğazlık etmek,bu1wso3 bu1wao1ero1lfo2 e
 boşboğâzlık etmek,bu1wso3 bu1wao1ero1lfo2 e
@@ -7906,7 +7906,7 @@ boya almak,bu1wbu2e elmfo2
 boya almak,bu1wye elmfo2
 boya astarı,bu1wbu2e esbo2ery
 boya astarı,bu1wye esbo2ery
-boyabat,bu1wy<>eo6bu1ed
+boyabat,bu1wy||eo6bu1ed
 boya,bu1wbu2e
 boya,bu1wye
 boyacı,bu1wyexu1y
@@ -8118,7 +8118,7 @@ bozsun,bu1wro1swbo1
 bozuğa,bu1wro1wao1h
 bozuk,bu1wro1fo2
 bozuk,bu1wro1wfo2
-bozukdüzen,bu1wro1wfo2 dwro1h<>bo1
+bozukdüzen,bu1wro1wfo2 dwro1h||bo1
 bozukdüzen,bu1wro1wfo2 dwro1h||bo1
 bozukluğa,bu1wro1wfo2lao1h
 bozukluğu,bu1wro1wfo2lao1y
@@ -9414,7 +9414,7 @@ bus,bu1ws
 bûs,bu1ws
 büsbütün,bu1sbu1bo2wbo1
 büsbütün,bu1wsbu1bo2wbo1
-büsbütün,bu1ws<>bu1wbo2wbo1
+büsbütün,bu1ws||bu1wbo2wbo1
 büsbütün,bu1ws||bu1wbo2wbo1
 bu sebebe binaen,bu1wsbu1bu1h bu1bo1ecu4
 bu sebebe binâen,bu1wsbu1bu1h bu1bo1ecu4
@@ -9469,8 +9469,8 @@ bütün,bu1wbo2wbo1
 bütün bütün,bu1bo2wbo1 bu1bo2wbo1
 bütün gece yatmamak,bu1bo2wbo1 kbu2xu1h bu2ebo2memfo2
 bütün gece yatmamak,bu1bo2wbo1 kyxu1h yebo2memfo2
-bütünle,bu1wbo2wbo1lh<>
-bütünlemek,bu1wbo2wbo1lh<>mk
+bütünle,bu1wbo2wbo1lh||
+bütünlemek,bu1wbo2wbo1lh||mk
 bütünlemek,bu1wbo2wbo1lh||mk
 bütünleri,bu1bo2wbo1lry
 bütünlüğüdür,bu1bo2wbo1lko7ydr
@@ -9534,8 +9534,8 @@ büyük fıçı,bu1ywk fo1wxu3y
 büyük kadeh,bu1bu2wk fo2dx
 büyük kadeh,bu1ywk fo2dx
 büyük-küçük,bu1ywk kwxu3k
-büyüklen,bu1wywklh<>bo1
-büyüklenmek,bu1wywklh<>bo1mk
+büyüklen,bu1wywklh||bo1
+büyüklenmek,bu1wywklh||bo1mk
 büyüklenmek,bu1wywklh||bo1mk
 büyükler,bu1ywklr
 büyüklerdeki,bu1ywklrdh||ky
@@ -9590,11 +9590,11 @@ büyükvalide,bu1bu2wk weldh
 büyükvalide,bu1ywk weldh||
 büyük zâbit,bu1bu2wk zo1ebu1t
 büyük zabit,bu1ywk zo1ebu1t
-büyüle,bu1wywlh<>
-büyülemek,bu1wywlh<>mk
+büyüle,bu1wywlh||
 büyülemek,bu1wywlh||mk
-büyülen,bu1wywlh<>bo1
-büyülenmek,bu1wywlh<>bo1mk
+büyülemek,bu1wywlh||mk
+büyülen,bu1wywlh||bo1
+büyülenmek,bu1wywlh||bo1mk
 büyülenmek,bu1wywlh||bo1mk
 büyülten,bu1ywlbo2bo1
 büyülterek,bu1wywlbo2h||rk

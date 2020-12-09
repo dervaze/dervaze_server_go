@@ -24,7 +24,7 @@ dad,ded
 dâd,ded
 da',dec
 dâ',dec
-dadelemek,debo1h<>lmk
+dadelemek,debo1h||lmk
 dâdelemek,debo1h||lmk
 dadgah,dedko7eh||
 dâdgâh,dedko7eh
@@ -84,7 +84,7 @@ dağdağalar,dao1dao1h||lr
 dağdağaları,dao1dao1h||lry
 dağdağalarına,dao1dao1h||lrybo1h
 dağdağalarından,dao1dao1h||lrbo1dbo1
-dağdağalı,dao1dao1h<>ly
+dağdağalı,dao1dao1h||ly
 dağdağalı,dao1dao1h||ly
 dağdağalıdır,dao1dao1h||lydr
 dağdağasından,dao1dao1h||sbo1dbo1
@@ -300,7 +300,7 @@ daha uzun,dhe ewro1wbo1
 daha vakit var,dhewfo2bo2 wer
 daha ziyâde,dhero1bu2edh
 daha ziyade,dhero1yedh||
-dahdoh,deh<>deh||
+dahdoh,deh||deh||
 dahdoh,deh||deh
 dâhi,dehbu2
 dahi̇,dehy
@@ -886,7 +886,7 @@ damar,temer
 damar,tmer
 damar,tmr
 damasko,demesfo2w
-damatahtası,demebo2xbo2h<>sy
+damatahtası,demebo2xbo2h||sy
 damatahtası,demebo2xbo2h||sy
 dama tahtası,demh bo2xo1bo2h sy
 damataşı,demeteso3y
@@ -996,23 +996,23 @@ dân,debo1
 dane,bo2ebo1h||
 dâne,bo2ebo1h
 dane,debo1h
-dane,debo1h<>
+dane,debo1h||
 dane,debo1h||
 dâne,debo1h
 dâne,debo1h||
 daneden,debo1h||dbo1
 dane-i,debo1h||'u4
-danele,debo1h<>l
-danelendir,debo1h<>lbo1dyr
-danelendirmek,debo1h<>lbo1dyrmk
+danele,debo1h||l
+danelendir,debo1h||lbo1dyr
+danelendirmek,debo1h||lbo1dyrmk
 dânelendirmek,debo1h||lbo1dyrmk
 daneleri,debo1h||lry
 danelerin,debo1h||lrko3
 danelerini,debo1h||lrybo1y
-danelet,debo1h<>lbo2
-daneletmek,debo1h<>lbo2mk
+danelet,debo1h||lbo2
+daneletmek,debo1h||lbo2mk
 dâneletmek,debo1h||lbo2mk
-daneli,debo1h<>ly
+daneli,debo1h||ly
 dâneli,debo1h||ly
 danende,debo1bo1dh||
 dânende,debo1bo1dh
@@ -1034,7 +1034,7 @@ dan gayri,dbo1 ao1yry
 dang,debo1ko7
 dâng,debo1ko7
 danimarka,debo1ymerfo2h||
-danimarkalı,debo1ymerfo2h<>ly
+danimarkalı,debo1ymerfo2h||ly
 danişamuz,debo1so3 eo6mwro1
 dânişâmûz,debo1so3 eo6mwro1
 daniş,debo1so3
@@ -1064,7 +1064,7 @@ dansör,debo1swr
 dansöz,debo1swro1
 dantela,debo1bo2lh
 dantela,debo1bo2lh||
-dantel,debo1bo2h<>le
+dantel,debo1bo2h||le
 dantel,debo1bo2h||le
 danzig'den,debo1yro1yfo2dbo1
 dan ziyâde,dbo1 ro1bu2edh
@@ -1288,7 +1288,7 @@ darlığı,terlao1y
 darlık,derlfo2
 darmadağınık,termeteao1bo1yfo2
 darmadağın,termeteao1ybo1
-darmadağın,termh<>teao1ebo1
+darmadağın,termh||teao1ebo1
 darmadağın,termh||teao1ebo1
 darphane,zo1rbu1xo1ebo1h||
 darphâne,zo1rbu1xo1ebo1h
@@ -1698,10 +1698,10 @@ debbâğhâne kuyusu,dbu1eao1xo1ebo1h fo2wbu2wsy
 debbağhane kuyusu,dbu1eao1xo1ebo1h fo2wywsy
 debdebe,dbu1dbu1h
 debdebe,dbu1dbu1h||
-debdebeli,dbu1dbu1h<>ly
 debdebeli,dbu1dbu1h||ly
-debelen,dbu1h<>lbo1
-debelenmek,dbu1h<>lbo1mk
+debdebeli,dbu1dbu1h||ly
+debelen,dbu1h||lbo1
+debelenmek,dbu1h||lbo1mk
 debelenmek,dbu1h||lbo1mk
 debelenmezdi,dbu1h||lbo1mro1dy
 de'b-i,deo5bu1u4
@@ -2278,7 +2278,7 @@ dehşette,dhso3bo2dh
 dehşetten,dhso3bo2dbo1
 dehüm,dhm
 dehyanın,dhyebo1ko3
-dejenere,dhro3h<>bo1h<>rh||
+dejenere,dhro3h||bo1h||rh||
 dejenere,dhro3h||bo1h||rh
 dekaik-aşinasıyla,dfo2eyo5fo2||eo6so3bo1esylh
 dekaik-âşinâsiyle,dfo2eyo5fo2||eo6so3bo1esylh
@@ -2370,7 +2370,7 @@ deldiği,dldyko7y
 deldir,dldyr
 deldirmek,dldyrmk
 del,dl
-delege,dh<>lkh||
+delege,dh||lkh||
 delege,dh||lkh
 deler,dh||lr
 delerdi,dh||lrdy
@@ -2525,7 +2525,7 @@ delmeğe,dlmko7h
 delmek,dlmk
 delmeli,dlmly
 delmiş,dlmso3
-delta,dh<>lbo2e
+delta,dh||lbo2e
 delta,dh||lbo2e
 delv,dlw
 demadem,dmedm
@@ -2536,9 +2536,9 @@ dem'a,dmah
 dem'a,dmah||
 dema,dme
 demâ,dme
-demagoji,dh<>meao1wro3y
 demagoji,dh||meao1wro3y
-demagok,dh<>meao1wao1
+demagoji,dh||meao1wro3y
+demagok,dh||meao1wao1
 demagok,dh||meao1wao1
 dembedem,dmbu1dm
 demde,dmdh
@@ -2608,8 +2608,8 @@ demet,dmbo2
 demet,do4mo4bo2
 demetidir,do4mo4bo2ydr
 demeti,do4mo4bo2y
-demetle,dmbo2lh<>
-demetlemek,dmbo2lh<>mk
+demetle,dmbo2lh||
+demetlemek,dmbo2lh||mk
 demetlemek,dmbo2lh||mk
 demevi,dmwy
 demevî,dmwy
@@ -2658,7 +2658,7 @@ demir,dmyr
 demire,dmyrh
 demirhindi,bo2mrhbo1dy
 demiri,dmyry
-demirikır,dmyry<>fo2yr
+demirikır,dmyry||fo2yr
 demirikır,dmyry||fo2yr
 demirin,dmyrko3
 demir kaldırmak,bo2bu2mwrfo2eldrmfo2
@@ -2715,7 +2715,7 @@ demle,dmlh
 demlerinde,dmlrbo1dh
 demlerine,dmlrybo1h
 demmi,dmo8y
-demokrasi,dh<>mwfo2resy
+demokrasi,dh||mwfo2resy
 demokrasi,dh||mwfo2resy
 demokrasi,dmwfo2resy
 demokrasinin,dmwfo2resybo1ko3
@@ -2757,25 +2757,25 @@ dendi,dybo1dy
 den,dybo1
 denebilir,dybo1h||bu1ylyr
 denecek,dybo1h||xu1k
-dene,dbo1h<>
+dene,dbo1h||
 dene,dfo1bo1h
 dene,dfo1bo1h||
-deneme,dbo1h<>mh||
+deneme,dbo1h||mh||
 deneme,dbo1h||mh
 deneme,dbo1h mh
 deneme,dbo1h mh||
-denemek,dbo1h<>mk
+denemek,dbo1h||mk
 denemek,dbo1h||mk
 denemek,dbo1h mk
-denen,dbo1h<>bo1
+denen,dbo1h||bo1
 denen,dybo1bo1
 denenil,dbo1bo1yl
 denenilmek,dbo1bo1ylmk
 denenilmemiş,dbo1bo1lmemso3
-denenmek,dbo1h<>bo1mk
 denenmek,dbo1h||bo1mk
-denet,dbo1h<>bo2
-denetmek,dbo1h<>bo2mk
+denenmek,dbo1h||bo1mk
+denet,dbo1h||bo2
+denetmek,dbo1h||bo2mk
 denetmek,dbo1h||bo2mk
 deneyiş,dbo1h bu2so3
 deneyiş,dbo1h yso3
@@ -2952,7 +2952,7 @@ densizlik,dko3sro1lk
 densizlik,dlo5o3sro1lk
 department,dbu3erbo2mbo1bo2
 depboy,dbu1wy
-depo,dh<>bu3w
+depo,dh||bu3w
 depo,dh||bu3w
 depolarda,dh||bu3wlrdh
 depolar,dh||bu3wlr
@@ -2968,9 +2968,9 @@ depreşdir,dbu3rso3dyr
 depreşdirmek,dbu3rso3dyrmk
 depreştikçe,bo2bu3rso3dkxu1h
 depret,bo2bu3rbo2
-depret,dbu3rh<>bo2
+depret,dbu3rh||bo2
 depretmek,bo2bu3rbo2mk
-depretmek,dbu3rh<>bo2mk
+depretmek,dbu3rh||bo2mk
 depretmek,dbu3rh||bo2mk
 depretmiyecek,bo2bu3rbo2myh||xu1k
 deprettirir,bo2bu3rbo2dyrr
@@ -3081,15 +3081,15 @@ derdini söylemek,drdbu2bo1y swbu2lmk
 derdini söylemek,drdybo1y swylmk
 derdiser,drd sr
 derdiyle,drdylh
-derdlen,drdlh<>bo1
-derdlenmek,drdlh<>bo1mk
+derdlen,drdlh||bo1
+derdlenmek,drdlh||bo1mk
 derdlenmek,drdlh||bo1mk
 derdlerden,drdlrdbo1
 derdlere,drdlrh
 derdlerime,drdlrymh
 derdlerimin,drdlrymko3
-derdleş,drdlh<>so3
-derdleşmek,drdlh<>so3mk
+derdleş,drdlh||so3
+derdleşmek,drdlh||so3mk
 derdleşmek,drdlh||so3mk
 derdli,drdly
 derdlilere,drdlylrh
@@ -3272,11 +3272,11 @@ derin,drbu2bo1
 derîn,drbu2bo1
 derin,drybo1
 derine,drybo1h
-derinleş,drybo1lh<>so3
-derinleşmek,drybo1lh<>so3mk
+derinleş,drybo1lh||so3
 derinleşmek,drybo1lh||so3mk
-derinlet,drybo1lh<>bo2
-derinletmek,drybo1lh<>bo2mk
+derinleşmek,drybo1lh||so3mk
+derinlet,drybo1lh||bo2
+derinletmek,drybo1lh||bo2mk
 derinletmek,drybo1lh||bo2mk
 derinliği,drybo1lko7y
 derinliğinde,drybo1lko7bo1dh
@@ -3348,7 +3348,7 @@ dermanlarıyla,drmebo1lrylh
 dermansın,drmebo1sko3
 dermansız,drmebo1sro1
 dermansızlık,drmebo1sro1lfo2
-dermeçatma,drmh<>xu3ebo2mh||
+dermeçatma,drmh||xu3ebo2mh||
 dermeçatma,drmh||xu3ebo2mh
 derme,drmh
 derme,drmh||
@@ -3578,18 +3578,18 @@ desem,dysh||m
 desen,dysh||ko3
 deseniz,dysh||ko3ro1
 deseydi,dysh eydy
-desigram,dh<>syao1rem
 desigram,dh||syao1rem
-deşil,dh<>so3yl
+desigram,dh||syao1rem
+deşil,dh||so3yl
 deşil,dso3ly
-desilitre,dh<>sylybo2rh||
+desilitre,dh||sylybo2rh||
 desilitre,dh||sylybo2rh
 deşiliyor,dso3ylyywr
-deşilmek,dh<>so3ylmk
+deşilmek,dh||so3ylmk
 deşilmek,dh||so3ylmk
 deşilmek,dso3lymk
 deşilse,dso3ylsh
-desimetre,dh<>symbo2rh||
+desimetre,dh||symbo2rh||
 desimetre,dh||symbo2rh
 desin,dysybo1
 desinler,dysybo1lr
@@ -3604,10 +3604,10 @@ desise,dsysh||
 desise-i,dsysh||'u4
 desisekârane,dsysh||kerebo1h
 desîsekâr,dsbu2sh ker
-desisekar,dsysh<>ker
+desisekar,dsysh||ker
 desisekar,dsysh ker
 desisekâr,dsysh||ker
-desisekarlık,dsysh<>kerlfo2
+desisekarlık,dsysh||kerlfo2
 desisekârlık,dsysh||kerlfo2
 desiselerden,dsysh||lrdbo1
 desiseler,dsysh||lr
@@ -3621,11 +3621,11 @@ desiselerini,dsysh||lrybo1y
 desiselerinin,dsysh||lrybo1ko3
 desiseleriyle,dsysh||lrylh
 desiselerle,dsysh||lrlh
-desiseli,dsysh<>ly
+desiseli,dsysh||ly
 desiseli,dsysh||ly
 desisen,dsysh||ko3
 desisesi,dsysh||sy
-desisesi,dsysh<>xu1y
+desisesi,dsysh||xu1y
 desîsesi,dsysh||xu1y
 desisesine,dsysh||sbo1h
 desisesini,dsysh||sbo1y
@@ -3682,12 +3682,12 @@ destedâd-ı,dsbo2h||dedu4
 deste,dsbo2h
 deste,dsbo2h||
 destek,dsbo2k
-destekle,dsbo2klh<>
-desteklemek,dsbo2klh<>mk
+destekle,dsbo2klh||
+desteklemek,dsbo2klh||mk
 desteklemek,dsbo2klh||mk
 desteklemiş,dsbo2klh||mso3
-desteklen,dsbo2klh<>bo1
-desteklenmek,dsbo2klh<>bo1mk
+desteklen,dsbo2klh||bo1
+desteklenmek,dsbo2klh||bo1mk
 desteklenmek,dsbo2klh||bo1mk
 destekleyecek,dsbo2klh||yh||xu1k
 destekleyen,dsbo2klh||ybo1
@@ -3750,13 +3750,13 @@ destres,dsbo2rs
 destur,dsbo2wr
 destûr,dsbo2wr
 desukî,dswfo2y
-detektiv,dh<>bo2h<>kbo2yw
 detektiv,dh||bo2h||kbo2yw
-detektör,dh<>bo2h<>kbo2wr
+detektiv,dh||bo2h||kbo2yw
+detektör,dh||bo2h||kbo2wr
 detektör,dh||bo2h||kbo2wr
 determinist,dh||bo2rmbu2bo1bu2sbo2
-determinist,dh<>bo2rmybo1ysbo2
-determinizm,dh<>bo2rmybo1yro1m
+determinist,dh||bo2rmybo1ysbo2
+determinizm,dh||bo2rmybo1yro1m
 determinizm,dh||bo2rmybo1yro1m
 devabb,dwebu1
 devâbb,dwebu1
@@ -3848,23 +3848,23 @@ deva-yi ma'nevi̇,do4wo4eyu4 mo4ao0bo1o4wu4yo4h||
 deva-yı ma'nevi,do4wo4eyu4 mo4ao0bo1o4wu4yo4h||
 dev,dyw
 devedikeni,dwh dbu2kbo1y
-devedikeni,dwh<>dykbo1y
+devedikeni,dwh||dykbo1y
 devedikeni,dwh||dykbo1y
 devedikeni,dwh dykbo1y
-devedişi,dwh<>dyso3y
 devedişi,dwh||dyso3y
-devedöşlü,dwh<>dwso3ly
+devedişi,dwh||dyso3y
+devedöşlü,dwh||dwso3ly
 devedöşlü,dwh||dwso3ly
 deve,dwh
 deve,dwh||
-devekinli,dwh<>kybo1ly
+devekinli,dwh||kybo1ly
 devekinli,dwh||kybo1ly
 deve kuşu,dwh fo2wso3y
-devekuşu,dwh<>fo2wso3y
+devekuşu,dwh||fo2wso3y
 devekuşu,dwh||fo2wso3y
 develer,dwh||lr
 develerin,dwh||lrko3
-develi,dwh<>ly
+develi,dwh||ly
 devenin,dwh||bo1ko3
 deverana,dwrebo1h
 deverandaki,dwrebo1dh||ky
@@ -3897,7 +3897,7 @@ deveranları,dwrebo1lry
 devesi,dwh||sy
 devesini,dwh||sbo1y
 devetımarı,dwbo2ymery
-devetüyü,dwh<>bo2wky
+devetüyü,dwh||bo2wky
 devetüyü,dwh||bo2wky
 deveye,dwh||yh
 deveyi,dwh||yy
@@ -4091,7 +4091,7 @@ deyyan,dyo8ebo1
 deyyan-ı,dyo8ebo1u4
 deyyus,dbu2wbo3
 deyyus,dywbo3
-dezenfekte,dh<>ro1h<>bo1fo1kbo2h||
+dezenfekte,dh||ro1h||bo1fo1kbo2h||
 dezenfekte,dh||ro1h||bo1fo1kbo2h
 dîbâce,dbu2bu1exu1h
 dibacede,dybu1exu1h||dh
@@ -4150,8 +4150,8 @@ didegan,dydko7ebo1
 dîdegân,dydko7ebo1
 didem,dydh||m
 didik,dydyk
-didikle,dydyklh<>
-didiklemek,dydyklh<>mk
+didikle,dydyklh||
+didiklemek,dydyklh||mk
 didiklemek,dydyklh||mk
 didin,dydybo1
 didinmek,dydybo1mk
@@ -4383,7 +4383,7 @@ dilediğim,dylh||dyko7m
 dilediğini,dylh||dyko7bo1y
 dilediklerini,dylh||dklrybo1y
 dile,dylh
-dile,dylh<>
+dile,dylh||
 dilefgar,dl efo1ko7er
 dilefgâr,dl efo1ko7er
 dilefruz,dl efo1rwro1
@@ -4395,7 +4395,7 @@ dilekçesinde,dylkxu3h||sbo1dh
 dilek,dylk
 dilekleri,dylklry
 dilemek,dbu2lh mk
-dilemek,dylh<>mk
+dilemek,dylh||mk
 dilemek,dylh||mk
 dilemek,dylh mk
 dilemekte,dylh||mkdh
@@ -4582,7 +4582,7 @@ dımar,zo1mer
 dima'ya,dmeyh
 dimdik,dymdyk
 dimdikleriyle,dymdyklrylh
-dımdızlak,dym<>dyro1lefo2
+dımdızlak,dym||dyro1lefo2
 dımdızlak,dym||dyro1lefo2
 dimi,dymy
 dımışk,dmso3fo2
@@ -4734,7 +4734,7 @@ dinledim,dyko3lh||dm
 dinledin,dyko3lh||dko3
 dinle,dklh
 dinle,dklh||
-dinle,dyklh<>
+dinle,dyklh||
 dinle,dyko3lh
 dinlemedi,dyko3lh||mdy
 dinlemediği,dyko3lh||mdyko7y
@@ -4752,7 +4752,7 @@ dinlemediniz,dyko3lh||mdyko3ro1
 dinleme,dyko3lh||mh
 dinlemeğe,dyko3lh||mko7h
 dinlemek,dklh mk
-dinlemek,dyklh<>mk
+dinlemek,dyklh||mk
 dinlemek,dyklh||mk
 dinlemek,dyko3lh||mk
 dinlemekle,dyko3lh||mklh
@@ -4950,7 +4950,7 @@ dipçik,dbu2bu1xu1k
 dipçik,dybu1xu1k
 dipçikleri,dybu1xu1klry
 dip,dbu2bu1
-dipdiri,dybu3<>dyry
+dipdiri,dybu3||dyry
 dipdiri,dybu3||dyry
 dip,dybu1
 diploma,dybu3lwme
@@ -5015,16 +5015,16 @@ direkleri,dyrklry
 direklerin,dyrklrko3
 direklerle,dyrklrlh
 direksiz,dyrksro1
-direktif,dyrh<>kbo2yfo1
+direktif,dyrh||kbo2yfo1
 direktif,dyrh||kbo2yfo1
 direktifiyle,dyrkbo2yfo1ylh
 direktiflerini,dyrkbo2yfo1lrybo1y
 direktir,dyrkdr
-direktör,dyrh<>kbo2wr
+direktör,dyrh||kbo2wr
 direktör,dyrh||kbo2wr
 direm,drm
-diren,dyrh<>bo1
-direnmek,dyrh<>bo1mk
+diren,dyrh||bo1
+direnmek,dyrh||bo1mk
 direnmek,dyrh||bo1mk
 dirhemden,drhmdbo1
 dirhem,drhm
@@ -5484,10 +5484,10 @@ diyenlerin,dyybo1lrko3
 diyerek,dyyh||rk
 diyet,dbu2bo2
 diyet,dybo2
-diyet,dyyh<>bo2
+diyet,dyyh||bo2
 diyet,dyyh||bo2
 diyeyim,dyyh||ym
-diyez,dyyh<>ro1
+diyez,dyyh||ro1
 diyez,dyyh||ro1
 diyoptri,dyywbu3bo2ry
 diyordu,dyywrdy
@@ -5504,7 +5504,7 @@ diyorsun,dyywrsko3
 diyorsunuz,dyywrsko3ro1
 diyorum,dyywrm
 diyoruz,dyywrro1
-dizanteri,dyro1ebo1bo2h<>ry
+dizanteri,dyro1ebo1bo2h||ry
 dizanteri,dyro1ebo1bo2h||ry
 diz bağı,dbu2ro1 bu1eao1y
 diz bağı,dyro1 bu1eao1y
@@ -5607,12 +5607,12 @@ doğmuştur,twao1mso3dr
 doğmuş,twao1mso3
 doğmuyor,twao1myywr
 doğra,dwao1re
-doğramacı,dwao1remh<>xu1y
+doğramacı,dwao1remh||xu1y
 doğramacı,dwao1remh||xu1y
 doğramacı,dwao1remh xu1y
 doğramacı işi,dwao1remh xu1y ebu2so3y
 doğramacı işi,dwao1remh xu1y eyso3y
-doğramacılık,dwao1remh<>xu1ylfo2
+doğramacılık,dwao1remh||xu1ylfo2
 doğramacılık,dwao1remh||xu1ylfo2
 doğrama,dwao1remh
 doğrama,dwao1remh||
@@ -5750,9 +5750,9 @@ dökemez,dwkh||mro1
 döken,dwkbo1
 döker,dwkr
 dökerek,dwkh||rk
-dökmeci,dwkmh<>xu1y
 dökmeci,dwkmh||xu1y
-dökmecilik,dwkmh<>xu1yllk
+dökmeci,dwkmh||xu1y
+dökmecilik,dwkmh||xu1yllk
 dökmecilik,dwkmh||xu1yllk
 dökmeden,dwkmh||dbo1
 dökme,dwkmh
@@ -6270,7 +6270,7 @@ döndürecektir,dwbo1dyrh||xu1kdr
 döndüren,dwbo1dyrbo1
 döndürerek,dwbo1dyrh||rk
 dondurmacı,dwbo1dwrmexu1y
-dondurma,dwbo1dwrmh<>
+dondurma,dwbo1dwrmh||
 dondurma,dwbo1dwrmh||
 dondurmak,dwbo1dwrmfo2
 dondurmak,dwko3dyrmfo2
@@ -6450,7 +6450,7 @@ dört köşe,drbo2 kwso3h
 dört köşe,drbo2 kwso3h||
 dörtköşe,dwrbo2 ko7wso3h
 dörtköşe,dwrbo2 ko7wso3h||
-dörtköşeli,dwrbo2 ko7wso3h<>ly
+dörtköşeli,dwrbo2 ko7wso3h||ly
 dörtköşeli,dwrbo2 ko7wso3h||ly
 dörtleri,drbo2lry
 dörtlü,dwrbo2ly
@@ -6474,7 +6474,7 @@ doruk,dwrwfo2
 doruk,twrwfo2
 doru,twrw
 döş,dwso3
-döşe,dwso3h<>
+döşe,dwso3h||
 döşeğinde,dwso3ko7bo1dh
 döşeğindeki,dwso3ko7bo1dh||ky
 döşeğine,dwso3ko7bo1h
@@ -6482,11 +6482,11 @@ döşek,dwso3k
 döşeklerde,dwso3klrdh
 döşekli,dwso3kly
 döşemeci,dwso3mh xu1y
-döşeme,dwso3h<>mh||
+döşeme,dwso3h||mh||
 döşeme,dwso3h||mh
 döşeme,dwso3h mh
 döşeme,dwso3h mh||
-döşemek,dwso3h<>mk
+döşemek,dwso3h||mk
 döşemek,dwso3h||mk
 döşemek,dwso3h mk
 döşemesini kaldırmak,dwso3mh sbo1y fo2eldrmfo2
@@ -6808,19 +6808,19 @@ düğme,dwkmh
 düğme,dwkmh||
 düğme,dwko7mh
 düğme,dwko7mh||
-düğmele,dwko7mh<>l
+düğmele,dwko7mh||l
 düğmelemek,dwkmh lmk
-düğmelemek,dwko7mh<>lmk
 düğmelemek,dwko7mh||lmk
-düğmelen,dwko7mh<>lbo1
+düğmelemek,dwko7mh||lmk
+düğmelen,dwko7mh||lbo1
 düğmelenmek,dwkmh lbo1mk
-düğmelenmek,dwko7mh<>lbo1mk
+düğmelenmek,dwko7mh||lbo1mk
 düğmelenmek,dwko7mh||lbo1mk
 düğmelerdeki,dwko7mh||lrdh||ky
 düğmeler,dwko7mh||lr
 düğmeleri,dwko7mh||lry
 düğmelerine,dwko7mh||lrybo1h
-düğmeli,dwko7mh<>ly
+düğmeli,dwko7mh||ly
 düğmeli,dwko7mh||ly
 düğmesi,dwko7mh||sy
 düğmesine,dwko7mh||sbo1h
@@ -6829,9 +6829,9 @@ düğmeye,dwko7mh||yh
 düğü,dwko7w
 düğüm,dwkm
 düğüm,dwko7wm
-düğümle,dwko7wmlh<>
+düğümle,dwko7wmlh||
 düğümlemek,dwkmlmk
-düğümlemek,dwko7wmlh<>mk
+düğümlemek,dwko7wmlh||mk
 düğümlemek,dwko7wmlh||mk
 düğümlenmek,dwkmlbo1mk
 düğümler,dwko7wmlr
@@ -6966,7 +6966,7 @@ dümdarı,dmdery
 dümdarlarıdır,dmderlrydr
 dümdarlık,dmderlfo2
 düm,dm
-dumdum,dwm<>dwm
+dumdum,dwm||dwm
 dumdum,dwm||dwm
 dümdüz,dwmdwro1
 dümdüz,dwm||dwro1
@@ -7140,7 +7140,7 @@ dünyeviyyesinden,dbo1ywyh||sbo1dbo1
 dünyeviyyesine,dbo1ywyh||sbo1h
 dünyeviyyeye,dbo1ywyh||yh
 dünyeviyyeyi,dbo1ywyh||yy
-düpedüz,dwbu3h<>dwro1
+düpedüz,dwbu3h||dwro1
 düpedüz,dwbu3h||dwro1
 durabilir,twrebu1ylyr
 durabilsinler,twrh||bu1ylsybo1lr
@@ -7701,7 +7701,7 @@ düşüncelerin,dwso3wbo1xu1h||lrko3
 düşüncelerine,dwso3wbo1xu1h||lrybo1h
 düşüncelerinin,dwso3wbo1xu1h||lrybo1ko3
 düşüncelerle,dwso3wbo1xu1h||lrlh
-düşünceli,dwso3wbo1xu1h<>ly
+düşünceli,dwso3wbo1xu1h||ly
 düşünceli,dwso3wbo1xu1h||ly
 düşüncelileri,dwso3wbo1xu1h||lylry
 düşünceme,dwso3wbo1xu1h||mh
@@ -7713,7 +7713,7 @@ düşüncesidir,dwso3wbo1xu1h||sydr
 düşüncesi,dwso3wbo1xu1h||sy
 düşüncesini,dwso3wbo1xu1h||sbo1y
 düşüncesiyle,dwso3wbo1xu1h||sylh
-düşüncesiz,dwso3wbo1xu1h<>sro1
+düşüncesiz,dwso3wbo1xu1h||sro1
 düşüncesiz,dwso3wbo1xu1h||sro1
 düşünceye,dwso3wbo1xu1h||yh
 düşünceyi,dwso3wbo1xu1h||yy
@@ -8098,11 +8098,11 @@ düzdîde,dro1dydh
 düzdi,dro1dy
 düzdî,dro1dy
 düz,dwro1
-düzel,dwro1h<>l
+düzel,dwro1h||l
 düzelir,dwro1h||lyr
-düzelmek,dwro1h<>lmk
 düzelmek,dwro1h||lmk
-düzelt,dwro1h<>lbo2
+düzelmek,dwro1h||lmk
+düzelt,dwro1h||lbo2
 düzeltebilir,dwro1lbo2h||bu1ylyr
 düzeltecek,dwro1lbo2h||xu1k
 düzeltemedim,dwro1lbo2h||mh||dm
@@ -8111,7 +8111,7 @@ düzelterek,dwro1lbo2h||rk
 düzeltip,dwro1lbo2wbu1
 düzeltir,dwro1lbo2yr
 düzeltmeğe,dwro1lbo2mko7h
-düzeltmek,dwro1h<>lbo2mk
+düzeltmek,dwro1h||lbo2mk
 düzeltmek,dwro1h||lbo2mk
 düzeltmek,dwro1lbo2mk
 düzeltmekte,dwro1lbo2mkdh
@@ -8134,12 +8134,12 @@ düzine,dwro1bu2bo1h
 düzine,dwro1ybo1h
 düzine,dwro1ybo1h||
 duzi'nin,dwro1ybo1ko3
-düzle,dwro1lh<>
-düzlemek,dwro1lh<>mk
+düzle,dwro1lh||
 düzlemek,dwro1lh||mk
-düzlen,dwro1lh<>bo1
+düzlemek,dwro1lh||mk
+düzlen,dwro1lh||bo1
 düzlenecek,dwro1lbo1h||xu1k
-düzlenmek,dwro1lh<>bo1mk
+düzlenmek,dwro1lh||bo1mk
 düzlenmek,dwro1lh||bo1mk
 düzletmek,dwro1lbo2mk
 düzlük,dwro1lk

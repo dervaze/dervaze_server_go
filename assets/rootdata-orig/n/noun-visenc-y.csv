@@ -1,8 +1,8 @@
 yaba,bu2ebu1h
 yabalamak,bu2ebu1h||lemfo2
-yabalamak,yebu1h<>lemfo2
-yabala,yebu1h<>le
-yabanabad,yebu1ebo1<>eo6bu1ed
+yabalamak,yebu1h||lemfo2
+yabala,yebu1h||le
+yabanabad,yebu1ebo1||eo6bu1ed
 yabân adamı,bu2bu1ebo1 edmy
 yabanadamı,bu2ebu1ebo1 eo6dmy
 yaban adamı,ybu1ebo1 edmy
@@ -10,7 +10,7 @@ yabanadamı,yebu1ebo1 eo6dmy
 yabanarısı,bu2ebu1ebo1 eo6rbu2sy
 yabanarısı,yebu1ebo1 eo6rysy
 yabanasması,bu2ebu1ebo1 eo6zmah||sy
-yabanasması,yebu1ebo1 eo6zmah<>sy
+yabanasması,yebu1ebo1 eo6zmah||sy
 yaban,bu2ebu1ebo1
 yabancı,bu2bu1ebo1xu1y
 yabancı,bu2ebu1ebo1xu1y
@@ -67,7 +67,7 @@ yabanturpu,bu2ebu1ebo1 bo2wrbu3y
 yabanturpu,yebu1ebo1 bo2wrbu3y
 yaban,yebu1ebo1
 yabanyoncası,bu2ebu1ebo1 bu2wbo1xu3h||sy
-yabanyoncası,yebu1ebo1 ywbo1xu3h<>sy
+yabanyoncası,yebu1ebo1 ywbo1xu3h||sy
 yaba,yebu1h||
 yâbis,bu2ebu1s
 yabis,yebu1s
@@ -366,7 +366,7 @@ yakaladı,yefo2eledy
 yakalamak,bu2efo2h||lemfo2
 yakalamak,bu2fo2elmfo2
 yakalamak,yefo2elemfo2
-yakalamak,yefo2h<>lemfo2
+yakalamak,yefo2h||lemfo2
 yakalamak,yfo2elmfo2
 yakalamalarından,yefo2elemelrbo1dbo1
 yakalamışlar,yefo2elemso3lr
@@ -375,18 +375,18 @@ yakalandıkları,yefo2elebo1dfo2lry
 yakalandı,yefo2elebo1dy
 yakalanıp,yefo2elebo1wbu1
 yakalanmak,bu2efo2h||lebo1mfo2
-yakalanmak,yefo2h<>lebo1mfo2
+yakalanmak,yefo2h||lebo1mfo2
 yakalanmamak,yefo2elebo1mh||mfo2
-yakalan,yefo2h<>lebo1
+yakalan,yefo2h||lebo1
 yakalarını,yefo2elrybo1y
 yakalar,yefo2eler
 yakalasalar,yefo2elesh||lr
 yakalasaydı,yefo2elesh||ydy
 yakalasa,yefo2elesh
-yakala,yefo2h<>le
+yakala,yefo2h||le
 yakalayıp,yefo2eleywbu1
 yakalık,bu2efo2h||lfo2
-yakalık,yefo2h<>lfo2
+yakalık,yefo2h||lfo2
 yakalıyorsun,yefo2eleywrsko3
 yakalıyor,yefo2eleywr
 yakama,yefo2emh
@@ -397,7 +397,7 @@ yakanlara,yefo2ebo1lrh
 yakanlar,yefo2ebo1lr
 yakan,yefo2ebo1
 yakapaça,bu2efo2h||bu3exu3h
-yakapaça,yefo2h<>bu3exu3h||
+yakapaça,yefo2h||bu3exu3h||
 yakarım,yefo2erm
 yakarlar,yefo2erlr
 yakarmak,bu2efo2ermfo2
@@ -405,14 +405,14 @@ yakarmak,yefo2ermfo2
 yakarsın,yefo2ersybo1
 yakar,yefo2er
 yakasıaçılmadık,bu2efo2h||sy eo6xu3bu2lmedfo2
-yakasıaçılmadık,yefo2h<>sy eo6xu3ylmedfo2
+yakasıaçılmadık,yefo2h||sy eo6xu3ylmedfo2
 yaka,yefo2h
 yaka,yefo2h||
 yaka,yfo2e
 yakayı kurtarmak,bu2fo2ebu2y fo2wrbo2ermfo2
 yakayı kurtarmak,yfo2eyy fo2wrbo2ermfo2
 yakayırtık,bu2efo2h||bu2bu2rbo2bu2fo2
-yakayırtık,yefo2h<>yyrbo2yfo2
+yakayırtık,yefo2h||yyrbo2yfo2
 yakayı,yefo2h||yy
 yakaza,bu2fo2to1h
 yakaza,bu2o4fo2o4to1o4h
@@ -842,7 +842,7 @@ yalınkat,bu2elbu2bo1||fo2ebo2
 yalınkat,bu2elkfo2ebo2
 yalınkat,yelkfo2ebo2
 yalınkat,yelybo1fo2ebo2
-yalınkat,yelybo1<>fo2ebo2
+yalınkat,yelybo1||fo2ebo2
 yalın,yelybo1
 yalın,yelylo5o3
 yalı,yely
@@ -935,7 +935,7 @@ yamaç,bu2emexu1
 yamacı,bu2emh||xu1y
 yamacılıktan,ymexu1ylfo2dbo1
 yamacılık,ymexu1ylfo2
-yamacı,yemh<>xu1y
+yamacı,yemh||xu1y
 yamaç,yemexu1
 yamak,bu2emefo2
 yamak,bu2mefo2
@@ -943,18 +943,18 @@ yamak,yemefo2
 yamak,ymefo2
 yamalak,bu2emh||lefo2
 yamalak,yemelefo2
-yamalak,yemh<>lefo2
+yamalak,yemh||lefo2
 yamalamak,bu2emh||lemfo2
 yamalamakla,yemelemfo2lh
-yamalamak,yemh<>lemfo2
+yamalamak,yemh||lemfo2
 yamalanmak,bu2emh||lebo2mfo2
-yamalanmak,yemh<>lebo2mfo2
-yamalan,yemh<>lebo2
+yamalanmak,yemh||lebo2mfo2
+yamalan,yemh||lebo2
 yamalayan,yemeleyebo1
-yamala,yemh<>le
+yamala,yemh||le
 yamalı,bu2emh||ly
 yamalı,yemely
-yamalı,yemh<>ly
+yamalı,yemh||ly
 yamamak,bu2ememfo2
 yamamak,yememfo2
 yaman,bu2emebo1
@@ -972,14 +972,14 @@ yam,bu2em
 yamcı,bu2emxu1y
 yamcı,yemxu1y
 yamrıyumru,bu2emry||bu2wmrw
-yamrıyumru,yemry<>ywmrw
+yamrıyumru,yemry||ywmrw
 yamyam,bu2embu2em
 yamyamların,yemyemlrko3
 yamyamlık,bu2embu2emlfo2
 yamyamlık,yemyemlfo2
 yamyam,yemyem
 yamyassı,bu2em||bu2esy
-yamyassı,yem<>yesy
+yamyassı,yem||yesy
 yam,yem
 yana,bu2ebo1h
 yanacaklarını,yebo1exu1fo2lrybo1y
@@ -1113,7 +1113,7 @@ yani,bu2abo1y
 yâni,bu2abo1y
 yanıcı,yebo1yxu1y
 yanıkara,bu2ebo1y||fo2ere
-yanıkara,yebo1y<>fo2ere
+yanıkara,yebo1y||fo2ere
 yanık,bu2ebo1bu2fo2
 yanıklık esmerliği,bu2ebo1fo2lfo2 esmrlky
 yanıklık esmerliği,yebo1fo2lfo2 esmrlky
@@ -1572,7 +1572,7 @@ yapıyoruz,yebu3yywrro1
 yapıyor,yebu3yywr
 yapma,bu2ebu3mh
 yapmacık,bu2ebu3mh||xu1fo2
-yapmacık,yebu3mh<>xu1fo2
+yapmacık,yebu3mh||xu1fo2
 yapmadan,yebu3mh||dbo1
 yapmadığımdan,yebu3mdyao1mdbo1
 yapmadığım,yebu3mdyao1m
@@ -1680,7 +1680,7 @@ yaprak,bu2ebu3refo2
 yaprakdökümü,bu2ebu3refo2 dwkwmy
 yaprakdökümü,yebu3refo2 dwkwmy
 yaprakdolması,bu2ebu3refo2 twlmh||sy
-yaprakdolması,yebu3refo2 twlmh<>sy
+yaprakdolması,yebu3refo2 twlmh||sy
 yapraklanmak,bu2ebu3refo2lebo1mfo2
 yapraklanmak,yebu3refo2lebo1mfo2
 yapraklan,yebu3refo2lebo1
@@ -1788,7 +1788,7 @@ yaptır,yebu3dyr
 yaptı,yebu3dy
 yapyalnız,bu2ebu3||bu2elko3ro1
 yapyalnız,yebu3||yelko3ro1
-yapyalnız,yebu3<>yello5o3ro1
+yapyalnız,yebu3||yello5o3ro1
 yap,yebu3
 yârabbi,bu2erbu1y
 yarabbi,ye rbu1o8y
@@ -1826,7 +1826,7 @@ yara kabuğu,yerh fo2bu1wao1y
 yaralamak,bu2erh||lemfo2
 yaralamak,bu2erh lmfo2
 yaralamakla,yerh||lemfo2lh
-yaralamak,yerh<>lemfo2
+yaralamak,yerh||lemfo2
 yaralamak,yerh lmfo2
 yaralamış,yerh||lemso3
 yaralananlar,yerh||lebo1ebo1lr
@@ -1839,7 +1839,7 @@ yaralanıp,yerh||lebo1wbu1
 yaralanırlar,yerh||lebo1yrlr
 yaralanıyor,yerh||lebo1ywr
 yaralanmak,bu2erh||lebo1mfo2
-yaralanmak,yerh<>lebo1mfo2
+yaralanmak,yerh||lebo1mfo2
 yaralanmaması,yerh||lebo1memsy
 yaralanmasını,yerh||lebo1mesbo1y
 yaralanması,yerh||lebo1mesy
@@ -1847,7 +1847,7 @@ yaralanmasıyla,yerh||lebo1mesylh
 yaralanmasiyle,yerh||lebo1mesylh
 yaralanmış,yerh||lebo1mso3
 yaralansa,yerh||lebo1sh
-yaralan,yerh<>lebo1
+yaralan,yerh||lebo1
 yaralara,yerh||lrh
 yaralardan,yerh||lrdbo1
 yaralarıma,yerh||lrymh
@@ -1867,7 +1867,7 @@ yaraların,yerh||lrko3
 yaraları,yerh||lry
 yaralar,yerh||lr
 yaralayan,yerh||leyebo1
-yarala,yerh<>le
+yarala,yerh||le
 yaralılara,yerh||lylrh
 yaralılarından,yerh||lylrbo1dbo1
 yaralıların,yerh||lylrko3
@@ -2179,7 +2179,7 @@ yarımsağ,yerym zeao1
 yarımsol,bu2erbu2m zwl
 yarımsol,yerym zwl
 yarımyamalak,bu2erbu2m||bu2emelefo2
-yarımyamalak,yerym<>yemelefo2
+yarımyamalak,yerym||yemelefo2
 yarım,yerm
 yarım,yerym
 yarına,yerybo1h
@@ -2188,7 +2188,7 @@ yarının,yerybo1ko3
 yarını,yerybo1y
 yarınki,bu2erbu2bo1ky
 yarınkigün,bu2erbu2bo1ky||kwbo1
-yarınkigün,yerybo1ky<>kwbo1
+yarınkigün,yerybo1ky||kwbo1
 yarınki,yerybo1ky
 yarın,yerybo1
 yarısıdır,yerysydr
@@ -2207,7 +2207,7 @@ yarıyacak,yereyh||xu1fo2
 yarı yarıya,bu2ery bu2ery bu2h
 yarıyarıya,bu2ery bu2ery||bu2h
 yarı yarıya,yery yery yh||
-yarıyarıya,yery yery<>yh||
+yarıyarıya,yery yery||yh||
 yarıya,yery||yh
 yâr-i,yeru4
 yâr-ı,yeru4
@@ -2224,7 +2224,7 @@ yarlığ,yerlyao1
 yarlığ,yrlyao1
 yarlık,bu2erlfo2
 yarlık,yerlfo2
-yarlı,yerh<>ly
+yarlı,yerh||ly
 yarma,bu2ermh
 yarma çam tahtası,bu2ermh xu3em bo2xo1bo2h sy
 yarma çam tahtası,yermh xu3em bo2xo1bo2h sy
@@ -2540,7 +2540,7 @@ yataklıvagon,bu2ebo2efo2ly weao1wbo1
 yataklıvagon,yebo2efo2ly weao1wbo1
 yataklı,yebo2efo2ly
 yatakodası,bu2ebo2efo2 ewth||sy
-yatakodası,yebo2efo2 ewth<>sy
+yatakodası,yebo2efo2 ewth||sy
 yatak olmak,bu2bo2efo2 ew
 yatak olmak,ybo2efo2 ew
 yataktan,yebo2efo2dbo1
@@ -2635,7 +2635,7 @@ yavaş,bu2eweso3
 yavaş,bu2weso3
 yavaşca,bu2eweso3xu1h
 yavaşcacık,bu2eweso3xu1h||xu1fo2
-yavaşcacık,yeweso3xu1h<>xu1fo2
+yavaşcacık,yeweso3xu1h||xu1fo2
 yavaşca,yeweso3xu1h||
 yavaşlık,bu2eweso3lfo2
 yavaşlık,yeweso3lfo2
@@ -2649,7 +2649,7 @@ yavaş,yeweso3
 yavaş,yweso3
 yâve,bu2ewh
 yâvegû,bu2ewh||ko7w
-yavegu,yewh<>ko7w
+yavegu,yewh||ko7w
 yavegu,yewh ko7w
 yâvegû,yewh ko7w
 yavelerle,yewh||lrlh
@@ -2742,7 +2742,7 @@ yaygara,bu2ebu2ao1rh
 yaygaracı,bu2ebu2ao1rh||xu1y
 yaygara çıkarmak,bu2bu2ao1rh xu3bu2fo2ermfo2
 yaygara çıkarmak,yyao1rh xu3yfo2ermfo2
-yaygaracı,yeyao1rh<>xu1y
+yaygaracı,yeyao1rh||xu1y
 yaygaralarına,yeyao1erh||lrybo1h
 yaygaralarını,yeyao1erh||lrybo1y
 yaygaralarla,yeyao1erh||lrlh
@@ -2825,7 +2825,7 @@ yaylım,bu2ebu2lbu2m
 yaylım,yeylym
 yayma,bu2ebu2mh
 yaymacı,bu2ebu2mh||xu1y
-yaymacı,yeymh<>xu1y
+yaymacı,yeymh||xu1y
 yaymağa,yeymao1h
 yaymak,bu2ebu2mfo2
 yaymakla,yeymfo2lh
@@ -3179,8 +3179,8 @@ yazlı,yero1ly
 yazma,bu2ero1mh
 yazmacı,bu2ero1mh||xu1y
 yazmacılık,bu2ero1mh||xu1bu2lfo2
-yazmacılık,yero1mh<>xu1ylfo2
-yazmacı,yero1mh<>xu1y
+yazmacılık,yero1mh||xu1ylfo2
+yazmacı,yero1mh||xu1y
 yazmadığımın,yero1mdyao1mko3
 yazmadığımız,yero1mdyao1mro1
 yazmadığım,yero1medyao1m
@@ -3380,7 +3380,7 @@ yed-i vâhid usûlü,bu2dwexdezwly
 yed-i vahid usulü,ydwexdezwly
 yediveren,bu2dy||wbu2rbo1
 yediveren,bu2dy wbu2rbo1
-yediveren,ydy<>wyrbo1
+yediveren,ydy||wyrbo1
 yediveren,ydy wyrbo1
 yed-i,ydu4
 yedi,ydy
@@ -3548,7 +3548,7 @@ yeleklemek,ylkemk
 yelekle,ylke
 yelek,ylk
 yeleli,bu2lh||ly
-yeleli,ylh<>ly
+yeleli,ylh||ly
 yele,ylh||
 yeli,yly
 yelken açmak,bu2elkbo1 exu3mfo2
@@ -3577,22 +3577,22 @@ yelkovanı,ylfo2webo1y
 yelkovan,ylfo2webo1
 yelkovan,yl fo2wwebo1
 yellemek,bu2llh||mk
-yellemek,yllh<>mk
+yellemek,yllh||mk
 yellenmek,bu2llbo1mk
 yellenmek,yllbo1mk
 yellen,yllbo1
 yellerle,yllrlh
 yeller,yllr
-yelle,yllh<>
+yelle,yllh||
 yelli,bu2lly
 yelli,ylly
 yelpâze,bu2lbu3ero1h
 yelpâzelemek,bu2lbu3ero1h||lmk
-yelpazelemek,ylbu3ero1h<>lmk
+yelpazelemek,ylbu3ero1h||lmk
 yelpâzelenmek,bu2lbu3ero1h||lbo1mk
-yelpazelenmek,ylbu3ero1h<>lbo1mk
-yelpazelen,ylbu3ero1h<>lbo1
-yelpazele,ylbu3ero1h<>l
+yelpazelenmek,ylbu3ero1h||lbo1mk
+yelpazelen,ylbu3ero1h||lbo1
+yelpazele,ylbu3ero1h||l
 yelpâze sallamak,bu2lbu3ero1h zellemfo2
 yelpaze sallamak,ylbu3ero1h zellemfo2
 yelpaze,ylbu3ero1h
@@ -3617,7 +3617,7 @@ yelve kuşu,bu2lwh fo2wso3y
 yelve kuşu,ylwh fo2wso3y
 yelve,ylwh||
 yelyeperek,bu2l bu2bu3h||rk
-yelyeperek,yl ybu3h<>rk
+yelyeperek,yl ybu3h||rk
 yel,yl
 yemame,ymemh
 yemânî,bu2mebo1y
@@ -3759,7 +3759,7 @@ yemut,ymwbo2
 yem vermek,bu2m wbu2rmk
 yem vermek,ym wyrmk
 yemyeşil,bu2m||bu2so3bu2l
-yemyeşil,ym<>yso3yl
+yemyeşil,ym||yso3yl
 yemyeşil,ym||yso3yl
 yem,ym
 yenabi-i,ybo1ebu1yau4
@@ -3821,18 +3821,18 @@ yenik,bu2bo1bu2k
 yenik,ybo1yk
 yenilebilir,ybo1ylh||bu1ylyr
 yenilemek,bu2ko3bu2lh||mk
-yenilemek,ylo5o3ylh<>mk
+yenilemek,ylo5o3ylh||mk
 yenilenmek,bu2ko3bu2lh||bo1mk
-yenilenmek,ylo5o3ylh<>bo1mk
+yenilenmek,ylo5o3ylh||bo1mk
 yenilen,yh||bo1ylbo1
-yenilen,ylo5o3ylh<>bo1
+yenilen,ylo5o3ylh||bo1
 yenilerini,yko3ylrybo1y
 yeniletmek,bu2kbu2lbo2mk
 yeniletmek,bu2ko3bu2lbo2mk
 yeniletmek,ykylbo2mk
 yeniletmek,ylo5o3ylbo2mk
 yenilet,ylo5o3ylbo2
-yenile,ylo5o3ylh<>
+yenile,ylo5o3ylh||
 yenilik,bu2ko3bu2llk
 yenilik,ylo5o3yllk
 yenilir,yh||bo1ylyr
@@ -3851,7 +3851,7 @@ yenir,bu2bo1bu2r
 yenir,bu2bo1wr
 yenir,ybo1wr
 yenir,ybo1yr
-yenişehir,yky<>so3hr
+yenişehir,yky||so3hr
 yenisinde,yko3ysbo1dh
 yenisi,yko3ysy
 yeni usûl,bu2ky ezwl
@@ -3878,7 +3878,7 @@ yepyeni,bu2bu2bu3||bu2ky
 yepyeni,bu2bu3 bu2ky
 yepyeni,ybu3 yky
 yepyeni,yo4bu3o0||yko3y
-yepyeni,yybu3<>yky
+yepyeni,yybu3||yky
 yeraltı,bu2reo6lbo2y
 yeraltı kemer,bu2relbo2y kmr
 yeraltı kemerler,bu2relbo2y kmrlr
@@ -4119,7 +4119,7 @@ yeşer,yso3yr
 ye'se,yeo5sh
 yese,yh||sh
 yeşilbaş,bu2so3bu2l||bu1eso3
-yeşilbaş,yso3yl<>bu1eso3
+yeşilbaş,yso3yl||bu1eso3
 yeşil,bu2so3bu2l
 yeşil,bu2so3l
 yeşilcikler,yso3ylxu1klr
@@ -4952,7 +4952,7 @@ yiyecek şeyler,yyh xu1k so3ylr
 yiyeceksiniz,yyh||xu1ksko3ro1
 yiyeceksin,yyh||xu1ksko3
 yiyecektir,yyh||xu1kdr
-yiyecek,yyh<>xu1k
+yiyecek,yyh||xu1k
 yiyecek,yyh||xu1k
 yiyecek,yyh xu1k
 yiyelim,yyh||lm
@@ -5034,7 +5034,7 @@ yokladım,ywfo2ledm
 yoklama,bu2wfo2lemh
 yoklama,bu2wfo2lmh
 yoklamacı,bu2wfo2lemh||xu1y
-yoklamacı,ywfo2lemh<>xu1y
+yoklamacı,ywfo2lemh||xu1y
 yoklama defteri,bu2wfo2lmh dfo1bo2ry
 yoklama defteri,ywfo2lmh dfo1bo2ry
 yoklama etmek,bu2wfo1lmh e
@@ -5228,7 +5228,7 @@ yoltası,ywl tesy
 yol tezkeresi,bu2wl bo2do1krh sy
 yoltezkeresi,bu2wl bo2do1krh||sy
 yol tezkeresi,ywl bo2do1krh sy
-yoltezkeresi,ywl bo2do1krh<>sy
+yoltezkeresi,ywl bo2do1krh||sy
 yol tutmak,bu2wl twbo2mfo2
 yol tutmak,ywl twbo2mfo2
 yoludur,ywlydr
@@ -5393,7 +5393,7 @@ yorum,ywrwm
 yor,ywr
 yosma,bu2wzmh
 yosmalık,bu2wzmh||lfo2
-yosmalık,ywzmh<>lfo2
+yosmalık,ywzmh||lfo2
 yosma,ywzmh||
 yosun,bu2wzwbo1
 yosunlanmak,bu2wzwbo1lebo2mfo2
@@ -5417,20 +5417,20 @@ yübûset,ybu1wsbo2
 yüce,bu2wxu1h
 yücedir,ywxu1h||dr
 yücelenmek,bu2wxu1h||lbo1mk
-yücelenmek,ywxu1h<>lbo1mk
-yücelen,ywxu1h<>lbo1
+yücelenmek,ywxu1h||lbo1mk
+yücelen,ywxu1h||lbo1
 yüceliğini,ywxu1h||lko7bo1y
 yücelik,bu2wxu1h||lk
 yüceliklerini,ywxu1h||lklrybo1y
 yücelikler,ywxu1h||lklr
-yücelik,ywxu1h<>lk
+yücelik,ywxu1h||lk
 yücelmek,bu2wxu1lmk
 yücelmek,ywxu1lmk
 yüceltmek,bu2wxu1h||lbo1mk
 yüceltmek,bu2wxu1lbo2mk
-yüceltmek,ywxu1h<>lbo1mk
+yüceltmek,ywxu1h||lbo1mk
 yüceltmek,ywxu1lbo2mk
-yücelt,ywxu1h<>lbo1
+yücelt,ywxu1h||lbo1
 yücelt,ywxu1lbo2
 yücel,ywxu1l
 yücesi,ywxu1h||sy
@@ -5442,10 +5442,10 @@ yudum,bu2wdwm
 yudum,ywdm
 yudum,ywdwm
 yufkaböreği,bu2wfo1fo2h||bu1wrky
-yufkaböreği,ywfo1fo2h<>bu1wrky
+yufkaböreği,ywfo1fo2h||bu1wrky
 yufka,bu2wfo1fo2h
 yufkalık,bu2wfo1fo2h||lfo2
-yufkalık,ywfo1fo2h<>lfo2
+yufkalık,ywfo1fo2h||lfo2
 yufka,ywfo1fo2h||
 yuf,yo9wfo1o0
 yugoslavya'ya,ywao1zlewyeyh
@@ -5461,7 +5461,7 @@ yük almak,ywk elmfo2
 yük arabası,bu2wk arbu1h sy
 yükarabası,bu2wk eo6rebu1h||sy
 yük arabası,ywk arbu1h sy
-yükarabası,ywk eo6rebu1h<>sy
+yükarabası,ywk eo6rebu1h||sy
 yukarda,bu2wfo2erbu2dh
 yukardan,bu2wfo2erdbo1
 yukardan,ywfo2erdbo1
@@ -5779,7 +5779,7 @@ yumurcak,bu2wmrwxu1efo2
 yumurcak,ymwrxu1fo2
 yumurcak,ywmrwxu1efo2
 yumurtaakı,bu2wmwrth||eo6fo2y
-yumurtaakı,ywmwrth<>eo6fo2y
+yumurtaakı,ywmwrth||eo6fo2y
 yumurta,bu2mwrth
 yumurta,bu2wmwrth
 yumurtacıklardan,ymwrth||xu1fo2lrdbo1
@@ -5908,7 +5908,7 @@ yüreğini cezb etmek,ywrkbo1y xu1ro1bu1 e
 yüreği pek,bu2wrky bu3k
 yüreği pek,ywrky bu3k
 yüreğiyufka,bu2wrh||ky bu2wfo1fo2h
-yüreğiyufka,ywrh<>ky ywfo1fo2h||
+yüreğiyufka,ywrh||ky ywfo1fo2h||
 yürek,bu2wrk
 yürek bulanması,bu2wrk bu1wlebo1msy
 yürek bulanması,ywrk bu1wlebo1msy
@@ -6047,7 +6047,7 @@ yüssürü,ysry
 yusuf,bu2wsfo1
 yusufcuk,bu2wsfo1xu1fo2
 yusufcuk,ywsfo1xu1fo2
-yusufeli,ywsfo1<>eyly
+yusufeli,ywsfo1||eyly
 yusufiye'deki,ywsfo1yh||dh||ky
 yusufiyedeki,ywsfo1yh||dh||ky
 yusufiye'den,ywsfo1yh||dbo1
@@ -6217,7 +6217,7 @@ yüzde,bu2wro1dh
 yüzdedir,ywro1dh||dr
 yüzdeki,ywro1dh||ky
 yüzdelik,bu2wro1dh||lk
-yüzdelik,ywro1dh<>lk
+yüzdelik,ywro1dh||lk
 yüzdendir,ywro1dbo1dr
 yüzden,ywro1dbo1
 yüzde,ywro1dh
@@ -6356,7 +6356,7 @@ yüzünde,ywro1bo1dh
 yüzüne atmak,bu2wro1bu2bo1h ebo2mfo2
 yüzüne atmak,ywro1ybo1h ebo2mfo2
 yüzünebakılmaz,bu2wro1bu2bo1h||bu1efo2bu2lmero1
-yüzünebakılmaz,ywro1ybo1h<>bu1efo2ylmero1
+yüzünebakılmaz,ywro1ybo1h||bu1efo2ylmero1
 yüzüne bakmak,bu2wro1bu2bo1h bu1efo2mfo2
 yüzüne bakmak,ywro1ybo1h bu1efo2mfo2
 yüzüne bakmayıp hakaretle def' etmek,bu2wro1bu2bo1h bu1efo2mbu2wbu1 xfo2erbo2lh dfo1a e
@@ -6374,7 +6374,7 @@ yüzünüzü,ywro1yko3ro1y
 yüzünüz,ywro1yko3ro1
 yüzün,ywro1ko3
 yüzüpek,bu2wro1y||bu3k
-yüzüpek,ywro1y<>bu3k
+yüzüpek,ywro1y||bu3k
 yüzüstüne,ywro1 ewsbo2bo1h
 yüzüyle,ywro1ylh
 yüzüyor,bu2wro1bu2wr

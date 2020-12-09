@@ -71,7 +71,7 @@ ebdan,ebu1dlbo1
 ebdâl,ebu1del
 ebdâl,eo5bu1del
 ebdân,ebu1debo1
-ebe gümeci,ebu1h<>kwmxu1y
+ebe gümeci,ebu1h||kwmxu1y
 ebe gümeci,ebu1h||kwmxu1y
 ebe'ancedin,ebu1eabo1||||xu1d
 ebe,ebu1h
@@ -192,8 +192,8 @@ ebedül-âbad,eo5bu1d eleo6bu1ed
 ebedül-âbâd,eo5bu1d eleo6bu1ed
 ebedül-âbâdda,eo5bu1d eleo6bu1eddh
 ebegümeci,ebu1h kwmxu1y
-ebegümeci,ebu1h<>ko7wmxu1y
-ebegümeci,ebu1h<>kwmxu1y
+ebegümeci,ebu1h||ko7wmxu1y
+ebegümeci,ebu1h||kwmxu1y
 ebegümeci,ebu1h||ko7wmxu1y
 ebegümeci,ebu1h||kwmxu1y
 ebeveyn,ebu1wbu1bo1
@@ -250,7 +250,7 @@ eblehî,ebu1lhy
 ebna,ebu1bo1e
 ebna-i,eo5bu1bo1ecu4
 ebna-yı,eo5bu1bo1eyu4
-ebnayi sebil,ebu1bo1ey<>sbu1yl
+ebnayi sebil,ebu1bo1ey||sbu1yl
 ebnayi sebil,ebu1bo1ey||sbu1bu2l
 ebniye,ebu1bo1bu2h
 ebniye,ebu1bo1yh
@@ -258,7 +258,7 @@ ebniye,ebu1bo1yh||
 ebniyye,ebu1bo1bu2h
 ebniyye,ebu1bo1yh||
 ebniyye-i hayriye,ebu1bo1bu2h||xo1bu2rbu2h
-ebniyye-i hayriye,ebu1bo1yh<>xo1yryh||
+ebniyye-i hayriye,ebu1bo1yh||xo1yryh||
 ebnâ,ebu1bo1e
 ebr,ebu1r
 ebr,eo5bu1r
@@ -385,7 +385,7 @@ ecdadıyla,eo5xu1dedylh
 ecdâd,exu1ded
 ecdâd-ı benî isrâil,exu1dedbu1bo1y esrebo5bu2l
 ecdâdını,eo5xu1dedyko3y
-eceabat,eo5xu1h<>eo6bu1ed
+eceabat,eo5xu1h||eo6bu1ed
 ecel,eo5xu1l
 ecel,exu1l
 ecel-i muallak,eo4xu1o4lu4 mo9ao4lo4o8fo2o0
@@ -1337,7 +1337,7 @@ efe'nin,eo5fo1h||bo1ko3
 efe,efo1h
 efe,efo1h||
 efe,eo5fo1h
-efektif,efo1h<>kbo2yfo1
+efektif,efo1h||kbo2yfo1
 efektif,efo1h||kbo2yfo1
 efeler,eo5fo1h||lr
 efeleri,eo5fo1h||lry
@@ -1545,9 +1545,9 @@ efşüre,efo1so3rh||
 ef’al,efo1ael
 ef’i,efo1ay
 eger,eko7r
-egzema,eko7ro1h<>me
 egzema,eko7ro1h||me
-egzersiz,eko7ro1h<>rsys
+egzema,eko7ro1h||me
+egzersiz,eko7ro1h||rsys
 egzersiz,eko7ro1h||rsys
 eh,eo5h
 eh,eo5h||
@@ -2073,9 +2073,9 @@ ekl etmek,ekl e
 ekl'edilen,eo5kl eydylbo1
 ekl,ekl
 ekl,eo5kl
-ekle,eklh<>
+ekle,eklh||
 eklemek,eklh mk
-eklemek,eklh<>mk
+eklemek,eklh||mk
 eklemek,eklh||mk
 eklemek,eklmk
 eklemek,eo5klh||mk
@@ -2126,7 +2126,7 @@ ekmeğimiz,eo5kmko7mro1
 ekmeğimizi,eo5kmko7mro1y
 ekmeğin,eo5kmko7ko3
 ekmeğinden,eo5kmko7bo1dbo1
-ekmeğinekoç,ekmbo1ko7bo1h<>fo2wxu3
+ekmeğinekoç,ekmbo1ko7bo1h||fo2wxu3
 ekmeğinekoç,ekmbo1ko7bo1h||fo2wxu3
 ekmeğini,eo5kmko7bo1y
 ekmeğinin,eo5kmko7bo1ko3
@@ -2171,7 +2171,7 @@ ekremîleriyle,eo5krmylrylh
 ekremîn,eo5krmybo1
 eksantrik,eksebo1bo2rbu2k
 eksantrik,eksebo1bo2ryk
-ekselans,eksh<>lebo1s
+ekselans,eksh||lebo1s
 ekselans,eksh||lebo1s
 ekser,ekbo3r
 ekser,eksr
@@ -2251,8 +2251,8 @@ eksik,ekbo1sk
 eksik,eksk
 eksik,eksyk
 eksik,eo5ksyk
-eksikle,eksyklh<>
-eksiklemek,eksyklh<>mk
+eksikle,eksyklh||
+eksiklemek,eksyklh||mk
 eksiklemek,eksyklh||mk
 eksiklik,eksklk
 eksiklik,eksyklk
@@ -2273,7 +2273,7 @@ eksiltmek,ekslbo2mk
 eksiltmek,eksylbo2mk
 eksiği olmak,eksky ew
 eksper,eksbu3r
-ekspres,eksbu3rh<>s
+ekspres,eksbu3rh||s
 ekspres,eksbu3rh||s
 ekstra,eksbo2re
 ektaf,ekbo2efo1
@@ -2471,7 +2471,7 @@ elbise mevcûdâtı,elbu1sh mwxu1wdebo2y
 elbise,elbu1sh
 elbise,elbu1sh||
 elbise,eo5lbu1sh
-elbise,eo5lbu1sh<>
+elbise,eo5lbu1sh||
 elbise,eo5lbu1ysh||
 elbise-i,eo5lbu1sh'u4
 elbiseden,eo5lbu1sh||dbo1
@@ -2520,18 +2520,18 @@ elden çıkmış,eldbo1 xu3bu2fo2mso3
 elden çıkmış,eldbo1 xu3yfo2mso3
 elden,eo5ldbo1
 eldiven,eldwebo1
-eldiven,eo5ldywh<>bo1
+eldiven,eo5ldywh||bo1
 eldiven,eo5ldywh||bo1
 eldivenlik,eldwebo1lfo2
 ele almak,elh elmfo2
 ele getirmek,elh kbo2wrmk
 ele vermek,elh wbu2rmk
 ele vermek,elh wyrmk
-ele,elh<>
+ele,elh||
 ele,eo5lh
 eledikten,eo5lh||dkdbo1
 elek,elk
-elek,eo5lh<>k
+elek,eo5lh||k
 elek,eo5lh||k
 elek,eo5lk
 elekle,eo5lklh
@@ -2570,7 +2570,7 @@ elem-i elim,eo4lo4mu4 eo4lu4ymo0
 elem-i elîm,eo4lo4mu4 eo4lu4bu2mo0
 elem-i,eo5lmu4
 elem-i̇ eli̇m,eo4lo4mu4 eo4lu4ymo0
-eleman,elh<>mebo1
+eleman,elh||mebo1
 eleman,elh||mebo1
 elemanlarla,eo5lh||mebo1lrlh
 elemanları,eo5lh||mebo1lry
@@ -2578,11 +2578,11 @@ elemde,eo5lmdh
 elemden,eo5lmdbo1
 elemdendir,eo5lmdbo1dr
 elemdir,eo5lmdr
-eleme,elh<>mh||
+eleme,elh||mh||
 eleme,elh||mh
 eleme,eo5lmh
 elemek,elh mk
-elemek,elh<>mk
+elemek,elh||mk
 elemek,elh||mk
 elemek,eo5lh||mk
 elemi,eo5lmy
@@ -2755,7 +2755,7 @@ elinden gelmez,elbo1dbo1 klmro1
 elinden,eo5lbo1dbo1
 eline,eo5lbo1h
 eline,eo5lko3h
-elineağır,elbo1h<>eo6ao1yr
+elineağır,elbo1h||eo6ao1yr
 elineağır,elbo1h||eo6ao1yr
 elini ayağını bağlamak,elbo1y ebu2eao1bo1y bu1eao1lemfo2
 elini ayağını bağlamak,elbo1y eyeao1bo1y bu1eao1lemfo2
@@ -2784,13 +2784,13 @@ elkâb,elfo2ebu1
 elkıssa,elfo2zh
 elkıssa,elfo2zh||
 elle,eo5llh
-elle,eo5llh<>
-elleme,eo5llh<>mh||
+elle,eo5llh||
+elleme,eo5llh||mh||
 elleme,eo5llh||mh
-ellemek,eo5llh<>mk
 ellemek,eo5llh||mk
-ellen,eo5llh<>bo1
-ellenmek,eo5llh<>bo1mk
+ellemek,eo5llh||mk
+ellen,eo5llh||bo1
+ellenmek,eo5llh||bo1mk
 ellenmek,eo5llh||bo1mk
 eller,eo5llr
 ellerde,eo5llrdh
@@ -3790,7 +3790,7 @@ endişeli,eo5bo1dyso3h||ly
 endişem,eo5bo1dyso3h||m
 endişemi,eo5bo1dyso3h||my
 endişemizi,eo5bo1dyso3h||mro1y
-endişenak,ebo1dyso3h<>bo1ek
+endişenak,ebo1dyso3h||bo1ek
 endişesi,eo5bo1dyso3h||sy
 endişesinden,eo5bo1dyso3h||sbo1dbo1
 endişesiyle,eo5bo1dyso3h||sylh
@@ -4001,15 +4001,15 @@ ense,elo5o3sh||
 enseb,eo5bo1sbu1
 ensebdir,eo5bo1sbu1dr
 ensebi,eo5bo1sbu1y
-ensele,elo5o3sh<>l
+ensele,elo5o3sh||l
 enselemek,eko3sh||lmk
-enselemek,elo5o3sh<>lmk
+enselemek,elo5o3sh||lmk
 ensice,ebo1sxu1h
 ensice,ebo1sxu1h||
 ensiz,ebo1sro1
 ensiz,eko3sro1
 ensiz,elo5o3sro1
-enspektör,eo5bo1sbu3h<>kbo2wr
+enspektör,eo5bo1sbu3h||kbo2wr
 enspektör,eo5bo1sbu3h||kbo2wr
 enstantane,eo5bo1sebo1bo2ebo1h
 enstantane,eo5bo1sebo1bo2ebo1h||
@@ -4026,9 +4026,9 @@ entari,eo5bo1bo2ery
 ente,eo4bo1bo2o4
 ente-l,eo5bo1bo2 el
 entel,eo5bo1bo2 el
-enteresan,eo5bo1bo2h<>rh<>sebo1
 enteresan,eo5bo1bo2h||rh||sebo1
-entipüften,eybo1bo2y<>bu3wfo1dbo1
+enteresan,eo5bo1bo2h||rh||sebo1
+entipüften,eybo1bo2y||bu3wfo1dbo1
 entipüften,eybo1bo2y||bu3wfo1dbo1
 entrika,eo4bo1o0bo2o0ru4bu2fo2o4h
 entrika,eo4bo1o0bo2o0ru4yfo2o4h||
@@ -4536,12 +4536,12 @@ erte,erbo2h
 erte,erbo2h||
 erte,eyrbo2h
 erte,eyrbo2h||
-ertele,eyrbo2h<>lh<>
-ertelemek,eyrbo2h<>lh<>mk
+ertele,eyrbo2h||lh||
+ertelemek,eyrbo2h||lh||mk
 ertelemek,eyrbo2h||lh||mk
 ertesi gün,ebu2rbo2h sy kwbo1
 ertesi gün,eyrbo2h sy kwbo1
-ertesi,eyrbo2h<>sy
+ertesi,eyrbo2h||sy
 ertesi,eyrbo2h||sy
 ertesi,eyrbo2sy
 ertuş,eo5rtwso3
@@ -4688,7 +4688,7 @@ esalîbden,eo5selybu1dbo1
 esalîbi,eo5selybu1y
 esalîbin,eo5selybu1ko3
 esame,esemh||
-esameli,esemh<>ly
+esameli,esemh||ly
 esami,esemy
 esammane,eo5zmo8ebo1h
 esamî,eo5semy
@@ -5041,9 +5041,9 @@ esir,eo5syr
 esir,esyr
 esiran,esyrebo1
 esirci,esyrxu1y
-esirge,eo5syrkh<>
+esirge,eo5syrkh||
 esirgemedi,eo5syrko7h||mdy
-esirgemek,eo5syrkh<>mk
+esirgemek,eo5syrkh||mk
 esirgemek,eo5syrkh||mk
 esirgemek,esrkmk
 esirgememeli,eo5syrko7h||mmly
@@ -5269,9 +5269,9 @@ esnasında,ebo3bo1esbo1dh||
 esnasında,eo5bo3bo1esbo1dh
 esnayi rahda,ebo3bo1ey rehdh
 esnayi rahda,ebo3bo1ey rehdh||
-esne,esbo1h<>
+esne,esbo1h||
 esnemek,eo5sbo1h||mk
-esnemek,esbo1h<>mk
+esnemek,esbo1h||mk
 esnemek,esbo1h||mk
 esnemek,esbo1mk
 esner,esbo1r
@@ -5345,7 +5345,7 @@ esrârengîz,esrerebo1ko7bu2ro1
 esrârın,eo5srerko3
 esrârından,eo5srerbo1dbo1
 essalâtü,elzo8leho2
-essasibeyt,ebo3ebo3<>bu1ybo2
+essasibeyt,ebo3ebo3||bu1ybo2
 essasibeyt,ebo3ebo3||bu1bu2bo2
 esselâmü,elso8lem
 esseydi,eo5ssh||ydy
@@ -5355,7 +5355,7 @@ estağfirullah,eo4so0bo2o4ao1o0fo1u4ro9 eellh
 estağfirullah,esbo2ao1fo1rellh
 estağfirullah,esbo2ao1fo1rellh||
 ester,esbo2r
-estetik,esbo2h<>bo2yk
+estetik,esbo2h||bo2yk
 estetik,esbo2h||bo2yk
 esti,eo5sdy
 estirmeğe,eo5sbo2yrmko7h
@@ -5451,7 +5451,7 @@ et'ıme,eo4to0au4mo4h||
 et,ebo2
 et,eybo2
 et-tahribü,elbo2o8o4xo1o0ru4ybu1o9
-etajer,eo5bo2ero3h<>r
+etajer,eo5bo2ero3h||r
 etajer,eo5bo2ero3h||r
 etba takımı,ebo2bu1ea tefo2my
 etba' takımı,ebo2bu1ea tefo2my
@@ -5479,8 +5479,8 @@ etdirmek,eybo2dyrmk
 etek öpmek,ebo2k ewbu2mk
 etek öpmek,ebo2k ewymk
 etek,ebo2k
-etekle,ebo2klh<>
-eteklemek,ebo2klh<>mk
+etekle,ebo2klh||
+eteklemek,ebo2klh||mk
 eteklemek,ebo2klh||mk
 etekleri,eo5bo2klry
 eteklerine,eo5bo2klrybo1h
@@ -5517,7 +5517,7 @@ etim,eo5bo2m
 etinde,eo5bo2bo1dh
 etindeki,eo5bo2bo1dh||ky
 etinden,eo5bo2bo1dbo1
-etinedolgun,ebo2bo1h<>dwlao1wbo1
+etinedolgun,ebo2bo1h||dwlao1wbo1
 etinedolgun,ebo2bo1h||dwlao1wbo1
 etini,eo5bo2bo1y
 etinin,eo5bo2bo1ko3
@@ -6058,7 +6058,7 @@ ever,eo5wr
 everecek,ewrh xu1k
 evermek,eo5wrmk
 evet,eo5wbo2
-evet,eo5wh<>bo2
+evet,eo5wh||bo2
 evet,eo5wh||bo2
 evet,ewbo2
 evfa,eo5wo0fo1e
@@ -6167,7 +6167,7 @@ evladından olmak,ewledbo1dbo1 ew
 evlatlığa kabul etmek,ewledlao1hfo2bu1wl e
 evlatlığa kabûl etmek,ewledlao1hfo2bu1wl e
 evlek,eo5wlk
-evlen,eo5wlh<>bo1
+evlen,eo5wlh||bo1
 evlendirmek,ewlbo1drmk
 evlendirmeye,eo5wlbo1dyrmko7h
 evleniyorlar,eo5wlbo1yywrlr
@@ -6175,7 +6175,7 @@ evleniş,ewlbo1so3
 evlenme düğünü,ewlbo1mh dwkwbo1y
 evlenme düğününe müteallik,ewlbo1mh dwkwbo1bo1h mbo2alfo2
 evlenmek,eo5wlbo1mk
-evlenmek,eo5wlh<>bo1mk
+evlenmek,eo5wlh||bo1mk
 evlenmek,eo5wlh||bo1mk
 evlenmek,ewlbo1mfo2
 evlenmek,ewlbo1mk
@@ -6512,7 +6512,7 @@ eyerini vurmak,eyrybo1y ewrmfo2
 eyerlemek,ebu2rlmk
 eyerlemek,eyrlmk
 eyle,eo5ylh
-eyle,eylh<>
+eyle,eylh||
 eyledi,eo5yldy
 eyledik,eo5ylh||dk
 eyledikleri,eo5ylh||dklry
@@ -6533,7 +6533,7 @@ eylediğinizde,eo5yldyko7ko3ro1dh
 eyleme,eo5ylh||mh
 eylemek,ebu2lmk
 eylemek,eo5ylh||mk
-eylemek,eylh<>mk
+eylemek,eylh||mk
 eylemek,eylh||mk
 eylemek,eylmk
 eylemekle,eo5ylh||mklh
@@ -6604,7 +6604,7 @@ eytam,eybo2em
 eytâm,eybo2em
 eyvah,ebu2weh
 eyvah,eo5yweh
-eyvah,eyweh<>
+eyvah,eyweh||
 eyvah,eyweh||
 eyvahlar,eo5ywehlr
 eyvahlarla,eo5ywehlrlh
@@ -6701,8 +6701,8 @@ ezberci,ero1bu1rxu1y
 ezberden bilmek,ero1bu1rdbo1 bu1lmk
 ezberden,eo5ro1bu1rdbo1
 ezbere,eo5ro1bu1rh
-ezberle,ero1bu1rlh<>
-ezberlemek,ero1bu1rlh<>mk
+ezberle,ero1bu1rlh||
+ezberlemek,ero1bu1rlh||mk
 ezberlemek,ero1bu1rlh||mk
 ezberlemek,ero1bu1rlmk
 ezberlen,ero1bu1rlbo1
@@ -7000,12 +7000,12 @@ eğe,ekh
 eğe,ekh||
 eğe,eko7h
 eğe,eko7h||
-eğele,eko7h<>l
+eğele,eko7h||l
 eğelemek,ekh lmk
-eğelemek,eko7h<>lmk
 eğelemek,eko7h||lmk
-eğelet,eko7h<>lbo2
-eğeletmek,eko7h<>lbo2mk
+eğelemek,eko7h||lmk
+eğelet,eko7h||lbo2
+eğeletmek,eko7h||lbo2mk
 eğeletmek,eko7h||lbo2mk
 eğememiş,eo5ko7h||mh||mso3
 eğenti,ekbo1dy
@@ -7050,8 +7050,8 @@ eğirmek,ekrmk
 eğirt,eko7yrbo2
 eğirtmek,eko7yrbo2mk
 eğitim,eo5ko7ybo2ym
-eğle,eko7lh<>
-eğlemek,eko7lh<>mk
+eğle,eko7lh||
+eğlemek,eko7lh||mk
 eğlemek,eko7lh||mk
 eğlen,eko7lbo1
 eğlence vermek,ebu2lbo1xu1h wbu2rmk
@@ -7123,7 +7123,7 @@ eğri,eo5ko7ry
 eğri-büğrü,eo5ko7ry bu1wko7ry
 eğribüğrü,eo5ko7ry bu1wko7ry
 eğribüğrüsü,eo5ko7ry bu1wko7rysy
-eğrigöz,eo5ko7ry<>kwro1
+eğrigöz,eo5ko7ry||kwro1
 eğril,eko7rl
 eğrilik,eko7rylk
 eğrilik,ekrbu2lk
@@ -7180,8 +7180,8 @@ eşeklik,eso3klk
 eşeklikleri,eo5so3klklry
 eşekliklerine,eo5so3klklrybo1h
 eşekliğe,eo5so3klko7h
-eşele,eo5so3h<>lh<>
-eşelemek,eo5so3h<>lh<>mk
+eşele,eo5so3h||lh||
+eşelemek,eo5so3h||lh||mk
 eşelemek,eo5so3h||lh||mk
 eşeği,eo5so3ko7y
 eşeğin,eo5so3ko7ko3

@@ -66,8 +66,8 @@ vade,wadh,وعده
 vade,wadh||,وعده‌
 vadesi gelmemiş,wadh sy klmemso3,وعده سی کلمامش
 vadesi gelmiş,wadh sy klmso3,وعده سی کلمش
-vadet,wad<>eybo2,وعد‌ایت
-vadetmek,wad<>eybo2mk,وعد‌ایتمک
+vadet,wad||eybo2,وعد‌ایت
+vadetmek,wad||eybo2mk,وعد‌ایتمک
 vadetmek,wad||ebu2bo2mk,وعد‌ايتمک
 vadi,wedy,وادی
 vafi,wefo1y,وافی
@@ -80,10 +80,8 @@ vaftiz,wefo1bo2bu2ro1,وافتيز
 vaftiz,wefo1bo2yro1,وافتیز
 vagon,weao1wbo1,واغون
 vagondur,weao1wbo1dr,واغوندر
-vagonet,weao1wbo1h<>bo2,واغونه‌ت
 vagonet,weao1wbo1h||bo2,واغونه‌ت
 vagonları,weao1wbo1lry,واغونلری
-vagonli,weao1wbo1<>ly,واغون‌لی
 vagonli,weao1wbo1||ly,واغون‌لی
 vagonluk,weao1wbo1lfo2,واغونلق
 vah,weh,واه
@@ -810,7 +808,7 @@ varını,weryko3y,واریڭی
 varıp,werwbu1,واروب
 varır,werr,وارر
 varıyete,werbu2h||bo2h,واريه‌ته
-varıyete,weryh<>bo2h||,واریه‌ته‌
+varıyete,weryh||bo2h||,واریه‌ته‌
 varıyordu,weryywrdy,وارییوردی
 varıyorlar,weryywrlr,وارییورلر
 varış,werbu2so3,واريش
@@ -972,7 +970,6 @@ vasıtanızla,westh||ko3ro1lh,واسطه‌ڭزله
 vasıtasiyle,westh||sylh,واسطه‌سیله
 vasıtası,westh||sy,واسطه‌سی
 vasıtasıyla,westh||sylh,واسطه‌سیله
-vasıtasız,westh<>sro1,واسطه‌سز
 vasıtasız,westh||sro1,واسطه‌سز
 vasıtaya,westh||yh,واسطه‌یه
 vasıtayı,westh||yy,واسطه‌یی
@@ -1153,7 +1150,7 @@ vazaif-i,wto1eyo5fo1u4,وظائفِ
 vazaife,wto1eyo5fo1h,وظائفه
 vazai̇f,wto1ebo5fo1,وظائف
 vazeder,wzo1a eydr,وضع ایدر
-vazelin,wero1h<>lybo1,وازه‌لین
+vazelin,wero1h||lybo1,وازه‌لین
 vazelin,wero1h||lbu2bo1,وازه‌لين
 vazgeç,wero1 ko7xu3,واز گچ
 vazgeç,wero1kxu3,وازکچ
@@ -1319,7 +1316,6 @@ vazifesine,wto1yfo1h||sbo1h,وظیفه‌سنه
 vazifesini,wto1yfo1h||sbo1y,وظیفه‌سنی
 vazifesinin,wto1yfo1h||sbo1ko3,وظیفه‌سنڭ
 vazifesiyle,wto1yfo1h||sylh,وظیفه‌سیله
-vazifesiz,wto1yfo1h<>sro1,وظیفه‌سز
 vazifesiz,wto1yfo1h||sro1,وظیفه‌سز
 vazifesizlik,wto1yfo1h||sro1lk,وظیفه‌سزلک
 vazifesizliğinden,wto1yfo1h||sro1lko7bo1dbo1,وظیفه‌سزلگندن
@@ -1328,7 +1324,6 @@ vazifeten,wto1yfo1ho2o44,وظیفةً
 vazifeye,wto1yfo1h||yh,وظیفه‌یه
 vazifeyi,wto1yfo1h||yy,وظیفه‌یی
 vazifeşinas,wto1yfo1h so3bo1es,وظیفه شناس
-vazifeşinas,wto1yfo1h<>so3bo1es,وظیفه‌شناس
 vazifeşinas,wto1yfo1h||so3bo1es,وظیفه‌شناس
 vazifeşinaslık,wto1yfo1h||so3bo1eslfo2,وظیفه‌شناسلق
 vazih,wo4ezo1u4xo0,وَاضِحْ
@@ -2039,7 +2034,6 @@ velvele,wlwlh||,ولوله‌
 velvele,wo4lo0wo4lo4h,وَلْوَلَه
 velvele,wo4lo0wo4lo4h||,وَلْوَلَه‌
 velvele-i istihsan,wo4lo0wo4lo4u4 eu4so0bo2u4xo0so4ebo1o0,وَلْوَلَِ اِسْتِحْسَانْ
-velvele-i istihsan,wo4lo0wo4lo4u4 eu4so0bo2u4xo0so4ebo1o0,وَلْوَلَِ اِسْتِحْسَانْ
 velvele-i,wlwlhu4,ولولهِ
 velvele-i̇ i̇sti̇hsan,wo4lo0wo4lo4u4 eu4so0bo2u4xo0so4ebo1o0,وَلْوَلَِ اِسْتِحْسَانْ
 velvele-âlûd,wlwlh||eo6lwd,ولوله‌آلود
@@ -2188,7 +2182,6 @@ verebilmesi,wyrh||bu1ylmsy,ویره‌بیلمسی
 verebilse,wyrh||bu1ylsh,ویره‌بیلسه
 verebilsin,wyrh||bu1ylsybo1,ویره‌بیلسین
 verecek,wbu2rh||xu1k,ويره‌جک
-verecek,wyrh<>xu1k,ویره‌جک
 verecek,wyrh||xu1k,ویره‌جک
 verecekler,wyrh||xu1klr,ویره‌جکلر
 vereceklerdi,wyrh||xu1klrdy,ویره‌جکلردی
@@ -2242,7 +2235,6 @@ verese,wrbo3h||,ورثه‌
 verese-i enbiya,wo4ro4bo3o4u4 eo4bo1o0bu1u4yo4e,وَرَثَِ اَنْبِیَا
 verese-i enbiyâ,wo4ro4bo3o4u4 eo4bo1o0bu1u4bu2o4e,وَرَثَِ اَنْبِيَا
 verese-i nübüvvet,wo4ro4bo3o4u4 bo1o9bu1o9wo4o8bo2o0,وَرَثَِ نُبُوَّتْ
-verese-i nübüvvet,wo4ro4bo3o4u4 bo1o9bu1o9wo4o8bo2o0,وَرَثَِ نُبُوَّتْ
 verese-i,wrbo3hu4,ورثهِ
 verese-i̇ enbi̇ya,wo4ro4bo3o4u4 eo4bo1o0bu1u4yo4e,وَرَثَِ اَنْبِیَا
 verese-i̇ nübüvvet,wo4ro4bo3o4u4 bo1o9bu1o9wo4o8bo2o0,وَرَثَِ نُبُوَّتْ
@@ -2253,16 +2245,15 @@ veresenin,wrbo3h||bo1ko3,ورثه‌نڭ
 veresesindedir,wrbo3h||sbo1dh||dr,ورثه‌سنده‌در
 veresesine,wrbo3h||sbo1h,ورثه‌سنه
 veresi,wbu2rh||sy,ويره‌سی
-veresi,wyrh<>sy,ویره‌سی
+veresi,wyrh||sy,ویره‌سی
 veresin,wyrh||sko3,ویره‌سڭ
 veresiye,wbu2rh sbu2h,ويره سيه
 veresiye,wbu2rh sy bu2h,ويره سی يه
 veresiye,wbu2rh||sy||bu2h,ويره‌سی‌يه
 veresiye,wyrh sy yh||,ویره سی یه‌
 veresiye,wyrh syh||,ویره سیه‌
-veresiye,wyrh<>sy<>yh||,ویره‌سی‌یه‌
+veresiye,wyrh||sy||yh||,ویره‌سی‌یه‌
 verev,wbu2rw,ويرو
-verev,wh<>rh<>w,وه‌ره‌و
 verev,wh||rh||w,وه‌ره‌و
 verev,wyrw,ویرو
 vereyim,wyrh||ym,ویره‌یم
@@ -2549,7 +2540,7 @@ vermiştiler,wyrmso3dylr,ویرمشدیلر
 vermiştim,wyrmso3dm,ویرمشدم
 vermiştin,wyrmso3dko3,ویرمشدڭ
 vermiştir,wyrmso3dr,ویرمشدر
-vernik,wh<>rbo1yk,وه‌رنیک
+vernik,wh||rbo1yk,وه‌رنیک
 vernik,wh||rbo1bu2k,وه‌رنيک
 verrüesa,w elreo5se,و الرأسا
 verse,wyrsh,ویرسه
@@ -2701,7 +2692,7 @@ vesselâmının,welslembo1ko3,والسلامنڭ
 vessiyase,wo4 elso8u4yo4eso4ho2u4,وَ السِّیَاسَةِ
 vessiyaseti,wo4 elso8u4yo4eso4ho2u4,وَ السِّیَاسَةِ
 vessâffat'taki,welzo8efo1o8ebo2dh||ky,والصّافّاتده‌کی
-vestiyer,wh<>sbo2yyr,وه‌ستییر
+vestiyer,wh||sbo2yyr,وه‌ستییر
 vestiyer,wh||sbo2bu2bu2r,وه‌ستيير
 vesvas,wswes,وسواس
 vesvese,wo4so0wo4so4h,وَسْوَسَه
@@ -2761,7 +2752,6 @@ veter,wbo2r,وتر
 veter-i kaime,wbo2rfo2ebo5mh||,وترقائمه‌
 veter-i kâime,wbo2rfo2ebo5mh,وترقائمه
 vetire,wbo2yrh||,وتیره‌
-veto,wh<>bo2w,وه‌تو
 veto,wh||bo2w,وه‌تو
 vettîn,w elbo2o8ybo1,و التّین
 vetîre,wbo2bu2rh,وتيره
@@ -2811,11 +2801,10 @@ vezn,wro1bo1,وزن
 vezn-i,wro1bo1u4,وزنِ
 vezne,wro1bo1h,وزنه
 vezne,wro1bo1h||,وزنه‌
-vezneci,wro1bo1h<>xu1y,وزنه‌جی
 vezneci,wro1bo1h||xu1y,وزنه‌جی
 veznedar,wro1bo1h der,وزنه دار
-veznedar,wro1bo1h<>der,وزنه‌دار
-veznedarlık,wro1bo1h<>derlfo2,وزنه‌دارلق
+veznedar,wro1bo1h||der,وزنه‌دار
+veznedarlık,wro1bo1h||derlfo2,وزنه‌دارلق
 veznedâr,wro1bo1h der,وزنه دار
 veznedâr,wro1bo1h||der,وزنه‌دار
 veznedârlık,wro1bo1h||derlfo2,وزنه‌دارلق
@@ -3016,10 +3005,10 @@ viran kalmak,wyrebo1 fo2elmfo2,ویران قالمق
 viran,wyrebo1,ویران
 virane,wyrebo1h,ویرانه
 virane,wyrebo1h||,ویرانه‌
-viranelik,wyrebo1h<>lk,ویرانه‌لک
+viranelik,wyrebo1h||lk,ویرانه‌لک
 virani,wyrebo1y,ویرانی
 viranlık,wyrebo1lfo2,ویرانلق
-viranşehir,wyrebo1<>so3hr,ویران‌شهر
+viranşehir,wyrebo1||so3hr,ویران‌شهر
 vird,wrd,ورد
 vird,wu4ro0do0,وِرْدْ
 vird-i ekber,wu4ro0du4 eo4ko0bu1o4ro0,وِرْدِ اَکْبَرْ
@@ -3069,7 +3058,7 @@ visali,wzely,وصالی
 visalin,wzelko3,وصالڭ
 visallerinin,wzellrybo1ko3,وصاللرینڭ
 viskonsül,wbu2s||fo2wbo1swl,ويس‌قونسول
-viskonsül,wys<>fo2wbo1swl,ویس‌قونسول
+viskonsül,wys||fo2wbo1swl,ویس‌قونسول
 visâk,wbo3efo2,وثاق
 visâl,wu4zo4elo0,وِصَالْ
 visâl,wzel,وصال
@@ -3081,8 +3070,8 @@ vitrin,wybo2rybo1,ویترین
 viyana,wyyebo1e,وییانا
 viyolonist,wbu2bu2wlwbo1bu2sbo2,وييولونيست
 viyolonist,wyywlwbo1ysbo2,وییولونیست
-vize et,wyro1h<>eybo2,ویزه‌ایت
-vize etmek,wyro1h<>eybo2mk,ویزه‌ایتمک
+vize et,wyro1h||eybo2,ویزه‌ایت
+vize etmek,wyro1h||eybo2mk,ویزه‌ایتمک
 vize,wbu2ro1h,ويزه
 vize,wyro1h||,ویزه‌
 vizit,wbu2ro1bu2bo2,ويزيت
@@ -3098,7 +3087,7 @@ vişne,wso3bo1h,وشنه
 vişne,wso3bo1h||,وشنه‌
 vişne,wyso3bo1h||,ویشنه‌
 vişneçürüğü,wbu2so3bo1h||xu3wrwky,ويشنه‌چوروکی
-vişneçürüğü,wyso3bo1h<>xu3wrwky,ویشنه‌چوروکی
+vişneçürüğü,wyso3bo1h||xu3wrwky,ویشنه‌چوروکی
 vi̇cdan,wxu1debo1,وجدان
 vi̇layet,wu4lo4eyo4bo2u4,وِلَایَتِ
 vi̇rd,wrd,ورد
@@ -3946,7 +3935,7 @@ vüzerâ,wro1re,وزرا
 vıcık,wbu2xu1bu2fo2,ويجيق
 vıcık,wyxu1yfo2,ویجیق
 vıcıkvıcık,wbu2xu1bu2fo2||wbu2xu1bu2fo2,ويجيق‌ويجيق
-vıcıkvıcık,wyxu1yfo2<>wyxu1yfo2,ویجیق‌ویجیق
+vıcıkvıcık,wyxu1yfo2||wyxu1yfo2,ویجیق‌ویجیق
 vıfkın,wfo1fo2ko3,وفقڭ
 vırvır,wbu2r wbu2r,وير وير
 vırvır,wyr wyr,ویر ویر
@@ -3967,4 +3956,4 @@ vızıltı,wyro1ylbo2y,ویزیلتی
 vızıltılarınız,wyro1lbo2ylryko3ro1,ویزلتیلریڭز
 vızıltısı,wyro1ylbo2ysy,ویزیلتیسی
 vızırvızır,wbu2ro1r||wbu2ro1r,ويزر‌ويزر
-vızırvızır,wyro1r<>wyro1r,ویزر‌ویزر
+vızırvızır,wyro1r||wyro1r,ویزر‌ویزر

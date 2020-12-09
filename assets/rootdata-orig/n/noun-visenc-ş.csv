@@ -615,7 +615,7 @@
 şalvar,so3elwer
 şalvar,so3lwer
 şamalı,so3emely
-şamalı,so3mah<>ly
+şamalı,so3mah||ly
 şamalı,so3mah||ly
 şamandıra,so3emebo1dbu2re
 şamandıra,so3emebo1dyre
@@ -732,11 +732,11 @@
 şapırşapır,so3ebu3yrso3ebu3yr
 şapırtı,so3ebu3bu2rdy
 şapırtı,so3ebu3yrdy
-şapkacı,so3ebu3fo2h<>xu1y
+şapkacı,so3ebu3fo2h||xu1y
 şapkacı,so3ebu3fo2h||xu1y
 şapkaların,so3ebu3fo2h||lrko3
 şapkalar,so3ebu3fo2h||lr
-şapkalı,so3ebu3fo2h<>ly
+şapkalı,so3ebu3fo2h||ly
 şapkalı,so3ebu3fo2h||ly
 şapkanın,so3ebu3fo2h||bo1ko3
 şapkasını,so3ebu3fo2h||sbo1y
@@ -749,9 +749,9 @@
 şaplatmak,so3ebu3lebo2mfo2
 şaplat,so3ebu3lebo2
 şapoğrafla,so3ebu3wao1refo1lh
-şapşal,so3ebu3<>so3el
 şapşal,so3ebu3||so3el
-şapşap,so3ebu3<>so3ebu3
+şapşal,so3ebu3||so3el
+şapşap,so3ebu3||so3ebu3
 şapşap,so3ebu3||so3ebu3
 şap,so3ebu1
 şap,so3ebu3
@@ -803,7 +803,7 @@
 şarıldamak,so3eryldemfo2
 şarılda,so3erylde
 şarılşarıl,so3erbu2l||so3erbu2l
-şarılşarıl,so3eryl<>so3eryl
+şarılşarıl,so3eryl||so3eryl
 şarıltı,so3erbu2lbo2y
 şarıltı,so3erylbo2y
 şa’ri,so3ary
@@ -827,7 +827,7 @@
 şarkıcı,so3rfo2yxu1y
 şarkî'den,so3rfo2ydbo1
 şarkîde,so3rfo2ydh
-şarki karaağaç,so3rfo2y fo2rh<>eo6ao1exu1
+şarki karaağaç,so3rfo2y fo2rh||eo6ao1exu1
 şarkıları,so3rfo2ylry
 şarkında,so3rfo2bo1dh
 şark'ın,so3rfo2ko3
@@ -933,14 +933,14 @@
 şaşaalandığı,so3aso3ah||lebo1dyao1y
 şaşaalandırarak,so3aso3ah||lebo1dyrh||rfo2
 şa’şaalandırmak,so3aso3ah||lebo1dbu2rmfo2
-şa’şaalandırmak,so3aso3ah<>lebo1dyrmfo2
+şa’şaalandırmak,so3aso3ah||lebo1dyrmfo2
 şaşaalandırmak,so3aso3ah||lebo1dyrmfo2
 şaşaalandırmamağa,so3aso3ah||lebo1dyrmemao1h
-şa’şaalandır,so3aso3ah<>lebo1dyr
+şa’şaalandır,so3aso3ah||lebo1dyr
 şaşaalarla,so3aso3ah||lrlh
 şaşaalıdır,so3aso3ah||lydr
 şa'şaalı,so3aso3ah||ly
-şa’şaalı,so3aso3ah<>ly
+şa’şaalı,so3aso3ah||ly
 şa’şaalı,so3aso3ah||ly
 şaşaalı,so3aso3ah||ly
 şaşaanisar,so3aso3ah||bo1bo3er
@@ -960,9 +960,9 @@
 şaşakalmak,so3eso3h fo2elmfo2
 şaşakalmış,so3eso3h fo2elmso3
 şa’şalandırmak,so3aso3ah||lebo1dbu2rmfo2
-şa’şalandırmak,so3aso3ah<>lebo1dyrmfo2
-şa’şalandır,so3aso3ah<>lebo1dyr
-şa’şalı,so3aso3ah<>ly
+şa’şalandırmak,so3aso3ah||lebo1dyrmfo2
+şa’şalandır,so3aso3ah||lebo1dyr
+şa’şalı,so3aso3ah||ly
 şa’şalı,so3aso3ah||ly
 şaşanlar,so3eso3ebo1lr
 şaşarım,so3eso3erm
@@ -1039,7 +1039,7 @@
 şaştım,so3eso3dm
 şast,so3sbo2
 şast,so3zbo2
-şatafatlı,so3tfo1h<>bo2ly
+şatafatlı,so3tfo1h||bo2ly
 şatafatlı,so3tfo1h||bo2ly
 şatafat,so3tfo1ebo2
 şatafât,so3tfo1ebo2
@@ -1229,7 +1229,7 @@
 şebihun,so3bu1yxo1wbo1
 şebîke,so3bu1bu2kh
 şebike,so3bu1ykh||
-şebin karahisar,so3bu1yfo2 fo2rh<>xzer
+şebin karahisar,so3bu1yfo2 fo2rh||xzer
 şeb-i,so3bu1u4
 şebistan,so3bu1sbo2ebo1
 şeb -i yelda,so3bu1 ylde
@@ -1330,7 +1330,7 @@
 şeddedeki,so3do8h||dh||ky
 şeddeler,so3do8h||lr
 şeddeliler,so3do8h||lylr
-şeddeli,so3dh<>ly
+şeddeli,so3dh||ly
 şeddeli,so3dh||ly
 şeddeli,so3do8h||ly
 şeddesiz,so3do8h||sro1
@@ -1728,7 +1728,7 @@
 şehriye,so3aryh||
 şehriye,so3hrbu2h||
 şehriye,so3hryh
-şehriye,so3hryh<>
+şehriye,so3hryh||
 şehriyye,so3hrbu2h
 şehriyye,so3hryh||
 şehr,so3hr
@@ -1909,11 +1909,11 @@
 şemail,so3mebo5l
 şemâil,so3mebo5l
 şem'a-i,so3mah'u4
-şema,so3h<>me
+şema,so3h||me
 şema,so3h||me
 şem'a,so3mah
 şem'a,so3mah||
-şem’a,so3mah<>
+şem’a,so3mah||
 şem’a,so3mah||
 şemate,so3meth||
 şemâte,so3meth
@@ -1983,13 +1983,13 @@
 şemsi,so3msy
 şemsî,so3msy
 şemsiyecilik,so3msbu2h||xu1bu2lk
-şemsiyecilik,so3msyh<>xu1ylk
+şemsiyecilik,so3msyh||xu1ylk
 şemsiyeci,so3msbu2h||xu1y
-şemsiyeci,so3msyh<>xu1y
+şemsiyeci,so3msyh||xu1y
 şemsiyedeki,so3msyh||dh||ky
 şemsiyeden,so3msyh||dbo1
 şemsiyelik,so3msbu2h||lk
-şemsiyelik,so3msyh<>lk
+şemsiyelik,so3msyh||lk
 şemsiye'mizle,so3msyh||mro1lh
 şemsiye'nin,so3msyh||bo1ko3
 şemsiyenin,so3msyh||bo1ko3
@@ -2785,7 +2785,7 @@
 şeytân arabası,so3bu2tebo1 arbu1h sy
 şeytanarabası,so3bu2tebo1 eo6rebu1h||sy
 şeytan arabası,so3ytebo1 arbu1h sy
-şeytanarabası,so3ytebo1 eo6rebu1h<>sy
+şeytanarabası,so3ytebo1 eo6rebu1h||sy
 şeytana,so3ytebo1h
 şeytan bezi,so3bu2tebo1 bu1ro1y
 şeytanbezi,so3bu2tebo1 bu1ro1y
@@ -3012,14 +3012,14 @@
 şifrelidir,so3fo1rh||lydr
 şifreli,so3bu2fo1rh||ly
 şifreli,so3fo1rh||ly
-şifreli,so3yfo1rh<>ly
+şifreli,so3yfo1rh||ly
 şifre-misal,so3fo1rh||mbo3el
 şifrenin,so3fo1rh||bo1ko3
 şifresidir,so3fo1rh||sydr
 şifre,so3bu2fo1rh||
 şifre,so3fo1rh
 şifre,so3fo1rh||
-şifre,so3yfo1rh<>
+şifre,so3yfo1rh||
 şifrevari,so3fo1rh||wery
 şifre,xu1fo1rh
 şifreyi,so3fo1rh||yy
@@ -3159,7 +3159,7 @@
 şilte,so3bu2lbo2h||
 şilte,so3lbo2h
 şilte,so3lbo2h||
-şilte,so3ylbo2h<>
+şilte,so3ylbo2h||
 şimaldeki,so3meldh||ky
 şimalden,so3meldbo1
 şimalde,so3meldh
@@ -3318,7 +3318,7 @@
 şırılgan yağı,so3bu2rlao1ebo1 bu2eao1y
 şırılgan yağı,so3yrlao1ebo1 yeao1y
 şırılşırıl,so3bu2rbu2l||so3bu2rbu2l
-şırılşırıl,so3yryl<>so3yryl
+şırılşırıl,so3yryl||so3yryl
 şırıltıları,so3yrylbo2ylry
 şırıltı,so3bu2rbu2lbo2y
 şırıltı,so3yrylbo2y
@@ -3404,11 +3404,11 @@
 şişeciklerinde,so3yso3h||xu1klrbo1dh
 şişeciklerine,so3yso3h||xu1klrybo1h
 şişeci,so3bu2so3h||xu1y
-şişeci,so3yso3h<>xu1y
+şişeci,so3yso3h||xu1y
 şişeden,so3yso3h||dbo1
 şişede,so3yso3h||dh
 şişehâne,so3bu2so3h||xo1ebo1h
-şişehane,so3yso3h<>xo1ebo1h||
+şişehane,so3yso3h||xo1ebo1h||
 şişelerdeki,so3yso3h||lrdh||ky
 şişelerden,so3yso3h||lrdbo1
 şişelerdir,so3yso3h||lrdr
@@ -3431,7 +3431,7 @@
 şişeye,so3yso3h||yh
 şişeyi,so3yso3h||yy
 şişhâneli,so3bu2so3xo1ebo1h||ly
-şişhaneli,so3yso3xo1ebo1h<>ly
+şişhaneli,so3yso3xo1ebo1h||ly
 şişhâne,so3bu2so3xo1ebo1h
 şişhane,so3yso3xo1ebo1h||
 şişirilmek,so3bu2so3bu2rbu2lmk
@@ -3457,12 +3457,12 @@
 şişko,so3bu2so3fo2w
 şişko,so3yso3fo2w
 şişlemek,so3bu2so3lh||mk
-şişlemek,so3yso3lh<>mk
+şişlemek,so3yso3lh||mk
 şişlenmek,so3bu2so3lh||bo1mk
-şişlenmek,so3yso3lh<>bo1mk
-şişlen,so3yso3lh<>bo1
+şişlenmek,so3yso3lh||bo1mk
+şişlen,so3yso3lh||bo1
 şişler,so3yso3lr
-şişle,so3yso3lh<>
+şişle,so3yso3lh||
 şişli'de,so3yso3lydh
 şişli,so3bu2so3ly
 şişli,so3yso3ly
@@ -3496,21 +3496,21 @@
 şive-i,so3ywh'u4
 şivekâr,so3bu2wh||ker
 şîvekâr,so3bu2wh ker
-şivekar,so3ywh<>ker
+şivekar,so3ywh||ker
 şivekar,so3ywh ker
 şivelerini,so3ywh||lrybo1y
 şiveleriyle,so3ywh||lrylh
 şîveli,so3bu2wh||ly
-şiveli,so3ywh<>ly
+şiveli,so3ywh||ly
 şivenizle,so3ywh||ko3ro1lh
 şîven,so3bu2wbo1
 şiven,so3ywbo1
 şivesi,so3ywh||sy
 şivesiyle,so3ywh||sylh
 şîvesizlik,so3bu2wh||sro1lk
-şivesizlik,so3ywh<>sro1lk
+şivesizlik,so3ywh||sro1lk
 şîvesiz,so3bu2wh||sro1
-şivesiz,so3ywh<>sro1
+şivesiz,so3ywh||sro1
 şîve,so3bu2wh
 şive,so3ywh
 şive,so3ywh||
@@ -3559,12 +3559,12 @@
 şose,so3wso3h||
 şövenizm,so3wwbu2bo1bu2ro1m
 şövenizm,so3wwybo1yro1m
-şöven,so3wwh<>bo1
+şöven,so3wwh||bo1
 şöven,so3wwh||bo1
 şöyle böyle,so3wbu2lh bu1wbu2lh
 şöyle böyle,so3wylh bu1wylh||
 şöylece,so3wbu2lh||xu1h
-şöylece,so3wylh<>xu1h||
+şöylece,so3wylh||xu1h||
 şöylece,so3wylh||xu1h
 şöyledirler,so3wylh||drlr
 şöyledir,so3wylh||dr
@@ -3728,12 +3728,12 @@
 şübhe-i,so3bu1hh'u4
 şübhelendim,so3bu1hh||lbo1dm
 şübhelendirmek,so3bu1hh||lbo1dbu2rmk
-şübhelendirmek,so3bu1hh<>lbo1dyrmk
+şübhelendirmek,so3bu1hh||lbo1dyrmk
 şübhelendirmesin,so3bu1hh||lbo1dyrmh||sybo1
-şübhelendir,so3bu1hh<>lbo1dyr
-şübhelenmek,so3bu1hh<>lbo1mk
+şübhelendir,so3bu1hh||lbo1dyr
 şübhelenmek,so3bu1hh||lbo1mk
-şübhelen,so3bu1hh<>lbo1
+şübhelenmek,so3bu1hh||lbo1mk
+şübhelen,so3bu1hh||lbo1
 şübhelerden,so3bu1hh||lrdbo1
 şübhelere,so3bu1hh||lrh
 şübhelerim,so3bu1hh||lrm
@@ -3750,7 +3750,7 @@
 şübhelidir,so3bu1hh||lydr
 şübhelilere,so3bu1hh||lylrh
 şübheli,so3bu1hh lw
-şübheli,so3bu1hh<>ly
+şübheli,so3bu1hh||ly
 şübheli,so3bu1hh||ly
 şübheli,so3hbu1h lw
 şübhemiz,so3bu1hh||mro1
@@ -3762,9 +3762,9 @@
 şübhesini,so3bu1hh||sbo1y
 şübhesi,so3bu1hh||sy
 şübhesizdir,so3bu1hh||sro1dr
-şübhesizlik,so3bu1hh<>sro1lk
 şübhesizlik,so3bu1hh||sro1lk
-şübhesiz,so3bu1hh<>sro1
+şübhesizlik,so3bu1hh||sro1lk
+şübhesiz,so3bu1hh||sro1
 şübhesiz,so3bu1hh||sro1
 şübhe,so3bu1hh
 şübhe,so3bu1hh||
@@ -3989,17 +3989,17 @@
 şu'le-i,so3alh'u4
 şûle-i,so3alh'u4
 şulelendirmek,so3alh||lbo1dbu2rmk
-şulelendirmek,so3alh<>lbo1dyrmk
+şulelendirmek,so3alh||lbo1dyrmk
 şu'lelendirmiş,so3alh||lbo1dyrmso3
 şu'lelendir,so3alh||lbo1dyr
-şulelendir,so3alh<>lbo1dyr
-şulelenmek,so3alh<>lbo1mk
+şulelendir,so3alh||lbo1dyr
 şulelenmek,so3alh||lbo1mk
-şulelen,so3alh<>lbo1
+şulelenmek,so3alh||lbo1mk
+şulelen,so3alh||lbo1
 şu'lelerinin,so3alh||lrybo1ko3
 şu'leleri,so3alh||lry
 şu'leleriyle,so3alh||lrylh
-şuleli,so3alh<>ly
+şuleli,so3alh||ly
 şûleli,so3alh||ly
 şu'le'nin,so3alh||bo1ko3
 şu'lenin,so3alh||bo1ko3

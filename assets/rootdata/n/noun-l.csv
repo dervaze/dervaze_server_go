@@ -113,7 +113,7 @@ lafızperest,lfo1to1||bu3rsbo2,لفظ‌پرست
 lafızperestlere,lfo1to1||bu3rsbo2lrh,لفظ‌پرستلره
 lafızperestlik,lfo1to1||bu3rsbo2lk,لفظ‌پرستلک
 lagar,leao1r,لاغر
-lahana,lexbo1h<>,لاحنه‌
+lahana,lexbo1h||,لاحنه‌
 lahana,lexo1ebo1e,لاخانا
 lahana,lxbo1h,لحنه
 lahana,lxbo1h||,لحنه‌
@@ -206,7 +206,7 @@ laleka,lelke,لالکا
 lalettayin,le aly elbo2ayybo1,لا علی التعیین
 lalettayi̇n,le aly elbo2ayybo1,لا علی التعیین
 lalezar,lelh ro1er,لاله زار
-lalezinciri,lelh<>ro1bo1xu1yry,لاله‌زنجیری
+lalezinciri,lelh||ro1bo1xu1yry,لاله‌زنجیری
 lam,l,ل
 lamartin'in,lemerbo2ybo1ko3,لامارتینڭ
 lamba,lembu1e,لامبا
@@ -243,10 +243,10 @@ lapa gibi heyet,lebu3h kbu1y hybo5bo2,لاپه کبی هیئت
 lapa vurmak,lebu3h ewrmfo2,لاپه اورمق
 lapa,lebu3h,لاپه
 lapa,lebu3h||,لاپه‌
-lapacı,lebu3h<>xu1y,لاپه‌جی
+lapacı,lebu3h||xu1y,لاپه‌جی
 lapadak,lebu3h dfo2,لاپه دق
 lapcın,lebu3xu3ybo1,لاپچین
-laplap,lebu3<>lebu3,لاپ‌لاپ
+laplap,lebu3||lebu3,لاپ‌لاپ
 lapseki,lebu3sky,لاپسکی
 lapçin,lebu3xu3bu2bo1,لاپچين
 lapçin,lebu3xu3ybo1,لاپچین
@@ -284,7 +284,7 @@ latife,ltyfo1h||,لطیفه‌
 latife-gu,ltyfo1h kw,لطیفه کو
 latife-i,ltyfo1hu4,لطیفهِ
 latifeci,ltyfo1h xu1y,لطیفه جی
-latifeci,ltyfo1h<>xu1y,لطیفه‌جی
+latifeci,ltyfo1h||xu1y,لطیفه‌جی
 latifede,ltyfo1h||dh,لطیفه‌ده
 latifeden,ltyfo1h||dbo1,لطیفه‌دن
 latifedendir,ltyfo1h||dbo1dr,لطیفه‌دندر
@@ -421,9 +421,9 @@ laşey makulesi,leso3y mfo2wlh sy,لاشی مقوله سی
 laşka,leso3fo2h||,لاشقه‌
 la’l,lal,لعل
 la’net,labo1bo2,لعنت
-la’netle,labo1bo2lh<>,لعنتله‌
-la’netleme,labo1bo2lh<>mh||,لعنتله‌مه‌
-la’netlemek,labo1bo2lh<>mk,لعنتله‌مک
+la’netle,labo1bo2lh||,لعنتله‌
+la’netleme,labo1bo2lh||mh||,لعنتله‌مه‌
+la’netlemek,labo1bo2lh||mk,لعنتله‌مک
 le,lh,له
 leali,lbo5ely,لئالی
 leali̇,lbo5ely,لئالی
@@ -484,10 +484,10 @@ lehimizde,lhmro1dh,لهمزده
 lehimizdedir,lhmro1dh||dr,لهمزده‌در
 lehimizdeki,lhmro1dh||ky,لهمزده‌کی
 lehimize,lhmro1h,لهمزه
-lehimle,lhymlh<>,لهیمله‌
+lehimle,lhymlh||,لهیمله‌
 lehimlemek,lhbu2mlh||mk,لهيمله‌مک
 lehimlemek,lhbu2mlmk,لهيملمک
-lehimlemek,lhymlh<>mk,لهیمله‌مک
+lehimlemek,lhymlh||mk,لهیمله‌مک
 lehimlemek,lhymlmk,لهیملمک
 lehimlen,lhymlbo1,لهیملن
 lehimlenmek,lhbu2mlbo1mk,لهيملنمک
@@ -539,41 +539,34 @@ leke etmek,lkh e,لکه ا
 leke,lkh,لکه
 leke,lkh||,لکه‌
 leke-i,lkhu4,لکهِ
-lekeci,lkh<>xu1y,لکه‌جی
 lekeci,lkh||xu1y,لکه‌جی
 leked,lkd,لکد
 lekedar,lkh der,لکه دار
 lekedar,lkh||der,لکه‌دار
 lekeden,lkh||dbo1,لکه‌دن
 lekedâr,lkh der,لکه دار
-lekele,lkh<>lh<>,لکه‌له‌
+lekele,lkh||lh||,لکه‌له‌
 lekeledi,lkh||ldy,لکه‌لدی
 lekelemek,lkh lmk,لکه لمک
-lekelemek,lkh<>lh<>mk,لکه‌له‌مک
 lekelemek,lkh||lh||mk,لکه‌له‌مک
-lekelen,lkh<>lbo1,لکه‌لن
+lekelen,lkh||lbo1,لکه‌لن
 lekelendiren,lkh||lbo1dyrbo1,لکه‌لندیرن
 lekelendirmek,lkh lbo1drmk,لکه لندرمک
 lekelendirmeğe,lkh||lbo1dyrmko7h,لکه‌لندیرمگه
 lekelenmek,lkh lbo1mk,لکه لنمک
-lekelenmek,lkh<>lbo1mk,لکه‌لنمک
 lekelenmek,lkh||lbo1mk,لکه‌لنمک
 lekelerden,lkh||lrdbo1,لکه‌لردن
 lekeleri,lkh||lry,لکه‌لری
 lekeleriyle,lkh||lrylh,لکه‌لریله
-lekelet,lkh<>lbo2,لکه‌لت
-lekeletmek,lkh<>lbo2mk,لکه‌لتمک
+lekelet,lkh||lbo2,لکه‌لت
 lekeletmek,lkh||lbo2mk,لکه‌لتمک
 lekeli,lkh lw,لکه لو
-lekeli,lkh<>ly,لکه‌لی
 lekeli,lkh||ly,لکه‌لی
 lekenin,lkh||bo1ko3,لکه‌نڭ
 lekesi,lkh||sy,لکه‌سی
 lekesini,lkh||sbo1y,لکه‌سنی
 lekesinin,lkh||sbo1ko3,لکه‌سنڭ
-lekesiz,lkh<>sro1,لکه‌سز
 lekesiz,lkh||sro1,لکه‌سز
-lekesizlik,lkh<>sro1lk,لکه‌سزلک
 lekesizlik,lkh||sro1lk,لکه‌سزلک
 lekeyi,lkh||yy,لکه‌یی
 lem'-i,lmau4,لمعِ
@@ -923,7 +916,6 @@ leyle-i,lylhu4,لیلهِ
 leyle-i̇ kadi̇r,lo4yo0lo4u4 fo2o4du4ro0,لَیْلَِ قَدِرْ
 leylek,lklk,لکلک
 leylek,lko7lk,لگلک
-leylekfırtınası,lko7lk fo1wrtbo1h<>sy,لگلک فورطنه‌سی
 leylekfırtınası,lko7lk fo1wrtbo1h||sy,لگلک فورطنه‌سی
 leyli,lo4bu2o0lu4bu2,لَيْلِي
 leyli,lo4yo0lu4y,لَیْلِی
@@ -1089,12 +1081,12 @@ licamdır,lxu1emdr,لجامدر
 licâm,lxu1em,لجام
 lider'in,lydrko3,لیدرڭ
 lider,lbu2dh||r,ليده‌ر
-lider,lydh<>r,لیده‌ر
+lider,lydh||r,لیده‌ر
 lideri,lydh||ry,لیده‌ری
 liderlere,lydrlrh,لیدرلره
 liderleri,lydrlry,لیدرلری
 liderlik,lbu2dh||rlk,ليده‌رلک
-liderlik,lydh<>rlk,لیده‌رلک
+liderlik,lydh||rlk,لیده‌رلک
 lieb,leo5bu1,لأب
 lieclillah,u4lexu1lu4 eellh,ِلاجلِ االله
 lif gibi,lbu2fo1 kbu1y,ليف کبی
@@ -1158,7 +1150,7 @@ limanlamak,lymebo1lemfo2,لیمانلامق
 limanlık,lbu2mebo1lfo2,ليمانلق
 limanlık,lymebo1lfo2,لیمانلق
 limanodası,lbu2mebo1 ewth||sy,ليمان اوطه‌سی
-limanodası,lymebo1 ewth<>sy,لیمان اوطه‌سی
+limanodası,lymebo1 ewth||sy,لیمان اوطه‌سی
 limanreisi,lbu2mebo1 rbo5bu2sy,ليمان رئيسی
 limanreisi,lymebo1 rbo5ysy,لیمان رئیسی
 lime,lbu2mh,ليمه
@@ -1173,7 +1165,7 @@ limon,lymwbo1,لیمون
 limonata,lbu2mwbo1eth,ليموناطه
 limonata,lymwbo1eth||,لیموناطه‌
 limonatacı,lbu2mwbo1eth||xu1y,ليموناطه‌جی
-limonatacı,lymwbo1eth<>xu1y,لیموناطه‌جی
+limonatacı,lymwbo1eth||xu1y,لیموناطه‌جی
 limonayvası,lbu2mwbo1 eo6bu2wesy,ليمون آيواسی
 limonayvası,lymwbo1 eo6ywesy,لیمون آیواسی
 limonlu,lbu2mwbo1ly,ليمونلی
@@ -1344,7 +1336,7 @@ litoğrafyacı,lybo2wao1refo1yexu1y,لیتوغرافیاجی
 litre,lbu2bo2rh,ليتره
 litre,lybo2rh||,لیتره‌
 litrelik,lbu2bo2rh||lk,ليتره‌لک
-litrelik,lybo2rh<>lk,لیتره‌لک
+litrelik,lybo2rh||lk,لیتره‌لک
 liva,lu4wo4e,لِوَا
 liva,lw,لو
 liva,lwe,لوا
@@ -1449,16 +1441,13 @@ lokanta,lwfo2bo1th,لوقنطه
 lokanta,lwfo2bo1th||,لوقنطه‌
 lokanta,lwfo2ebo1dh,لوقانده
 lokanta,lwfo2ebo1dh||,لوقانده‌
-lokanta,lwfo2ebo1th<>,لوقانطه‌
 lokanta,lwfo2ebo1th||,لوقانطه‌
-lokantacı,lwfo2bo1th<>xu1y,لوقنطه‌جی
 lokantacı,lwfo2bo1th||xu1y,لوقنطه‌جی
-lokantacılık,lwfo2bo1th<>xu1ylfo2,لوقنطه‌جیلق
+lokantacılık,lwfo2bo1th||xu1ylfo2,لوقنطه‌جیلق
 lokantacılık,lwfo2bo1th||xu1bu2lfo2,لوقنطه‌جيلق
 lokavt,lwfo2eo6wbo2,لوقآوت
 lokma,lfo2mh,لقمه
 lokma,lfo2mh||,لقمه‌
-lokmacı,lfo2mh<>xu1y,لقمه‌جی
 lokmacı,lfo2mh||xu1y,لقمه‌جی
 lokmadan,lfo2mh||dbo1,لقمه‌دن
 lokmalar,lfo2mh||lr,لقمه‌لر
@@ -1488,9 +1477,7 @@ londra,lwbo1drh,لوندره
 londra,lwbo1drh||,لوندره‌
 lop,lwbu3,لوپ
 lopbadak,lwbu3bu3edefo2,لوپپاداق
-loplop,lwbu3<>lwbu3,لوپ‌لوپ
 loplop,lwbu3||lwbu3,لوپ‌لوپ
-lopurlopur,lwbu3wr<>lwbu3wr,لوپور‌لوپور
 lopurlopur,lwbu3wr||lwbu3wr,لوپور‌لوپور
 lord,lwrd,لورد
 lorpeyniri,lwrbu3bu2bo1bu2ry,لورپينيری
@@ -1952,7 +1939,6 @@ lögusa,lxo1wzh,لخوصه
 lögusa,lxo1wzh||,لخوصه‌
 löparle,lw bu3erlh,لو پارله
 lövazon,lwwero1wbo1,لووازون
-löğusalık,lxo1wzh<>lfo2,لخوصه‌لق
 löğusalık,lxo1wzh||lfo2,لخوصه‌لق
 lûle,lwlh,لوله
 lût,lwt,لوط
@@ -2001,13 +1987,10 @@ lüküs,lwkws,لوکوس
 lüküstür,lwkwsdr,لوکوسدر
 lüle,lwlh,لوله
 lüle,lwlh||,لوله‌
-lüleburgaz,lwlh<>bu1wrao1ero1,لوله‌بورغاز
+lüleburgaz,lwlh||bu1wrao1ero1,لوله‌بورغاز
 lüleci çamuru,lwlh xu1y xu3emwry,لوله جی چاموری
-lüleci,lwlh<>xu1y,لوله‌جی
 lüleci,lwlh||xu1y,لوله‌جی
-lüleciçamuru,lwlh<>xu1y xu3emwry,لوله‌جی چاموری
 lüleciçamuru,lwlh||xu1y xu3emwry,لوله‌جی چاموری
-lületaşı,lwlh<>teso3y,لوله‌طاشی
 lületaşı,lwlh||teso3y,لوله‌طاشی
 lülü,lwo5lwo5,لؤلؤ
 lümey'a,lmyah,لمیعه

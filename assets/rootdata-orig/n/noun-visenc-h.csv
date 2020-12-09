@@ -95,10 +95,10 @@ haberleri-,xo1bu1rlry
 haberleri,xo1bu1rlry
 haberlerle,xo1bu1rlrlh
 haberler,xo1bu1rlr
-haberleşmek,xo1bu1rlh<>so3mk
+haberleşmek,xo1bu1rlh||so3mk
 haberleşmek,xo1bu1rlh||so3mk
 haberleşmek,xo1bu1rlso3mk
-haberleş,xo1bu1rlh<>so3
+haberleş,xo1bu1rlh||so3
 habersiz,xo1bu1rsro1
 haber veren,xo1bu1rwbu2rbo1
 haber veren,xo1bu1rwyrbo1
@@ -981,7 +981,7 @@ hafriyat,xo4fo1o0ru4yo4ebo2o0
 hafriyyat,xfo1ryebo2
 hafriyyât,xfo1ryebo2
 hafr,xfo1r
-haftabaşı,hfo1bo2h<>bu1eso3y
+haftabaşı,hfo1bo2h||bu1eso3y
 haftabaşı,hfo1bo2h||bu1eso3y
 haftada bir,hfo1bo2h dh bu1r
 haftada,hfo1bo2h||dh
@@ -990,10 +990,10 @@ haftadır,hfo1bo2h||dr
 hafta,hfo1bo2h
 hafta,hfo1bo2h||
 haftaları,hfo1bo2h||lry
-haftalık,hfo1bo2h<>lfo2
+haftalık,hfo1bo2h||lfo2
 haftalık,hfo1bo2h||lfo2
 haftalık,hfo1bo2h lfo2
-haftalıklı,hfo1bo2h<>lfo2ly
+haftalıklı,hfo1bo2h||lfo2ly
 haftalıklı,hfo1bo2h||lfo2ly
 haftan,xo1fo1bo2ebo1
 haftân,xo1fo1bo2ebo1
@@ -1081,9 +1081,9 @@ hainlerin,xo1eyo5bo1lrko3
 hâinlerin,xo1eyo5bo1lrko3
 hainleri,xo1eyo5bo1lry
 hainler,xo1eyo5bo1lr
-hainleşmek,xo1ebo5so3lh<>so3mk
+hainleşmek,xo1ebo5so3lh||so3mk
 hâinleşmek,xo1ebo5so3lh||so3mk
-hainleş,xo1ebo5so3lh<>so3
+hainleş,xo1ebo5so3lh||so3
 hainlik etmek,xo1ebo5bo1lfo2 e
 hâinlik etmek,xo1ebo5bo1lfo2 e
 hainliklerinden,xo1eyo5bo1lklrbo1dbo1
@@ -2307,7 +2307,7 @@ halka-i,xlfo2h'u4
 halkalardan,xlfo2h||lrdbo1
 halkaların,xlfo2h||lrko3
 halkaları,xlfo2h||lry
-halkalı,xlfo2h<>ly
+halkalı,xlfo2h||ly
 halkalı,xlfo2h||ly
 halkanın,xlfo2h||bo1ko3
 halka resminde,xlfo2h rsmbo1dh
@@ -2803,7 +2803,7 @@ hamlamak,xo1emlemfo2
 hamlaşmak,xo1emleso3mfo2
 hamlaş,xo1emleso3
 hamla,xo1emle
-hamleci,xmlh<>xu1y
+hamleci,xmlh||xu1y
 hamleci,xmlh||xu1y
 hamleden,xml eydbo1
 hamlederlerdi,xml eydrlrdy
@@ -2999,7 +2999,7 @@ hanefî,xbo1fo1y
 hanefiyede,xbo1fo1yh||dh
 hanefîye,xbo1fo1y||yh
 hanefî'yi,xbo1fo1y||yy
-haneharab,xebo1h<>xo1rebu1
+haneharab,xebo1h||xo1rebu1
 haneharâb,xebo1h||xo1rebu1
 haneharab,xo1ebo1h xo1rebu1
 hâneharâb,xo1ebo1h xo1rebu1
@@ -3283,7 +3283,7 @@ harâbe,xo1rebu1h
 harabeye,xo1erebu1h||yh
 harabezara,xo1rebu1h||ro1erh
 harabezâra,xo1rebu1h||ro1erh
-harabezar,xo1rebu1h<>ro1er
+harabezar,xo1rebu1h||ro1er
 harabezar,xo1rebu1h||ro1er
 harabezâr,xo1rebu1h||ro1er
 harâbezâr,xo1rebu1h||ro1er
@@ -3362,10 +3362,10 @@ harâreti,xrerbo2y
 hararetiyle,xrerbo2ylh
 hararetlendiler,xrerbo2lbo1dylr
 hararetlendirip,xrerbo2lbo1dyrwbu1
-hararetlenmek,xrerbo2lh<>bo1mk
+hararetlenmek,xrerbo2lh||bo1mk
 harâretlenmek,xrerbo2lh||bo1mk
 hararetlenmiş,xrerbo2lbo1mso3
-hararetlen,xrerbo2lh<>bo1
+hararetlen,xrerbo2lh||bo1
 hararetleri,xrerbo2lry
 hararetle,xrerbo2lh
 hararetlidir,xrerbo2lydr
@@ -3533,21 +3533,21 @@ harekât,xo4ro4ko4ebo2o0
 harekat,xrkebo2
 harekât,xrkebo2
 hareke-i,xrkh'u4
-harekelemek,xrkh<>lh<>mk
+harekelemek,xrkh||lh||mk
 harekelemek,xrkh||lh||mk
 harekelendirmek,xrkh||lbo1dbu2rmk
-harekelendirmek,xrkh<>lbo1dyrmk
-harekelendir,xrkh<>lbo1dyr
-harekelenmek,xrkh<>lbo1mk
+harekelendirmek,xrkh||lbo1dyrmk
+harekelendir,xrkh||lbo1dyr
 harekelenmek,xrkh||lbo1mk
-harekelen,xrkh<>lbo1
+harekelenmek,xrkh||lbo1mk
+harekelen,xrkh||lbo1
 harekelerinde,xrkh||lrbo1dh
 harekeleri,xrkh||lry
 harekeler,xrkh||lr
-harekele,xrkh<>lh<>
-harekeli,xrkh<>ly
+harekele,xrkh||lh||
 harekeli,xrkh||ly
-harekesiz,xrkh<>sro1
+harekeli,xrkh||ly
+harekesiz,xrkh||sro1
 harekesiz,xrkh||sro1
 harekete gelmek,xrkbo2h klmk
 hareket etmek,xrkbo2 e
@@ -3602,10 +3602,10 @@ hareke,xrkh||
 harekeye,xrkh||yh
 hareki,xrky
 harekî,xrky
-harelenmek,xo1erh<>lbo1mk
+harelenmek,xo1erh||lbo1mk
 hârelenmek,xo1erh||lbo1mk
-harelen,xo1erh<>lbo1
-hareli,xo1erh<>ly
+harelen,xo1erh||lbo1
+hareli,xo1erh||ly
 hâreli,xo1erh||ly
 haremeyn'dedir,xrmybo1dh||dr
 haremeyn-i,xrmybo1u4
@@ -3629,9 +3629,9 @@ harevra,xo4ro4wo0re
 hare,xo1erh||
 hâre,xo1erh
 harfde,xrfo1dh
-harfendazlık,xrfo1<>ebo1dero1lfo2
 harfendazlık,xrfo1||ebo1dero1lfo2
-harfendaz,xrfo1<>ebo1dero1
+harfendazlık,xrfo1||ebo1dero1lfo2
+harfendaz,xrfo1||ebo1dero1
 harfendâz,xrfo1||ebo1dero1
 harfe,xrfo1h
 harf-i atf,xrfo1 atfo1
@@ -3861,7 +3861,7 @@ harîk,xrbu2fo2
 harik,xryfo2
 harîk,xryfo2
 harılharıl,xerbu2l||xerbu2l
-harılharıl,xeryl<>xeryl
+harılharıl,xeryl||xeryl
 harıltı,xerldy
 harıltı,xo1erbu2lbo2y
 harıltı,xo1erylbo2y
@@ -4764,7 +4764,7 @@ hass,xo1ez
 hâss,xo1ez
 hastabakıcıların,xo1sbo2h bu1efo2yxu1ylrko3
 hastabakıcı,xo1sbo2h||bu1efo2bu2xu1y
-hastabakıcı,xo1sbo2h<>bu1efo2yxu1y
+hastabakıcı,xo1sbo2h||bu1efo2yxu1y
 hastadır,xo1sbo2h||dr
 hasta etmek,xo1sbo2h e
 hastahane-i,xo1sbo2h||xo1ebo1h'u4
@@ -4773,7 +4773,7 @@ hastahanelere,xo1sbo2h||xo1ebo1h||lrh
 hastahanelerin,xo1sbo2h||xo1ebo1h||lrko3
 hastahanesinde,xo1sbo2h||xo1ebo1h||sbo1dh
 hastahanesine,xo1sbo2h||xo1ebo1h||sbo1h
-hastahane,xo1sbo2h<>xo1ebo1h||
+hastahane,xo1sbo2h||xo1ebo1h||
 hastahane,xo1sbo2h||xo1ebo1h
 hastahane,xo1sbo2h xo1ebo1h||
 hastahâne,xo1sbo2h||xo1ebo1h
@@ -4784,11 +4784,11 @@ hastalandığı,xo1sbo2h||lebo1dyao1y
 hastalandırdığı,xo1sbo2h||lebo1dyrdyao1y
 hastalandırılmışım,xo1sbo2h||lebo1dyrylmso3m
 hastalanmak,xo1sbo2h lbo1mfo2
-hastalanmak,xo1sbo2h<>lebo1mfo2
+hastalanmak,xo1sbo2h||lebo1mfo2
 hastalanmak,xo1sbo2h||lebo1mfo2
 hastalanmış,xo1sbo2h||lebo1mso3
 hastalansa,xo1sbo2h||lebo1sh
-hastalan,xo1sbo2h<>lebo1
+hastalan,xo1sbo2h||lebo1
 hastalara,xo1sbo2h||lrh
 hastalardan,xo1sbo2h||lrdbo1
 hastaların,xo1sbo2h||lrko3
@@ -4833,13 +4833,13 @@ hastalıklar,xo1sbo2h||lfo2lr
 hastalıkla,xo1sbo2h||lfo2lh
 hastalıklılara,xo1sbo2h||lfo2lylrh
 hastalıklıların,xo1sbo2h||lfo2lylrko3
-hastalıklı,xo1sbo2h<>lfo2ly
+hastalıklı,xo1sbo2h||lfo2ly
 hastalıklı,xo1sbo2h||lfo2ly
 hastalıktaki,xo1sbo2h||lfo2dh||ky
 hastalıktan,xo1sbo2h||lfo2dbo1
 hastalıkta,xo1sbo2h||lfo2dh
 hastalıktır,xo1sbo2h||lfo2dr
-hastalık,xo1sbo2h<>lfo2
+hastalık,xo1sbo2h||lfo2
 hastalık,xo1sbo2h||lfo2
 hastalık,xo1sbo2h lfo2
 hastanın,xo1sbo2h||bo1ko3
@@ -5412,9 +5412,9 @@ havâle etmek,xwelh e
 havaleler,xwelh||lr
 havaleli olmak,xwelh lw ew
 havâleli olmak,xwelh lw ew
-havaleli,xwelh<>ly
+havaleli,xwelh||ly
 havâleli,xwelh||ly
-havalename,xwelh<>bo1emh||
+havalename,xwelh||bo1emh||
 havâlenâme,xwelh||bo1emh
 havalenin,xwelh||bo1ko3
 havale olunmak,xwelh ewlbo1mfo2
@@ -6021,12 +6021,12 @@ hayfa,xyfo1e
 hayfâ,xyfo1e
 hayf,xbu2fo1
 hayf,xyfo1
-hayhay,hey<>hey
+hayhay,hey||hey
 hayhay,hey||hey
 hayhay,hey hey
 hay,hey
 hay huy,hey hwy
-hayhuy,hey<>hwy
+hayhuy,hey||hwy
 hayhuy,hey||hwy
 hayıflanmak,xbu2fo1lebo1mfo2
 hayıflanmak,xyfo1lebo1mfo2
@@ -6138,7 +6138,7 @@ hayme-nişin,xo1ymh||bo1so3ybo1
 haymenişin,xo1ymh bo1so3ybo1
 hayme,xo1bu2mh
 hayme,xo1ymh||
-hayrabolu,xo1yrh<>bu1wlyy
+hayrabolu,xo1yrh||bu1wlyy
 hayrân kalmak,xbu2rebo1 fo2elmfo2
 hayran kalmak,xyrebo1 fo2elmfo2
 hayran kılmak,xbu2rebo1 fo2bu2lmfo2
@@ -6556,7 +6556,7 @@ hazi̇nedar,xo1o4ro1۪ybo1o4h do4ero0
 hazinedar,xo1o4ro1۪ybo1o4h do4ero0
 hazînedâr,xo1ro1bu2bo1h||der
 hazînedâr,xo1ro1bu2bo1h der
-hazinedar,xo1ro1ybo1h<>der
+hazinedar,xo1ro1ybo1h||der
 hazinedar,xo1ro1ybo1h||der
 hazinedar,xo1ro1ybo1h der
 hazineden,xo1ro1ybo1h||dbo1
@@ -6784,9 +6784,9 @@ hazm,xro1m
 hazm,xzo1m
 hazna,xo1ro1bu2bo1h
 hazna,xo1ro1ybo1h||
-haznedarlık,xo1ro1bo1h<>derlfo2
 haznedarlık,xo1ro1bo1h||derlfo2
-haznedar,xo1ro1bo1h<>der
+haznedarlık,xo1ro1bo1h||derlfo2
+haznedar,xo1ro1bo1h||der
 haznedâr,xo1ro1bo1h||der
 hazne,xo1ro1bo1h
 hazne,xo1ro1bo1h||
@@ -6928,7 +6928,7 @@ hediyeleriyiz,hdyh||lry||yro1
 hediyeleriyle,hdyh||lrylh
 hediyelerle,hdyh||lrlh
 hediyelik,hdbu2h||lk
-hediyelik,hdyh<>lk
+hediyelik,hdyh||lk
 hediyemdir,hdyh||mdr
 hediyem,hdyh||m
 hediyemizi,hdyh||mro1y
@@ -6976,7 +6976,7 @@ he,hh||
 hekimdir,xkymdr
 hekime,xkymh
 hekimfüruşluk,xkym||fo1rwso3lfo2
-hekimhan,xkym<>xo1ebo1
+hekimhan,xkym||xo1ebo1
 hekim,hkbu2m
 hekîm,hkbu2m
 hekim,hkym
@@ -7066,7 +7066,7 @@ helâlzâde,xlelro1edh
 helâv,ho4leo4wo0
 helâv'ın,ho4lewko3
 helecan,xo1lxu1ebo1
-helehele,hlh<>hlh||
+helehele,hlh||hlh||
 helehele,hlh||hlh
 hele,hlh
 hele,hlh||
@@ -7284,7 +7284,7 @@ hemşiresi,hmso3yrh||sy
 hemşiresinin,hmso3yrh||sbo1ko3
 hemşirezâde,hmso3bu2rh||ro1edh
 hemşîrezâde,hmso3bu2rh ro1edh
-hemşirezade,hmso3yrh<>ro1edh||
+hemşirezade,hmso3yrh||ro1edh||
 hemşirezade,hmso3yrh ro1edh||
 hemşirezadesi,hmso3yrh||ro1edh||sy
 hemsohbet,hmzxbu1bo2
@@ -7312,7 +7312,7 @@ hemze-i vasıl,ho4mo0ro1o4u4 wo4zo0lo0
 hemze-i̇ vasil,ho4mo0ro1o4ۀu4 wo4zo0lo0
 hemze-i vasıl,ho4mo0ro1o4ۀu4 wo4zo0lo0
 hemzeler,hmro1h||lr
-hemzeli,hmro1h<>ly
+hemzeli,hmro1h||ly
 hemzeli,hmro1h||ly
 hemzenin,hmro1h||bo1ko3
 henazir,xo1bo1ero1yr
@@ -7329,7 +7329,7 @@ hendek,xbo1dfo2
 hendek,xo1bo1dfo2
 hendek,xo1bo1dk
 hendesedeki,hbo1dsh||dh||ky
-hendesehane,hbo1dsh<>xo1ebo1h||
+hendesehane,hbo1dsh||xo1ebo1h||
 hendesehâne,hbo1dsh||xo1ebo1h
 hendese,hbo1dsh
 hendese,hbo1dsh||
@@ -7342,7 +7342,7 @@ hendesen,hbo1dsh||ko3
 hendesesi,hbo1dsh||sy
 hendesesine,hbo1dsh||sbo1h
 hendesesiyle,hbo1dsh||sylh
-hendesesiz,hbo1dsh<>sro1
+hendesesiz,hbo1dsh||sro1
 hendesesiz,hbo1dsh||sro1
 hendesevari,hbo1dsh||wery
 hendeseye,hbo1dsh||yh
@@ -7445,9 +7445,9 @@ hercümerc,hrxu1 w mrxu1
 hercümerc-i,hrxu1o9 mrxu1u4
 herdem,hrdm
 herem,hrm
-hergele,hrklh<>
 hergele,hrklh||
-hergele,hrko7lh<>
+hergele,hrklh||
+hergele,hrko7lh||
 hergele,hrko7lh||
 hergele,xo1rklh
 hergele,xo1rklh||
@@ -7500,32 +7500,32 @@ her nasıl,hrbo1zl
 hernasılsa,hrbo1ezlsh
 hernasılsa,hrbo1ezlsh||
 hernedense,hrbo1h||dbo1 ebu2sh
-hernedense,hrbo1h<>dbo1 eysh||
+hernedense,hrbo1h||dbo1 eysh||
 her ne,hrbo1h
 her ne,hrbo1h||
-herne,hrbo1h<>
+herne,hrbo1h||
 herne,hrbo1h||
 her ne kadar,hrbo1fo2dr
 her ne kadar,hr bo1fo2dr
-hernekadar,hrbo1h<>fo2dr
+hernekadar,hrbo1h||fo2dr
 hernekadar,hrbo1h||fo2dr
 her ne kadar,hrbo2fo2dr
 her nerede,hrbo1rdh
 her nerede,hrbo1rdh||
-hernerede,hrbo1rh<>dh||
+hernerede,hrbo1rh||dh||
 hernerede,hrbo1rh||dh
 her nereden,hrbo1rh dbo1
 her nereye,hrbo1rbu2h
 her nereye,hrbo1rh bu2h
 her nereye,hrbo1rh yh||
 her nereye,hrbo1ryh||
-hernetürlü,hrbo1h<>drlw
+hernetürlü,hrbo1h||drlw
 hernetürlü,hrbo1h||drlw
 her ne vakit,hrbo1h wfo2bo2
-hernevakit,hrbo1h<>wfo2bo2
+hernevakit,hrbo1h||wfo2bo2
 hernevakit,hrbo1h||wfo2bo2
 herneyse,hrbo1h||ebu2sh
-herneyse,hrbo1h<>eysh||
+herneyse,hrbo1h||eysh||
 her ne zaman,hrbo1h ro1mebo1
 herşeyde,hr so3ydh
 herşeydeki,hr so3ydh||ky
@@ -7576,7 +7576,7 @@ her zaman,hrro1mebo1
 herzaman,hrro1mebo1
 herzegu,hrro1h ko7w
 herzegû,hrro1h ko7w
-herzegu,hrro1h<>kw
+herzegu,hrro1h||kw
 herzegû,hrro1h||kw
 herzegûların,hrro1h||ko7wlrko3
 herzeguyi,hrro1h ko7wyy
@@ -7768,9 +7768,9 @@ heybede,hko7bu1h||dh
 heybe,hkbu2h
 heybe,hkyh||
 heybelerinizde,hko7bu1h||lryko3ro1dh
-heybeliada,hkyh<>ly eo6th||
+heybeliada,hkyh||ly eo6th||
 heybeli,hkbu2h||ly
-heybeli,hkyh<>ly
+heybeli,hkyh||ly
 heybet,hbu2bu1bo2
 heybet,ho4bu2o0bu1o4bo2o0
 heybet,ho4yo0bu1o4bo2o0
@@ -8773,7 +8773,7 @@ hımhımla,xo1ymxo1yle
 hımhımlık,xo1bu2mxo1bu2mlfo2
 hımhımlık,xo1ymxo1ymlfo2
 hımhım,xo1bu2m||xo1bu2m
-hımhım,xo1ym<>xo1ym
+hımhım,xo1ym||xo1ym
 himmete,hmo8bo2h
 hi̇mmet,hmbo2
 himmet,hmbo2
@@ -8904,7 +8904,7 @@ hırçınlık,xo1yrxu1ybo1lfo2
 hırçın,xo1bu2rxu1bu2bo1
 hırçın,xo1yrxu1ybo1
 hırçın,xo1yrxu3ybo1
-hırdavatçı,xo1rdh<>webo2xu1y
+hırdavatçı,xo1rdh||webo2xu1y
 hırdavatçı,xo1rdh||webo2xu1y
 hırdavat,xo1rdwebo2
 hıredmend,xo1rdmbo1d
@@ -9884,7 +9884,7 @@ horoztarağı,xo1wrwro1tereao1y
 horoz,xo1rws
 horoz,xo1wrwro1
 horozyumurtası,xo1wrwro1bu2wmwrth||sy
-horozyumurtası,xo1wrwro1ywmwrth<>sy
+horozyumurtası,xo1wrwro1ywmwrth||sy
 hortlakları,xo1wrbo2lefo2lry
 hortlamak,xo1wrbo2lemfo2
 hortla,xo1wrbo2le
@@ -10768,7 +10768,7 @@ hulkûm,xlfo2wm
 hulkun,xo1lfo2ko3
 hulk,xo1lfo2
 hulk,xo1o9lfo2
-hülleci,xlh<>xu1y
+hülleci,xlh||xu1y
 hülleci,xlh||xu1y
 hulleden,xlo8h||dbo1
 hulledir,xlo8h||dr
@@ -10999,7 +10999,7 @@ hurâfe,xo1refo1h
 hurafeyi,xo1refo1h||yy
 huran,xwrebo1
 hurc,xo1rxu1
-hurdacı,xo1rdh<>xu1y
+hurdacı,xo1rdh||xu1y
 hurdacı,xo1rdh||xu1y
 hurdahaş,xo1rdh||xo1eso3
 hurda,xo1rdh
@@ -11013,7 +11013,7 @@ hurdebin,xo1rdh||bu1bu2bo1
 hurdebin,xo1rdh bu1bu2bo1
 hurde-bîn,xo1rdh bu1bu2bo1
 hurde-bin,xo1rdh bu1ybo1
-hurdebin,xo1rdh<>bu1ybo1
+hurdebin,xo1rdh||bu1ybo1
 hurdebin,xo1rdh bu1ybo1
 hurdebîn,xo1rdh||bu1ybo1
 hurdegîr,xo1rdh ko7bu2r
@@ -11244,7 +11244,7 @@ hüseyin-i,xsybo1u4
 hüseyin,xsbu2bo1
 hüseyi̇n,xsybo1
 hüseyin,xsybo1
-hüseynabad,xsybo1<>eo6bu1ed
+hüseynabad,xsybo1||eo6bu1ed
 hüseyn'in,xsybo1ko3
 hüseyn-i,xsybo1u4
 hüseyn'i,xsybo1y
@@ -11676,9 +11676,9 @@ hüzün-engiz,xro1bo1||eo5bo1ko7yro1
 hüzüngâhım,xro1bo1ko7ehm
 hüzüngâhı,xro1bo1ko7ehy
 hüzüngâh,xro1bo1ko7eh
-hüzünlenmek,xro1bo1lh<>bo1mk
 hüzünlenmek,xro1bo1lh||bo1mk
-hüzünlen,xro1bo1lh<>bo1
+hüzünlenmek,xro1bo1lh||bo1mk
+hüzünlen,xro1bo1lh||bo1
 hüzünlere,xro1bo1lrh
 hüzünlerimi,xro1bo1lrymy
 hüzünlerini,xro1bo1lrybo1y

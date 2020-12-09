@@ -71,7 +71,7 @@ va'detmekle,wad eybo2mklh
 vâdetmekle,wad eybo2mklh
 va'd etmek,wade
 vadetmek,wad||ebu2bo2mk
-vadetmek,wad<>eybo2mk
+vadetmek,wad||eybo2mk
 va'detmesi,wad eybo2mh||sy
 va'detmişim,wad eybo2mso3m
 va'detmiştir,wad eybo2mso3dr
@@ -84,7 +84,7 @@ va'dettiğini,wad eybo2dyko7bo1y
 va'dettiği,wad eybo2dyko7y
 vâdettiği,wad eybo2dyko7y
 va'dettikleri,wad eybo2dklry
-vadet,wad<>eybo2
+vadet,wad||eybo2
 va'de,wadh
 vade,wadh
 vade,wadh||
@@ -134,10 +134,10 @@ vaftiz etmek,wefo1bo2yro1e
 vaftiz,wefo1bo2bu2ro1
 vaftiz,wefo1bo2yro1
 vagondur,weao1wbo1dr
-vagonet,weao1wbo1h<>bo2
+vagonet,weao1wbo1h||bo2
 vagonet,weao1wbo1h||bo2
 vagonları,weao1wbo1lry
-vagonli,weao1wbo1<>ly
+vagonli,weao1wbo1||ly
 vagonli,weao1wbo1||ly
 vagonluk,weao1wbo1lfo2
 vagon,weao1wbo1
@@ -989,7 +989,7 @@ var'ı,wery
 varı,wery
 vârî,wery
 varıyete,werbu2h||bo2h
-varıyete,weryh<>bo2h||
+varıyete,weryh||bo2h||
 vâriyetli,werbu2bo2ly
 variyetli,werybo2ly
 vâriyet,werbu2bo2
@@ -1202,7 +1202,7 @@ vasıtası,westh||sy
 vasıtasıyla,westh||sylh
 vasıtasiyle,westh||sylh
 vâsıtasiyle,westh||sylh
-vasıtasız,westh<>sro1
+vasıtasız,westh||sro1
 vasıtasız,westh||sro1
 vâsıtasız,westh||sro1
 vasita,westh
@@ -1429,7 +1429,7 @@ vaz'edilsin,wzo1a eydylsybo1
 vaz'ediyorsunuz,wzo1a eydyywrsko3ro1
 vaz'ediyor,wzo1a eydyywr
 vazelin,wero1h||lbu2bo1
-vazelin,wero1h<>lybo1
+vazelin,wero1h||lybo1
 vaz'etmekle,wzo1a eybo2mklh
 va'z etmek,wato1 e
 vaz' etmek,wzo1a e
@@ -1603,7 +1603,7 @@ vazifesidir,wto1yfo1h||sydr
 vazifeşinaslık,wto1yfo1h||so3bo1eslfo2
 vazîfeşinas,wto1bu2fo1h so3bo1es
 vazîfeşinâs,wto1bu2fo1h||so3bo1es
-vazifeşinas,wto1yfo1h<>so3bo1es
+vazifeşinas,wto1yfo1h||so3bo1es
 vazifeşinas,wto1yfo1h||so3bo1es
 vazifeşinas,wto1yfo1h so3bo1es
 vazîfesinde değil,wto1bu2fo1h sbo1dh dkl
@@ -1622,7 +1622,7 @@ vazifesizliğinden,wto1yfo1h||sro1lko7bo1dbo1
 vazifesizlik,wto1yfo1h||sro1lk
 vazifesizsin,wto1yfo1h||sro1sko3
 vazîfesiz,wto1bu2fo1h||sro1
-vazifesiz,wto1yfo1h<>sro1
+vazifesiz,wto1yfo1h||sro1
 vazifesiz,wto1yfo1h||sro1
 vazifeten,wto1yfo1ho2o44
 vazife,wto1bu2fo1h
@@ -2531,7 +2531,7 @@ verecektim,wyrh||xu1kdm
 verecektir,wyrh||xu1kdr
 verecekti,wyrh||xu1kdy
 verecek,wbu2rh||xu1k
-verecek,wyrh<>xu1k
+verecek,wyrh||xu1k
 verecek,wyrh||xu1k
 verelim,wyrh||lm
 veremediklerinden,wyrh||mh||dklrbo1dbo1
@@ -2581,15 +2581,15 @@ verese,wrbo3h
 verese,wrbo3h||
 veresin,wyrh||sko3
 veresi,wbu2rh||sy
-veresi,wyrh<>sy
+veresi,wyrh||sy
 veresiye,wbu2rh sbu2h
 veresiye,wbu2rh||sy||bu2h
 veresiye,wbu2rh sy bu2h
 veresiye,wyrh syh||
-veresiye,wyrh<>sy<>yh||
+veresiye,wyrh||sy||yh||
 veresiye,wyrh sy yh||
 verev,wbu2rw
-verev,wh<>rh<>w
+verev,wh||rh||w
 verev,wh||rh||w
 verev,wyrw
 vere,wbu2rh
@@ -2883,7 +2883,7 @@ vermiyorum,wyrmyywrm
 vermiyoruz,wyrmyywrro1
 vermiyor,wyrmyywr
 vernik,wh||rbo1bu2k
-vernik,wh<>rbo1yk
+vernik,wh||rbo1yk
 verrüesa,w elreo5se
 versek,wyrsh||k
 verselerdi,wyrsh||lrdy
@@ -3050,7 +3050,7 @@ vessiyaseti,wo4 elso8u4yo4eso4ho2u4
 vessiyase,wo4 elso8u4yo4eso4ho2u4
 veşşükrü-lillah,wo4elso3o8o9kro9 u4ellhu4
 vestiyer,wh||sbo2bu2bu2r
-vestiyer,wh<>sbo2yyr
+vestiyer,wh||sbo2yyr
 vesvas,wswes
 vesveseci,wswsh||xu1y
 vesveseden,wswsh||dbo1
@@ -3091,7 +3091,7 @@ veter olmak,wbo2rew
 veter,wbo2r
 vetîre,wbo2bu2rh
 vetire,wbo2yrh||
-veto,wh<>bo2w
+veto,wh||bo2w
 veto,wh||bo2w
 ve't-tahavvül,welbo2xwo8l
 vettîn,w elbo2o8ybo1
@@ -3146,11 +3146,11 @@ vezir,wdo1yr
 vezir,wro1yr
 vezîr,wro1yr
 vezirzade,wro1yrro1edh
-vezneci,wro1bo1h<>xu1y
 vezneci,wro1bo1h||xu1y
-veznedarlık,wro1bo1h<>derlfo2
+vezneci,wro1bo1h||xu1y
+veznedarlık,wro1bo1h||derlfo2
 veznedârlık,wro1bo1h||derlfo2
-veznedar,wro1bo1h<>der
+veznedar,wro1bo1h||der
 veznedar,wro1bo1h der
 veznedâr,wro1bo1h||der
 veznedâr,wro1bo1h der
@@ -3247,7 +3247,7 @@ vi̇cdan,wxu1debo1
 vicdan,wxu1debo1
 vicdân,wxu1debo1
 vıcıkvıcık,wbu2xu1bu2fo2||wbu2xu1bu2fo2
-vıcıkvıcık,wyxu1yfo2<>wyxu1yfo2
+vıcıkvıcık,wyxu1yfo2||wyxu1yfo2
 vıcık,wbu2xu1bu2fo2
 vıcık,wyxu1yfo2
 vidad,wded
@@ -3340,7 +3340,7 @@ vinç,wybo1xu3
 vipolonsel,wbu2bu2wlwbo1sl
 vipolonsel,wyywlwbo1sl
 vîrânelik,wbu2rebo1h||lk
-viranelik,wyrebo1h<>lk
+viranelik,wyrebo1h||lk
 vîrân etmek,wbu2rebo1 e
 viran etmek,wyrebo1 e
 virâne,wbu2rebo1h
@@ -3355,7 +3355,7 @@ vîrân kalmak,wbu2rebo1 fo2elmfo2
 viran kalmak,wyrebo1 fo2elmfo2
 vîranlık,wbu2rebo1lfo2
 viranlık,wyrebo1lfo2
-viranşehir,wyrebo1<>so3hr
+viranşehir,wyrebo1||so3hr
 vîrân,wbu2rebo1
 viran,wyrebo1
 vîrân,wyrebo1
@@ -3419,9 +3419,9 @@ vi̇sal,wzel
 visal,wzel
 visâl,wzel
 viskonsül,wbu2s||fo2wbo1swl
-viskonsül,wys<>fo2wbo1swl
+viskonsül,wys||fo2wbo1swl
 vişneçürüğü,wbu2so3bo1h||xu3wrwky
-vişneçürüğü,wyso3bo1h<>xu3wrwky
+vişneçürüğü,wyso3bo1h||xu3wrwky
 vişne,wbu2so3bo1h
 vişne,wso3bo1h
 vişne,wso3bo1h||
@@ -3434,8 +3434,8 @@ vitrin,wybo2rybo1
 viyana,wyyebo1e
 viyolonist,wbu2bu2wlwbo1bu2sbo2
 viyolonist,wyywlwbo1ysbo2
-vize etmek,wyro1h<>eybo2mk
-vize et,wyro1h<>eybo2
+vize etmek,wyro1h||eybo2mk
+vize et,wyro1h||eybo2
 vize,wbu2ro1h
 vize,wyro1h||
 vızıldamak,wbu2ro1bu2ldemfo2
@@ -3446,7 +3446,7 @@ vızıltısı,wyro1ylbo2ysy
 vızıltı,wbu2ro1bu2lbo2y
 vızıltı,wyro1ylbo2y
 vızırvızır,wbu2ro1r||wbu2ro1r
-vızırvızır,wyro1r<>wyro1r
+vızırvızır,wyro1r||wyro1r
 vizita,wbu2ro1bu2bo2h
 vizita,wyro1ybo2h||
 vizite etmek,wbu2ro1bu2bo2h e

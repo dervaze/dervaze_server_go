@@ -41,9 +41,9 @@ câdûger,xu1edwko7r
 cadu,xu1edw
 câdû,xu1edw
 ca'd,xu1ad
-cafcaflı,xu1efo1<>xu1efo1ly
 cafcaflı,xu1efo1||xu1efo1ly
-cafcaf,xu1efo1<>xu1efo1
+cafcaflı,xu1efo1||xu1efo1ly
+cafcaf,xu1efo1||xu1efo1
 cafcaf,xu1efo1||xu1efo1
 cafer'den,xu1afo1rdbo1
 cafer'e,xu1afo1rh
@@ -138,7 +138,7 @@ ca'liyle,xu1alylh
 calud,xu1elwbo2
 ca'l,xu1al
 ca’l,xu1al
-camadan,xu1emh<>debo1
+camadan,xu1emh||debo1
 camadan,xu1emh||debo1
 cama,xu1emh
 cambazlık,xu1ebo1bu1ero1lfo2
@@ -160,13 +160,13 @@ camekân,xu1emkebo1
 câmekan,xu1emkebo1
 cameşuy,xu1emh so3wy
 câmeşûy,xu1emh so3wy
-camevi,xu1em<>ewy
+camevi,xu1em||ewy
 camevi,xu1em||ewy
 came,xu1emh||
 câme,xu1emh
 cam geçirmek,xu1em kxu3wrmk
 camgöbeği,xu1em ko7wbu1ko7y
-camgöz,xu1em<>ko7wro1
+camgöz,xu1em||ko7wro1
 camgöz,xu1em||ko7wro1
 câmiadır,xu1emah||dr
 câmia-i,xu1emah||'u4
@@ -334,7 +334,7 @@ canbaz,xu1ebo1bu1ero1
 cânbâz,xu1ebo1bu1ero1
 can çekişmek,xu1ebo1 xu3kso3mk
 cançekişme,xu1ebo1 xu3kyso3mh
-canciğer,xu1ebo1<>xu1ko7r
+canciğer,xu1ebo1||xu1ko7r
 canciğer,xu1ebo1||xu1ko7r
 candan,xu1ebo1dbo1
 candar,xu1ebo1der
@@ -524,7 +524,7 @@ caru,xu1erw
 cârû,xu1erw
 car,xu1er
 câr,xu1er
-cascavlak,xu1es<>xu1ewlefo2
+cascavlak,xu1es||xu1ewlefo2
 cascavlak,xu1es||xu1ewlefo2
 casiye,xu1ebo3yh
 câsiye,xu1ebo3yh
@@ -576,11 +576,11 @@ caygir olmak,xu1eykyrew
 cayırcayır,xu1ebu2bu2rxu1ebu2bu2r
 cayırcayır,xu1eyyrxu1eyyr
 cayırdamak,xu1ebu2bu2r||demfo2
-cayırdamak,xu1eyyr<>demfo2
+cayırdamak,xu1eyyr||demfo2
 cayırdatmak,xu1ebu2bu2r||debo2mfo2
-cayırdatmak,xu1eyyr<>debo2mfo2
-cayırdat,xu1eyyr<>debo2
-cayırda,xu1eyyr<>de
+cayırdatmak,xu1eyyr||debo2mfo2
+cayırdat,xu1eyyr||debo2
+cayırda,xu1eyyr||de
 cayır,xu1ebu2bu2r
 cayır,xu1eyyr
 cay-i sual,xu1ey swo5el
@@ -619,7 +619,7 @@ cazibekârane,xu1edo1bu1h||kerebo1h
 cazibelerin,xu1edo1bu1h||lrko3
 cazibeleri,xu1edo1bu1h||lry
 cazibeler,xu1edo1bu1h||lr
-cazibeli,xu1edo1bu1h<>ly
+cazibeli,xu1edo1bu1h||ly
 cazibeli,xu1edo1bu1h||ly
 câzibeli,xu1edo1bu1h||ly
 cazibenin,xu1edo1bu1h||bo1ko3
@@ -695,7 +695,7 @@ ceberuttan,xu1bu1rwbo2dbo1
 ceberutuna,xu1bu1rwbo2bo1h
 ceberut-u,xu1bu1rwbo2u4
 ceberut,xu1bu1rwbo2
-cebhanelik,xu1bu1xo1ebo1h<>lk
+cebhanelik,xu1bu1xo1ebo1h||lk
 cebhânelik,xu1bu1xo1ebo1h||lk
 cebhane,xu1bu1xo1ebo1h||
 cebhâne,xu1bu1xo1ebo1h
@@ -1377,9 +1377,9 @@ cemâl,xu1o4mo4elo0
 cem'an,xu1mae
 cem’an,xu1mae
 cem'an,xu1mao44e
-cemaziyelahir,xu1medo1y<>elexo1r
+cemaziyelahir,xu1medo1y||elexo1r
 cemâziyelâhir,xu1medo1y||elexo1r
-cemaziyelevvel,xu1medo1y<>elewl
+cemaziyelevvel,xu1medo1y||elewl
 cemâziyelevvel,xu1medo1y||elewl
 cemaziye-l,xu1medo1y el
 cembres,kh||mbu1rs
@@ -1428,12 +1428,12 @@ cemildir,xu1myldr
 cemilelerinizden,xu1mylh||lryko3ro1dbo1
 cemileleri,xu1mylh||lry
 cemîleleri,xu1mylh||lry
-cemilemek,xu1malh<>mk
 cemilemek,xu1malh||mk
-cemilenmek,xu1malh<>bo1mk
+cemilemek,xu1malh||mk
 cemilenmek,xu1malh||bo1mk
-cemilen,xu1malh<>bo1
-cemile,xu1malh<>
+cemilenmek,xu1malh||bo1mk
+cemilen,xu1malh||bo1
+cemile,xu1malh||
 cemîle,xu1mbu2lh
 cemile,xu1mylh
 cemile,xu1mylh||
@@ -1776,9 +1776,9 @@ cerâd,xu1red
 cerahat akmak,xu1rexbo2 efo2mfo2
 cerâhat akmak,xu1rexbo2 efo2mfo2
 cerahatini,xu1rexbo2bo1y
-cerahatlenmek,xu1rexbo2lh<>bo1mk
 cerahatlenmek,xu1rexbo2lh||bo1mk
-cerahatlen,xu1rexbo2lh<>bo1
+cerahatlenmek,xu1rexbo2lh||bo1mk
+cerahatlen,xu1rexbo2lh||bo1
 cerahatli,xu1rexbo2ly
 cerahatlı,xu1rexbo2ly
 cerahat toplanmak,xu1rexbo2 twbu3lebo1mfo2
@@ -1960,9 +1960,9 @@ cesaretiniz,xu1serbo2ko3ro1
 cesaretin,xu1serbo2ko3
 cesaret-i,xu1serbo2u4
 cesareti,xu1serbo2y
-cesaretlenmek,xu1serbo2lh<>bo1mk
+cesaretlenmek,xu1serbo2lh||bo1mk
 cesâretlenmek,xu1serbo2lh||bo1mk
-cesaretlen,xu1serbo2lh<>bo1
+cesaretlen,xu1serbo2lh||bo1
 cesaretlerini,xu1serbo2lrybo1y
 cesaretleri,xu1serbo2lry
 cesaretleriyle,xu1serbo2lrylh
@@ -2040,7 +2040,7 @@ cesîm,xu1sbu2m
 cesi̇m,xu1sym
 cesim,xu1sym
 cesîm,xu1sym
-cesine,xu1h<>sbo1h||
+cesine,xu1h||sbo1h||
 cesine,xu1h||sbo1h
 cessas,xu1so8es
 ceste ceste,xu1sbo2h xu1sbo2h
@@ -2449,7 +2449,7 @@ cezâ-yi amel,xu1o4ro1o4ebu2u4 ao4mo4lo0
 cezâ-yı amel,xu1o4ro1o4ebu2u4 ao4mo4lo0
 ceza-yi amel,xu1o4ro1o4eyu4 ao4mo4lo0
 ceza-yı amel,xu1o4ro1o4eyu4 ao4mo4lo0
-cezayinakdi,xu1ro1ey<>bo1fo2dy
+cezayinakdi,xu1ro1ey||bo1fo2dy
 cezâyinakdi,xu1ro1ey||bo1fo2dy
 cezayir,xu1ro1eyo5r
 cezayir,xu1ro1eyr
@@ -2666,7 +2666,7 @@ ciğer miğer,xu1krmkr
 ciğerotu,xu1ko7rewbo2y
 cigerpare,xu1ko7rbu3erh||
 cigerpâre,xu1ko7rbu3erh
-ciğerpare,xu1ko7r<>bu3erh||
+ciğerpare,xu1ko7r||bu3erh||
 ciğerpâre,xu1ko7r||bu3erh
 ciğerşikâfe,xu1ko7rso3kefo1h
 ciğerşikâfta,xu1ko7rso3kefo1dh
@@ -2709,7 +2709,7 @@ cihâna,xu1hebo1h
 cihanbahanın,xu1hebo1||bu1hebo1ko3
 cihan-baha,xu1hebo1||bu1he
 cihanbaha,xu1hebo1||bu1he
-cihanbeyli,xu1hebo1<>bu1ko7ly
+cihanbeyli,xu1hebo1||bu1ko7ly
 cihandaki,xu1hebo1dh||ky
 cihandan,xu1hebo1dbo1
 cihandar,xu1hebo1der
@@ -2903,7 +2903,7 @@ cildi,xu1ldy
 cildî,xu1ldy
 cildiye,xu1ldyh
 cildiye,xu1ldyh||
-cildlemek,xu1ldlh<>mk
+cildlemek,xu1ldlh||mk
 cildlemek,xu1ldlh||mk
 cildlemiş,xu1ldlh||mso3
 cildlendirdiğiniz,xu1ldlbo1dyrdyko7ko3ro1
@@ -2919,7 +2919,7 @@ cildletmek,xu1ldlbo2mk
 cildlettiği,xu1ldlbo2dyko7y
 cildlettirerek,xu1ldlbo2dyrh||rk
 cildlet,xu1ldlbo2
-cildle,xu1ldlh<>
+cildle,xu1ldlh||
 cildli,xu1ldly
 cildsiz,xu1ldsro1
 cild,xu1ld
@@ -2995,7 +2995,7 @@ cilveleri,xu1lwh||lry
 cilveleriyle,xu1lwh||lrylh
 cilvelerle,xu1lwh||lrlh
 cilveler,xu1lwh||lr
-cilveli,xu1lwh<>ly
+cilveli,xu1lwh||ly
 cilveli,xu1lwh||ly
 cilvenin,xu1lwh||bo1ko3
 cilvesaz,xu1lwh sero1
@@ -3216,7 +3216,7 @@ ci̇rm,xu1rm
 cirm,xu1rm
 cirm,xu1u4rm
 ciro,xu1yrw
-cırtlak,xu1yr<>bo2lefo2
+cırtlak,xu1yr||bo2lefo2
 cırtlak,xu1yr||bo2lefo2
 cırtlamak,xu1yrbo2lemfo2
 cırtla,xu1yrbo2le
@@ -3376,7 +3376,7 @@ civcivi,xu1ywxu1ywy
 civcivlerini,xu1ywxu1ywlrybo1y
 civcivli,xu1ywxu1ywly
 civciv,xu1ywxu1yw
-civelek,xu1ywh<>lk
+civelek,xu1ywh||lk
 civelek,xu1ywh||lk
 cîve,xu1bu2wh
 cive,xu1ywh||
@@ -3428,7 +3428,7 @@ coğrafyanın,xu1ao1refo1yebo1ko3
 coğrafya,xu1ao1refo1bu2e
 coğrafya,xu1ao1refo1ye
 coğrafyaya,xu1ao1refo1yeyh
-cokey,xu1wkh<>y
+cokey,xu1wkh||y
 cokey,xu1wkh||y
 colomb,fo2wlwmbu1
 cömerdlik,xu1wmrdlk
@@ -3467,7 +3467,7 @@ cübbe,xu1bu1o8h
 cübbeye,xu1bu1o8h||yh
 cübbeyi,xu1bu1o8h||yy
 cübn,xu1bu1bo1
-cücelik,xu1wxu1h<>lk
+cücelik,xu1wxu1h||lk
 cücelik,xu1wxu1h||lk
 cuce,xu1wxu1h||
 cûce,xu1wxu1h
@@ -3529,10 +3529,10 @@ cuma-ertesi,xu1mah ebu2rbo2sy
 cuma-ertesi,xu1mah eyrbo2sy
 cum'a günü,xu1mah kwbo1y
 cum'alarında,xu1mah||lrbo1dh
-cumalık,xu1mah<>lfo2
+cumalık,xu1mah||lfo2
 cumalık,xu1mah||lfo2
 cumanın,xu1mah||bo1ko3
-cumartesi,xu1mah<>eyrbo2h<>sy
+cumartesi,xu1mah||eyrbo2h||sy
 cumartesi,xu1mah||eyrbo2h||sy
 cumartesi,xu1mah eyrbo2sy
 cum'a,xu1mah
@@ -3763,11 +3763,11 @@ cuşişli,xu1wso3so3ly
 cûşişli,xu1wso3so3ly
 cuşiş,xu1wso3so3
 cûşiş,xu1wso3so3
-cüsseli,xu1bo3h<>ly
+cüsseli,xu1bo3h||ly
 cüsseli,xu1bo3h||ly
 cüssesi,xu1bo3o8h||sy
 cüsse,xu1bo3h
-cüsse,xu1bo3h<>
+cüsse,xu1bo3h||
 cüsse,xu1bo3h||
 cüstücu,xu1sbo2 w xu1w
 cüstücû,xu1sbo2 w xu1w

@@ -168,9 +168,9 @@ sabanı,zbu1ebo1y
 sabankılıcı,zebu1ebo1 fo2bu2lbu2xu1y
 sabankılıcı,zebu1ebo1 fo2ylyxu1y
 sabankıran,zebu1ebo1||fo2bu2rebo1
-sabankıran,zebu1ebo1<>fo2yrebo1
+sabankıran,zebu1ebo1||fo2yrebo1
 sabankulağı,zebu1ebo1 fo2wleao1y
-sabanökçesi,zebu1ebo1 ewkxu3h<>sy
+sabanökçesi,zebu1ebo1 ewkxu3h||sy
 sabanökçesi,zebu1ebo1 ewkxu3h||sy
 sabanoku,zebu1ebo1 ewfo2y
 saban sürmek,zbu1ebo1 swrmk
@@ -434,12 +434,12 @@ saçma etmek,zexu3mh e
 saçmaktadır,zexu3mfo2dh||dr
 saçmakta,zexu3mfo2dh
 saçmak,zexu3mfo2
-saçmalamak,zexu3mh<>lemfo2
+saçmalamak,zexu3mh||lemfo2
 saçmalamak,zexu3mh||lemfo2
 saçmalar,zexu3mh||lr
-saçmala,zexu3mh<>le
+saçmala,zexu3mh||le
 saçmalı,zexu3mh||ly
-saçmasapan,zexu3mh<>zebu3ebo1
+saçmasapan,zexu3mh||zebu3ebo1
 saçmasapan,zexu3mh||zebu3ebo1
 saçma,zexu3mh
 saçma,zexu3mh||
@@ -581,7 +581,7 @@ sadedilane,sedh dlebo1h||
 sâdedilâne,sedh dlebo1h
 sade dil,sedh dl
 sade-dil,sedh||dl
-sadedil,sedh<>dl
+sadedil,sedh||dl
 sadedil,sedh dl
 sâde dil,sedh dl
 sâdedil,sedh||dl
@@ -591,7 +591,7 @@ sade-dil,so4edo4h du4lo0
 sadedimize,zddymro1h
 sadedindeki,zddbo1dh||ky
 sadedinde,zddbo1dh
-sadedlik,sedh<>dlk
+sadedlik,sedh||dlk
 sâdedlik,sedh||dlk
 saded,zdd
 saded,zo4do4do0
@@ -613,7 +613,7 @@ sâde güzel,sedh kwro1l
 sadelevh,sedh lwx
 sâdelevh,sedh lwx
 sadeliği,sedh||lko7y
-sadelik,sedh<>lk
+sadelik,sedh||lk
 sadelik,sedh||lk
 sâdelik,sedh||lk
 sadeli,sedh||ly
@@ -958,7 +958,7 @@ safra,zfo1rh
 safra,zfo1rh||
 safsaf,zfo1zefo1
 safsâf,zfo1zefo1
-safsatacı,sfo1sth<>xu1y
+safsatacı,sfo1sth||xu1y
 safsatacı,sfo1sth||xu1y
 safsatada,sfo1sth||dh
 safsatadır,sfo1sth||dr
@@ -1430,22 +1430,22 @@ sahtekarlık etmek,sexo1bo2h kerlfo2 e
 sahtekârlık etmek,sexo1bo2h kerlfo2 e
 sahtekârlıklarını,sexo1bo2h||kerlfo2lrybo1y
 sahtekârlıkla,sexo1bo2h||kerlfo2lh
-sahtekarlık,sexo1bo2h<>kerlfo2
+sahtekarlık,sexo1bo2h||kerlfo2
 sahtekarlık,sexo1bo2h kerlfo2
 sahtekârlık,sexo1bo2h||kerlfo2
 sahtekârlık,sexo1bo2h kerlfo2
 sahtekârlıktır,sexo1bo2h||kerlfo2dr
-sahtekar,sexo1bo2h<>ker
+sahtekar,sexo1bo2h||ker
 sahtekar,sexo1bo2h ker
 sahtekâr,sexo1bo2h||ker
 sahtekâr,sexo1bo2h ker
 sâhtekâr,sexo1bo2h ker
-sahtelik,sexo1bo2h<>lk
+sahtelik,sexo1bo2h||lk
 sahtelik,sexo1bo2h||lk
 sahte,sexo1bo2h
 sahte,sexo1bo2h||
 sâhte,sexo1bo2h
-sahtevakar,sexo1bo2h<>wfo2er
+sahtevakar,sexo1bo2h||wfo2er
 sahtevakar,sexo1bo2h||wfo2er
 sahtiyancılık,sxo1bo2bu2ebo1xu1bu2lfo2
 sahtiyancılık,sxo1bo2yebo1xu1ylfo2
@@ -1572,7 +1572,7 @@ sâillerin,seyo5llrko3
 sail,sebo5l
 sâil,sebo5l
 sâil,seyo5l
-saimbeyli,zebo5m<>bu1kly
+saimbeyli,zebo5m||bu1kly
 saim,zebo5m
 sâim,zebo5m
 saim,zeyo5m
@@ -2066,7 +2066,7 @@ salgın salmak,zelao1ybo1 zelmfo2
 salgın,zelao1bu2bo1
 salgın,zelao1ybo1
 salhane,slxo1 xo1ebo1h||
-salhane,slxo1xo1ebo1h<>
+salhane,slxo1xo1ebo1h||
 salhane,slxo1xo1ebo1h||
 salhâne,slxo1xo1ebo1h
 salhâne,slxo1 xo1ebo1h
@@ -2605,7 +2605,7 @@ sandalyalarına,zbo1delyh||lrybo1h
 sandalyasından,zbo1delyh||sbo1dbo1
 sandalyasında,zbo1delyh||sbo1dh
 sandalyeci,zbo1delbu2h||xu1y
-sandalyeci,zbo1delyh<>xu1y
+sandalyeci,zbo1delyh||xu1y
 sandalyesinde,zbo1delyh||sbo1dh
 sandalyesine,zbo1delyh||sbo1h
 sandalyeye,zbo1delyh||yh
@@ -2923,7 +2923,7 @@ sapmışlar,zebu3mso3lr
 sapmışsın,zebu3mso3sko3
 sapmış,zebu3mso3
 sapsan,zebu3sh||ko3
-sapsarı,zebu3<>zery
+sapsarı,zebu3||zery
 sapsarı,zebu3||zery
 sapsız,zebu3sro1
 saptan örtü,zebu3dbo1 ewrbo2y
@@ -2965,7 +2965,7 @@ sarahat,zo4ro4exo4bo2o0
 sarâhat,zo4ro4exo4bo2o0
 sarahat,zrexbo2
 sarâhat,zrexbo2
-sar’alı,zrah<>ly
+sar’alı,zrah||ly
 sar’alı,zrah||ly
 saramadım,zeremdm
 saramazsın,zeremero1sko3
@@ -3021,7 +3021,7 @@ sardalya çiçeği,serdlyh xu3yxu3ky
 sardalya,serdelbu2h
 sardalya,serdelyh||
 sardalya,zerdelbu2h||
-sardalya,zerdelyh<>
+sardalya,zerdelyh||
 sardela,serdlh||
 sârdela,serdlh
 sardığı,zerdyao1y
@@ -3822,7 +3822,7 @@ sâyeban,seybu1ebo1
 sayeban,seyh bu1ebo1
 sâyebân,seyh||bu1ebo1
 sâyedâr,sebu2h||der
-sayedar,seyh<>der
+sayedar,seyh||der
 sayedar,seyh||der
 sayedar,seyh der
 sâyedar,seyh der
@@ -4256,7 +4256,7 @@ secaya-i,sxu1eyecu4
 secaya,sxu1eye
 secâyâ,sxu1eye
 secaya-yı,sxu1eyeyu4
-seccadeci,sxu1edh<>xu1y
+seccadeci,sxu1edh||xu1y
 seccâdeci,sxu1edh||xu1y
 seccademe,sxu1o8edh||mh
 seccademin,sxu1o8edh||mko3
@@ -4333,7 +4333,7 @@ seciyeleri,sxu1yh||lry
 seciyelerle,sxu1yh||lrlh
 seciyeler,sxu1yh||lr
 seciyeli,sxu1bu2h||ly
-seciyeli,sxu1yh<>ly
+seciyeli,sxu1yh||ly
 seciyeli,sxu1yh||ly
 seciyemizin,sxu1yh||mro1ko3
 seciyende,sxu1yh||ko3dh
@@ -4348,7 +4348,7 @@ seciyesi,sxu1yh||sy
 seciyesiyle,sxu1yo8h||sylh
 seciyesizliği,sxu1yh||sro1lko7y
 seciyesiz,sxu1bu2h||sro1
-seciyesiz,sxu1yh<>sro1
+seciyesiz,sxu1yh||sro1
 seciye,so4xu1u4bu2o4h
 seci̇ye,so4xu1u4yo4h||
 seciye,so4xu1u4yo4h||
@@ -4367,7 +4367,7 @@ seciyye,sxu1bu2h
 seciyye,sxu1yh||
 seçkin,sxu3kbu2bo1
 seçkin,sxu3kybo1
-seçmece,sxu3mh<>xu1h||
+seçmece,sxu3mh||xu1h||
 seçmece,sxu3mh||xu1h
 seçmek,sxu3mk
 seçme,sxu3mh
@@ -4867,7 +4867,7 @@ seksen,sksebo1
 seksenüç,sksebo1 ewxu3
 seksenyedi,sksebo1 ydy
 sek,sk
-sektedar,skbo2h<>der
+sektedar,skbo2h||der
 sektedâr,skbo2h||der
 sektesini,skbo2h||sbo1y
 sekte,skbo2h
@@ -5118,7 +5118,7 @@ selle,slh
 selle,slh||
 sell etmek,sl e
 sellüloid,sh||lwlwbo5bu2d
-sellüloid,sh<>lwlwbo5yd
+sellüloid,sh||lwlwbo5yd
 selman'a,slmebo1h
 selman'ın,slmebo1ko3
 selman-ı,slmebo1u4
@@ -5408,7 +5408,7 @@ semmli,smly
 semm,sm
 semmur,smwr
 semmûr,smwr
-sempati,sh<>mbu3ebo2y
+sempati,sh||mbu3ebo2y
 sempati,sh||mbu3ebo2y
 semra,smre
 sem,sm
@@ -5490,11 +5490,11 @@ sencîde,sbo1xu1bu2dh
 sencide,sbo1xu1ydh||
 sendedir,sbo1dh||dr
 sendeki,sbo1dh||ky
-sendelemek,sbo1dh<>lmk
+sendelemek,sbo1dh||lmk
 sendelemek,sbo1dh||lmk
 sendelemek,sbo1dh lmk
 sendelemek,sbo1dlh mk
-sendele,sbo1dh<>l
+sendele,sbo1dh||l
 senden,sbo1dbo1
 sende,sbo1dh
 sendika,sbo1dbu2fo2h
@@ -5605,7 +5605,7 @@ seneviyyem,sbo1wyh||m
 seneye,sbo1h||yh
 sene-yi,sbo1h'u4
 seneyi,sbo1h||yy
-senfoni,sh<>bo1fo1wbo1y
+senfoni,sh||bo1fo1wbo1y
 senfoni,sh||bo1fo1wbo1y
 sengdilane,sbo1ko7 dlebo1h||
 sengdilâne,sbo1ko7 dlebo1h
@@ -5669,7 +5669,7 @@ sepidedem,sbu3ydh dm
 sepîd,sbu3bu2d
 sepid,sbu3yd
 septik,sh||bu3bo2bu2k
-septik,sh<>bu3bo2yk
+septik,sh||bu3bo2yk
 seraba,srebu1h
 serabdır,srebu1dr
 serab-ı,srebu1u4
@@ -5765,7 +5765,7 @@ serçeden,srxu3h||dbo1
 serçe kuşu,srxu3h fo2wso3y
 serçelere,srxu3h||lrh
 serçelerin,srxu3h||lrko3
-serçeparmak,zrxu3h<>bu3ermefo2
+serçeparmak,zrxu3h||bu3ermefo2
 serçeparmak,zrxu3h||bu3ermefo2
 ser çeşme,srxu3so3mh
 ser çeşme,srxu3so3mh||
@@ -5809,7 +5809,7 @@ serd,srd
 serefraz,so4ro4fo1o0rero1
 serefraz,srefo1rero1
 serefrâz,srefo1rero1
-serenat,zrh<>bo1ed
+serenat,zrh||bo1ed
 serenat,zrh||bo1ed
 ser-encamın,sreo5bo1xu1emko3
 serencam-ı,srbo1xu1emu4
@@ -5821,7 +5821,7 @@ seren,srh||bo1
 seren ucu,srbo1 ewxu1y
 sererek,srh||rk
 serer,srh||r
-sereserpe,zrh<>srbu3h||
+sereserpe,zrh||srbu3h||
 sereserpe,zrh||srbu3h
 sere,srh
 sere,srh||
@@ -5981,7 +5981,7 @@ sermâ,srme
 sermayece,srmeyh||xu1h
 sermâyece,srmeyh||xu1h
 sermâyedâr,srmebu2h||der
-sermayedar,srmeyh<>der
+sermayedar,srmeyh||der
 sermayedar,srmeyh||der
 sermayedar,srmeyh der
 sermâyedâr,srmeyh der
@@ -5995,7 +5995,7 @@ sermayelerini,srmeyh||lrybo1y
 sermayeleri,srmeyh||lry
 sermayeleriyle,srmeyh||lrylh
 sermâyeli,srmebu2h||ly
-sermayeli,srmeyh<>ly
+sermayeli,srmeyh||ly
 sermayemi,srmeyh||my
 sermayemiz,srmeyh||mro1
 sermayem,srmeyh||m
@@ -6007,9 +6007,9 @@ sermayesinin,srmeyh||sbo1ko3
 sermayesini,srmeyh||sbo1y
 sermayesi,srmeyh||sy
 sermâyesizlik,srmebu2h||lk
-sermayesizlik,srmeyh<>lk
+sermayesizlik,srmeyh||lk
 sermâyesiz,srmebu2h||sro1
-sermayesiz,srmeyh<>sro1
+sermayesiz,srmeyh||sro1
 sermâye,srmebu2h
 sermaye,srmeyh
 sermaye,srmeyh||
@@ -6140,13 +6140,13 @@ sersemden,srsmdbo1
 serseme,srsmh
 sersem etmek,srsm e
 sersemin,srsmko3
-sersemlemek,srsmlh<>mk
+sersemlemek,srsmlh||mk
 sersemlemek,srsmlh||mk
 sersemlerden,srsmlrdbo1
 sersemler,srsmlr
 sersemleşen,srsmlso3bo1
 sersemleşmiş,srsmlso3mso3
-sersemle,srsmlh<>
+sersemle,srsmlh||
 sersemleştiren,srsmlso3dyrbo1
 sersemliğinden,srsmlko7bo1dbo1
 sersemliği,srsmlko7y
@@ -6297,7 +6297,7 @@ sesini,ssbo1y
 sesin,ssko3
 sesi,ssy
 sesiyle,ssylh
-seslemek,sslh<>mk
+seslemek,sslh||mk
 seslemek,sslh||mk
 seslendirmek,sslbo1drmk
 seslenen,sslh||bo1bo1
@@ -6313,7 +6313,7 @@ sesleriyle,sslrylh
 seslerle,sslrlh
 sesler,sslr
 sesle,sslh
-sesle,sslh<>
+sesle,sslh||
 sesli,ssly
 sessizce,sssro1xu1h
 sessiz sadasız,ssro1zdesro1
@@ -7302,7 +7302,7 @@ sezme,sro1mh||
 sezmez,sro1mro1
 sezmiş,sro1mso3
 sezmiştim,sro1mso3dm
-sezon,sh<>ro1wbo1
+sezon,sh||ro1wbo1
 sezon,sh||ro1wbo1
 sez,sro1
 shakir,so3ekr
@@ -7690,9 +7690,9 @@ sığmayan,zyao1myebo1
 sığmaz,zyao1mero1
 sığmış,zyao1mso3
 sigortacı,sbu2ao1wrth||xu1y
-sigortacı,syao1wrth<>xu1y
+sigortacı,syao1wrth||xu1y
 sigortalı,sbu2ao1wrth||ly
-sigortalı,syao1wrth<>ly
+sigortalı,syao1wrth||ly
 sigorta,sbu2ao1wrbo2h
 sigorta,sbu2ao1wrth
 sigorta,syao1wrbo2h||
@@ -8069,7 +8069,7 @@ sıksan,zyfo2sh||ko3
 sık sık,zbu2fo2 zbu2fo2
 sıksık,zbu2fo2||zbu2fo2
 sık sık,zyfo2 zyfo2
-sıksık,zyfo2<>zyfo2
+sıksık,zyfo2||zyfo2
 sıktığı,zyfo2dyao1y
 sıktıklarından,zyfo2dfo2lrbo1dbo1
 sıktılar,zyfo2dylr
@@ -8162,7 +8162,7 @@ sildirtti,syldyrbo2dy
 sildi,syldy
 silecek,sbu2lh||xu1k
 silecek,slh xu1k
-silecek,sylh<>xu1k
+silecek,sylh||xu1k
 silecek,sylh||xu1k
 silemez,sylh||mro1
 silerdik,sylh||rdk
@@ -8255,7 +8255,7 @@ silme,sbu2lmh
 silme,sylmh
 silme,sylmh||
 silmetahtası,sbu2lmh||bo2xo1bo2h||sy
-silmetahtası,sylmh<>bo2xo1bo2h<>sy
+silmetahtası,sylmh||bo2xo1bo2h||sy
 silmiş,sylmso3
 silmiştir,sylmso3dr
 sil,sbu2l
@@ -8294,7 +8294,7 @@ silsileleri,slslh||lry
 silsileler,slslh||lr
 silsileli,slslh||ly
 silsilemde,slslh||mdh
-silsilename,slslh<>bo1emh||
+silsilename,slslh||bo1emh||
 silsilename,slslh||bo1emh
 silsilenâme,slslh||bo1emh
 silsilenin,slslh||bo1ko3
@@ -8386,7 +8386,7 @@ simsar,symser
 sim,sbu2m
 sîm,sbu2m
 sımsıkı,zbu2m||zbu2fo2
-sımsıkı,zym<>zyfo2
+sımsıkı,zym||zyfo2
 sımsıkı,zym||zyfo2y
 simsiyaha,sym||syehh
 simsiyah,sym||syeh
@@ -8491,12 +8491,12 @@ sinemalı,sybo1h||mely
 sinema,sbu2bo1h||me
 sineması,sybo1h||mesy
 sinemasıyla,sybo1h||mesylh
-sinema,sybo1h<>me
+sinema,sybo1h||me
 sinema,sybo1h||me
 sinematoğrafisi,symwtwao1refo1ysy
 sinematoğrafı,sybo1h||metwao1refo1y
 sinematoğraf,sbu2bo1h||mebo2wao1refo1
-sinematoğraf,sybo1h<>mebo2wao1refo1
+sinematoğraf,sybo1h||mebo2wao1refo1
 sinematoğraf,symwtwao1refo1
 sinematoğrafvari,sybo1metwao1refo1||wery
 sinemavari,sybo1h||mewery
@@ -8679,7 +8679,7 @@ siper,sbu3r
 sipihr,sbu3hr
 sipkan,sybu3kebo1
 sıracalı,zbu2rexu1h||ly
-sıracalı,zyrexu1h<>ly
+sıracalı,zyrexu1h||ly
 sıraca,zbu2rexu1h
 sıraca,zyrexu1h||
 siracdır,srexu1dr
@@ -8710,21 +8710,21 @@ sıra ile cümlenin şamarını yiyip tahammül etmek,zrh eylh xu1mlh bo1k so3me
 sıra ile,zrh ebu2lh
 sıra ile,zrh eylh||
 sıralamak,zbu2rh||lemfo2
-sıralamak,zyrh<>lemfo2
+sıralamak,zyrh||lemfo2
 sıralamasın,zyrh||lemh||sybo1
 sıralanıp,zyrh||lebo1wbu1
 sıralanmak,zbu2rh||lebo1mfo2
-sıralanmak,zyrh<>lebo1mfo2
+sıralanmak,zyrh||lebo1mfo2
 sıralansa,zyrh||lebo1sh
-sıralan,zyrh<>lebo1
+sıralan,zyrh||lebo1
 sıralarda,zrh lrdh
 sıralarda,zrh lrdh||
 sıralarda,zyrh||lrdh
 sıralarında,zyrh||lrbo1dh
 sıralarını,zyrh||lrybo1y
-sırala,zyrh<>le
+sırala,zyrh||le
 sıralı,zbu2rh||ly
-sıralı,zyrh<>ly
+sıralı,zyrh||ly
 sıranıza,zyrh||ko3ro1h
 sırasına koymak,zrh sbo1h fo2wmfo2
 sırasına,zyrh||sbo1h
@@ -8732,7 +8732,7 @@ sırasından,zyrh||sbo1dbo1
 sırasında,zyrh||sbo1dh
 sırasıyla,zyrh||sylh
 sırasız,zbu2rh||sro1
-sırasız,zyrh<>sro1
+sırasız,zyrh||sro1
 sirât-i müstakîm,zret msbo2fo2bu2m
 sırât-ı müstakîm,zret msbo2fo2bu2m
 sirat-i müstaki̇m,zret msbo2fo2ym
@@ -8753,7 +8753,7 @@ sıravârî,zbu2rh||wery
 sıra vari,zrh wery
 sıra vârî,zrh wery
 sıra-vari,zyrh||wery
-sıravari,zyrh<>wery
+sıravari,zyrh||wery
 sıravari,zyrh||wery
 sıravâri,zyrh||wery
 sirâyet eder,srebu2bo2 ebu2dr
@@ -8774,11 +8774,11 @@ sıra,zbu2rh||
 sıra,zrh
 sıra,zrh||
 sıra,zyrh
-sıra,zyrh<>
+sıra,zyrh||
 sırça,zbu2rxu3h||
 sırça,zrxu3h
 sırça,zrxu3h||
-sırça,zyrxu3h<>
+sırça,zyrxu3h||
 sır çekmek,srxu3kmk
 sırdandır,srdbo1dr
 sırdan,srdbo1
@@ -8861,10 +8861,10 @@ sırla,srlh
 sırlı,srly
 sırmakeş,srmh kso3
 sırmakeş,zbu2rmh||kso3
-sırmakeş,zyrmh<>kso3
+sırmakeş,zyrmh||kso3
 sırmalı,zbu2rmh||ly
 sırmalı,zyrmely
-sırmalı,zyrmh<>ly
+sırmalı,zyrmh||ly
 sırma,srmh
 sırma,srmh||
 sırma,zbu2rmh
@@ -8975,14 +8975,14 @@ sîsâm,sbu2sem
 sisam,sysem
 sisiyle,sysylh
 sıskalık,zbu2sfo2h||lfo2
-sıskalık,zysfo2h<>lfo2
+sıskalık,zysfo2h||lfo2
 siska,ssfo2h
 siska,ssfo2h||
 sıska,zbu2sfo2h
 sıska,zysfo2h||
 sislenmek,sbu2slh||bo1mkk
-sislenmek,syslh<>bo1mkk
-sislen,syslh<>bo1k
+sislenmek,syslh||bo1mkk
+sislen,syslh||bo1k
 sisli,sbu2sly
 sisli,sysly
 sismograf,sbu2ro1mwao1refo1
@@ -8998,7 +8998,7 @@ sistemi,sysbo2my
 sistemleriniz,sysbo2mlryko3ro1
 sistemli,sysbo2mly
 sistem,sbu2sbo2h||m
-sistem,sysbo2h<>m
+sistem,sysbo2h||m
 sistem,sysbo2m
 sistit,sbu2sbo2bu2bo2
 sistit,sysbo2ybo2
@@ -9037,7 +9037,7 @@ sitîz,sbo2bu2ro1
 sitiz,sbo2yro1
 sıtmadan,zybo2mh||dbo1
 sıtmalı,zbu2bo2mh||ly
-sıtmalı,zybo2mh<>ly
+sıtmalı,zybo2mh||ly
 sıtmanın,zybo2mh||bo1ko3
 sıtma,sbo2mh
 sıtma,sbo2mh||
@@ -9111,7 +9111,7 @@ sıvazla,zywero1le
 sıva,zywe
 sıva,zywh||
 sive-l,swy el
-siverek,sywh<>rk
+siverek,sywh||rk
 sivilce,sbu2wbu2lxu1h
 sivilce,swbu2lxu1h
 sivilce,swylxu1h||
@@ -9162,7 +9162,7 @@ sivrisinekler,sywry||sybo1klr
 sivrisinek,sbu2wry||sbu2bo1k
 sivrisinek,sbu2wry sbu2bo1k
 sivrisinek,swry sbo1k
-sivrisinek,sywry<>sybo1k
+sivrisinek,sywry||sybo1k
 sivrisinek,sywry||sybo1k
 sivrisinek,sywry sybo1k
 sivrisinekten,sywry||sybo1kdbo1
@@ -9497,8 +9497,8 @@ sôfî,zwfo1y
 sofra bezi,zfo1rh bu1ro1y
 sofra bezleri,sfo1rh bu1ro1lry
 sofracılık,sfo1rh||xu1bu2lfo2
-sofracılık,sfo1rh<>xu1ylfo2
-sofracı,sfo1rh<>xu1y
+sofracılık,sfo1rh||xu1ylfo2
+sofracı,sfo1rh||xu1y
 sofracı,sfo1rh||xu1y
 sofradaki,sfo1rh||dh||ky
 sofradan,sfo1rh||dbo1
@@ -9513,7 +9513,7 @@ sofraları,sfo1rh||lry
 sofralar,sfo1rh||lr
 sofranın,sfo1rh||bo1ko3
 sofra,sfo1rh
-sofra,sfo1rh<>
+sofra,sfo1rh||
 sofra,sfo1rh||
 sofrasında,sfo1rh||sbo1dh
 sofrasının,sfo1rh||sbo1ko3
@@ -9902,7 +9902,7 @@ sonrakilere,zwko3rh||kylrh
 sonrakiler,zwko3rh||kylr
 sonraki,zkrh ky
 sonraki,zwko3rh||ky
-sonraki,zwlo5o3rh<>ky
+sonraki,zwlo5o3rh||ky
 sonrasına,zwko3rh||sbo1h
 sonrası,zwko3resy
 sonrası,zwlo5o3resy
@@ -10111,7 +10111,7 @@ sövmek,swko7mk
 sövüp sayma,swkwbu1 zebu2mh
 sövüp sayma,swkwbu1 zeymh||
 sovyet,swwbu2h||bo2
-sovyet,swwyh<>bo2
+sovyet,swwyh||bo2
 soyadını,zwy eo6dybo1y
 soydandır,zwydbo1dr
 soyda,zwydh
@@ -10155,7 +10155,7 @@ söylemeğe,swylh||mko7h
 söylemekle,swylh||mklh
 söylemek,swbu2lh||mk
 söylemek,swbu2lmk
-söylemek,swylh<>mk
+söylemek,swylh||mk
 söylemek,swylh||mk
 söylemek,swylmk
 söylemektedir,swylh||mkdh||dr
@@ -10175,7 +10175,7 @@ söylemesinin,swylh||mh||sbo1ko3
 söylemesi,swylh||msy
 söylemesiyle,swylh||msylh
 söyleme,swbu2lh||mh
-söyleme,swylh<>mh||
+söyleme,swylh||mh||
 söyleme,swylh||mh
 söylemeyeceğim,swylh||myh||xu1ko7m
 söylemeyelim,swylh||myh||lm
@@ -10212,14 +10212,14 @@ söylenilen,swylh||bo1ylbo1
 söylenilmek,swbu2lbo1lmk
 söylenilmek,swbu2lh||bo1bu2lmk
 söylenilmek,swylbo1lmk
-söylenilmek,swylh<>bo1ylmk
+söylenilmek,swylh||bo1ylmk
 söylenilmektedir,swylh||bo1ylmkdh||dr
 söylenilmemiş,swbu2lbo1lmemso3
 söylenilmemiş,swylbo1lmemso3
 söylenilmiştir,swylh||bo1ylmso3dr
 söylenilmişti,swylh||bo1ylmso3dy
 söylenilse,swylbo1ylsh
-söylenil,swylh<>bo1yl
+söylenil,swylh||bo1yl
 söylenip,swylh||bo1wbu1
 söylenir,swylh||bo1yr
 söylenişte,swylbo1yso3dh
@@ -10259,25 +10259,25 @@ söylesinler,swylh||sybo1lr
 söylesin,swylh||sybo1
 söyleşmek,swbu2lh||so3mk
 söyleşmek,swbu2lso3mk
-söyleşmek,swylh<>so3mk
+söyleşmek,swylh||so3mk
 söyleşmek,swylso3mk
 söyleşmeleri,swylso3mh||lry
 söyleşmem,swylso3mh||m
-söyleş,swylh<>so3
+söyleş,swylh||so3
 söyleştirip,swylso3dyrwbu1
 söyleştirsin,swylso3dyrsybo1
 söyle,swylh
-söyle,swylh<>
+söyle,swylh||
 söyletir,swylbo2yr
 söyletmek,swbu2lh||bo2mk
-söyletmek,swylh<>bo2mk
+söyletmek,swylh||bo2mk
 söyletmeliyiz,swylbo2mh||ly||yro1
 söyletmemek,swylbo2mh||mk
 söyletmesi,swylbo2msy
 söyletmeyen,swylbo2mh||ybo1
 söyletmeye,swylbo2mko7h
 söyletmiş,swylbo2mso3
-söylet,swylh<>bo2
+söylet,swylh||bo2
 söylettirdiği,swylbo2dyrdyko7y
 söylettirdiler,swylbo2dyrdylr
 söylettirdi,swylbo2dyrdy
@@ -10335,7 +10335,7 @@ söyleyiniz,swylh||yko3ro1
 söyleyin,swylh||yko3
 söyleyip,swylh||ywbu1
 söyleyiş,swbu2lh||bu2bu2so3
-söyleyiş,swylh<>yyso3
+söyleyiş,swylh||yyso3
 söyliyeceğiz,swylh||yh||xu1ko7ro1
 söyliyenler,swylh||ybo1lr
 söyliyen,swylh||ybo1
@@ -10495,8 +10495,8 @@ sözüyle,swro1ylh
 söz vermek,swro1wbu2rmk
 söz vermek,swro1wyrmk
 spekülasyon,sbu3h||kwlesbu2wbo1
-spekülasyon,sbu3h<>kwlesywbo1
-spekülatör,sbu3h<>kwlebo2wr
+spekülasyon,sbu3h||kwlesywbo1
+spekülatör,sbu3h||kwlebo2wr
 spekülâtör,sbu3h||kwlebo2wr
 spor,sbu3wr
 sportmen,sbu3wrbo2smbo1
@@ -10506,7 +10506,7 @@ stadyum,sbo2edbu2wm
 stadyum,sbo2edywm
 staj,sbo2ero3
 stajyer,sbo2ero3bu2h||r
-stajyer,sbo2ero3yh<>r
+stajyer,sbo2ero3yh||r
 stanley,sbo2ebo1ly
 striknin,sbo2rbu2kbo1bu2bo1
 striknin,sbo2rykbo1ybo1
@@ -10647,7 +10647,7 @@ subh-u,zbu1xu4
 subh,zbu1x
 sübjektif,so9bu1o0ro3o4ko0bo2yfo1
 sübjektif,swbu1ro3h||kbo2bu2fo1
-sübjektif,swbu1ro3h<>kbo2yfo1
+sübjektif,swbu1ro3h||kbo2yfo1
 süblime,swbu1lbu2h
 süblime,swbu1lyh||
 suböreği,zwbu1wrky
@@ -11009,7 +11009,7 @@ sükkân,skebo1
 sükkan,skebo1 oturanlar
 sükker,skr
 sükker,skr şeker
-süklümpüklüm,swklwm<>bu3wklwm
+süklümpüklüm,swklwm||bu3wklwm
 süklümpüklüm,swklwm||bu3wklwm
 sükna,skbo1e
 suk,swfo2
@@ -11528,7 +11528,7 @@ süprüntü,sbu3wrbo1dy
 süprüntü,swbu3wrbo1bo2y
 süpürdü,swbu3wrdy
 süpürgecidir,swbu3wrko7h||xu1ydr
-süpürgeci,swbu3wrko7h<>xu1y
+süpürgeci,swbu3wrko7h||xu1y
 süpürgeci,swbu3wrko7h||xu1y
 süpürge,sbu3wrkh
 süpürge,sbu3wrkh||
@@ -11807,7 +11807,7 @@ sûrî,swry
 suriya,zwrye
 suriye'de,swryh||dh
 suriye'li,swryh||ly
-suriyeli,swryh<>ly
+suriyeli,swryh||ly
 suriyenin,zwryh||bo1ko3
 suriyesinden,zwryh||sbo1dbo1
 sûriyesinden,zwryh||sbo1dbo1
@@ -11834,7 +11834,7 @@ sürmeli,swrmh||ly
 sürmeme,swrmh||mh
 sürmene,swrmbo1h||
 sürmesi,swrmh||sy
-sürme,srmh<>
+sürme,srmh||
 sürme,srmh||
 sürme,swrmh
 sürme,swrmh||
@@ -11844,14 +11844,14 @@ sürmüştür,swrmso3dr
 sürmüyorlar,swrmyywrlr
 surna,swrbo1e
 sûrnâ,swrbo1e
-sürnatürel,swrbo1ebo2wrh<>l
+sürnatürel,swrbo1ebo2wrh||l
 sürnatürel,swrbo1ebo2wrh||l
 sürpriz,swrbu3rbu2ro1
 sürpriz,swrbu3ryro1
 sürrealayı,zrh||eo6lebu2y
-sürrealayı,zrh<>eo6leyy
+sürrealayı,zrh||eo6leyy
 sürremini,zrh||eo5mbu2bo1y
-sürremini,zrh<>eo5mybo1y
+sürremini,zrh||eo5mybo1y
 surre,zrh
 surre,zrh||
 sürre,zrh
@@ -12176,13 +12176,13 @@ sütdişi,swbo2 dyso3y
 suterâzisi,zwbo2rero1bu2sy
 suterazisi,zwbo2rero1ysy
 su teresi,zwbo2rh sy
-suteresi,zwbo2rh<>sy
+suteresi,zwbo2rh||sy
 suteresi,zwbo2rh||sy
 süte,swbo2h
 süt kardeşi,swdfo2rbo1deso3y
 sütkardeş,swbo2 fo2erdeso3
 sütkırı,swbo2||fo2bu2ry
-sütkırı,swbo2<>fo2yry
+sütkırı,swbo2||fo2yry
 süt kızı,swdfo2bu2ro1y
 süt kızı,swdfo2yro1y
 sütkuzusu,swbo2 fo2wro1wsy
@@ -12191,7 +12191,7 @@ sütlâç,swbo2lexu1
 sütleğen,swbo2lkbo1
 sütleri,swbo2lry
 sütliman,swbo2||lbu2mebo1
-sütliman,swbo2<>lymebo1
+sütliman,swbo2||lymebo1
 sütlüce,swbo2lbu2xu1h
 sütlüce,swbo2lyxu1h||
 sütlük,swbo2lk

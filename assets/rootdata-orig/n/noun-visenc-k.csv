@@ -11,13 +11,13 @@ kaadirî,fo2edry
 kaafile,fo2efo1lh
 kaafile,fo2efo1lh||
 kaafiyeci,fo2efo1bu2h||xu1y
-kaafiyeci,fo2efo1yh<>xu1y
+kaafiyeci,fo2efo1yh||xu1y
 kaafiye,fo2efo1bu2h
 kaafiye,fo2efo1yh||
 kaafiyesiz,fo2efo1bu2h||sro1
-kaafiyesiz,fo2efo1yh<>sro1
+kaafiyesiz,fo2efo1yh||sro1
 kaafiyesizlik,fo2efo1bu2h||sro1lk
-kaafiyesizlik,fo2efo1yh<>sro1lk
+kaafiyesizlik,fo2efo1yh||sro1lk
 kaahire,fo2ehrh||
 kaahir,fo2ehr
 kaaide,fo2eadh
@@ -40,7 +40,7 @@ kaanûniyet,fo2ebo1wbo1bu2bo2
 kaanuniyet,fo2ebo1wbo1ybo2
 kaanunname,fo2ebo1wbo1bo1emh||
 kaanûnnâme,fo2ebo1wbo1bo1emh
-kaanunşinas,fo2ebo1wbo1<>so3bo1es
+kaanunşinas,fo2ebo1wbo1||so3bo1es
 kaanûnşinâs,fo2ebo1wbo1||so3bo1es
 kaari’,fo2erh||
 kaarî’,fo2erh
@@ -159,7 +159,7 @@ kabart,fo2ebu1erbo2
 kabartır,fo2bu1erbo2yr
 kabartma,fo2bu1erbo2mh
 kabartma,fo2bu1erbo2mh||
-kabartma,fo2ebu1erbo2mh<>
+kabartma,fo2ebu1erbo2mh||
 kabartma,fo2ebu1erbo2mh||
 kabartmak,fo2bu1erbo2mfo2
 kabartmak,fo2ebu1erbo2mfo2
@@ -443,8 +443,8 @@ kabûl ,fo2bu1wl
 kabûl,fo2bu1wl
 kabul-i,fo2bu1wlu4
 kâ'b-ül,kabu1 el
-kabullen,fo2bu1wllh<>bo1
-kabullenmek,fo2bu1wllh<>bo1mk
+kabullen,fo2bu1wllh||bo1
+kabullenmek,fo2bu1wllh||bo1mk
 kabullenmek,fo2bu1wllh||bo1mk
 kabulleri,fo2bu1wllry
 kabul-ü adem,fo2o4bu1o9wlu4 ao4do4mo0
@@ -549,7 +549,7 @@ kaç def'a,fo2exu3 dfo1ah
 kaç def'a,fo2exu3 dfo1ah||
 kaç,fo2exu1
 kaç,fo2exu3
-kaçgöç,fo2exu3<>kwxu3
+kaçgöç,fo2exu3||kwxu3
 kaçgöç,fo2exu3||kwxu3
 kaçık,fo2exu3bu2fo2
 kaçık,fo2exu3fo2
@@ -949,7 +949,7 @@ kafasızlardır,fo2fo1esro1lrdr
 kafaya,fo2fo1eyh
 kafdağı,fo2efo1 teao1y
 kafein,fo2efo1h||bo5bu2bo1
-kafein,fo2efo1h<>bo5ybo1
+kafein,fo2efo1h||bo5ybo1
 kafesci,fo2fo1sxu1y
 kafes,fo2fo1s
 kafesinden,fo2fo1sbo1dbo1
@@ -1048,7 +1048,7 @@ kâfirun,ko4efo1u4rٹ
 kâfisine,kefo1y||sbo1h
 kâfiydi,kefo1ydy
 kafiyeci,fo2efo1bu2h||xu1y
-kafiyeci,fo2efo1yh<>xu1y
+kafiyeci,fo2efo1yh||xu1y
 kafiyede,fo2efo1yh||dh
 kafiye,fo2efo1bu2h
 kâfiye,fo2efo1bu2h
@@ -1065,10 +1065,10 @@ kafiyeperdaz,fo2efo1yh bu3rdero1
 kafiyeperestlik,fo2efo1yh||bu3rsbo2lk
 kafiyesini,fo2efo1yh||sbo1y
 kafiyesiz,fo2efo1bu2h||sro1
-kafiyesiz,fo2efo1yh<>sro1
+kafiyesiz,fo2efo1yh||sro1
 kafiyesiz,fo2efo1yh||sro1
 kafiyesizlik,fo2efo1bu2h||sro1lk
-kafiyesizlik,fo2efo1yh<>sro1lk
+kafiyesizlik,fo2efo1yh||sro1lk
 kafiyeye,fo2efo1yh||yh
 kafiyeyi,fo2efo1yh||yy
 kafkas,fo2efo1fo2es
@@ -1077,7 +1077,7 @@ kafkas'ın,fo2efo1fo2esko3
 kafkas'la,fo2efo1fo2eslh
 kafkasya,fo2efo1fo2esye
 kafkasya,fo2fo1fo2esyh||
-kafkasyalı,fo2fo1fo2esyh<>ly
+kafkasyalı,fo2fo1fo2esyh||ly
 kâf,kefo1
 kâf-nun,kefo1 bo1wbo1
 kâf-nûn,kefo1 bo1wbo1
@@ -1136,9 +1136,9 @@ kağşa,fo2eao1so3e
 kağşamak,fo2eao1so3emfo2
 kahbe,fo2xbu1h
 kahbe,fo2xbu1h||
-kahbelik,fo2xbu1h<>lk
 kahbelik,fo2xbu1h||lk
-kahbeoğlu,fo2xbu1h<>ewao1ly
+kahbelik,fo2xbu1h||lk
+kahbeoğlu,fo2xbu1h||ewao1ly
 kahbeoğlu,fo2xbu1h||ewao1ly
 kahgi̇l,kehko7l
 kahgil,kehko7l
@@ -1271,28 +1271,28 @@ kahtlık,fo2xtlfo2
 kaht ve gala,fo2o4xo0to9 wo4 ao1o4lo4e
 kaht ve galâ,fo2o4xo0to9 wo4 ao1o4lo4e
 kahvaltı,fo2hwelbo2y
-kahvaltı,fo2hwh<>eo6lbo2y
 kahvaltı,fo2hwh||eo6lbo2y
-kahveci,fo2hwh<>xu1y
+kahvaltı,fo2hwh||eo6lbo2y
+kahveci,fo2hwh||xu1y
 kahveci,fo2hwh||xu1y
 kahvecilik,fo2hwh||xu1bu2lk
-kahvecilik,fo2hwh<>xu1ylk
+kahvecilik,fo2hwh||xu1ylk
 kahvede,fo2hwh||dh
 kahve,fo2hwh
 kahve,fo2hwh||
-kahvehane,fo2hwh<>xo1ebo1h||
+kahvehane,fo2hwh||xo1ebo1h||
 kahvehâne,fo2hwh||xo1ebo1h
 kahve kaşığı,fo2hwh fo2eso3ao1y
 kahvelerini,fo2hwh||lrybo1y
-kahveocağı,fo2hwh<>ewxu1eao1y
 kahveocağı,fo2hwh||ewxu1eao1y
-kahveparası,fo2hwh<>bu3erh<>sy
+kahveocağı,fo2hwh||ewxu1eao1y
 kahveparası,fo2hwh||bu3erh||sy
-kahverengi,fo2hwh<>rbo1ky
+kahveparası,fo2hwh||bu3erh||sy
+kahverengi,fo2hwh||rbo1ky
 kahverengi,fo2hwh||rbo1ky
 kahverengi,fo2hwh rbo1ky
 kahvetepsisi,fo2hwh||bo2bu3sbu2sy
-kahvetepsisi,fo2hwh<>bo2bu3sysy
+kahvetepsisi,fo2hwh||bo2bu3sysy
 kahya,kbo2xo1de
 kâhya,kbo2xo1de
 kâhya,khbu2e
@@ -1451,7 +1451,7 @@ kâkûm,fo2efo2wm
 kalabalığı,ao1lbu1h||lko7y
 kalabalığıdır,ao1lbu1h||lyko7ydr
 kalabalığın,ao1lbu1h||lko7ko3
-kalabalık,ao1lbu1h<>lfo2
+kalabalık,ao1lbu1h||lfo2
 kalabalık,ao1lbu1h||lfo2
 kalabalık,ao1lbu1h lfo2
 kalabalık,ao1lbu1h||lk
@@ -1821,7 +1821,7 @@ kaldırım,fo2eldrm
 kaldırım,fo2eldrym
 kaldırım,fo2eldyrym
 kaldırımkargası,fo2eldbu2rbu2m fo2erao1h||sy
-kaldırımkargası,fo2eldyrym fo2erao1h<>sy
+kaldırımkargası,fo2eldyrym fo2erao1h||sy
 kaldırımlı,fo2eldbu2rbu2mly
 kaldırımlı,fo2eldyrymly
 kaldırımmühendisi,fo2eldbu2rbu2m mhbo1dsy
@@ -1878,9 +1878,9 @@ kaldırtmak,fo2eldbu2rbo2mfo2
 kaldırtmak,fo2eldyrbo2mfo2
 kale almak,fo2elh elmfo2
 kâle almak,fo2elh elmfo2
-kalebend,fo2lah<>bu1bo1d
 kalebend,fo2lah||bu1bo1d
-kalecik,fo2lah<>xu1k
+kalebend,fo2lah||bu1bo1d
+kalecik,fo2lah||xu1k
 kalede,fo2lah||dh
 kalede mevcud olan asker,fo2lah dh mwxu1wd ewlebo1 askr
 kalede mevcûd olan asker,fo2lah dh mwxu1wd ewlebo1 askr
@@ -2207,7 +2207,7 @@ kallâvî,fo2lewy
 kallavi,fo2ylewy
 kalle,fo2ellh
 kalleri,fo2ellry
-kalleş,fo2ellh<>so3
+kalleş,fo2ellh||so3
 kalleş,fo2ellh||so3
 kalleş,fo2leso3
 kalli,fo2elly
@@ -2703,10 +2703,10 @@ kanburluk,fo2ebo1wrlfo2
 kanbur olmak,fo2ebo1bu1wr ew
 kanca,fo2ebo1xu1h
 kanca,fo2ebo1xu1h||
-kancala,fo2ebo1xu1h<>le
-kancalamak,fo2ebo1xu1h<>lemfo2
+kancala,fo2ebo1xu1h||le
 kancalamak,fo2ebo1xu1h||lemfo2
-kancalı,fo2ebo1xu1h<>ly
+kancalamak,fo2ebo1xu1h||lemfo2
+kancalı,fo2ebo1xu1h||ly
 kancalı,fo2ebo1xu1h||ly
 kancasıyla,fo2ebo1xu1h||sylh
 kancık,fo2ebo1xu1bu2fo2
@@ -2731,7 +2731,7 @@ kandil,fo2bo1dbu2l
 kandîl,fo2bo1dbu2l
 kandil,fo2bo1dyl
 kandilgecesi,fo2bo1dbu2l ko7bu2xu1h||sy
-kandilgecesi,fo2bo1dyl ko7yxu1h<>sy
+kandilgecesi,fo2bo1dyl ko7yxu1h||sy
 kandil-i,fo2bo1dylu4
 kandili,fo2bo1dyly
 kandiline,fo2bo1dylbo1h
@@ -2783,7 +2783,7 @@ kanepe,fo2bo1ebu3h
 kanepe,fo2bo1ebu3h||
 kanepe,fo2ebo1ebu3h
 kanepe,fo2ebo1ebu3h||
-kanepelik,fo2ebo1ebu3h<>lk
+kanepelik,fo2ebo1ebu3h||lk
 kanepelik,fo2ebo1ebu3h||lk
 kan,fo2ebo1
 kangaldikeni,fo2ebo1ao1el dbu2kbo1y
@@ -2931,7 +2931,7 @@ kanûnnâme,fo2ebo1wbo1bo1emh
 kanunnamesi,fo2ebo1wbo1||bo1emh||sy
 kanunperest,fo2ebo1wbo1||bu3rsbo2
 kanunperestliğini,fo2ebo1wbo1||bu3rsbo2lko7bo1y
-kanunşinas,fo2ebo1wbo1<>so3bo1es
+kanunşinas,fo2ebo1wbo1||so3bo1es
 kanûnşinâs,fo2ebo1wbo1||so3bo1es
 kanunsuzdur,fo2ebo1wbo1sro1dr
 kanunsuz,fo2ebo1wbo1sro1
@@ -2948,7 +2948,7 @@ kânûn-u emrî,fo2o4ebo1o9wbo1o9 eo4mo0rbu2
 kĀnûn-u emrî,fo2o4ebo1o9wbo1o9 eo4mo0rbu2
 kānun-u emri̇,fo2o4ebo1o9wbo1o9 eo4mo0r۪y
 kānun-u emri,fo2o4ebo1o9wbo1o9 eo4mo0r۪y
-kanunuevvel,kebo1wbo1<>ewl
+kanunuevvel,kebo1wbo1||ewl
 kânûnuevvel,kebo1wbo1||ewl
 kanun-u,fo2ebo1wbo1u4
 kanûn-u,fo2ebo1wbo1u4
@@ -2968,7 +2968,7 @@ kanununun,fo2ebo1wbo1bo1ko3
 kanununuzca,fo2ebo1wbo1ko3ro1xu1h
 kanununuz,fo2ebo1wbo1ko3ro1
 kanununuzu,fo2ebo1wbo1ko3ro1y
-kanunusani,kebo1wbo1<>bo3ebo1y
+kanunusani,kebo1wbo1||bo3ebo1y
 kânûnusânî,kebo1wbo1||bo3ebo1y
 kanunusanisi,kebo1wbo1u4 bo3ebo1ysy
 kanun-u tekamül,fo2o4ebo1o9wbo1o9 bo2o4ko4emo9lo0
@@ -2978,7 +2978,7 @@ kanunuyla,fo2ebo1wbo1ylh
 kanun vaz' etmek,fo2ebo1wbo1 wzo1a e
 kânûn vaz' etmek,fo2ebo1wbo1 wzo1a e
 kanviçe,fo2bo1ewbu2xu3h||
-kanviçe,fo2bo1ewyxu3h<>
+kanviçe,fo2bo1ewyxu3h||
 kanviçe,fo2ebo1ewbu2xu3e
 kanviçe,fo2ebo1ewyxu3e
 kapadı,fo2bu3edy
@@ -3003,7 +3003,7 @@ kapaksız,fo2ebu3efo2sro1
 kapalıdır,fo2bu3elydr
 kapalı,fo2bu3elw
 kapalı,fo2bu3ely
-kapamacı,fo2ebu3emh<>xu1y
+kapamacı,fo2ebu3emh||xu1y
 kapamacı,fo2ebu3emh||xu1y
 kapamadığınız,fo2bu3emdyao1ko3ro1
 kapama,fo2ebu3emh
@@ -3254,7 +3254,7 @@ kapkara,fo2ebu3fo2rh
 kapladı,fo2ebu3ledy
 kapladığını,fo2ebu3ledyao1bo1y
 kapla,fo2ebu3le
-kaplamacı,fo2ebu3lemh<>xu1y
+kaplamacı,fo2ebu3lemh||xu1y
 kaplamacı,fo2ebu3lemh||xu1y
 kaplama,fo2ebu3lemh
 kaplama,fo2ebu3lemh||
@@ -3302,9 +3302,9 @@ kaplumbağa,fo2ebu1lwbu1eao1h||
 kaplumbağa,fo2ebu3lw bu1ao1h
 kaplumbağa,fo2ebu3lw bu1ao1h||
 kaplumbağa,fo2ebu3lwmbu1eao1h
-kaplumbağa,fo2ebu3lwmbu1eao1h<>
 kaplumbağa,fo2ebu3lwmbu1eao1h||
-kapmaca,fo2ebu3mh<>xu1h||
+kaplumbağa,fo2ebu3lwmbu1eao1h||
+kapmaca,fo2ebu3mh||xu1h||
 kapmaca,fo2ebu3mh||xu1h
 kapma,fo2ebu3mh
 kapma,fo2ebu3mh||
@@ -3345,10 +3345,10 @@ kapudan (kaptan),fo2bu3wdebo1
 kapudân (kaptan),fo2bu3wdebo1
 kapudan paşa,fo2bu3wdebo1 bu3eso3e
 kapurta,fo2bu2wrth||
-kapurta,fo2ywrth<>
+kapurta,fo2ywrth||
 kapuska,fo2bu3wsfo2h
 kapuska,fo2bu3wsfo2h||
-kapuska,fo2ebu3wsfo2h<>
+kapuska,fo2ebu3wsfo2h||
 kapuska,fo2ebu3wsfo2h||
 kaput başlığı,fo2bu3wt bu1eso3lao1y
 kaput,fo2bu3wt
@@ -3383,21 +3383,21 @@ karabuğday,fo2erebu1wao1dey
 karabük'e,fo2rh||bu1wkh
 karabük,fo2rh||bu1wk
 karabük'te,fo2rh||bu1wkdh
-karaburun,fo2rh<>bu1rwbo1
+karaburun,fo2rh||bu1rwbo1
 karacabalığı,fo2erexu1h||bu1elbu2ao1y
-karacabalığı,fo2erexu1h<>bu1elyao1y
-karacabey,fo2rh<>xu1h<>bu1k
+karacabalığı,fo2erexu1h||bu1elyao1y
+karacabey,fo2rh||xu1h||bu1k
 karaca eti,fo2rexu1h ebo2y
-karaca,fo2erexu1h<>
+karaca,fo2erexu1h||
 karaca,fo2erexu1h||
 karaca,fo2rexu1h
 karaca,fo2rexu1h||
 karaca,fo2rh||xu1h
 karacakemiği,fo2erexu1h||kmbu2ko7y
-karacakemiği,fo2erexu1h<>kmyko7y
+karacakemiği,fo2erexu1h||kmyko7y
 karaçalı,fo2erexu3ely
 karaçam,fo2erexu3em
-karacasu,fo2rh<>xu1h<>sw
+karacasu,fo2rh||xu1h||sw
 karaca yavrusu,fo2rexu1h bu2ewrbu2sy
 karaca yavrusu,fo2rexu1h yewrysy
 karacehennem,fo2erexu1hbo1m
@@ -3452,7 +3452,7 @@ karain,fo2rebo5bo1
 karâin,fo2rebo5bo1
 karaini,fo2reyo5bo1y
 karainle,fo2reyo5bo1lh
-karaisalı,fo2rh<>aysely
+karaisalı,fo2rh||aysely
 karakaçan,fo2ere fo2exu3ebo1
 karakalem,fo2ere fo2lm
 karakarga,fo2ere fo2erao1h
@@ -3477,7 +3477,7 @@ karakola,fo2rh||fo2wlh
 karakolca,fo2rh||fo2wlxu1h
 karakoldaki,fo2rh||fo2wldh||ky
 karakol,fo1rh ao1wl
-karakol,fo2ere<>ao1wl
+karakol,fo2ere||ao1wl
 karakol,fo2ere||ao1wl
 karakol,fo2erefo2wl
 karakol,fo2rh ao1wl
@@ -3487,7 +3487,7 @@ karakollara,fo2rh||fo2wllrh
 karakolu,fo2rh||fo2wly
 karakolunda,fo2rh||fo2wlbo1dh
 karakolun,fo2rh||fo2wlko3
-karaköse,fo2rh<>kwsh||
+karaköse,fo2rh||kwsh||
 karakter,fo2erefo2bo2r
 karakter,fo2o4ro4ko0bo2o4ro0
 karakterli,fo2erefo2bo2rly
@@ -3523,7 +3523,7 @@ karambol,fo2erembu1wl
 karamersin,fo2eremrsbu2bo1
 karamersin,fo2eremrsybo1
 karamız,fo2rh||mro1
-karamürsel,fo2rh<>mrsl
+karamürsel,fo2rh||mrsl
 karanfil çiçeği,fo2rbo1fo1l xu3bu2xu3ky
 karanfil çiçeği,fo2rbo1fo1l xu3yxu3ky
 karanfil,fo2erebo1fo1bu2l
@@ -3564,11 +3564,11 @@ karanlıktır,fo2reko3lfo2dr
 karantina,fo2erbo1bo2bu2bo1h
 karantina,fo2erbo1bo2ybo1h||
 karantina,fo2erebo1bo2bu2bo1h||
-karantina,fo2erebo1bo2ybo1h<>
+karantina,fo2erebo1bo2ybo1h||
 karantina,fo2rebo1bo2bu2bo1h
 karantina,fo2rebo1bo2ybo1h||
 karantinahâne,fo2erebo1bo2bu2bo1h||xo1ebo1h
-karantinahane,fo2erebo1bo2ybo1h<>xo1ebo1h||
+karantinahane,fo2erebo1bo2ybo1h||xo1ebo1h||
 karaoğlan,fo2ere ewao1lebo1
 karara,fo2rerh
 kararan,fo2rerebo1
@@ -4457,13 +4457,13 @@ kartoğrafik,fo2erbo2wao1refo1bu2k
 kartoğrafik,fo2erbo2wao1refo1yk
 karton,fo2erbo2wbo1
 kartonpiyer,fo2erbo2wbo1||bu3bu2h||r
-kartonpiyer,fo2erbo2wbo1<>bu3yh<>r
+kartonpiyer,fo2erbo2wbo1||bu3yh||r
 kartopu,fo2ertwbu3y
-kartpostal,fo2erbo2<>bu3wsbo2el
+kartpostal,fo2erbo2||bu3wsbo2el
 kartpostal,fo2erbo2||bu3wsbo2el
 kartuş,xertwxu1
 kartvizit,fo2erbo2||wwbu2ro1bu2bo2
-kartvizit,fo2erbo2<>wwyro1ybo2
+kartvizit,fo2erbo2||wwyro1ybo2
 kartvizit,fo2erdwwbu2ro1bu2bo2
 kartvizit,fo2erdwwyro1ybo2
 kar-ul,fo2ra el
@@ -4523,7 +4523,7 @@ kasabalara,fo2zbu1h||lrh
 kasabalarda,fo2zbu1h||lrdh
 kasabalardan,fo2zbu1h||lrdbo1
 kasabalarına,fo2zbu1h||lrybo1h
-kasabalı,fo2zbu1h<>ly
+kasabalı,fo2zbu1h||ly
 kasabalı,fo2zbu1h||ly
 kasabamızda,fo2zbu1h||mro1dh
 kasabamız,fo2zbu1h||mro1
@@ -4539,7 +4539,7 @@ kasabayı,fo2zbu1h||yy
 kasab,fo2zbu1
 kasâbiye,fo2zebu1bu2h
 kasabiye,fo2zebu1yh||
-kasadar,fo2ezh<>der
+kasadar,fo2ezh||der
 kasadar,fo2ezh||der
 kasa,fo2ezh
 kasa,fo2ezh||
@@ -4705,7 +4705,7 @@ kasi̇b,kesbu1
 kasib,kesbu1
 kâsib,kesbu1
 kasîdeci,fo2zbu2dh||xu1y
-kasideci,fo2zydh<>xu1y
+kasideci,fo2zydh||xu1y
 kasideciktir,fo2zydh||xu1kdr
 kasidede,fo2zydh||dh
 kasidedir,fo2zydh||dr
@@ -4828,13 +4828,13 @@ kasır-ün,fo2ezr el
 kasîr-ün,fo2zyr el
 kasıt,fo2zd
 kasiyye,fo2esyh
-kaskatı,fo2es<>fo2ebo2y
 kaskatı,fo2es||fo2ebo2y
-kaskatı,fo2ez<>fo2ebo2y
+kaskatı,fo2es||fo2ebo2y
+kaskatı,fo2ez||fo2ebo2y
 kaskatı,fo2ez||fo2ebo2y
 kaş,keso3
 kâş,keso3
-kasket,fo2eskh<>bo2
+kasket,fo2eskh||bo2
 kasket,fo2eskh||bo2
 kasketinin,fo2eskbo2bo1ko3
 kaşki̇,keso3ky
@@ -5227,7 +5227,7 @@ katletmeleri,fo2bo2l eybo2mh||lry
 katletmişti,fo2bo2l eybo2mso3dy
 katletse,fo2bo2l eybo2sh
 katl,fo2bo2l
-katliam,fo2bo2l<>aem
+katliam,fo2bo2l||aem
 katliam,fo2bo2l||aem
 katliam,fo2bo2lu4 aem
 katliamları,fo2bo2lu4 aemlry
@@ -5391,7 +5391,7 @@ kavanozların,fo2ewebo1wro1lrko3
 kavanozunda,fo2ewebo1wro1bo1dh
 kavas,fo2wes
 kavaslık,fo2wezlfo2
-kavata,fo2eweth<>
+kavata,fo2eweth||
 kavata,fo2eweth||
 kavata,fo2webo2h
 kavata,fo2webo2h||
@@ -6068,7 +6068,7 @@ kaynamaları,fo2eybo1emh||lry
 kaynana,fo2ebu2bo1 ebo1e
 kaynana,fo2ebu2bo1||eo6bo1e
 kaynana,fo2eybo1 ebo1e
-kaynana,fo2eybo1<>eo6bo1e
+kaynana,fo2eybo1||eo6bo1e
 kaynarca,fo2ebu2bo1erxu1h
 kaynarca,fo2eybo1erxu1h||
 kaynar,fo2eybo1er
@@ -6084,7 +6084,7 @@ kaynaştırmak,fo2eybo1eso3dyrmfo2
 kayn-ata,fo2ebu2bo1 ebo2e
 kaynata,fo2ebu2bo1||eo6bo2e
 kayn-ata,fo2eybo1 ebo2e
-kaynata,fo2eybo1<>eo6bo2e
+kaynata,fo2eybo1||eo6bo2e
 kaynatdır,fo2eybo1ebo2dyr
 kaynatdırmak,fo2ebu2bo1ebo2dbu2rmfo2
 kaynatdırmak,fo2eybo1ebo2dyrmfo2
@@ -6434,7 +6434,7 @@ kazdır,fo2ero1dyr
 kazdırmak,fo2ero1dbu2rmfo2
 kazdırmak,fo2ero1dyrmfo2
 kazein,fo2ero1h||bo5bu2bo1
-kazein,fo2ero1h<>bo5ybo1
+kazein,fo2ero1h||bo5ybo1
 kazfe,fo2do1fo1h
 kazf,fo2do1fo1
 kazf-ı,fo2do1fo1u4
@@ -6615,15 +6615,15 @@ kebuter,kbu1wd
 kecbîn,kxu1bu1bu2bo1
 kecbi̇n,kxu1bu1ybo1
 kecbin,kxu1bu1ybo1
-keçeci,kxu3h<>xu1y
 keçeci,kxu3h||xu1y
-keçekülah,kxu3h<>kleh||
+keçeci,kxu3h||xu1y
+keçekülah,kxu3h||kleh||
 keçekülâh,kxu3h||kleh
 keçe,kxu3h
 keçe,kxu3h||
 keçelenmek,kxu3h lbo1mk
-keçeleş,kxu3h<>lso3
-keçeleşmek,kxu3h<>lso3mk
+keçeleş,kxu3h||lso3
+keçeleşmek,kxu3h||lso3mk
 keçeleşmek,kxu3h||lso3mk
 keçeli,kxu3h||ly
 keçel,kxu3l
@@ -6733,8 +6733,8 @@ kefe-i̇ mi̇zan,ko4fo1o4ۀu4 mu4yro1o4ebo1o0
 kefe-i mizan,ko4fo1o4ۀu4 mu4yro1o4ebo1o0
 kefe,kfo1h
 kefe,kfo1h||
-kefele,kfo1h<>l
-kefelemek,kfo1h<>lmk
+kefele,kfo1h||l
+kefelemek,kfo1h||lmk
 kefelemek,kfo1h||lmk
 kefel,kfo1l
 kefenci,kfo1bo1xu1y
@@ -6823,12 +6823,12 @@ kehkeşân,ko4ho0ko4so3o4ebo1o0
 kehkeşi,khkso3y
 kehle,khlh
 kehle,khlh||
-kehlelen,khlh<>lbo1
-kehlelenmek,khlh<>lbo1mk
+kehlelen,khlh||lbo1
+kehlelenmek,khlh||lbo1mk
 kehlelenmek,khlh||lbo1mk
 kehlelerini kırmak,khlh lrbu2bo1y fo2bu2rmfo2
 kehlelerini kırmak,khlh lrybo1y fo2yrmfo2
-kehleli,khlh<>ly
+kehleli,khlh||ly
 kehleli,khlh||ly
 kehle pire makûlesi,khlh bu3bu2rh mfo2wlh sy
 kehle pire makulesi,khlh bu3yrh mfo2wlh sy
@@ -6844,13 +6844,13 @@ kejdüm,kro3dm
 kej,kro3
 keke,kkh
 keke,kkh||
-kekele,kkh<>l
+kekele,kkh||l
 kekeleme,bu3bu3ky swbu2lmk
-kekelemek,kkh<>lmk
 kekelemek,kkh||lmk
-kekelik,kkh<>lk
+kekelemek,kkh||lmk
 kekelik,kkh||lk
-kekeme,kkh<>mh||
+kekelik,kkh||lk
+kekeme,kkh||mh||
 kekeme,kkh||mh
 ke,kh
 kekik,kkbu2k
@@ -6864,9 +6864,9 @@ keklik,kklk
 keklik,kklyk
 kekre,kkrh
 kekre,kkrh||
-kekrelik,kkrh<>lk
 kekrelik,kkrh||lk
-kekremsi,kkrh<>msy
+kekrelik,kkrh||lk
+kekremsi,kkrh||msy
 kekremsi,kkrh||msy
 kelağ,kleao1
 kelâğ,kleao1
@@ -7061,9 +7061,9 @@ ke-l,ko4el
 kellâ,kleo8
 kelle,klh
 kelle,klh||
-kelle,kllh<>
 kelle,kllh||
-kellekulak,klh<>fo2wlefo2
+kelle,kllh||
+kellekulak,klh||fo2wlefo2
 kellekulak,klh||fo2wlefo2
 kelle şekeri,klh so3kry
 kellifelli,klly fo1lly
@@ -7340,7 +7340,7 @@ kemayenbaği,kme ybo1bu1ao1y
 kemâyenbağî,kme ybo1bu1ao1y
 kemençe,kmbo1xu1h
 kemençe,kmbo1xu1h||
-kemence,kmebo1xu1h<>
+kemence,kmebo1xu1h||
 kemence,kmebo1xu1h||
 kemençe,kmebo1xu1h
 kemençe,kmebo1xu1h||
@@ -7405,7 +7405,7 @@ kemiyet,ko4mu4yo4bo2o0
 kemiyyet,kmbu2bo2
 kemiyyet,kmybo2
 kem,km
-kemküm,km<>kwm
+kemküm,km||kwm
 kemküm,km||kwm
 kemlik,kmlk
 kemmen,kmo8o44e
@@ -7548,24 +7548,24 @@ kendisinin,kbo1dysbo1ko3
 kendisiyle,kbo1dysylh
 kendiyle,kbo1dylh
 kenef,kbo1fo1
-kenegöz,kbo1h<>ko7wro1
+kenegöz,kbo1h||ko7wro1
 kenegöz,kbo1h||ko7wro1
 kene,kbo1h
 kene,kbo1h||
-keneotu,kbo1h<>ewbo2y
+keneotu,kbo1h||ewbo2y
 keneotu,kbo1h||ewbo2y
 kenet,kbu2bo1bo2
 kenet,kybo1bo2
-kenetle,kybo1bo2lh<>
+kenetle,kybo1bo2lh||
 kenetlemek,kbu2bo1bo2lh||mk
-kenetlemek,kybo1bo2lh<>mk
-kenetlen,kybo1bo2lh<>bo1
+kenetlemek,kybo1bo2lh||mk
+kenetlen,kybo1bo2lh||bo1
 kenetlenmek,kbu2bo1bo2lh||bo1mk
-kenetlenmek,kybo1bo2lh<>bo1mk
+kenetlenmek,kybo1bo2lh||bo1mk
 kenetleşmesi,kbo1bo2lso3mh||sy
-kenetlet,kybo1bo2lh<>bo2
+kenetlet,kybo1bo2lh||bo2
 kenetletmek,kbu2bo1bo2lh||bo2mk
-kenetletmek,kybo1bo2lh<>bo2mk
+kenetletmek,kybo1bo2lh||bo2mk
 kenetli,kbu2bo1bo2ly
 kenetli,kybo1bo2ly
 kenevir,kbo1wbu2r
@@ -7591,26 +7591,26 @@ kepaze etmek,kbu3ero1h e
 kepâze etmek,kbu3ero1h e
 kepaze,kbu3ero1h||
 kepâze,kbu3ero1h
-kepazele,kbu3ero1h<>l
-kepazelemek,kbu3ero1h<>lmk
+kepazele,kbu3ero1h||l
+kepazelemek,kbu3ero1h||lmk
 kepâzelemek,kbu3ero1h||lmk
-kepazelen,kbu3ero1h<>lbo1
-kepazelenmek,kbu3ero1h<>lbo1mk
+kepazelen,kbu3ero1h||lbo1
+kepazelenmek,kbu3ero1h||lbo1mk
 kepâzelenmek,kbu3ero1h||lbo1mk
-kepazelet,kbu3ero1h<>lbo2
-kepazeletmek,kbu3ero1h<>lbo2mk
+kepazelet,kbu3ero1h||lbo2
+kepazeletmek,kbu3ero1h||lbo2mk
 kepâzeletmek,kbu3ero1h||lbo2mk
-kepazelik,kbu3ero1h<>lk
+kepazelik,kbu3ero1h||lk
 kepâzelik,kbu3ero1h||lk
 kepce,kbu3xu3h
 kepce,kbu3xu3h||
 kepçe,kbu3xu3h
-kepçe,kbu3xu3h<>
+kepçe,kbu3xu3h||
 kepçe,kbu3xu3h||
 kepçe,kfo1xu3h
 kepçe,kfo1xu3h||
 kepcekuyruk,kbu3xu3h||fo2wbu2rwfo2
-kepcekuyruk,kbu3xu3h<>fo2wyrwfo2
+kepcekuyruk,kbu3xu3h||fo2wyrwfo2
 kepek,kbu3k
 kepenek,kbu3bo1k
 kepenk,kbu3bo1k
@@ -7724,7 +7724,7 @@ keremü'ş-şiyem,krm elso3bu2m
 keremü'ş-şiyem,krm elso3ym
 keresteci dükkanı,krsbo2h xu1y dkebo1y
 keresteci dükkânı,krsbo2h xu1y dkebo1y
-keresteci,kresbo2h<>xu1y
+keresteci,kresbo2h||xu1y
 keresteci,kresbo2h||xu1y
 kereste,kresbo2h
 kereste,kresbo2h||
@@ -7867,7 +7867,7 @@ kerremallahü,kro8m eellho9
 kerr,kro8
 kerrûbiyyunun,ko4ro8o9wbu1ywbo1ko3
 kerr u fer,ko4ro9o8 w fo1o4ro0
-kerte,krbo1h<>
+kerte,krbo1h||
 kerte,krbo1h||
 kerte,krbo1y
 kerte,krbo2h
@@ -7993,17 +7993,17 @@ kesecek,ksh||xu1k
 kesecekti,ksh||xu1kdy
 kesecektim,ksh||xu1kdm
 kesedâr,kbu2sh||der
-kesedar,kysh<>der
+kesedar,kysh||der
 kese,kbu2sh
 kesek,ksk
 kese,kysh
 kese,kysh||
-kesele,kysh<>lh<>
+kesele,kysh||lh||
 keselemek,kbu2sh||lh||mk
-keselemek,kysh<>lh<>mk
-keselen,kysh<>lbo1
+keselemek,kysh||lh||mk
+keselen,kysh||lbo1
 keselenmek,kbu2sh||lbo1mk
-keselenmek,kysh<>lbo1mk
+keselenmek,kysh||lbo1mk
 keselerinden,kysh||lrbo1dbo1
 kesel,ksl
 kesemez,ksh||mro1
@@ -8287,9 +8287,9 @@ keskindir,kskybo1dr
 keskindirler,kskybo1drlr
 keskin,kskbu2bo1
 keskin,kskybo1
-keskinlen,kskybo1lh<>bo1
+keskinlen,kskybo1lh||bo1
 keskinlenmek,kskbu2bo1lh||bo1mk
-keskinlenmek,kskybo1lh<>bo1mk
+keskinlenmek,kskybo1lh||bo1mk
 keskinleş,kskybo1lso3
 keskinleşmek,kskbu2bo1lso3mk
 keskinleşmek,kskybo1lso3mk
@@ -8303,7 +8303,7 @@ keşkülfukarâ,kso3kwl fo1fo2re
 keşkul,kso3kwl
 keşkûl,kso3kwl
 keşkül,kso3kwl
-kesmece,ksmh<>xu1h||
+kesmece,ksmh||xu1h||
 kesmece,ksmh||xu1h
 kesmediğim,ksmh||dyko7m
 kesmedi,ksmdy
@@ -8327,10 +8327,10 @@ kesmek,ksmk
 kesmek,kso3mk
 kesmekle,ksmklh
 kesme,ksmh
-kesme,ksmh<>
+kesme,ksmh||
 kesme,ksmh||
 kesmektir,ksmkdr
-kesmelik,ksmh<>lk
+kesmelik,ksmh||lk
 kesmelik,ksmh||lk
 kesmeme,ksmh||mh
 kesmemiş,ksmh||mso3
@@ -8401,20 +8401,20 @@ kessaret-üz,kbo3o8erho2 el
 kesse,kssh
 kessem,kssh||m
 kessin,kssybo1
-kestaneci,ksbo2ebo1h<>xu1y
+kestaneci,ksbo2ebo1h||xu1y
 kestâneci,ksbo2ebo1h||xu1y
-kestanedorusu,ksbo2ebo1h<>dwrwsy
+kestanedorusu,ksbo2ebo1h||dwrwsy
 kestânedorusu,ksbo2ebo1h||dwrwsy
-kestanefişeği,ksbo2ebo1h<>fo1so3ky
+kestanefişeği,ksbo2ebo1h||fo1so3ky
 kestânefişeği,ksbo2ebo1h||fo1so3ky
 kestane,ksbo2ebo1h||
 kestâne,ksbo2ebo1h
-kestanelik,ksbo2ebo1h<>lk
+kestanelik,ksbo2ebo1h||lk
 kestânelik,ksbo2ebo1h||lk
-kestanerengi,ksbo2ebo1h<>rbo1ky
+kestanerengi,ksbo2ebo1h||rbo1ky
 kestânerengi,ksbo2ebo1h||rbo1ky
 kestane renkli,ksbo2ebo1h rbo1klw
-kestaneturpu,ksbo2ebo1h<>twrbu3y
+kestaneturpu,ksbo2ebo1h||twrbu3y
 kestâneturpu,ksbo2ebo1h||twrbu3y
 kestel,fo2sbo2l
 kestel,ksbo2l
@@ -8745,11 +8745,11 @@ kıblegâhını,fo2bu1lh||ko7ehbo1y
 kıble-i,fo2bu1lh'u4
 kıbleleri,fo2bu1lh||lry
 kıblenamedeki,fo2bu1lh||bo1emh||dh||ky
-kıblename,fo2bu1lh<>bo1emh||
+kıblename,fo2bu1lh||bo1emh||
 kıblenâme,fo2bu1lh||bo1emh
 kıblenameli,fo2bu1lh||bo1emh||ly
 kıbleniz,fo2bu1lh||ko3ro1
-kıblenüma,fo2bu1lh<>bo1me
+kıblenüma,fo2bu1lh||bo1me
 kıblenüma,fo2bu1lh||bo1me
 kıblesi,fo2bu1lh||sy
 kıblesiz,fo2bu1lh||sro1
@@ -8820,7 +8820,7 @@ kıç,fo2yxu3
 kıçın kıçın,fo2bu2xu3bu2bo1 fo2bu2xu3bu2bo1
 kıçınkıçın,fo2bu2xu3bu2bo1||fo2bu2xu3bu2bo1
 kıçın kıçın,fo2yxu3ybo1 fo2yxu3ybo1
-kıçınkıçın,fo2yxu3ybo1<>fo2yxu3ybo1
+kıçınkıçın,fo2yxu3ybo1||fo2yxu3ybo1
 kıçın kıçın gitmek,fo2bu2xu3bu2bo1 fo2bu2xu3bu2bo1 kbo2mk
 kıçın kıçın gitmek,fo2yxu3ybo1 fo2yxu3ybo1 kbo2mk
 kıdem,fo2dm
@@ -8912,7 +8912,7 @@ kılavuzluk etmek,fo2leao1wro1lfo2 e
 kılavuzluk,fo2leao1wro1lfo2
 kılavuzluk,fo2wleao1wro1lfo2
 kılbarak,fo2bu2l||bu1erefo2
-kılbarak,fo2yl<>bu1erefo2
+kılbarak,fo2yl||bu1erefo2
 kılburun,fo2bu2l bu1wrwbo1
 kılburun,fo2yl bu1wrwbo1
 kılçık,fo2bu2lxu1fo2
@@ -9089,10 +9089,10 @@ kilis,kylys
 kilit,klbu2d
 kilit,klyd
 kilitlediğimiz,klydldyko7mro1
-kilitle,klydlh<>
+kilitle,klydlh||
 kilitlemek,klbu2dlh||mk
 kilitlemek,klbu2dlmk
-kilitlemek,klydlh<>mk
+kilitlemek,klydlh||mk
 kilitlemek,klydlmk
 kilitlemiş,klydlh||mso3
 kilitlemiştim,klydlh||mso3dm
@@ -9120,7 +9120,7 @@ ki̇lk,klk
 kilk,klk
 kil,kl
 kılkuyruk,fo2bu2l||fo2wbu2rwfo2
-kılkuyruk,fo2yl<>fo2wyrwfo2
+kılkuyruk,fo2yl||fo2wyrwfo2
 kil,kyl
 kıllan,fo2yllebo1
 kıllanmak,fo2bu2llebo1mfo2
@@ -9182,7 +9182,7 @@ kılsın,fo2ylsybo1
 kilte,kbu2lbo2h||
 kilte,klbo2h
 kilte,klbo2h||
-kilte,kylbo2h<>
+kilte,kylbo2h||
 kîlükâl,fo2bu2l w fo2el
 ki̇lükal,fo2yl w fo2el
 kilükal,fo2yl w fo2el
@@ -9243,7 +9243,7 @@ kımız,fo2myro1
 kımız,fo2ymyro1
 kim,kbu2m
 kımkım,fo2bu2m||fo2bu2m
-kımkım,fo2ym<>fo2ym
+kımkım,fo2ym||fo2ym
 kim,kym
 kimlerdir,kymlrdr
 kimleri,kymlry
@@ -9273,7 +9273,7 @@ kimsem,kymsh||m
 kimsenin,kymsh||bo1ko3
 kimsesiz,kbu2msh||sro1
 kimsesiz,kmsh sro1
-kimsesiz,kymsh<>sro1
+kimsesiz,kymsh||sro1
 kimsesiz,kymsh||sro1
 kimsesizlerin,kymsh||sro1lrko3
 kimsesizler,kymsh||sro1lr
@@ -9283,7 +9283,7 @@ kimsesizliğim,kymsh||sro1lko7m
 kimsesizliğinize,kymsh||sro1lko7ko3ro1h
 kimsesizliğin,kymsh||sro1lko7ko3
 kimsesizlik,kbu2msh||sro1lk
-kimsesizlik,kymsh<>sro1lk
+kimsesizlik,kymsh||sro1lk
 kimsesizlik,kymsh||sro1lk
 kimsesizlikteki,kymsh||sro1lkdh||ky
 kimsesizlikte,kymsh||sro1lkdh
@@ -9333,7 +9333,7 @@ kına,fo1bo1e
 kına,fo2bu2bo1e
 kına,fo2ybo1e
 kınagecesi,fo2bu2bo1e ko7bu2xu1h||sy
-kınagecesi,fo2ybo1e ko7yxu1h<>sy
+kınagecesi,fo2ybo1e ko7yxu1h||sy
 kinaî,kbo1eyo5y
 kinaiyat-ı,kbo1eyo5yebo2u4
 kinaiyat,kbo1eyo5yebo2
@@ -9361,7 +9361,7 @@ kinâye,ku4bo1o4ebu2o4h
 ki̇naye,ku4bo1o4eyo4h||
 kinaye,ku4bo1o4eyo4h||
 kinâyeli,kbo1ebu2h||ly
-kinayeli,kbo1eyh<>ly
+kinayeli,kbo1eyh||ly
 kinayenin,kbo1eyh||bo1ko3
 kinayeten,kbo1eyho2o44
 kinayet,kbo1eybo2
@@ -9600,15 +9600,15 @@ kireçtaşı,kyrxu1 teso3y
 kiremid,krembu2d
 kiremid,kremyd
 kiremitci,kbu2rh||mbu2bo2xu1y
-kiremitci,kyrh<>mybo2xu1y
+kiremitci,kyrh||mybo2xu1y
 kiremitcilik,kbu2rh||mbu2bo2xu1bu2lbu2k
-kiremitcilik,kyrh<>mybo2xu1ylyk
+kiremitcilik,kyrh||mybo2xu1ylyk
 kiremithâne,kbu2rh||mbu2bo2xo1ebo1h
-kiremithane,kyrh<>mybo2xo1ebo1h||
+kiremithane,kyrh||mybo2xo1ebo1h||
 kiremit,kbu2rh||mbu2bo2
 kiremit,krembu2d
 kiremit,kremyd
-kiremit,kyrh<>mybo2
+kiremit,kyrh||mybo2
 kır,fo2bu2r
 kır,fo2yr
 kırgın,fo2bu2rao1bu2bo1
@@ -9706,7 +9706,7 @@ kirişle,kryso3l
 kirişlemek,krbu2so3lmk
 kirişlemek,kryso3lmk
 kirişleme,krbu2so3lh||mh
-kirişleme,kryso3lh<>mh||
+kirişleme,kryso3lh||mh||
 kirişli,kbu2rbu2so3ly
 kirişli,kyryso3ly
 kırıt,fo2yrbo2
@@ -9794,7 +9794,7 @@ kırksekizdir,fo2rfo2 skro1dr
 kırksekize,fo2rfo2 skro1h
 kırksekiz,fo2rfo2 skro1
 kırktabir,fo2bu2rfo2dh||bu1r
-kırktabir,fo2yrfo2dh<>bu1r
+kırktabir,fo2yrfo2dh||bu1r
 kırkta,fo2rfo2dh
 kırk'tan,fo2rfo2dbo1
 kırktan,fo2rfo2dbo1
@@ -9809,7 +9809,7 @@ kırlangıçbalığı,fo2yrlebo1ao1yxu1 bu1elyao1y
 kırlangıçdönümü,fo2bu2rlebo1ao1bu2xu1 dwbo1wmy
 kırlangıçdönümü,fo2yrlebo1ao1yxu1 dwbo1wmy
 kırlangıçfırtınası,fo2bu2rlebo1ao1bu2xu1 fo1wrtbo1h||sy
-kırlangıçfırtınası,fo2yrlebo1ao1yxu1 fo1wrtbo1h<>sy
+kırlangıçfırtınası,fo2yrlebo1ao1yxu1 fo1wrtbo1h||sy
 kırlangıç,fo2bu2rlebo1ao1bu2xu1
 kırlangıç,fo2bu2rlebo1ao1bu2xu3
 kırlangıç,fo2rle bo1ao1bu2xu3
@@ -9849,7 +9849,7 @@ kirli,kbu2rly
 kirli,kyrlw
 kirli,kyrly
 kırmacı,fo2bu2rmh||xu1y
-kırmacı,fo2yrmh<>xu1y
+kırmacı,fo2yrmh||xu1y
 kırmadan,fo2yrmedbo1
 kırmadı,fo2yrmedy
 kırmadığım,fo2yrmdyao1m
@@ -9868,7 +9868,7 @@ kırmaktır,fo2yrmfo2dr
 kırmaları,fo2yrmelry
 kırmalarıyla,fo2yrmelrylh
 kırmalı,fo2bu2rmh||ly
-kırmalı,fo2yrmh<>ly
+kırmalı,fo2yrmh||ly
 kırmalı yenlik,fo2bu2rmh lwbu2bo1lk
 kırmalı yenlik,fo2yrmh lwybo1lk
 kırmamağa,fo2yrmemao1h
@@ -10098,9 +10098,9 @@ kişiyi,kyso3y||yy
 kişizâde,kbu2so3y||ro1edh
 kişizade,kso3y ro1edh||
 kişizâde,kso3y ro1edh
-kişizade,kyso3y<>ro1edh||
+kişizade,kyso3y||ro1edh||
 kişizâdelik,kbu2so3y ro1edh||lk
-kişizadelik,kyso3y ro1edh<>lk
+kişizadelik,kyso3y ro1edh||lk
 kıskaç,fo2bu2zfo2exu1
 kıskaç,fo2yzfo2exu1
 kıskaç,fo2zexu1
@@ -10143,8 +10143,8 @@ kışkırtmak,fo2bu2so3fo2bu2rbo2mfo2
 kışkırtmak,fo2yso3fo2yrbo2mfo2
 kışkış,fo2bu2so3||fo2bu2so3
 kıskıs,fo2bu2z||fo2bu2z
-kışkış,fo2yso3<>fo2yso3
-kıskıs,fo2yz<>fo2yz
+kışkış,fo2yso3||fo2yso3
+kıskıs,fo2yz||fo2yz
 kıskıvrak,fo2bu2z fo2bu2wrefo2
 kıskıvrak,fo2yz fo2ywrefo2
 ki̇ş,kyso3
@@ -10227,14 +10227,14 @@ kısmını,fo2smbo1y
 kısmı'nın,fo2smbo1ko3
 kısmının,fo2smbo1ko3
 kısmıyla,fo2smylh
-kişne,kyso3bo1h<>
+kişne,kyso3bo1h||
 kişnemek,kbu2so3bo1h||mk
 kişnemek,kso3bo1mk
-kişnemek,kyso3bo1h<>mk
+kişnemek,kyso3bo1h||mk
 kişnemesini,kyso3bo1h||msbo1y
 kişnemeyi,kyso3bo1h||mh||yy
 kişneyiş,kbu2so3bo1h||bu2bu2so3
-kişneyiş,kyso3bo1h<>yyso3
+kişneyiş,kyso3bo1h||yyso3
 kişniş,kbu2so3bo1bu2so3
 kişniş,kso3bo1so3
 kişniş,kyso3bo1yso3
@@ -10348,7 +10348,7 @@ kitabdırlar,kbo2ebu1drlr
 ki̇tabe,kbo2ebu1h||
 kitabe,kbo2ebu1h||
 kitâbe,kbo2ebu1h
-kitabeli,kbo2ebu1h<>ly
+kitabeli,kbo2ebu1h||ly
 kitâbeli,kbo2ebu1h||ly
 kitabete,kbo2ebu1bo2h
 kitabeten,kbo2ebu1o4ho2o44
@@ -10536,7 +10536,7 @@ kitle-i nâriye,ku4bo2o0lo4u4 bo1o4eru4bu2o4h
 ki̇tle-i̇ nari̇ye,ku4bo2o0lo4ۀu4 bo1o4eru4yo4h||
 kitle-i nariye,ku4bo2o0lo4ۀu4 bo1o4eru4yo4h||
 kitle,kbo2lh
-kitle,kybo2lh<>
+kitle,kybo2lh||
 kitleleri,kbo2lh||lry
 kitlelerinden,kbo2lh||lrbo1dbo1
 kitlelerinin,kbo2lh||lrybo1ko3
@@ -10544,19 +10544,19 @@ kitlelerin,kbo2lh||lrko3
 kitleler,kbo2lh||lr
 kitlemek,kbo2lmk
 kitlemek,kbu2bo2lh||mk
-kitlemek,kybo2lh<>mk
+kitlemek,kybo2lh||mk
 kitlenin,kbo2lh||bo1ko3
-kitlen,kybo2lh<>bo1
+kitlen,kybo2lh||bo1
 kitlenmek,kbo2lbo1mk
 kitlenmek,kbu2bo2lh||bo1mk
-kitlenmek,kybo2lh<>bo1mk
+kitlenmek,kybo2lh||bo1mk
 kitlesi,kbo2lh||sy
 kitlesini,kbo2lh||sbo1y
 kitlesinin,kbo2lh||sbo1ko3
 kitlesiyiz,kbo2lh||sy||yro1
-kitlet,kybo2lh<>bo2
+kitlet,kybo2lh||bo2
 kitletmek,kbu2bo2lh||bo2mk
-kitletmek,kybo2lh<>bo2mk
+kitletmek,kybo2lh||bo2mk
 kitleye,kbo2lh||yh
 kitleyivermek,kbo2lbu2wbu2rmk
 kitleyivermek,kbo2lywyrmk
@@ -10985,13 +10985,13 @@ kızılağaç,fo2yro1yl eo6ao1exu1
 kızılbaş,fo2bu2ro1bu2l bu1eso3
 kızılbaş,fo2yro1yl bu1eso3
 kızılcabuğday,fo2bu2ro1bu2lxu1h||bu1wao1dey
-kızılcabuğday,fo2yro1ylxu1h<>bu1wao1dey
+kızılcabuğday,fo2yro1ylxu1h||bu1wao1dey
 kızılca,fo2bu2ro1bu2lxu1h
 kızılca,fo2ro1lxu1h
 kızılca,fo2ro1lxu1h||
 kızılca,fo2yro1ylxu1h||
 kızılcakıyâmet,fo2bu2ro1bu2lxu1h||fo2bu2embo2
-kızılcakıyamet,fo2yro1ylxu1h<>fo2yembo2
+kızılcakıyamet,fo2yro1ylxu1h||fo2yembo2
 kızılcık,fo2bu2ro1bu2lxu1fo2
 kızılcık,fo2ro1lxu1fo2
 kızılcık,fo2yro1ylxu1fo2
@@ -11005,7 +11005,7 @@ kızıl,fo2bu2ro1bu2l
 kızıl,fo2ro1l
 kızıl,fo2yro1yl
 kızılhastalığı,fo2bu2ro1bu2l xo1sbo2h||lao1y
-kızılhastalığı,fo2yro1yl xo1sbo2h<>lao1y
+kızılhastalığı,fo2yro1yl xo1sbo2h||lao1y
 kızıl humma,fo2ro1l xme
 kızıllık,fo2bu2ro1bu2llfo2
 kızıllık,fo2yro1yllfo2
@@ -11082,33 +11082,33 @@ klüp,fo2wlwbu3
 kobalt,fo2wbu1elbo2
 kobay,fo2wbu1ey
 koca başı,fo2wxu1h bu1eso3y
-kocabaşı,fo2wxu1h<>bu1eso3y
+kocabaşı,fo2wxu1h||bu1eso3y
 kocabaşı,fo2wxu1h||bu1eso3y
 koçaç,fo2wxu3exu3
 kocada,fo2wxu1h dh
 kocada,fo2wxu1h dh||
-kocadağ,fo2wxu1h<>deao1
+kocadağ,fo2wxu1h||deao1
 kocadağ,fo2wxu1h||deao1
 koca değil,fo2wxu1h dh kl
-kocaeli,fo2wxu1h<>eyly
+kocaeli,fo2wxu1h||eyly
 koca,fo2wxu1e
 koca,fo2wxu1h
 koca,fo2wxu1h||
 kocakafalı,fo2wxu1h fo2fo1ely
-kocakarı,fo2wxu1h<>fo2ery
+kocakarı,fo2wxu1h||fo2ery
 kocakarı,fo2wxu1h||fo2ery
 kocakarı,fo2wxu1h fo2ery
 kocakarı ilacı,fo2wxu1h fo2ery alexu1y
 kocakarıyı,fo2wxu1h||fo2ery||yy
 koçak,fo2wxu3efo2
-kocalaş,fo2wxu1h<>leso3
-kocalaşmak,fo2wxu1h<>leso3mfo2
+kocalaş,fo2wxu1h||leso3
+kocalaşmak,fo2wxu1h||leso3mfo2
 kocalaşmak,fo2wxu1h||leso3mfo2
 kocaldın,fo2wxu1eldko3
 kocal,fo2wxu1el
-kocalı,fo2wxu1h<>ly
 kocalı,fo2wxu1h||ly
-kocalık,fo2wxu1h<>lfo2
+kocalı,fo2wxu1h||ly
+kocalık,fo2wxu1h||lfo2
 kocalık,fo2wxu1h||lfo2
 kocalmak,fo2wxu1elmfo2
 kocalt,fo2wxu1elbo2
@@ -11119,7 +11119,7 @@ kocaman,fo2wxu1h||mebo1
 kocaman,fo2wxu1h mebo1
 koçan,fo2wxu3ebo1
 kocanın,fo2wxu1h||bo1ko3
-kocaoğlan,fo2wxu1h<>ewao1lebo1
+kocaoğlan,fo2wxu1h||ewao1lebo1
 kocaoğlan,fo2wxu1h||ewao1lebo1
 kocası,fo2wxu1h||sy
 kocasına,fo2wxu1h||sbo1h
@@ -11127,7 +11127,7 @@ kocasında,fo2wxu1h||sbo1dh
 kocasından,fo2wxu1h||sbo1dbo1
 kocasını,fo2wxu1h||sbo1y
 kocasının,fo2wxu1h||sbo1ko3
-kocasız,fo2wxu1h<>sro1
+kocasız,fo2wxu1h||sro1
 kocasız,fo2wxu1h||sro1
 kocat,fo2wxu1ebo2
 kocatmak,fo2wxu1ebo2mfo2
@@ -11137,7 +11137,7 @@ kocaya varmak,fo2wxu1h yh wermfo2
 kocaya vermek,fo2wxu1h bu2h wbu2rmk
 kocaya vermek,fo2wxu1h yh wyrmk
 kocayemiş,fo2wxu1h||bu2mbu2so3
-kocayemiş,fo2wxu1h<>ymyso3
+kocayemiş,fo2wxu1h||ymyso3
 kocayı,fo2wxu1h||yy
 koçboynuzu,fo2wxu3 bu1wbu2bo1wro1y
 koçboynuzu,fo2wxu3 bu1wybo1wro1y
@@ -11152,14 +11152,14 @@ kocun,fo2wxu1bo1
 kocunmak,fo2wxu1bo1mfo2
 kodaman,fo2wdemebo1
 kodein,fo2wdh||bo5bu2bo1
-kodein,fo2wdh<>bo5ybo1
+kodein,fo2wdh||bo5ybo1
 kodes,fo2wds
 kodoş,fo2wdwso3
 kodoşluk,fo2wdwso3lfo2
 kof,fo2o9wfo1o0
 kof,fo2wfo1
 kofluk,fo2wfo1lfo2
-köftehor,kwfo1bo2h<>xo1wr
+köftehor,kwfo1bo2h||xo1wr
 köftehor,kwfo1bo2h||xo1wr
 köfte,kwfo1bo2h
 köfte,kwfo1bo2h||
@@ -11220,8 +11220,8 @@ koklayalım,fo2wfo2lyh||lm
 koklayan,fo2wfo2leyebo1
 koklayış,fo2wfo2lebu2so3
 koklayış,fo2wfo2leyso3
-kökle,kwklh<>
-köklemek,kwklh<>mk
+kökle,kwklh||
+köklemek,kwklh||mk
 köklemek,kwklh||mk
 köklen,kwklbo1
 köklenmek,kwklbo1mk
@@ -11306,7 +11306,7 @@ kolanını çekmek,fo2wlebo1bo1y xu3kmk
 kolanyeri,fo2wlebo1 bu2ry
 kolanyeri,fo2wlebo1 yry
 kolaycacık,fo2wlebu2xu1h||xu1fo2
-kolaycacık,fo2wleyxu1h<>xu1fo2
+kolaycacık,fo2wleyxu1h||xu1fo2
 kolayca,fo2wleyxu1h
 kolay devrilir,fo2wley dwrbu2lwr
 kolay devrilir,fo2wley dwrylwr
@@ -11360,16 +11360,16 @@ kolay ufanır,fo2wley ewfo1ebo1wr
 kolcu,fo2wlxu1y
 kolculuk,fo2wlxu1bu2lfo2
 kolculuk,fo2wlxu1ylfo2
-kolej,fo2wlh<>ro3
+kolej,fo2wlh||ro3
 kolej,fo2wlh||ro3
 köle,kwlh
 köle,kwlh||
 köleleridir,kwlh||lrydr
 köleleri,kwlh||lry
-kölelik,kwlh<>lk
+kölelik,kwlh||lk
 kölelik,kwlh||lk
 kölelik,kwlh lk
-kölemen,kwlh<>mbo1
+kölemen,kwlh||mbo1
 kölemen,kwlh||mbo1
 köleniz,kwlh||ko3ro1
 kolera,fo2wlo4ro4e
@@ -11388,12 +11388,12 @@ kollarını bağlamak,fo2wllrbu2bo1y bu1eao1lemfo2
 kollarını bağlamak,fo2wllrybo1y bu1eao1lemfo2
 kollarını,fo2wllryko3y
 kolleksiyon,fo2wllh||ksbu2wbo1
-kolleksiyon,fo2wllh<>ksywbo1
+kolleksiyon,fo2wllh||ksywbo1
 kollektif,fo2wllh||kbo2bu2fo1
-kollektif,fo2wllh<>kbo2yfo1
+kollektif,fo2wllh||kbo2yfo1
 kollektivism,fo2wllh||kbo2bu2wbu2ro1m
-kollektivism,fo2wllh<>kbo2ywyro1m
-kollektör,fo2wllh<>kbo2wr
+kollektivism,fo2wllh||kbo2ywyro1m
+kollektör,fo2wllh||kbo2wr
 kollektör,fo2wllh||kbo2wr
 kollu,fo2wlly
 kolluk,fo2wllfo2
@@ -11423,7 +11423,7 @@ koltuklu sandalye,fo2wlbo2fo2ly zbo1delbu2h
 koltuklu sandalye,fo2wlbo2fo2ly zbo1delyh||
 koltukresmi,fo2wlbo2wfo2 rsmy
 koltukzâviyesi,fo2wlbo2wfo2 ro1ewbu2h||sy
-koltukzaviyesi,fo2wlbo2wfo2 ro1ewyh<>sy
+koltukzaviyesi,fo2wlbo2wfo2 ro1ewyh||sy
 kolu,fo2wly
 kolum,fo2wlwm
 koluna,fo2wlbo1h
@@ -11441,15 +11441,15 @@ komalastik,fo2wmelesbo2fo2
 komandit,fo2wmebo1dbu2bo2
 komandit,fo2wmebo1dybo2
 kombinezon,fo2wmbu1bu2bo1h||ro1wbo1
-kombinezon,fo2wmbu1ybo1h<>ro1wbo1
-komedi,fo2wmh<>dy
+kombinezon,fo2wmbu1ybo1h||ro1wbo1
+komedi,fo2wmh||dy
 komedi,fo2wmh||dy
 komediyen,fo2wmh||dbu2bu2bo1
-komediyen,fo2wmh<>dyybo1
+komediyen,fo2wmh||dyybo1
 komedyacı,fo2wmh||dbu2exu1y
-komedyacı,fo2wmh<>dyexu1y
+komedyacı,fo2wmh||dyexu1y
 komedya,fo2wmh||dbu2e
-komedya,fo2wmh<>dye
+komedya,fo2wmh||dye
 komik,fo2wmbu2k
 komik,fo2wmyk
 komisere,fo2wmysrh
@@ -11522,7 +11522,7 @@ komposto,fo2wmbu3wsbo2h||
 komposto,fo2wmbu3wsbo2w
 kompozitör,fo2wmbu3wro1bu2bo2wr
 kompozitör,fo2wmbu3wro1ybo2wr
-kompres,fo2wmbu3rh<>s
+kompres,fo2wmbu3rh||s
 kompres,fo2wmbu3rh||s
 komprime,fo2wmbu3rymh
 komşudaki,fo2wmso3wdh||ky
@@ -11603,10 +11603,10 @@ kondur,fo2wbo1dwr
 kondurmak,fo2wbo1dwrmfo2
 konevî'ye,fo2bo1wy||yh
 konfederasyon,fo2wbo1fo1h||dh||resbu2wbo1
-konfederasyon,fo2wbo1fo1h<>dh<>resywbo1
-konferanscı,fo2wbo1fo1h<>rebo1sxu1y
+konfederasyon,fo2wbo1fo1h||dh||resywbo1
 konferanscı,fo2wbo1fo1h||rebo1sxu1y
-konferans,fo2wbo1fo1h<>rebo1s
+konferanscı,fo2wbo1fo1h||rebo1sxu1y
+konferans,fo2wbo1fo1h||rebo1s
 konferans,fo2wbo1fo1h||rebo1s
 konferans,fo2wbo1fo1rebo1s
 konferansı,fo2wbo1fo1rebo1sy
@@ -11872,7 +11872,7 @@ konuşuyoruz,fo2wbo1wso3wywrro1
 konuyor,fo2wbo1wywr
 konuyormuş,fo2wbo1wywrmso3
 konvansiyonel,fo2wbo1webo1sbu2wbo1h||ly
-konvansiyonel,fo2wbo1webo1sywbo1h<>ly
+konvansiyonel,fo2wbo1webo1sywbo1h||ly
 konvansiyon,fo2wbo1webo1sbu2wbo1
 konvansiyon,fo2wbo1webo1sywbo1
 konya'da,fo2wbo1yh||dh
@@ -11887,7 +11887,7 @@ konyalı,fo2wbo1yh||ly
 konya'nın,fo2wbo1yh||bo1ko3
 konya'ya,fo2wbo1yh||yh
 kooperatif,fo2wewbu3h||rebo2bu2fo1
-kooperatif,fo2wewbu3h<>rebo2yfo1
+kooperatif,fo2wewbu3h||rebo2yfo1
 kopacağı,fo2wbu3h||xu1ao1y
 kopacağından,fo2wbu3exu1ao1bo1dbo1
 kopacağını,fo2wbu3exu1ao1bo1y
@@ -11946,13 +11946,13 @@ köpekbalığı,kwbu3k bu1lao1y
 köpekdişi,kwbu3k dbu2so3y
 köpekdişi,kwbu3k dyso3y
 köpek,kwbu3k
-köpekle,kwbu3klh<>
-köpeklemek,kwbu3klh<>mk
+köpekle,kwbu3klh||
+köpeklemek,kwbu3klh||mk
 köpeklemek,kwbu3klh||mk
 köpekleri,kwbu3klry
 köpekler,kwbu3klr
 köpeklik,kwbu3klk
-köpekmemesi,kwbu3k mmh<>sy
+köpekmemesi,kwbu3k mmh||sy
 köpekmemesi,kwbu3k mmh||sy
 köpekten,kwbu3kdbo1
 köpektir,kwbu3kdr
@@ -11961,7 +11961,7 @@ köpek yavrusu,kwbu3k yewrysy
 kop,fo2wbu3
 kopil,fo2wbu3bu2l
 kopil,fo2wbu3yl
-kopkolay,fo2wbu3<>fo2wley
+kopkolay,fo2wbu3||fo2wley
 kopkolay,fo2wbu3||fo2wley
 kopmak,fo2wbu3mfo2
 kopmakta,fo2wbu3mfo2dh
@@ -12201,10 +12201,10 @@ korkuyoruz,fo2wrfo2wywrro1
 korkuyu,fo2wrfo2wyy
 kör,kwr
 korlar,fo2wrlr
-körle,kwrlh<>
-körlemek,kwrlh<>mk
+körle,kwrlh||
 körlemek,kwrlh||mk
-körleme,kwrlh<>mh||
+körlemek,kwrlh||mk
+körleme,kwrlh||mh||
 körleme,kwrlh||mh
 körlen,kwrlbo1
 körlenmek,kwrlbo1mk
@@ -12228,7 +12228,7 @@ köroğlu,kwr ewao1ly
 körpe,kwrbu3h
 körpe,kwrbu3h||
 körpeler,kwrbu3h||lr
-körpelik,kwrbu3h<>lk
+körpelik,kwrbu3h||lk
 körpelik,kwrbu3h||lk
 korsa,fo2wrsh
 korsa,fo2wrsh||
@@ -12292,7 +12292,7 @@ koşdurmak,fo2wso3dyrmfo2
 köşede,kwso3h||dh
 köşeden,kwso3h||dbo1
 köşe-i,kwso3h'u4
-köşekapmaca,kwso3h<>fo2ebu3mh<>xu1h||
+köşekapmaca,kwso3h||fo2ebu3mh||xu1h||
 köşekapmaca,kwso3h||fo2ebu3mh||xu1h
 köse,kwsh
 köse,kwsh||
@@ -12300,9 +12300,9 @@ köşe,kwso3h
 köşe,kwso3h||
 kösele,kwslh
 kösele,kwslh||
-köşeleme,kwso3h<>lmh||
+köşeleme,kwso3h||lmh||
 köşeleme,kwso3h||lmh
-köseleperdahı,kwslh<>bu3rdexo1y
+köseleperdahı,kwslh||bu3rdexo1y
 köseleperdahı,kwslh||bu3rdexo1y
 köşelerdeki,kwso3h||lrdh||ky
 köşelerde,kwso3h||lrdh
@@ -12316,12 +12316,12 @@ köşelerine,kwso3h||lrybo1h
 köşelerini,kwso3h||lrybo1y
 köşeler,kwso3h||lr
 köselesini vurmak,kwslh sbo1y ewrmfo2
-köseletaşı,kwslh<>teso3y
 köseletaşı,kwslh||teso3y
-köselik,kwslh<>lk
+köseletaşı,kwslh||teso3y
+köselik,kwslh||lk
 köselik,kwslh||lk
 köşeli,kwso3h lw
-köşeli,kwso3h<>ly
+köşeli,kwso3h||ly
 köşeli,kwso3h||ly
 kösemen,kwsmbo1
 kösem,kwsm
@@ -12340,16 +12340,16 @@ köşklerdir,kwso3klrdr
 köşklerini,kwso3klrybo1y
 köşklerin,kwso3klrko3
 köşkler,kwso3klr
-koskoca,fo2ws<>fo2wxu1h||
+koskoca,fo2ws||fo2wxu1h||
 koskoca,fo2ws||fo2wxu1h
-koskoca,fo2wz<>fo2wxu1h||
+koskoca,fo2wz||fo2wxu1h||
 koskoca,fo2wz||fo2wxu1h
-koskocaman,fo2ws<>fo2wxu1emebo1
+koskocaman,fo2ws||fo2wxu1emebo1
 koskocaman,fo2ws||fo2wxu1emebo1
 koskocaman,fo2wz||fo2wxu1h||mebo1
-köskös,kws<>kws
 köskös,kws||kws
-köskötürüm,kws<>kwbo2wrwm
+köskös,kws||kws
+köskötürüm,kws||kwbo2wrwm
 köskötürüm,kws||kwbo2wrwm
 köşkte,kwso3kdh
 köşkten,kwso3kdbo1
@@ -12398,11 +12398,11 @@ kostantiniye'nin,fo2stbo1tbo1yh||bo1ko3
 köstebekilleti,kwsbo2bu1k albo2y
 köstebek,kwsbo2bu1k
 köstek,kwsbo2k
-köstekle,kwsbo2klh<>
-kösteklemek,kwsbo2klh<>mk
+köstekle,kwsbo2klh||
 kösteklemek,kwsbo2klh||mk
-kösteklen,kwsbo2klh<>bo1
-kösteklenmek,kwsbo2klh<>bo1mk
+kösteklemek,kwsbo2klh||mk
+kösteklen,kwsbo2klh||bo1
+kösteklenmek,kwsbo2klh||bo1mk
 kösteklenmek,kwsbo2klh||bo1mk
 köstekli,kwsbo2klyy
 koştuğu,fo2wso3dyao1y
@@ -12473,14 +12473,14 @@ koşuyorum,fo2wso3wywrm
 kötek,kwbo2k
 koter,fo2wbo2r
 koterize,fo2wbo2h||rbu2ro1h
-koterize,fo2wbo2h<>ryro1h||
+koterize,fo2wbo2h||ryro1h||
 kotra,fo2wbo2re
 kotra,fo2wbo2rh
 kotra,fo2wbo2rh||
 kötü,kwbo2w
 kötü,kwbo2y
-kötüle,kwbo2wlh<>
-kötülemek,kwbo2wlh<>mk
+kötüle,kwbo2wlh||
+kötülemek,kwbo2wlh||mk
 kötülemek,kwbo2wlh||mk
 kötülemişler,kwbo2wlh||mso3lr
 kötülen,kwbo2wlbo1
@@ -12743,7 +12743,7 @@ kozmoğrafyaya,fo2wro1mwao1refo1yeyh
 kozmopolit,fo2wro1mwbu3wlbu2bo2
 kozmopolit,fo2wro1mwbu3wlybo2
 kozmotik,fo2wro1mh||bo2bu2k
-kozmotik,fo2wro1mh<>bo2yk
+kozmotik,fo2wro1mh||bo2yk
 krala mahsus,fo2relh mxo1zwz
 krala mahsûs,fo2relh mxo1zwz
 kralane,fo2relebo1h||
@@ -12752,7 +12752,7 @@ kral,fo2rel
 kraliçe,fo2relbu2xu3h
 kraliçe,fo2relyxu3h||
 krallık,fo2rellfo2
-kredi,fo2rh<>dy
+kredi,fo2rh||dy
 kredi,fo2rh||dy
 krep,fo2rbu3
 kriket,fo2rbu2bo2bu2k
@@ -12762,7 +12762,7 @@ kristal,fo2rysbo2el
 kritik,fo2rbu2bo2bu2k
 kritik,fo2rybo2yk
 krizantem,fo2rbu2ro1ebo1bo2h||m
-krizantem,fo2ryro1ebo1bo2h<>m
+krizantem,fo2ryro1ebo1bo2h||m
 kriz,fo2rbu2ro1
 kriz,fo2ryro1
 kroki,fo2rwky
@@ -12776,7 +12776,7 @@ ks,???
 kubad,fo2wbu1ed
 kubâ,fo2o9bu1o4e
 kubatlık,fo2wbu1edlfo2
-kubbealtı,fo2bu1h<>eo6lbo2y
+kubbealtı,fo2bu1h||eo6lbo2y
 kubbede,fo2bu1o8h||dh
 kubbedeki,fo2bu1o8h||dh||ky
 kubbe,fo2bu1h
@@ -12788,7 +12788,7 @@ kubbelerdeki,fo2bu1o8h||lrdh||ky
 kubbeler,fo2bu1o8h||lr
 kubbeleri,fo2bu1o8h||lry
 kubbelerini,fo2bu1o8h||lrybo1y
-kubbeli,fo2bu1h<>ly
+kubbeli,fo2bu1h||ly
 kubbeli,fo2bu1h||ly
 kubbeli,fo2bu1o8h||ly
 kubbenin,fo2bu1o8h||bo1ko3
@@ -13163,16 +13163,16 @@ kuduz,fo2dwro1
 kuduz,fo2wdwro1
 kuduzotu,fo2wdwro1ewbo2y
 kuduzu,fo2wdwro1y
-küfeci,kwfo1h<>xu1y
+küfeci,kwfo1h||xu1y
 küfeci,kwfo1h||xu1y
 kûfe'de,kwfo1h||dh
 kufe,kwfo1h||
 kûfe,kwfo1h
 küfe,kwfo1h
 küfe,kwfo1h||
-küfelik,kwfo1h<>lk
 küfelik,kwfo1h||lk
-küfeli,kwfo1h<>ly
+küfelik,kwfo1h||lk
+küfeli,kwfo1h||ly
 küfeli,kwfo1h||ly
 küffara,kfo1o8erh
 küffarca,kfo1o8erxu1h
@@ -13274,7 +13274,7 @@ küfürden,kfo1rdbo1
 küfürdür,kfo1rdr
 küfür,kfo1r
 küfür,ko9fo1o9ro0
-küfürküfür,kwfo1wr<>kwfo1wr
+küfürküfür,kwfo1wr||kwfo1wr
 küfürküfür,kwfo1wr||kwfo1wr
 küfürle,kfo1rlh
 küfürleri,kfo1rlry
@@ -13303,8 +13303,8 @@ kuhl,kxl
 kühûlette,khwlbo2dh
 kukla,fo2wfo2le
 kükrek,kwkrk
-kükre,ko7wkrh<>
-kükremek,ko7wkrh<>mk
+kükre,ko7wkrh||
+kükremek,ko7wkrh||mk
 kükremek,ko7wkrh||mk
 kükreyecek,kwkrh||yh||xu1k
 kükreyip,kwkrh||ywbu1
@@ -13411,7 +13411,7 @@ küleh,klh||
 külek,kwlk
 kulelerdeki,fo2lh||lrdh||ky
 kulel,fo2ll
-kuleli,fo2wlh<>ly
+kuleli,fo2wlh||ly
 kuleli,fo2wlh||ly
 kuleön'lü,fo2lh||ewko3ly
 kuleönlü,fo2lh||ewko3ly
@@ -13454,7 +13454,7 @@ külhĀn,ko9lo0xo1o4ebo1o0
 kulis,fo2wlbu2s
 kulis,fo2wlys
 külkedisi,kwl||kdbu2sy
-külkedisi,kwl<>kdysy
+külkedisi,kwl||kdysy
 kül,kl
 kul-köle,fo2wl kwlh
 kül,kwl
@@ -13514,7 +13514,7 @@ külldür,klo8dr
 kulle,fo2lh
 kulle,fo2lh||
 külle,klo8h
-külleme,kwllh<>mh<>
+külleme,kwllh||mh||
 külleme,kwllh||mh||
 külleme,kwllmh
 külleme,kwllmh||
@@ -13663,7 +13663,7 @@ küllüne,klo8bo1h
 küll'ün,klo8ko3
 küllün,klo8ko3
 küllünü,klo8bo1y
-küllüsü,kwlly<>zw
+küllüsü,kwlly||zw
 küllüsü,kwlly||zw
 kulp,fo2wlbu1
 kulp,fo2wlbu3
@@ -13676,7 +13676,7 @@ kül suyu,kwl zwbu2y
 kül suyu,kwl zwyy
 külte,klbo2h
 külte,klbo2h||
-külte,kwlbo2h<>
+külte,kwlbo2h||
 külte,kwlbo2h||
 kültürden,kwlbo2wrdbo1
 kültür,kwlbo2wr
@@ -13699,7 +13699,7 @@ kulübe,fo2lbu1h||
 kulûbe,fo2lwbu1h
 kulübe,fo2wlbu1h
 kulübe,fo2wlbu1h||
-kulübe,fo2wlwbu1h<>
+kulübe,fo2wlwbu1h||
 kulübe,fo2wlwbu1h||
 kulübe,klbu1h
 kulübe,klbu1h||
@@ -13944,17 +13944,17 @@ kupa,fo2wbu3e
 kupa,fo2wbu3h
 kupa,fo2wbu3h||
 küpeçiçeği,kwbu3h||xu3bu2bu2xu3ky
-küpeçiçeği,kwbu3h<>xu3yyxu3ky
+küpeçiçeği,kwbu3h||xu3yyxu3ky
 küpeka,kbu3ke
 küpe,kwbu3h
 küpe,kwbu3h||
-küpeli,kwbu3h<>ly
+küpeli,kwbu3h||ly
 küpeli,kwbu3h||ly
 küpeşte,kwbu3so3bo2h
 küpeşte,kwbu3so3bo2h||
 küphane,kwbu3xo1ebo1h||
 küphâne,kwbu3xo1ebo1h
-kupkuru,fo2wbu3<>fo2wrw
+kupkuru,fo2wbu3||fo2wrw
 kupkuru,fo2wbu3||fo2wrw
 küp,kwbu3
 küplerde,kwbu3lrdh
@@ -13968,7 +13968,7 @@ kuracağım,fo2wrexu1ao1m
 kuracak,fo2wrexu1fo2
 kuracakları,fo2wrexu1fo2lry
 kur'a çekmek,fo2rah xu3kmk
-kur’acı,fo2rah<>xu1y
+kur’acı,fo2rah||xu1y
 kur’acı,fo2rah||xu1y
 kur'ada,fo2rah||dh
 kur'a,fo2rah
@@ -14184,7 +14184,7 @@ kurcalayan,fo2wrxu1eleyebo1
 kurçeta,fo2wrxu3bo2h
 kurçeta,fo2wrxu3bo2h||
 kurda,fo2wrdh
-kurdağzı,fo2wrbo2<>eo6ao1ro1y
+kurdağzı,fo2wrbo2||eo6ao1ro1y
 kurdağzı,fo2wrbo2||eo6ao1ro1y
 kurdayağı,fo2wrbo2 eo6bu2eao1y
 kurdayağı,fo2wrbo2 eo6yeao1y
@@ -14259,7 +14259,7 @@ kurekkemiği,kwrk kmbu2ko7y
 kürekkemiği,kwrk kmbu2ko7y
 kurekkemiği,kwrk kmyko7y
 kürekkemiği,kwrk kmyko7y
-kürek,kwrh<>k
+kürek,kwrh||k
 kürek,kwrh||k
 kürek,kwrk
 kürekle atmak,kwrklh ebo2mfo2
@@ -14269,10 +14269,10 @@ küre,krh||
 kure,kwrh||
 kûre,kwrh
 küre,kwrh
-küre,kwrh<>
 küre,kwrh||
-kürele,kwrh<>l
-kürelemek,kwrh<>lmk
+küre,kwrh||
+kürele,kwrh||l
+kürelemek,kwrh||lmk
 kürelemek,kwrh||lmk
 kürelere,krh||lrh
 küreleri,krh||lry
@@ -14280,7 +14280,7 @@ kürelerine,krh||lrybo1h
 kürelerin,krh||lrko3
 küreler,krh||lr
 küre'li,kwrh||ly
-küremek,kwrh<>mk
+küremek,kwrh||mk
 küremek,kwrh||mk
 küremizde,krh||mro1dh
 küremize,krh||mro1h
@@ -14542,7 +14542,7 @@ kurtlaşmış,fo2wrbo2leso3mso3
 kurtludur,fo2wrdlydr
 kurtlu,fo2wrbo2ly
 kurtmasalı,fo2wrbo2 mezely
-kurtpençesi,fo2wrbo2 bu3bo1xu3h<>sy
+kurtpençesi,fo2wrbo2 bu3bo1xu3h||sy
 kurtpençesi,fo2wrbo2 bu3bo1xu3h||sy
 kurttan,fo2wrddbo1
 kurttırnağı,fo2wrbo2 tyrbo1eao1y
@@ -14688,7 +14688,7 @@ kuru erik,fo2wrweryk
 kuru,fo2wrw
 kuru,fo2wry
 kuruhavuz,fo2wrwxwzo1
-kurukahveci,fo2wry fo2hwh<>xu1y
+kurukahveci,fo2wry fo2hwh||xu1y
 kurukahveci,fo2wry fo2hwh||xu1y
 kurukahve,fo2wry fo2hwh
 kurukahve,fo2wry fo2hwh||
@@ -14800,7 +14800,7 @@ kuruyoruz,fo2wrwywrro1
 kurye,fo2wrbu2l
 kusacak,fo2wzh||xu1fo2
 küşada,kso3edh
-kuşadası,fo2wso3<>eo6desy
+kuşadası,fo2wso3||eo6desy
 küşadda,kso3eddh
 küşade,ko9so3o4edo4h||
 küşâde,ko9so3o4edo4h
@@ -14836,7 +14836,7 @@ kuşbazlık,fo2wso3bu1ero1lfo2
 küsbe,kwsbu1h
 küsbe,kwsbu1h||
 kuşbeyi,fo2wso3 bu1ky
-kuşburnu,fo2wso3<>bu1wrbo1y
+kuşburnu,fo2wso3||bu1wrbo1y
 kuşburnu,fo2wso3||bu1wrbo1y
 kuşcu,fo2wso3xu1y
 kuşçuklara,fo2wso3xu1fo2lrh
@@ -14874,7 +14874,7 @@ kuşkanadı,fo2wso3 fo2ebo1edy
 kuşkirazı,fo2wso3 krero1y
 kuşk,kwso3k
 kûşk,kwso3k
-kuşkonmaz,fo2wso3<>fo2wbo1mero1
+kuşkonmaz,fo2wso3||fo2wbo1mero1
 kuşkonmaz,fo2wso3||fo2wbo1mero1
 kuşkonmaz,fo2wso3 fo2wbo1mro1
 küs,ks
@@ -14886,7 +14886,7 @@ kuşkulanmak,fo2wso3fo2wlebo1mfo2
 küskün,kwskwbo1
 küskünlük,kwskwbo1lk
 kuskus,fo2wsfo2ws
-küskütük,kws<>kwbo2wk
+küskütük,kws||kwbo2wk
 küskütük,kws||kwbo2wk
 kus,kws
 kûs,kws
@@ -15114,7 +15114,7 @@ kut,fo2wbo2
 kût,fo2wbo2
 kût-i lâ-yemût,fo2wbo2 lebu2mwbo2
 kut-i la-yemut,fo2wbo2 leymwbo2
-kütküt,kwbo2<>kwbo2
+kütküt,kwbo2||kwbo2
 kütküt,kwbo2||kwbo2
 küt,kwbo2
 kutlan,fo2wbo2lebo1
@@ -15123,10 +15123,10 @@ kutlar,fo2wtler
 kütle-i,ko9bo2lh'u4
 kütle,kbo2lh
 kütle,kbo2lh||
-kütle,kwbo2lh<>
+kütle,kwbo2lh||
 kütleleri,kbo2lh||lry
 kütleler,kbo2lh||lr
-kütlemek,kwbo2lh<>mk
+kütlemek,kwbo2lh||mk
 kütlemek,kwbo2lh||mk
 kütlesi,kbo2lh||sy
 kütleyi,kbo2lh||yy
@@ -15212,14 +15212,14 @@ kutupları,fo2tbu1lry
 kutup yıldızı,fo2tbu1 bu2ldro1y
 kutup yıldızı,fo2tbu1 yldro1y
 kuturda,fo2o9trdh
-kütürde,kwbo2wrdh<>
-kütürdemek,kwbo2wrdh<>mk
+kütürde,kwbo2wrdh||
+kütürdemek,kwbo2wrdh||mk
 kütürdemek,kwbo2wrdh||mk
 kütürdü,kwbo2wrdy
 kutur,fo2bo2r
 kutur,fo2o9to9ro0
 kutur,fo2tr
-kütürkütür,kwbo2wr<>kwbo2wr
+kütürkütür,kwbo2wr||kwbo2wr
 kütürkütür,kwbo2wr||kwbo2wr
 kutusudur,fo2wtwsydr
 kutusu,fo2wtwsy
@@ -15533,9 +15533,9 @@ kuzeh,fo2ro1x
 kuzehindeki,fo2ro1xbo1dh||ky
 kuze,kwro1h||
 kûze,kwro1h
-kuzen,fo2wro1h<>bo1
 kuzen,fo2wro1h||bo1
-kuzey,fo2wro1h<>y
+kuzen,fo2wro1h||bo1
+kuzey,fo2wro1h||y
 kuzey,fo2wro1h||y
 kuzgunayağı,fo2wro1ao1wbo1 eo6bu2eao1y
 kuzgunayağı,fo2wro1ao1wbo1 eo6yeao1y
@@ -15556,7 +15556,7 @@ kuzudişi,fo2wro1wdyso3y
 kuzu,fo2wro1w
 kuzu,fo2wro1y
 kuzu gibi,fo2wro1y kbu1y
-kuzukestanesi,fo2wro1y ksbo2ebo1h<>sy
+kuzukestanesi,fo2wro1y ksbo2ebo1h||sy
 kuzukestânesi,fo2wro1y ksbo2ebo1h||sy
 kuzuköpeği,fo2wro1wkwbu3ky
 kuzukulağı,fo2wro1wfo2wleao1y

@@ -57,7 +57,7 @@ func MakeOttomanWord(visenc string, unicode string) (*OttomanWord, error) {
 	if len(visenc) == 0 {
 		cleanVisenc = UnicodeToVisenc(unicode)
 	} else {
-		cleanVisenc = regexp.MustCompile("[^a-z0-9 |<>]+").ReplaceAllLiteralString(visenc, "")
+		cleanVisenc = regexp.MustCompile("[^a-z0-9 |||]+").ReplaceAllLiteralString(visenc, "")
 		if cleanVisenc != visenc {
 			log.Printf("Cleaned Visenc %s -> %s", visenc, cleanVisenc)
 		}

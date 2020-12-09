@@ -12,20 +12,20 @@
 ödağacı,awd eo6ao1exu1y
 ödağacı,ewdeo6ao1exu1y
 öd,awd
-öde,ewdh<>
-ödek,ewdh<>k
+öde,ewdh||
 ödek,ewdh||k
-ödemek,ewdh<>mk
+ödek,ewdh||k
+ödemek,ewdh||mk
 ödemek,ewdh||mk
 ödemek,ewdh mk
 ödemeye,ewdh||mko7h
-ödemiş,ewdh<>mso3
-öden,ewdh<>bo1
-ödenmek,ewdh<>bo1mk
+ödemiş,ewdh||mso3
+öden,ewdh||bo1
+ödenmek,ewdh||bo1mk
 ödenmek,ewdh||bo1mk
 ödersek,ewdrsk
-ödeş,ewdh<>so3
-ödeşmek,ewdh<>so3mk
+ödeş,ewdh||so3
+ödeşmek,ewdh||so3mk
 ödeşmek,ewdh||so3mk
 öd,ewd
 ödeyebiliriz,ewdh||yh||bu1ylyrro1
@@ -45,9 +45,9 @@
 öfke,ewfo1kh
 öfke,ewfo1kh||
 öfke,ewykh||
-öfkelen,ewfo1kh<>lbo1
+öfkelen,ewfo1kh||lbo1
 öfkeleniyor,ewfo1kh||lbo1ywr
-öfkelenmek,ewfo1kh<>lbo1mk
+öfkelenmek,ewfo1kh||lbo1mk
 öfkelenmek,ewfo1kh||lbo1mk
 öfkesinden,yo5wfo1kh||sbo1dbo1
 öfkesini,ewfo1kh||sbo1y
@@ -65,7 +65,7 @@
 öğle vakti,ewylh wfo2bo2y
 öğleye,ewko7lh||yh
 öğleyin,ewko7lh||bu2bu2bo1
-öğleyin,ewko7lh<>yybo1
+öğleyin,ewko7lh||yybo1
 öğmek,ewkmk
 öğrendi,ewko7rbo1dy
 öğrendiği,ewko7rbo1dyko7y
@@ -85,7 +85,7 @@
 öğrenenler,ewko7rbo1bo1lr
 öğrenerek,ewko7rbo1h||rk
 öğren,ewko7rbo1
-öğren,ewko7rh<>bo1
+öğren,ewko7rh||bo1
 öğrenilmesine,ewko7rbo1ylmh||sbo1h
 öğrenilmesini,ewko7rbo1ylmh||sbo1y
 öğrenince,ewko7rbo1bo1xu1h
@@ -100,7 +100,7 @@
 öğrenmediği,ewko7rbo1mdyko7y
 öğrenmeğe,ewko7rbo1mko7h
 öğrenmek,ewko7rbo1mk
-öğrenmek,ewko7rh<>bo1mk
+öğrenmek,ewko7rh||bo1mk
 öğrenmek,ewko7rh||bo1mk
 öğrenmek,ewkrbo1mk
 öğrenmekle,ewko7rbo1mklh
@@ -120,7 +120,7 @@
 öğretecek,ewko7rbo2h||xu1k
 öğreten,ewko7rbo2bo1
 öğreterek,ewko7rbo2h||rk
-öğret,ewko7rh<>bo2
+öğret,ewko7rh||bo2
 öğreteyim,ewko7rbo2h||ym
 öğretilmemiş,ewkrdlmemso3
 öğretim,ewko7rbo2ym
@@ -130,7 +130,7 @@
 öğretiyoruz,ewko7rbo2yywrro1
 öğretme,ewko7rbo2mh
 öğretmek,ewko7rbo2mk
-öğretmek,ewko7rh<>bo2mk
+öğretmek,ewko7rh||bo2mk
 öğretmek,ewko7rh||bo2mk
 öğretmek,ewkrbo2mk
 öğretmekle,ewko7rbo2mklh
@@ -157,8 +157,8 @@
 öğüterek,ewko7wbo2h||rk
 öğüt,ewko7wbo2
 öğüt,ewkwbo2
-öğütle,ewko7wbo2lh<>
-öğütlemek,ewko7wbo2lh<>mk
+öğütle,ewko7wbo2lh||
+öğütlemek,ewko7wbo2lh||mk
 öğütlemek,ewko7wbo2lh||mk
 öğütlerden,ewko7wbo2lrdbo1
 öğütler,ewko7wbo2lr
@@ -544,10 +544,10 @@
 ön hayvanı,ewk xbu2webo1y
 ön hayvanı,ewk xywebo1y
 önlediğinden,ewko3lh||dyko7bo1dbo1
-önle,ewlo5o3lh<>
+önle,ewlo5o3lh||
 önlemeğe,ewko3lh||mko7h
 önlemek,ewko3lh||mk
-önlemek,ewlo5o3lh<>mk
+önlemek,ewlo5o3lh||mk
 önlemekte,ewko3lh||mkdh
 önlemişler,ewko3lh||mso3lr
 önlendi,ewko3lbo1dy
@@ -616,7 +616,7 @@
 öpüyorlar,ewbu3wywrlr
 öpüyorum,ewbu3wywrm
 öpüyoruz,ewbu3wywrro1
-ördek,ewrdh<>k
+ördek,ewrdh||k
 ördek,ewrdh||k
 ördek,ewrdk
 ördek gibi ses etmek,ewrdk kbu1y ss e
@@ -678,17 +678,17 @@
 örnektiniz,yo5wrbo1kdyko3ro1
 örnektir,ewrbo1kdr
 örnek,yo5wrbo1k
-örsele,ewrsh<>l
-örselemek,ewrsh<>lmk
+örsele,ewrsh||l
 örselemek,ewrsh||lmk
-örselen,ewrsh<>lbo1
-örselenmek,ewrsh<>lbo1mk
+örselemek,ewrsh||lmk
+örselen,ewrsh||lbo1
+örselenmek,ewrsh||lbo1mk
 örselenmek,ewrsh||lbo1mk
 örselenmek,ewrsh lbo1mk
 örselenmek,ewrsh lbo2mk
 örs,ewrs
 örse,yo5wrsh
-örtbas,ewrbo2<>bu1es
+örtbas,ewrbo2||bu1es
 örtbas,ewrbo2||bu1es
 örten,ewrbo2bo1
 örter,ewrbo2r
@@ -757,7 +757,7 @@
 öteden,ewbo2h||dbo1
 öte,ewbo2h
 öte,ewbo2h||
-öteki,ewbo2h<>ky
+öteki,ewbo2h||ky
 öteki,ewbo2h||ky
 ötekilere,ewbo2h||kylrh
 ötekiler,ewbo2h||kylr
@@ -835,15 +835,15 @@
 özengiç,ewro1bo1kbu2xu3
 özengiç,ewro1bo1kyxu3
 özenmek,ewro1bo1mk
-özenti,ewro1h<>bo1bo2y
+özenti,ewro1h||bo1bo2y
 özenti,ewro1h||bo1bo2y
 özetlenmedi,yo5wro1bo2lbo1mh||dy
 öz,ewro1
 öze,yo5wro1h
-özge,ewro1h<>ko7h||
+özge,ewro1h||ko7h||
 özge,ewro1h||ko7h
-özle,ewro1lh<>
-özlemek,ewro1lh<>mk
+özle,ewro1lh||
+özlemek,ewro1lh||mk
 özlemek,ewro1lh||mk
 özlemiştim,ewro1lh||mso3dm
 özlen,ewro1lbo1

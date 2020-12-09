@@ -771,7 +771,7 @@ zamme,zo1mh||
 zammıyla,zo1mo8ylh
 zammı,zo1mo8y
 zamm,zo1m
-zamparalık,ro1bo1bu3erh<>lfo2
+zamparalık,ro1bo1bu3erh||lfo2
 zamparalık,ro1bo1bu3erh||lfo2
 zamparalık,ro1bo1bu3erh lfo2
 zamparalık,ro1bo1bu3erh lk
@@ -792,7 +792,7 @@ zangırdamak,ro1ebo1ao1bu2rdemfo2
 zangırdamak,ro1ebo1ao1yrdemfo2
 zangırda,ro1ebo1ao1yrde
 zangırzangır,ro1ebo1ao1bu2r||ro1ebo1ao1bu2r
-zangırzangır,ro1ebo1ao1yr<>ro1ebo1ao1yr
+zangırzangır,ro1ebo1ao1yr||ro1ebo1ao1yr
 zanîn,to1bo1bu2bo1
 zanin,to1bo1ybo1
 zani,ro1ebo1y
@@ -1406,7 +1406,7 @@ zecrî,ro1xu1ry
 zecr,ro1xu1r
 zedelediğini,ro1dh||ldyko7bo1y
 zedelemek,ro1dh||lh||mk
-zedelemek,ro1dh<>lmk
+zedelemek,ro1dh||lmk
 zedelemek,ro1dh||lmk
 zedelemek,ro1dh lmk
 zedelememek,ro1dh||lh||mh||mk
@@ -1416,7 +1416,7 @@ zedelemez,ro1dh||lh||mro1
 zedelendi,ro1dh||lbo1dy
 zedelenen,ro1dh||lh||bo1bo1
 zedelenir,ro1dh||lbo1yr
-zedelenmek,ro1dh<>lbo1mk
+zedelenmek,ro1dh||lbo1mk
 zedelenmek,ro1dh||lbo1mk
 zedelenmemek,ro1dh||lbo1mh||mk
 zedelenmesidir,ro1dh||lbo1mh||sydr
@@ -1427,8 +1427,8 @@ zedelenmeyecek,ro1dh||lbo1myh||xu1k
 zedelenmeyen,ro1dh||lbo1mh||ybo1
 zedelenmez,ro1dh||lbo1mro1
 zedelenmiş,ro1dh||lbo1mso3
-zedelen,ro1dh<>lbo1
-zedele,ro1dh<>l
+zedelen,ro1dh||lbo1
+zedele,ro1dh||l
 zedeler,ro1dh||lr
 zedeleyen,ro1dh||lh||ybo1
 zedeliyordu,ro1dh||lyywrdy
@@ -1860,12 +1860,12 @@ zenginim,ro1bo1ko7ybo1m
 zenginin,ro1bo1ko7ybo1ko3
 zengini,ro1bo1ko7ybo1y
 zenginlemek,ro1bo1ko7bu2bo1lh||mk
-zenginlemek,ro1bo1ko7ybo1lh<>mk
+zenginlemek,ro1bo1ko7ybo1lh||mk
 zenginlere,ro1bo1ko7ybo1lrh
 zenginlerin,ro1bo1ko7ybo1lrko3
 zenginleri,ro1bo1ko7ybo1lry
 zenginlerle,ro1bo1ko7ybo1lrlh
-zenginle,ro1bo1ko7ybo1lh<>
+zenginle,ro1bo1ko7ybo1lh||
 zenginler,ro1bo1ko7ybo1lr
 zenginleşmeleri,ro1bo1ko7ybo1lso3mh||lry
 zenginliğe,ro1bo1ko7ybo1lko7h
@@ -1892,9 +1892,9 @@ zengî,ro1bo1ko7y
 zeng,ro1bo1ko7
 zengule,ro1bo1ko7wlh||
 zengûle,ro1bo1ko7wlh
-zenneci,ro1bo1h<>xu1y
 zenneci,ro1bo1h||xu1y
-zennelik,ro1bo1h<>lk
+zenneci,ro1bo1h||xu1y
+zennelik,ro1bo1h||lk
 zennelik,ro1bo1h||lk
 zenne,ro1bo1h
 zenne,ro1bo1h||
@@ -2422,11 +2422,11 @@ zifos,ro1yfo1ws
 zıfr,to1fo1r
 ziftlemek,ro1bu2fo1bo2lh||mk
 ziftlemek,ro1fo1bo2lmk
-ziftlemek,ro1yfo1bo2lh<>mk
+ziftlemek,ro1yfo1bo2lh||mk
 ziftlenmek,ro1bu2fo1bo2lbo1mk
 ziftlenmek,ro1yfo1bo2lbo1mk
 ziftlen,ro1yfo1bo2lbo1
-ziftle,ro1yfo1bo2lh<>
+ziftle,ro1yfo1bo2lh||
 ziftli,ro1bu2fo1bo2ly
 ziftli,ro1yfo1bo2ly
 zift,ro1bu2fo1bo2
@@ -2728,11 +2728,11 @@ zil-ecniha,do1y eleo5xu1bo1xh
 zile,ro1ylh||
 zılgıt,ro1bu2lao1bu2bo2
 zılgıt,ro1ylao1ybo2
-zilhicce,do1y<>elxxu1h||
+zilhicce,do1y||elxxu1h||
 zilhicce,do1y||elxxu1h
 zilhicce,do1y elxxu1o8h
 zil-iktidarın,do1y eleu5fo2bo2derko3
-zilka’de,do1y<>elfo2adh||
+zilka’de,do1y||elfo2adh||
 zilka’de,do1y||elfo2adh
 zilkade,do1y elfo2adh
 zıllden,to1ldbo1
@@ -2999,7 +2999,7 @@ zıngırdat,ro1ybo1ao1yrdebo2
 zıngırtı,ro1bu2bo1ao1bu2rbo2y
 zıngırtı,ro1ybo1ao1yrbo2y
 zıngırzıngır,ro1bu2bo1ao1bu2r||ro1bu2bo1ao1bu2r
-zıngırzıngır,ro1ybo1ao1yr<>ro1ybo1ao1yr
+zıngırzıngır,ro1ybo1ao1yr||ro1ybo1ao1yr
 zinhar,ro1bo1her
 zinhâr,ro1bo1her
 zi̇nhar,ro1u4bo1o0ho4ero0
@@ -3218,13 +3218,13 @@ ziyâdar,zo1yeder
 ziya'da,zo1yedh
 ziyada,zo1yedh
 ziyâdece,ro1bu2edh||xu1h
-ziyadece,ro1yedh<>xu1h||
+ziyadece,ro1yedh||xu1h||
 ziyadedir,ro1yedh||dr
 ziyâdelenmek,ro1bu2edh lbo1mk
 ziyadelenmek,ro1yedh lbo1mk
 ziyâdeleşdirmek,ro1bu2edh||lso3dbu2rmk
-ziyadeleşdirmek,ro1yedh<>lso3dyrmk
-ziyadeleşdir,ro1yedh<>lso3dyr
+ziyadeleşdirmek,ro1yedh||lso3dyrmk
+ziyadeleşdir,ro1yedh||lso3dyr
 ziyadeleşecek,ro1yedh||lso3h||xu1k
 ziyadeleşecektir,ro1yedh||lso3h||xu1kdr
 ziyadeleşen,ro1yedh||lso3bo1
@@ -3234,14 +3234,14 @@ ziyadeleşiyor,ro1yedh||lso3ywr
 ziyadeleşmekle,ro1yedh||lso3mklh
 ziyâdeleşmek,ro1bu2edh||lso3mk
 ziyâdeleşmek,ro1bu2edh lso3mk
-ziyadeleşmek,ro1yedh<>lso3mk
+ziyadeleşmek,ro1yedh||lso3mk
 ziyadeleşmek,ro1yedh lso3mk
 ziyadeleşmesi,ro1yedh||lso3mh||sy
 ziyadeleşmesiyle,ro1yedh||lso3mh||sylh
 ziyadeleşmeyecek,ro1yedh||lso3myh||xu1k
 ziyadeleşmeye,ro1yedh||lso3myh
 ziyadeleşmiş,ro1yedh||lso3mso3
-ziyadeleş,ro1yedh<>lso3
+ziyadeleş,ro1yedh||lso3
 ziyadeleşse,ro1yedh||lso3sh
 ziyadeleştiği,ro1yedh||lso3dyko7y
 ziyadeleştikçe,ro1yedh||lso3dkxu1h
@@ -3277,7 +3277,7 @@ ziyade,ro1yedh
 ziyade,ro1yedh||
 ziyâde,ro1yedh
 ziyâdesîle,ro1bu2edh||sbu2lh
-ziyadesile,ro1yedh<>sylh||
+ziyadesile,ro1yedh||sylh||
 ziyadesine,ro1yedh||sbo1h
 ziyadesini,ro1yedh||sbo1y
 ziyadesi,ro1yedh||sy
@@ -3481,12 +3481,12 @@ zıya’,zo1yec
 ziya-zulmet,zo1ye to1lmbo2
 zîyezen,do1y||yro1bo1
 ziynetlemek,ro1bu2bo1bo2lh||mk
-ziynetlemek,ro1ybo1bo2lh<>mk
+ziynetlemek,ro1ybo1bo2lh||mk
 ziynetlendirip,ro1ybo1bo2lbo1dyrwbu1
 ziynetlenmek,ro1bu2bo1bo2lbo1mk
 ziynetlenmek,ro1ybo1bo2lbo1mk
 ziynetlen,ro1ybo1bo2lbo1
-ziynetle,ro1ybo1bo2lh<>
+ziynetle,ro1ybo1bo2lh||
 zîynetli,ro1ybo1bo2ly
 ziynet,ro1bu2bo1bo2
 ziynet,ro1ybo1bo2
@@ -3512,12 +3512,12 @@ zorba,ro1wrbu1e
 zorbâ,ro1wrbu1e
 zor ile almak,ro1wrebu2lh elmfo2
 zor ile almak,ro1wreylh elmfo2
-zorlamak,ro1wlh<>mfo2
+zorlamak,ro1wlh||mfo2
 zorlamak,ro1wlh||mfo2
 zorlamak,ro1wrlemfo2
 zorlamak,ro1wrlmfo2
 zorlamakta,ro1wrlemfo2dh
-zorla,ro1wlh<>
+zorla,ro1wlh||
 zorla,ro1wrlh
 zorlaştırabilir,ro1wrleso3dyrh||bu1ylyr
 zorlayış,ro1wrlebu2so3

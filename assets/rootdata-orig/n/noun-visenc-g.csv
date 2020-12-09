@@ -160,10 +160,10 @@ gaile,ao1ebo5lh||
 gâile,ao1ebo5lh
 gaile,ao1eyo5lh
 gâileli,ao1ebo5lh||lbu2
-gaileli,ao1ebo5lh<>ly
+gaileli,ao1ebo5lh||ly
 gailesi,ao1eyo5lh||sy
 gailesiyle,ao1eyo5lh||sylh
-gailesiz,ao1ebo5lh<>sro1
+gailesiz,ao1ebo5lh||sro1
 gâilesiz,ao1ebo5lh||sro1
 gaipten,ao1eyo5bu1dbo1
 gaita,ao1ebo5th||
@@ -213,9 +213,9 @@ galebesinin,ao1lbu1h||sbo1ko3
 galebesiyle,ao1lbu1h||sylh
 galebeye,ao1lbu1h||yh
 galebeyi,ao1lbu1h||yy
-galeri,ao1elh<>ry
 galeri,ao1elh||ry
-galeta,ao1elh<>bo2e
+galeri,ao1elh||ry
+galeta,ao1elh||bo2e
 galeta,ao1elh||bo2e
 galeta,ao1elth
 galeta,ao1elth||
@@ -466,7 +466,7 @@ garbi,ao1rbu1y
 garbî,ao1rbu1y
 garbı,ao1rbu1y
 garbîde,ao1rbu1y||dh
-garbi karaağaç,ao1rbu1y fo2rh<>eo6ao1exu3
+garbi karaağaç,ao1rbu1y fo2rh||eo6ao1exu3
 garbına,ao1rbu1bo1h
 garbın,ao1rbu1ko3
 garbında,ao1rbu1bo1dh
@@ -489,7 +489,7 @@ garbtan yana,ao1rbu1dbo1 yebo1h||
 gar'da,ao1erdh
 gârda,ao1erdh
 gârdan,ao1erdbo1
-gardenparti,ao1erdh<>bo1 bu3erbo2y
+gardenparti,ao1erdh||bo1 bu3erbo2y
 gardenparti,ao1erdh||bo1 bu3erbo2y
 gardfren,ao1erdfo1rbo1
 gardiyana,ao1erdyebo1h
@@ -556,9 +556,9 @@ gariblik,ao1rbu2bu1lk
 gariblik,ao1rybu1lk
 garîb-perver,ao1rbu2bu1 bu3rwr
 garib-perver,ao1rybu1 bu3rwr
-garibse,ao1rybu1sh<>
+garibse,ao1rybu1sh||
 garibsemek,ao1rbu2bu1sh||mk
-garibsemek,ao1rybu1sh<>mk
+garibsemek,ao1rybu1sh||mk
 garibü'd-diyar,ao1rybu1 eldyer
 garibü’d-diyar,ao1rybu1 eldyer
 garibü'd-diyâr,ao1rybu1 eldyer
@@ -1204,14 +1204,14 @@ gazelserâ,ao1ro1l sre
 gazete,ao1ro1bo2h
 gazete,ao1ro1bo2h||
 gazeteci,ao1ro1bo2h||xu1bu2
-gazeteci,ao1ro1bo2h<>xu1y
+gazeteci,ao1ro1bo2h||xu1y
 gazeteci,ao1ro1bo2h||xu1y
 gazeteciler,ao1ro1bo2h||xu1ylr
 gazetecilerdir,ao1ro1bo2h||xu1ylrdr
 gazetecileridir,ao1ro1bo2h||xu1ylrydr
 gazetecilerin,ao1ro1bo2h||xu1ylrko3
 gazetecilik,ao1ro1bo2h||xu1bu2lk
-gazetecilik,ao1ro1bo2h<>xu1ylk
+gazetecilik,ao1ro1bo2h||xu1ylk
 gazetecinin,ao1ro1bo2h||xu1ybo1ko3
 gazetecisinin,ao1ro1bo2h||xu1ysbo1ko3
 gazetede,ao1ro1bo2h||dh
@@ -1289,7 +1289,7 @@ gebe,kbu1h
 gebe,kbu1h||
 gebe,ko7bu1h
 gebe,ko7bu1h||
-gebelik,ko7bu1h<>lk
+gebelik,ko7bu1h||lk
 gebelik,ko7bu1h||lk
 geberecektir,ko7bu1rh||xu1kdr
 geberinceye,ko7bu1rbo1xu1h||yh
@@ -1312,7 +1312,7 @@ gebr,ko7bu1r
 gebze,ko7bu1ro1h||
 geççe,ko7xu1xu1h
 gecebaskını,ko7bu2xu1h||bu1esfo2bu2bo1y
-gecebaskını,ko7yxu1h<>bu1esfo2ybo1y
+gecebaskını,ko7yxu1h||bu1esfo2ybo1y
 geçebileceği,ko7xu3h||bu1ylh||xu1ko7y
 geçebilecek,ko7xu3h||bu1ylh||xu1k
 geçebilen,ko7xu3h||bu1ylbo1
@@ -1344,7 +1344,7 @@ gecedir,ko7yxu1h||dr
 gece-gündüzdeki,ko7yxu1h − ko7wbo1dwro1dh||ky
 gecegündüz,ko7bu2xu1h||ko7wbo1dwro1
 gece-gündüz,ko7yxu1h − ko7wbo1dwro1
-gecegündüz,ko7yxu1h<>ko7wbo1dwro1
+gecegündüz,ko7yxu1h||ko7wbo1dwro1
 gece-gündüzler,ko7yxu1h − ko7wbo1dwro1lr
 gece-gündüzün,ko7yxu1h − ko7wbo1dwro1ko3
 gece-i,ko7yxu1h'u4
@@ -1355,11 +1355,11 @@ gece,ko7bu2xu1h
 gece,ko7yxu1h
 gece,ko7yxu1h||
 gecekuşu,ko7bu2xu1h||fo2wso3y
-gecekuşu,ko7yxu1h<>fo2wso3y
+gecekuşu,ko7yxu1h||fo2wso3y
 gece,kyxu1h||
-gecele,ko7yxu1h<>l
+gecele,ko7yxu1h||l
 gecelemek,ko7bu2xu1h||lmk
-gecelemek,ko7yxu1h<>lmk
+gecelemek,ko7yxu1h||lmk
 gecelerde,ko7yxu1h||lrdh
 gecelerden,ko7yxu1h||lrdbo1
 gecelere,ko7yxu1h||lrh
@@ -1374,14 +1374,14 @@ geceler,ko7yxu1h||lr
 gecelerle,ko7yxu1h||lrlh
 geceleyin,ko7yxu1h||lybo1
 geceligündüzlü,ko7bu2xu1h||ly ko7wbo1dwro1ly
-geceligündüzlü,ko7yxu1h<>ly ko7wbo1dwro1ly
+geceligündüzlü,ko7yxu1h||ly ko7wbo1dwro1ly
 gecelik,kbu2xu1h lk
 gecelik,ko7bu2xu1h||lk
-gecelik,ko7yxu1h<>lk
+gecelik,ko7yxu1h||lk
 gecelik,ko7yxu1h||lk
 gecelik,kyxu1h lk
 geceli,ko7bu2xu1h||ly
-geceli,ko7yxu1h<>ly
+geceli,ko7yxu1h||ly
 geceli,ko7yxu1h||ly
 geçemem,ko7xu3h||mm
 geçemeyeceğiz,ko7xu3h||myh||xu1ko7ro1
@@ -1413,7 +1413,7 @@ geçerler,ko7xu3rlr
 geçerse,ko7xu3rsh
 geçersin,ko7xu3rsko3
 gecesafa,ko7bu2xu1h||zfo1e
-gecesafa,ko7yxu1h<>zfo1e
+gecesafa,ko7yxu1h||zfo1e
 gecesidir,ko7yxu1h||sydr
 gecesi,ko7yxu1h||sy
 gecesindeki,ko7yxu1h||sbo1dh||ky
@@ -1426,11 +1426,11 @@ gecesinin,ko7yxu1h||sbo1ko3
 gece vaktinde olan,kbu2xu1h wfo2bo2bo1dh ewlebo1
 gece vaktinde olan,kyxu1h wfo2bo2bo1dh ewlebo1
 geceyanığı,ko7bu2xu1h||bu2ebo1bu2ao1bu2
-geceyanığı,ko7yxu1h<>yebo1yao1y
+geceyanığı,ko7yxu1h||yebo1yao1y
 geceyarısı,ko7bu2xu1h||bu2erbu2sbu2
-geceyarısı,ko7yxu1h<>yerysy
+geceyarısı,ko7yxu1h||yerysy
 geceyatısı,ko7bu2xu1h||bu2ebo2bu2sy
-geceyatısı,ko7yxu1h<>yebo2ysy
+geceyatısı,ko7yxu1h||yebo2ysy
 geceye,ko7yxu1h||yh
 gece yemeği,kbu2xu1h bu2mky
 gece yemeği,kyxu1h ymky
@@ -1476,7 +1476,7 @@ geçindirmek,ko7xu3ybo1dyrmk
 geçinebilir,ko7xu3ybo1h||bu1ylyr
 geçineceğini,ko7xu3ybo1h||xu1ko7bo1y
 geçinecek,ko7xu3bu2bo1h||xu1k
-geçinecek,ko7xu3ybo1h<>xu1k
+geçinecek,ko7xu3ybo1h||xu1k
 geçinecek,kxu3bo1h xu1k
 geçinen,ko7xu3ybo1bo1
 geçinenleri,ko7xu3ybo1bo1lry
@@ -1803,7 +1803,7 @@ geleceğine,ko7lh||xu1ko7bo1h
 geleceğini,ko7lh||xu1ko7bo1y
 geleceğiz,ko7lh||xu1ko7ro1
 gelecek,klh xu1k
-gelecek,ko7lh<>xu1k
+gelecek,ko7lh||xu1k
 gelecek,ko7lh||xu1k
 geleceklerde,ko7lh||xu1klrdh
 geleceklere,ko7lh||xu1klrh
@@ -1856,7 +1856,7 @@ gelibolu,ko7lybu1wly
 gelince,klbo1xu1h
 gelince,klbo1xu1h||
 gelince,ko7lbo1xu1h
-gelince,ko7lbo1xu1h<>
+gelince,ko7lbo1xu1h||
 gelince,ko7lbo1xu1h||
 gelinceye,ko7lbo1xu1h||yh
 gelincikbalığı,ko7lbu2bo1xu1k bu1elbu2ao1y
@@ -2232,9 +2232,9 @@ geniş,ko7lo5o3yso3
 genişlediği,ko7bo1yso3ldyko7y
 genişledi,ko7bo1yso3ldy
 genişlediler,ko7bo1yso3ldylr
-genişle,ko7bo1yso3lh<>
+genişle,ko7bo1yso3lh||
 genişlemek,ko7bo1bu2so3lh||mk
-genişlemek,ko7bo1yso3lh<>mk
+genişlemek,ko7bo1yso3lh||mk
 genişlemesinden,ko7bo1yso3lmh||sbo1dbo1
 genişlemesine,ko7bo1yso3lmh||sbo1h
 genişlemiş,ko7bo1yso3lh||mso3
@@ -2248,9 +2248,9 @@ genişlenen,ko7bo1yso3lh||bo1bo1
 genişlenip,ko7bo1yso3lbo1wbu1
 genişlenir,ko7bo1yso3lbo1yr
 genişlen,ko7bo1yso3lbo1
-genişlen,ko7bo1yso3lh<>bo1
+genişlen,ko7bo1yso3lh||bo1
 genişlenmek,ko7bo1bu2so3lh||bo1mk
-genişlenmek,ko7bo1yso3lh<>bo1mk
+genişlenmek,ko7bo1yso3lh||bo1mk
 genişlenmesine,ko7bo1yso3lbo1msbo1h
 genişlenmiş,ko7bo1yso3lbo1mso3
 genişleri,ko7bo1yso3lry
@@ -2258,10 +2258,10 @@ genişleteceğiz,ko7bo1yso3lbo2h||xu1ko7ro1
 genişleterek,ko7bo1yso3lbo2h||rk
 genişletip,ko7bo1yso3lbo2wbu1
 genişletir,ko7bo1yso3lbo2yr
-genişlet,ko7bo1yso3lh<>bo2
+genişlet,ko7bo1yso3lh||bo2
 genişletmek,kbo1so3lbo2mk
 genişletmek,ko7bo1bu2so3lh||bo2mk
-genişletmek,ko7bo1yso3lh<>bo2mk
+genişletmek,ko7bo1yso3lh||bo2mk
 genişletmişlerdir,ko7bo1yso3lbo2mso3lrdr
 genişlettirdi,ko7bo1yso3lbo2dyrdy
 genişlettirir,ko7bo1yso3lbo2dyrr
@@ -2315,7 +2315,7 @@ gerdalud,ko7rd eo6lwd
 gerdâlûd,ko7rd eo6lwd
 gerdanını,ko7o4ro0debo1bo1y
 gerdâniye,ko7rdebo1bu2h||
-gerdaniye,ko7rdebo1yh<>
+gerdaniye,ko7rdebo1yh||
 gerdankıran,ko7rdebo1 fo2bu2rebo1
 gerdankıran,ko7rdebo1 fo2yrebo1
 gerdan,ko7rdebo1
@@ -2347,7 +2347,7 @@ gerdûn,ko7rdwbo1
 gereceğim,ko7rh||xu1ko7m
 gereceğini,ko7rh||xu1ko7bo1y
 gerede'de,ko7rh||dh||dh
-gerede,ko7rh<>dh||
+gerede,ko7rh||dh||
 gerede,ko7rh||dh
 gereği gibi ıslatmak,krky kbu1y ezlebo2mfo2
 gereği gibi,krky kbu1y
@@ -2365,7 +2365,7 @@ gerekti,ko7rkdy
 gerektir,ko7rkdr
 geren,ko7rbo1
 gererek,ko7rh||rk
-gereze,krh<>ro1h||
+gereze,krh||ro1h||
 gergedana,ko7rko7debo1h
 gergedandan,ko7rko7debo1dbo1
 gergedan,ko7rko7debo1
@@ -2462,7 +2462,7 @@ gerilemek,ko7rylh||mk
 gerilemek,kyrlmk
 gerilemek,kyrwlmk
 gerileme,ko7rbu2lh||mk
-gerileme,ko7rylh<>mk
+gerileme,ko7rylh||mk
 gerilemesi,ko7rylh||msy
 geriliğinde,ko7rylko7bo1dh
 gerilik,ko7rylk
@@ -2475,7 +2475,7 @@ geriliş,krylso3
 geriliyor,ko7rylyywr
 geril,ko7rl
 gerilla,ko7h||rbu2lle
-gerilla,ko7h<>rylle
+gerilla,ko7h||rylle
 gerilmek,ko7rlmk
 gerilmek,krlmk
 gerilme,ko7rlmh
@@ -2538,7 +2538,7 @@ germ,krm
 gerze'den,ko7rro1h||dbo1
 gerze,ko7rro1h
 geşt,ko7so3bo2
-geştügüzar,ko7so3bo2<>wko7do1er
+geştügüzar,ko7so3bo2||wko7do1er
 geştügüzar,ko7so3bo2||wko7do1er
 geştügüzar,ko7so3bo2 w ko7ro1er
 geştügüzâr,ko7so3bo2 w ko7ro1er
@@ -2735,7 +2735,7 @@ gevendir,ko7h||wh||bo1dr
 gevenin,ko7h||wh||bo1ko3
 geven,ko7h||wh||bo1
 gevenleri,ko7wh||bo1lry
-geveze,ko7wh<>ro1h||
+geveze,ko7wh||ro1h||
 geveze,ko7wh||ro1h
 geveze,ko7wro1h
 geveze,ko7wro1h||
@@ -2744,7 +2744,7 @@ geveze,kwro1h||
 gevezeler,ko7wro1h||lr
 gevezeliğine,ko7wh||ro1h||lko7bo1h
 gevezeliğin,ko7wh||ro1h||lko7ko3
-gevezelik,ko7wh<>ro1h<>lk
+gevezelik,ko7wh||ro1h||lk
 gevezelik,ko7wh||ro1h||lk
 gev getirmek,kwkbo2wrmk
 gevheri̇,ko7whry
@@ -2763,17 +2763,17 @@ gevmek,ko7wmk
 gevmek,ko7ywmk
 gevrekçi,ko7wrkxu1bu2
 gevrekçi,ko7wrkxu1y
-gevrek,ko7wrh<>k
+gevrek,ko7wrh||k
 gevrek,ko7wrh||k
 gevrek,ko7wrk
 gevrek,kwrk
-gevre,ko7wrh<>
-gevremek,ko7wrh<>mk
+gevre,ko7wrh||
+gevremek,ko7wrh||mk
 gevremek,ko7wrh||mk
 gevret,ko7wrbo2
-gevret,ko7wrh<>bo2
+gevret,ko7wrh||bo2
 gevretmek,ko7wrbo2mk
-gevretmek,ko7wrh<>bo2mk
+gevretmek,ko7wrh||bo2mk
 gevretmek,ko7wrh||bo2mk
 gevşek,ko7o4wo0so3k
 gevşek,kwso3k
@@ -2782,13 +2782,13 @@ gevşeklik getirmek,kwso3klk kbo2wrmk
 gevşeklik,ko7o4wo0so3klk
 gevşeklik,ko7wso3klk
 gevşeklik,kwso3klk
-gevşe,ko7wso3h<>
+gevşe,ko7wso3h||
 gevşel,ko7wso3ly
 gevşelmek,ko7wso3lbu2mk
 gevşelmek,ko7wso3lymk
 gevşelt,ko7wso3lbo2
 gevşeltmek,ko7wso3lbo2mk
-gevşemek,ko7wso3h<>mk
+gevşemek,ko7wso3h||mk
 gevşemek,ko7wso3h||mk
 gevşemek,kwso3h mk
 gevşemek,kwso3mk
@@ -3226,7 +3226,7 @@ gi̇l,ko7l
 gil,ko7l
 gil,ko7yl
 gıll,ao1lo8
-gıllügış,ao1l<>wao1so3
+gıllügış,ao1l||wao1so3
 gıllügış,ao1l||wao1so3
 gıllügış,ao1l w ao1so3
 gıll u gışş,ao1l wao1so3
@@ -3392,7 +3392,7 @@ girerler,ko7yrrlr
 girerse,ko7yrrsh
 girersin,ko7yrrsko3
 giresin,ko7yrh||sko3
-giresun,kyrh<>swbo1
+giresun,kyrh||swbo1
 girev,krw
 gireyim,ko7yrh||ym
 girgin,ko7bu2rko7bu2bo1
@@ -3646,7 +3646,7 @@ gıtâ,ao1te
 git bakalım,kbu2bo2 bu1fo2elm
 git bakalım,kybo2 bu1fo2elm
 gitgide,ko7bu2bo2||ko7bu2dh
-gitgide,ko7ybo2<>ko7ydh||
+gitgide,ko7ybo2||ko7ydh||
 gitgide,ko7ybo2 ko7ydh
 gîtî,ko7bu2bo2y
 gi̇ti̇,ko7ybo2y
@@ -3965,11 +3965,11 @@ gizlediğimiz,ko7yro1ldyko7mro1
 gizlediğim,ko7yro1ldyko7m
 gizlediğinizi,ko7yro1lh||dyko7ko3ro1y
 gizledik,ko7yro1lh||dk
-gizle,ko7yro1lh<>
+gizle,ko7yro1lh||
 gizlemeğe,ko7yro1lh||mko7h
 gizlemek,kbu2ro1lmk
 gizlemek,ko7bu2ro1lh||mk
-gizlemek,ko7yro1lh<>mk
+gizlemek,ko7yro1lh||mk
 gizlemek,ko7yro1lh||mk
 gizlemek,kyro1lmk
 gizlemekte,ko7yro1lh||mkdh
@@ -4071,8 +4071,8 @@ glükozüri,ao1lwfo2wro1wry
 glüten,ao1lwbo2bo1
 göbek,ko7wbu1k
 göbek,kwbu1k
-göbeklen,ko7wbu1klh<>bo1
-göbeklenmek,ko7wbu1klh<>bo1mk
+göbeklen,ko7wbu1klh||bo1
+göbeklenmek,ko7wbu1klh||bo1mk
 göbeklenmek,ko7wbu1klh||bo1mk
 göbekli,ko7wbu1kly
 göbektaşı,ko7wbu1k teso3y
@@ -4129,19 +4129,19 @@ göğüsilleti,ko7wko7s albo2y
 göğüs,ko7wko7s
 göğüs,kwks
 göğüs,kwkso3
-göğüsle,ko7wko7slh<>
-göğüslemek,ko7wko7slh<>mk
+göğüsle,ko7wko7slh||
+göğüslemek,ko7wko7slh||mk
 göğüslemek,ko7wko7slh||mk
 göğüslerine,ko7wko7slrybo1h
 göğüslük,ko7wko7sllk
 göğüslü,ko7wko7sly
-göğüstahtası,ko7wko7s bo2xbo2h<>sy
+göğüstahtası,ko7wko7s bo2xbo2h||sy
 göğüstahtası,ko7wko7s bo2xbo2h||sy
 gökalp,ko7wk eo6lbu3
 gökçe,ko7wkxu1h
 gökçe,ko7wkxu1h||
 gökdere'li,ko7wkdrh||ly
-gökela,ko7wk<>ele
+gökela,ko7wk||ele
 gökelâ,ko7wk||ele
 gök gürlemesi,kwk kwrlmsy
 gökgürültüleri,ko7wk ko7wrwlbo2ylry
@@ -4185,7 +4185,7 @@ gölden,ko7wldbo1
 göldür,ko7wldr
 göle,ko7wlh||
 golf,ao1wlfo1
-gölgealtı,ko7wlko7h<>eo6lbo2y
+gölgealtı,ko7wlko7h||eo6lbo2y
 gölgealtı,ko7wlko7h||eo6lbo2y
 gölgeden,ko7wlko7h||dbo1
 gölgedir,ko7wlko7h||dr
@@ -4195,11 +4195,11 @@ gölge,ko7wlko7h||
 gölge,kwlkh
 gölge,kwlkh||
 gölgelendirerek,ko7wlko7h||lbo1dyrh||rk
-gölgelendir,ko7wlko7h<>lbo1dyr
+gölgelendir,ko7wlko7h||lbo1dyr
 gölgelendirmek,ko7wlko7h||lbo1dbu2rmk
-gölgelendirmek,ko7wlko7h<>lbo1dyrmk
-gölgelen,ko7wlko7h<>lbo1
-gölgelenmek,ko7wlko7h<>lbo1mk
+gölgelendirmek,ko7wlko7h||lbo1dyrmk
+gölgelen,ko7wlko7h||lbo1
+gölgelenmek,ko7wlko7h||lbo1mk
 gölgelenmek,ko7wlko7h||lbo1mk
 gölgeleridir,ko7wlko7h||lrydr
 gölgeleri,ko7wlko7h||lry
@@ -4208,10 +4208,10 @@ gölgelerinin,ko7wlko7h||lrybo1ko3
 gölgelerin,ko7wlko7h||lrko3
 gölgeleriyle,ko7wlko7h||lrylh
 gölgelidir,ko7wlko7h||lydr
-gölgelik,ko7wlko7h<>lk
+gölgelik,ko7wlko7h||lk
 gölgelik,ko7wlko7h||lk
 gölgelik,kwlkh lk
-gölgeli,ko7wlko7h<>ly
+gölgeli,ko7wlko7h||ly
 gölgeli,ko7wlko7h||ly
 gölgenin,ko7wlko7h||bo1k
 gölgesidir,ko7wlko7h||sydr
@@ -4225,7 +4225,7 @@ gölgesizdir,ko7wlko7h||sro1dr
 gölgesiz,ko7wlko7h||sro1
 gölgevari,ko7wlko7h||wery
 gölgeye,ko7wlko7h||yh
-gölkestanesi,ko7wl ksbo2ebo1h<>sy
+gölkestanesi,ko7wl ksbo2ebo1h||sy
 gölkestanesi,ko7wl ksbo2ebo1h||sy
 göl,ko7wl
 gölköy,ko7wl kwy
@@ -4614,7 +4614,7 @@ göre,ko7wrh
 göre,ko7wrh||
 göre,kwrh
 göre,kwrh||
-görele,ko7wrh<>lh||
+görele,ko7wrh||lh||
 görelim,ko7wrh||lm
 göremediği,ko7wrh||mdyko7y
 göremediğimden,ko7wrh||mdyko7mdbo1
@@ -4648,15 +4648,15 @@ göremiyorsan,ko7wrh||myywrsh||ko3
 göremiyorum,ko7wrh||myywrm
 göremiyoruz,ko7wrh||myywrro1
 görenek,ko7wrh||bo1h||k
-görenek,ko7wrh<>bo1k
+görenek,ko7wrh||bo1k
 görenek,ko7wrh||bo1k
 görenekle,ko7wrh||bo1klh
 göreneklere,ko7wrh||bo1klrh
 görenekleriyle,ko7wrh||bo1klrylh
-görenekli,ko7wrh<>bo1kly
+görenekli,ko7wrh||bo1kly
 görenekli,ko7wrh||bo1kly
 görene,ko7wrh||bo1h
-göreneksiz,ko7wrh<>bo1ksro1
+göreneksiz,ko7wrh||bo1ksro1
 göreneksiz,ko7wrh||bo1ksro1
 görenin,ko7wrbo1ko3
 gören,ko7wrbo1
@@ -4679,7 +4679,7 @@ görgüsüzlük,ko7wrko7wsro1lk
 goril,ao1wrbu2l
 goril,ao1wryl
 gör,ko7wr
-görmece,ko7wrmh<>xu1h||
+görmece,ko7wrmh||xu1h||
 görmece,ko7wrmh||xu1h
 görmeden,ko7wrmh||dbo1
 görmediği,ko7wrmdyko7y
@@ -4735,7 +4735,7 @@ görmemeniz,ko7wrmh||mko3ro1
 görmemesi,ko7wrmh||msy
 görmemesiyle,ko7wrmh||msylh
 görmemezlik etmek,kwrmmro1lfo2 e
-görmemezlik,ko7wrmh<>mro1lk
+görmemezlik,ko7wrmh||mro1lk
 görmemezlik,ko7wrmh||mro1lk
 görmemişim,ko7wrmh||mso3m
 görmemiş,ko7wrmh||mso3
@@ -5506,7 +5506,7 @@ gövde,ko7wko7dh
 gövde,ko7wko7dh||
 gövde,kwdh
 gövde,kwdh||
-gövdeli,ko7wko7dh<>ly
+gövdeli,ko7wko7dh||ly
 gövdeli,ko7wko7dh||ly
 gövdenin,ko7wwdh||bo1ko3
 gövdesi,ko7wwdh||sy
@@ -5562,14 +5562,14 @@ göz dikmek,kwro1dkmk
 göz dikmek,kwro1dykmk
 göze görünmek,kwro1h kwrbo1mk
 göze,ko7wro1h
-göze,ko7wro1h<>
-gözemek,ko7wro1h<>mk
+göze,ko7wro1h||
 gözemek,ko7wro1h||mk
-gözeme,ko7wro1h<>mh||
+gözemek,ko7wro1h||mk
+gözeme,ko7wro1h||mh||
 gözeme,ko7wro1h||mh
 gözen,ko7wro1bo1
-gözen,ko7wro1h<>bo1
-gözenmek,ko7wro1h<>bo1mk
+gözen,ko7wro1h||bo1
+gözenmek,ko7wro1h||bo1mk
 gözenmek,ko7wro1h||bo1mk
 gözer,ko7wro1r
 gözetdir,ko7wro1bo2dyr
@@ -5587,8 +5587,8 @@ gözetilmiş,ko7wro1h||bo2lmso3
 gözetip,ko7wro1h||bo2wbu1
 gözetir,ko7wro1h||bo2yr
 gözet,ko7wro1bo2
-gözetle,ko7wro1bo2lh<>
-gözetlemek,ko7wro1bo2lh<>mk
+gözetle,ko7wro1bo2lh||
+gözetlemek,ko7wro1bo2lh||mk
 gözetlemek,ko7wro1bo2lh||mk
 gözetmek,ko7wro1bo2mk
 gözetmek,kwro1bo2mk
@@ -5624,20 +5624,20 @@ göz kıpmak,kwro1fo2ybu3mfo2
 gözkırpma,ko7wro1fo2bu2bu3h
 gözkırpma,ko7wro1fo2bu2rbu3h||
 gözkırpma,ko7wro1fo2ybu3h||
-gözkırpma,ko7wro1fo2yrbu3h<>
+gözkırpma,ko7wro1fo2yrbu3h||
 göz,ko7wro1
 göz kulak olmak,kwro1fo2wlefo2 ew
 gözkuyruğu,ko7wro1fo2wbu2rwao1y
 gözkuyruğu,ko7wro1fo2wyrwao1y
 göz,kwro1
 gözle,ko7wro1lh
-gözle,ko7wro1lh<>
+gözle,ko7wro1lh||
 gözlemci,ko7wro1lh||mh||xu1bu2
-gözlemci,ko7wro1lh<>mh<>xu1y
-gözlemek,ko7wro1lh<>mk
+gözlemci,ko7wro1lh||mh||xu1y
+gözlemek,ko7wro1lh||mk
 gözlemek,ko7wro1lh||mk
 gözlemek,kwro1lmk
-gözleme,ko7wro1lh<>mh||
+gözleme,ko7wro1lh||mh||
 gözleme,ko7wro1lh||mh
 gözlerden,ko7wro1lrdbo1
 gözlerdi,ko7wro1lrdy
@@ -5705,7 +5705,7 @@ gözüaçık,ko7wro1y eo6xu3bu2fo2
 gözüaçık,ko7wro1y eo6xu3yfo2
 gözüardında,ko7wro1y eo6rdbo1dh
 gözüardında,ko7wro1y eo6rdbo1dh||
-gözüarkada,ko7wro1y eo6rfo2h<>dh||
+gözüarkada,ko7wro1y eo6rfo2h||dh||
 gözüarkada,ko7wro1y eo6rfo2h||dh
 gözü görmez,kwro1y kwrmro1
 gözükapalı,ko7wro1y fo2ebu3ely
@@ -5795,7 +5795,7 @@ granit,ao1rebo1bu2bo2
 granit,ao1rebo1ybo2
 granitleri,ao1rebo1bo2lry
 gr,ao1rem
-grev,ao1rh<>w
+grev,ao1rh||w
 grev,ao1rh||w
 grevci ,ao1rc wxu1bu2
 grevci,ao1rc wxu1y
@@ -5816,14 +5816,14 @@ gübre,ko7wbu1rh
 gübre,ko7wbu1rh||
 gübre,kwbu1rh
 gübre,kwbu1rh||
-gübrele,ko7wbu1rh<>lh<>
-gübrelemek,ko7wbu1rh<>lh<>mk
+gübrele,ko7wbu1rh||lh||
 gübrelemek,ko7wbu1rh||lh||mk
-gübrelen,ko7wbu1rh<>lh<>bo1
-gübrelenmek,ko7wbu1rh<>lh<>bo1mk
+gübrelemek,ko7wbu1rh||lh||mk
+gübrelen,ko7wbu1rh||lh||bo1
+gübrelenmek,ko7wbu1rh||lh||bo1mk
 gübrelenmek,ko7wbu1rh||lh||bo1mk
 gübreleri,ko7wbu1rh||lry
-gübreli,ko7wbu1rh<>ly
+gübreli,ko7wbu1rh||ly
 gübreli,ko7wbu1rh||ly
 gübre vermek,kwbu1rh wbu2rmk
 gübre vermek,kwbu1rh wyrmk
@@ -5894,7 +5894,7 @@ güç inanır,kwxu3 eybo1ebo1wr
 güç,ko7wxu1
 güç,ko7wxu3
 güç,kwxu3
-güçle,ko7wxu1lh<>
+güçle,ko7wxu1lh||
 güçle,ko7wxu1lh||
 güçle,kwxu1 ebu2lh
 güçle,kwxu1 eylh||
@@ -5939,7 +5939,7 @@ güdahte,ko7dexo1bo2h||
 güdâhte,ko7dexo1bo2h
 gudde,ao1dh
 gudde,ao1dh||
-guddeli,ao1dh<>ly
+guddeli,ao1dh||ly
 guddeli,ao1dh||ly
 guded,ao1dd
 güdemez,ko7wdh||mro1
@@ -5957,7 +5957,7 @@ güfte,ko7fo1bo2h
 güfte,ko7fo1bo2h||
 güftügu,ko7fo1bo2 w ko7w
 güftügû,ko7fo1bo2 w ko7w
-güftüğü,ko7fo1bo2<>wko7w
+güftüğü,ko7fo1bo2||wko7w
 güftüğü,ko7fo1bo2||wko7w
 gugerd,ko7wko7rd
 gûgerd,ko7wko7rd
@@ -5992,7 +5992,7 @@ gul,ao1wl
 gulat,ao1lebo2
 gulât,ao1lebo2
 gulat-ı,ao1lebo2u4
-gülbahçesi,ko7l bu1eaxu3h<>sy
+gülbahçesi,ko7l bu1eaxu3h||sy
 gülbahçesi,ko7l bu1eaxu3h||sy
 gülbang-i muhammedi̇,ko7lbu1ebo1ko7 mxmdy
 gülbang-i muhammedî,ko7lbu1ebo1ko7 mxmdy
@@ -6009,7 +6009,7 @@ gülbeşeker,ko7lbu1so3kr
 gülbün,ko7lbu1bo1
 gülçehre,ko7l xu3hrh
 gülçehre,ko7l xu3hrh||
-gülçehreli,ko7l xu3hrh<>ly
+gülçehreli,ko7l xu3hrh||ly
 gülçehreli,ko7l xu3hrh||ly
 gülçin,ko7lxu3bu2bo1
 gülçi̇n,ko7lxu3ybo1
@@ -6120,10 +6120,10 @@ güllâç,ko7lexu3
 güllede,ko7wllh||dh
 gülle,klh
 gülle,klh||
-gülle,ko7lh<>
+gülle,ko7lh||
 gülle,ko7lh||
 gülle,ko7lo8h
-gülle,ko7wllh<>
+gülle,ko7wllh||
 gülle,ko7wllh||
 gülleleri,ko7lo8h||lry
 güllelerine,ko7wllh||lrybo1h
@@ -6196,8 +6196,8 @@ gülsuyu,ko7l zwbu1y
 gülten,ko7l bo2bo1
 gülü,ko7ly
 gül-ü,ko7o9lu4
-gülümse,ko7wlwmsh<>
-gülümsemek,ko7wlwmsh<>mk
+gülümse,ko7wlwmsh||
+gülümsemek,ko7wlwmsh||mk
 gülümsemek,ko7wlwmsh||mk
 gülümsemeleri,ko7wlwmsh||mh||lry
 gülümseyen,ko7wlwmsh||ybo1
@@ -6221,7 +6221,7 @@ gülüyorsun,ko7wlwywrsko3
 gülüyorum,ko7wlwywrm
 gülüyoruz,ko7wlwywrro1
 gulyabanî,ao1wl ybu1ebo1y
-gülyağı,ko7l<>bu1eao1y
+gülyağı,ko7l||bu1eao1y
 gülyağı,ko7l||bu1eao1y
 gülyağı,ko7l yeao1y
 gülyağlarına,ko7l yeao1lrybo1h
@@ -6239,8 +6239,8 @@ gümân,kmebo1
 güman,ko7mebo1
 gümân,ko7mebo1
 gümansız,ko7mebo1sro1
-gümbürde,ko7wmbu1wrdh<>
-gümbürdemek,ko7wmbu1wrdh<>mk
+gümbürde,ko7wmbu1wrdh||
+gümbürdemek,ko7wmbu1wrdh||mk
 gümbürdemek,ko7wmbu1wrdh||mk
 gümbürgümbür,ko7wmbu1wrko7wmbu1wr
 gümbürtü,ko7wmbu1wrbo2y
@@ -6249,7 +6249,7 @@ gümbürtülü,ko7wmbu1wrbo2bu2ly
 gümbürtülü,ko7wmbu1wrbo2yly
 gümbürtüyü,ko7wmbu1wrbo2y||yy
 gümgüme,ko7wm||ko7wmh
-gümgüm,ko7wm<>ko7wm
+gümgüm,ko7wm||ko7wm
 gümgüm,ko7wm||ko7wm
 güm,ko7wm
 gümler,ko7wmlh||r
@@ -6275,7 +6275,7 @@ gümüşbalığı,ko7wmwso3 bu1elbu2ao1y
 gümüşbalığı,ko7wmwso3 bu1elyao1y
 gümüşe,ko7mwso3h
 gümüşgöz,ko7wmwso3 kwro1
-gümüşhacıköy,ko7mwso3 xexu1y<>kwy
+gümüşhacıköy,ko7mwso3 xexu1y||kwy
 gümüşhane,ko7mwso3xo1ebo1h||
 gümüşi,kwmso3y
 gümüşî,kwmso3y
@@ -6286,11 +6286,11 @@ gümüş,kmwso3
 gümüş,ko7wmso3
 gümüş,ko7wmwso3
 gümüş,kwmso3
-gümüşle,ko7wmwso3lh<>
-gümüşlemek,ko7wmwso3lh<>mk
+gümüşle,ko7wmwso3lh||
 gümüşlemek,ko7wmwso3lh||mk
-gümüşlet,ko7wmwso3lh<>bo2
-gümüşletmek,ko7wmwso3lh<>bo2mk
+gümüşlemek,ko7wmwso3lh||mk
+gümüşlet,ko7wmwso3lh||bo2
+gümüşletmek,ko7wmwso3lh||bo2mk
 gümüşletmek,ko7wmwso3lh||bo2mk
 gümüşlü,ko7wmwso3ly
 gümüşselvi,ko7wmwso3 slwy
@@ -6385,14 +6385,14 @@ gündedir,ko7wbo1dh||dr
 gündeki,ko7wbo1dh||ky
 günde,ko7wbo1dh
 gündeliğimden,ko7wbo1dh||lko7mdbo1
-gündelikci,ko7wbo1dh<>lkxu1y
+gündelikci,ko7wbo1dh||lkxu1y
 gündelikci,ko7wbo1dh||lkxu1y
 gündelikci,kwbo1dh lkxu1y
 gündelikçi,kwbo1dh lkxu1y
-gündelik,ko7wbo1dh<>lk
+gündelik,ko7wbo1dh||lk
 gündelik,ko7wbo1dh||lk
 gündelik,kwbo1dh lk
-gündelikli,ko7wbo1dh<>lkly
+gündelikli,ko7wbo1dh||lkly
 gündelikli,ko7wbo1dh||lkly
 gündengüne,ko7wbo1dbo1 kwbo1h
 gündengüne,ko7wbo1dbo1 kwbo1h||
@@ -6471,8 +6471,8 @@ güneş,kwbo1so3
 güneş'le,ko7wbo1so3lh
 güneşle,ko7wbo1so3lh
 güneşlendirmek,ko7wbo1so3lbo1dyrmk
-güneşlen,ko7wbo1so3lh<>bo1
-güneşlenmek,ko7wbo1so3lh<>bo1mk
+güneşlen,ko7wbo1so3lh||bo1
+güneşlenmek,ko7wbo1so3lh||bo1mk
 güneşlenmek,ko7wbo1so3lh||bo1mk
 güneşlerden,ko7wbo1so3lrdbo1
 güneşlere,ko7wbo1so3lrh
@@ -6484,8 +6484,8 @@ güneşlerinin,ko7wbo1so3lrybo1ko3
 güneşlerin,ko7wbo1so3lrko3
 güneşler,ko7wbo1so3lr
 güneşlerle,ko7wbo1so3lrlh
-güneşlet,ko7wbo1so3lh<>bo2
-güneşletmek,ko7wbo1so3lh<>bo2mk
+güneşlet,ko7wbo1so3lh||bo2
+güneşletmek,ko7wbo1so3lh||bo2mk
 güneşletmek,ko7wbo1so3lh||bo2mk
 güneşli,ko7wbo1so3ly
 güneş-misali,ko7wbo1so3||mbo3ely
@@ -6499,7 +6499,7 @@ güneşten,ko7wbo1so3dbo1
 güneş'tir,ko7wbo1so3dr
 güneştir,ko7wbo1so3dr
 güneştirler,ko7wbo1so3drlr
-güney,ko7wbo1h<>y
+güney,ko7wbo1h||y
 güney,ko7wbo1h||y
 güngörmez,ko7wbo1 ko7wrmro1
 günindiye,ko7wbo1||eybo1dy||yh
@@ -6527,7 +6527,7 @@ günlük,ko7wbo1lk
 günlük,kwbo1lk
 gunne,ao1bo1h
 gunne,ao1bo1h||
-gunneli,ao1bo1h<>ly
+gunneli,ao1bo1h||ly
 gunneli,ao1bo1h||ly
 günübirlik,ko7wbo1y bu1rlk
 gunude,ao1bo1wdh||
@@ -6536,9 +6536,9 @@ günüdür,ko7wbo1ydr
 günügününe,ko7wbo1y ko7wbo1bo1h
 günügününe,ko7wbo1y ko7wbo1bo1h||
 günü,ko7wbo1y
-günüle,ko7wbo1ylh<>
+günüle,ko7wbo1ylh||
 günülemek,ko7wbo1bu2lh||mk
-günülemek,ko7wbo1ylh<>mk
+günülemek,ko7wbo1ylh||mk
 günüme,ko7wbo1mh
 günümü,ko7wbo1my
 günümüzün,ko7wbo1mro1ko3
@@ -6549,7 +6549,7 @@ gününe,ko7wbo1bo1h
 günün,ko7wbo1ko3
 gününü,ko7wbo1bo1y
 gününün,ko7wbo1bo1ko3
-güpegündüz,ko7wbu3h<>kwbo1dwro1
+güpegündüz,ko7wbu3h||kwbo1dwro1
 güpegündüz,ko7wbu3h||kwbo1dwro1
 guraba,ao1rbu1e
 gurabâ,ao1rbu1e
@@ -6594,17 +6594,17 @@ gurebâ,ao1rbu1e
 guremasının,ao1o9rmesbo1ko3
 guremaya,ao1o9ro4meyh
 güreşçi,ko7wrh||so3xu1bu2
-güreşçi,ko7wrh<>so3xu1y
-güreşdir,ko7wrh<>so3dyr
+güreşçi,ko7wrh||so3xu1y
+güreşdir,ko7wrh||so3dyr
 güreşdirmek,ko7wrh||so3dbu2rmk
-güreşdirmek,ko7wrh<>so3dyrmk
+güreşdirmek,ko7wrh||so3dyrmk
 güreşirdi,ko7wrh||so3yrdy
-güreş,ko7wrh<>so3
+güreş,ko7wrh||so3
 güreş,ko7wrso3
-güreşmek,ko7wrh<>so3mk
+güreşmek,ko7wrh||so3mk
 güreşmek,ko7wrh||so3mk
 güreşmek,kwrso3mk
-güreşme,ko7wrh<>so3mh||
+güreşme,ko7wrh||so3mh||
 güreşme,ko7wrh||so3mh
 güreşte,ko7wrso3dh
 gürgen,ko7wrko7bo1
@@ -6632,11 +6632,11 @@ gur,ko7wr
 gûr,ko7wr
 gür,ko7wr
 gurktavuk,ao1wrfo2 tewfo2
-gürle,ko7wrlh<>
-gürlemek,ko7wrlh<>mk
+gürle,ko7wrlh||
+gürlemek,ko7wrlh||mk
 gürlemek,ko7wrlh||mk
 gürlemek,kwrlmk
-gürleme,ko7wrlh<>mh||
+gürleme,ko7wrlh||mh||
 gürleme,ko7wrlh||mh
 gürlemesi,ko7wrlh||msy
 gürleyiş,kwrlbu2so3
@@ -6678,11 +6678,11 @@ gürûhu,ko7rwhy
 güruhunun,ko7rwhbo1ko3
 gurulda,ao1wrwlde
 guruldamak,ao1wrwldemfo2
-gürülde,ko7wrwldh<>
-gürüldemek,ko7wrwldh<>mk
+gürülde,ko7wrwldh||
+gürüldemek,ko7wrwldh||mk
 gürüldemek,ko7wrwldh||mk
 gürülder,ko7wryldr
-gürülgürül,ko7wrwl<>ko7wrwl
+gürülgürül,ko7wrwl||ko7wrwl
 gürülgürül,ko7wrwl||ko7wrwl
 gurultu,ao1wrwlbo2y
 gürültücü,ko7wrwlbo2wxu1y
@@ -6804,7 +6804,7 @@ güveği,kwbu2ky
 güveği,kwyky
 güve,ko7wko7h
 güve,ko7wko7h||
-güve,ko7wwh<>
+güve,ko7wwh||
 güve,ko7wwh||
 güve,kwh
 güve,kwh||
@@ -6846,7 +6846,7 @@ güvenmeyiniz,ko7wwbo1mh||yko3ro1
 güvenmiyor,ko7wwbo1myywr
 güvense,ko7wwbo1sh
 güvensin,ko7wwbo1sybo1
-güveotu,ko7wko7h<>ewbo2y
+güveotu,ko7wko7h||ewbo2y
 güveotu,ko7wko7h||ewbo2y
 güvercinbudu,ko7wko7rxu1bu2bo1 bu1wdy
 güvercinbudu,ko7wko7rxu1ybo1 bu1wdy
@@ -6870,14 +6870,14 @@ güverte,ko7wko7rbo2h
 güverte,ko7wko7rbo2h||
 güverte,kwkrbo2h
 güverte,kwkrbo2h||
-güverteli,ko7wko7rbo2h<>ly
+güverteli,ko7wko7rbo2h||ly
 güverteli,ko7wko7rbo2h||ly
 güvertenin kıç tarafı,kwkrbo2h bo1k fo2bu2xu3 trfo1y
 güvertenin kıç tarafı,kwkrbo2h bo1k fo2yxu3 trfo1y
 güve yemiş,kwh bu2mso3
 güve yemiş,kwh ymso3
 güveyeniği,ko7wko7h||bu2bo1bu2ky
-güveyeniği,ko7wko7h<>ybo1yky
+güveyeniği,ko7wko7h||ybo1yky
 güveyfeneri,ko7wko7y fo1bo1ery
 güvey,ko7wko7y
 güveylik,ko7wko7bu2lk
@@ -6928,8 +6928,8 @@ güzel kokar,kwro1l fo2wfo2er
 güzel koku,kwro1l fo2wfo2w
 güzel kokulu,kwro1l fo2wfo2wlw
 güzel,kwro1l
-güzelle,ko7wro1llh<>
-güzellemek,ko7wro1llh<>mk
+güzelle,ko7wro1llh||
+güzellemek,ko7wro1llh||mk
 güzellemek,ko7wro1llh||mk
 güzellen,ko7wro1llbo1
 güzellenmek,ko7wro1llbo1mk

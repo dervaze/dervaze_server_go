@@ -1,6 +1,5 @@
 
 k,fo2,ق
-k,fo2,ق
 k,k,ک
 ka'b,kabu1,کعب
 ka'ide,fo2eadh||,قاعده‌
@@ -25,11 +24,11 @@ kaafile,fo2efo1lh||,قافله‌
 kaafiye,fo2efo1bu2h,قافيه
 kaafiye,fo2efo1yh||,قافیه‌
 kaafiyeci,fo2efo1bu2h||xu1y,قافيه‌جی
-kaafiyeci,fo2efo1yh<>xu1y,قافیه‌جی
+kaafiyeci,fo2efo1yh||xu1y,قافیه‌جی
 kaafiyesiz,fo2efo1bu2h||sro1,قافيه‌سز
-kaafiyesiz,fo2efo1yh<>sro1,قافیه‌سز
+kaafiyesiz,fo2efo1yh||sro1,قافیه‌سز
 kaafiyesizlik,fo2efo1bu2h||sro1lk,قافيه‌سزلک
-kaafiyesizlik,fo2efo1yh<>sro1lk,قافیه‌سزلک
+kaafiyesizlik,fo2efo1yh||sro1lk,قافیه‌سزلک
 kaahir,fo2ehr,قاهر
 kaahire,fo2ehrh||,قاهره‌
 kaaide,fo2eadh,قاعده
@@ -47,7 +46,7 @@ kaanunen,fo2ebo1wbo1eo44,قانوناً
 kaanuni,fo2ebo1wbo1y,قانونی
 kaanuniyet,fo2ebo1wbo1ybo2,قانونیت
 kaanunname,fo2ebo1wbo1bo1emh||,قانوننامه‌
-kaanunşinas,fo2ebo1wbo1<>so3bo1es,قانون‌شناس
+kaanunşinas,fo2ebo1wbo1||so3bo1es,قانون‌شناس
 kaanî,fo2ebo1a,قانع
 kaanûnen,fo2ebo1wbo1eo44,قانوناً
 kaanûniyet,fo2ebo1wbo1bu2bo2,قانونيت
@@ -158,7 +157,6 @@ kabartacak,fo2bu1erbo2h||xu1fo2,قبارته‌جق
 kabartan,fo2bu1erbo2ebo1,قبارتان
 kabartma,fo2bu1erbo2mh,قبارتمه
 kabartma,fo2bu1erbo2mh||,قبارتمه‌
-kabartma,fo2ebu1erbo2mh<>,قابارتمه‌
 kabartma,fo2ebu1erbo2mh||,قابارتمه‌
 kabartmak,fo2bu1erbo2mfo2,قبارتمق
 kabartmak,fo2ebu1erbo2mfo2,قابارتمق
@@ -371,8 +369,7 @@ kabuldeki,fo2bu1wldh||ky,قبولده‌کی
 kabulden,fo2bu1wldbo1,قبولدن
 kabuldür,fo2bu1wldr,قبولدر
 kabule,fo2bu1wlh,قبوله
-kabullen,fo2bu1wllh<>bo1,قبولله‌ن
-kabullenmek,fo2bu1wllh<>bo1mk,قبولله‌نمک
+kabullen,fo2bu1wllh||bo1,قبولله‌ن
 kabullenmek,fo2bu1wllh||bo1mk,قبولله‌نمک
 kabulleri,fo2bu1wllry,قبوللری
 kabulü,fo2bu1wly,قبولی
@@ -415,7 +412,6 @@ kabza,fo2bu1zo1h,قبضه
 kabza,fo2bu1zo1h||,قبضه‌
 kabza,fo2o4bu1o0zo1o4h,قَبْضَه
 kabza,fo2o4bu1o0zo1o4h||,قَبْضَه‌
-kabza-i tasarruf,fo2o4bu1o0zo1o4u4 bo2o4zo4ro9o8fo1o0,قَبْضَِ تَصَرُّفْ
 kabza-i tasarruf,fo2o4bu1o0zo1o4u4 bo2o4zo4ro9o8fo1o0,قَبْضَِ تَصَرُّفْ
 kabza-i,fo2bu1zo1hu4,قبضهِ
 kabza-i̇ tasarruf,fo2o4bu1o0zo1o4u4 bo2o4zo4ro9o8fo1o0,قَبْضَِ تَصَرُّفْ
@@ -767,7 +763,7 @@ kafasızlardır,fo2fo1esro1lrdr,قفاسزلردر
 kafasızı,fo2fo1esro1y,قفاسزی
 kafaya,fo2fo1eyh,قفایه
 kafdağı,fo2efo1 teao1y,قاف طاغی
-kafein,fo2efo1h<>bo5ybo1,قافه‌ئین
+kafein,fo2efo1h||bo5ybo1,قافه‌ئین
 kafein,fo2efo1h||bo5bu2bo1,قافه‌ئين
 kafes,fo2fo1s,قفس
 kafesci,fo2fo1sxu1y,قفسجی
@@ -815,7 +811,7 @@ kafiye,fo2efo1yh,قافیه
 kafiye,fo2efo1yh||,قافیه‌
 kafiye-i,fo2efo1yhu4,قافیهِ
 kafiyeci,fo2efo1bu2h||xu1y,قافيه‌جی
-kafiyeci,fo2efo1yh<>xu1y,قافیه‌جی
+kafiyeci,fo2efo1yh||xu1y,قافیه‌جی
 kafiyede,fo2efo1yh||dh,قافیه‌ده
 kafiyelerde,fo2efo1yh||lrdh,قافیه‌لرده
 kafiyelerinde,fo2efo1yh||lrbo1dh,قافیه‌لرنده
@@ -826,10 +822,9 @@ kafiyeperdâz,fo2efo1bu2h bu3rdero1,قافيه پرداز
 kafiyeperestlik,fo2efo1yh||bu3rsbo2lk,قافیه‌پرستلک
 kafiyesini,fo2efo1yh||sbo1y,قافیه‌سنی
 kafiyesiz,fo2efo1bu2h||sro1,قافيه‌سز
-kafiyesiz,fo2efo1yh<>sro1,قافیه‌سز
 kafiyesiz,fo2efo1yh||sro1,قافیه‌سز
 kafiyesizlik,fo2efo1bu2h||sro1lk,قافيه‌سزلک
-kafiyesizlik,fo2efo1yh<>sro1lk,قافیه‌سزلک
+kafiyesizlik,fo2efo1yh||sro1lk,قافیه‌سزلک
 kafiyeye,fo2efo1yh||yh,قافیه‌یه
 kafiyeyi,fo2efo1yh||yy,قافیه‌یی
 kafi̇,kefo1y,کافی
@@ -842,7 +837,7 @@ kafkas,fo2efo1fo2es,قافقاس
 kafkas,fo2fo1fo2es,قفقاس
 kafkasya,fo2efo1fo2esye,قافقاسیا
 kafkasya,fo2fo1fo2esyh||,قفقاسیه‌
-kafkasyalı,fo2fo1fo2esyh<>ly,قفقاسیه‌لی
+kafkasyalı,fo2fo1fo2esyh||ly,قفقاسیه‌لی
 kaftan,fo2efo1bo2ebo1,قافتان
 kaftan,fo2fo1bo2ebo1,قفتان
 kaftanböceği,fo2efo1bo2ebo1 bu1wxu1ky,قافتان بوجکی
@@ -857,9 +852,7 @@ kah,keh||,کاه‌
 kah,kexo1,کاخ
 kahbe,fo2xbu1h,قحبه
 kahbe,fo2xbu1h||,قحبه‌
-kahbelik,fo2xbu1h<>lk,قحبه‌لک
 kahbelik,fo2xbu1h||lk,قحبه‌لک
-kahbeoğlu,fo2xbu1h<>ewao1ly,قحبه‌اوغلی
 kahbeoğlu,fo2xbu1h||ewao1ly,قحبه‌اوغلی
 kahgil,kehko7l,کاهگل
 kahgi̇l,kehko7l,کاهگل
@@ -967,27 +960,22 @@ kahtlık,fo2xtlfo2,قحطلق
 kahtlığa,fo2xtlao1h,قحطلغه
 kahtın,fo2xtko3,قحطڭ
 kahvaltı,fo2hwelbo2y,قهوالتی
-kahvaltı,fo2hwh<>eo6lbo2y,قهوه‌آلتی
 kahvaltı,fo2hwh||eo6lbo2y,قهوه‌آلتی
 kahve kaşığı,fo2hwh fo2eso3ao1y,قهوه قاشغی
 kahve,fo2hwh,قهوه
 kahve,fo2hwh||,قهوه‌
-kahveci,fo2hwh<>xu1y,قهوه‌جی
 kahveci,fo2hwh||xu1y,قهوه‌جی
-kahvecilik,fo2hwh<>xu1ylk,قهوه‌جیلک
+kahvecilik,fo2hwh||xu1ylk,قهوه‌جیلک
 kahvecilik,fo2hwh||xu1bu2lk,قهوه‌جيلک
 kahvede,fo2hwh||dh,قهوه‌ده
-kahvehane,fo2hwh<>xo1ebo1h||,قهوه‌خانه‌
+kahvehane,fo2hwh||xo1ebo1h||,قهوه‌خانه‌
 kahvehâne,fo2hwh||xo1ebo1h,قهوه‌خانه
 kahvelerini,fo2hwh||lrybo1y,قهوه‌لرینی
-kahveocağı,fo2hwh<>ewxu1eao1y,قهوه‌اوجاغی
 kahveocağı,fo2hwh||ewxu1eao1y,قهوه‌اوجاغی
-kahveparası,fo2hwh<>bu3erh<>sy,قهوه‌پاره‌سی
 kahveparası,fo2hwh||bu3erh||sy,قهوه‌پاره‌سی
 kahverengi,fo2hwh rbo1ky,قهوه رنکی
-kahverengi,fo2hwh<>rbo1ky,قهوه‌رنکی
 kahverengi,fo2hwh||rbo1ky,قهوه‌رنکی
-kahvetepsisi,fo2hwh<>bo2bu3sysy,قهوه‌تپسیسی
+kahvetepsisi,fo2hwh||bo2bu3sysy,قهوه‌تپسیسی
 kahvetepsisi,fo2hwh||bo2bu3sbu2sy,قهوه‌تپسيسی
 kahya,kbo2xo1de,کتخدا
 kahya,khye,کهیا
@@ -1128,7 +1116,6 @@ kal,fo2el,قال
 kala,kele,کالا
 kalabalık etmek,ao1lbu1h lfo2 e,غلبه لق ا
 kalabalık,ao1lbu1h lfo2,غلبه لق
-kalabalık,ao1lbu1h<>lfo2,غلبه‌لق
 kalabalık,ao1lbu1h||lfo2,غلبه‌لق
 kalabalık,ao1lbu1h||lk,غلبه‌لک
 kalabalık,bu3k zbu2fo2lfo2 ao1lbu1h lfo2,پک صيقلق غلبه لق
@@ -1479,7 +1466,7 @@ kaldırım,fo2eldyrym,قالدیریم
 kaldırımcı,fo2eldbu2rbu2mxu1y,قالديريمجی
 kaldırımcı,fo2eldyrymxu1y,قالدیریمجی
 kaldırımkargası,fo2eldbu2rbu2m fo2erao1h||sy,قالديريم قارغه‌سی
-kaldırımkargası,fo2eldyrym fo2erao1h<>sy,قالدیریم قارغه‌سی
+kaldırımkargası,fo2eldyrym fo2erao1h||sy,قالدیریم قارغه‌سی
 kaldırımlı,fo2eldbu2rbu2mly,قالديريملی
 kaldırımlı,fo2eldyrymly,قالدیریملی
 kaldırımmühendisi,fo2eldbu2rbu2m mhbo1dsy,قالديريم مهندسی
@@ -1522,9 +1509,8 @@ kale yapmak,fo2lah yebu3mfo2,قلعه یاپمق
 kale,fo2lah,قلعه
 kale,fo2lah||,قلعه‌
 kale-kıyle,fo2o4elo4 fo2u4ylo4,قَالَ قِیلَ
-kalebend,fo2lah<>bu1bo1d,قلعه‌بند
 kalebend,fo2lah||bu1bo1d,قلعه‌بند
-kalecik,fo2lah<>xu1k,قلعه‌جک
+kalecik,fo2lah||xu1k,قلعه‌جک
 kalede mevcud olan asker,fo2lah dh mwxu1wd ewlebo1 askr,قلعه ده موجود اولان عسکر
 kalede mevcûd olan asker,fo2lah dh mwxu1wd ewlebo1 askr,قلعه ده موجود اولان عسکر
 kalede,fo2lah||dh,قلعه‌ده
@@ -1723,7 +1709,6 @@ kallavi,fo2ylewy,قیلاوی
 kallaş,fo2leso3,قلاش
 kalle,fo2ellh,قالله
 kalleri,fo2ellry,قاللری
-kalleş,fo2ellh<>so3,قالله‌ش
 kalleş,fo2ellh||so3,قالله‌ش
 kalleş,fo2leso3,قلاش
 kalli,fo2elly,قاللی
@@ -2294,10 +2279,8 @@ kanbur,fo2ebo1bu1wr,قانبور
 kanburluk,fo2ebo1wrlfo2,قانورلق
 kanca,fo2ebo1xu1h,قانجه
 kanca,fo2ebo1xu1h||,قانجه‌
-kancala,fo2ebo1xu1h<>le,قانجه‌لا
-kancalamak,fo2ebo1xu1h<>lemfo2,قانجه‌لامق
+kancala,fo2ebo1xu1h||le,قانجه‌لا
 kancalamak,fo2ebo1xu1h||lemfo2,قانجه‌لامق
-kancalı,fo2ebo1xu1h<>ly,قانجه‌لی
 kancalı,fo2ebo1xu1h||ly,قانجه‌لی
 kancasıyla,fo2ebo1xu1h||sylh,قانجه‌سیله
 kancık,fo2ebo1xu1bu2fo2,قانجيق
@@ -2318,7 +2301,7 @@ kandil-i,fo2bo1dylu4,قندیلِ
 kandilci,fo2bo1dbu2lxu1y,قنديلجی
 kandilci,fo2bo1dylxu1y,قندیلجی
 kandilgecesi,fo2bo1dbu2l ko7bu2xu1h||sy,قنديل گيجه‌سی
-kandilgecesi,fo2bo1dyl ko7yxu1h<>sy,قندیل گیجه‌سی
+kandilgecesi,fo2bo1dyl ko7yxu1h||sy,قندیل گیجه‌سی
 kandili,fo2bo1dyly,قندیلی
 kandiline,fo2bo1dylbo1h,قندیلنه
 kandilinin,fo2ebo1dylbo1ko3,قاندیلنڭ
@@ -2374,7 +2357,6 @@ kanepe,fo2bo1ebu3h,قناپه
 kanepe,fo2bo1ebu3h||,قناپه‌
 kanepe,fo2ebo1ebu3h,قاناپه
 kanepe,fo2ebo1ebu3h||,قاناپه‌
-kanepelik,fo2ebo1ebu3h<>lk,قاناپه‌لک
 kanepelik,fo2ebo1ebu3h||lk,قاناپه‌لک
 kangal etmek,fo2bo1ao1el e,قنغال ا
 kangal,fo2bo1ao1el,قنغال
@@ -2496,7 +2478,7 @@ kanunsuzluğunla,fo2ebo1wbo1sro1lao1ko3lh,قانونسزلغڭله
 kanunu'nun,fo2ebo1wbo1bo1ko3,قانوننڭ
 kanunu,fo2ebo1wbo1y,قانونی
 kanunudur,fo2ebo1wbo1ydr,قانونیدر
-kanunuevvel,kebo1wbo1<>ewl,کانون‌اول
+kanunuevvel,kebo1wbo1||ewl,کانون‌اول
 kanunun,fo2ebo1wbo1ko3,قانونڭ
 kanununa,fo2ebo1wbo1bo1h,قانوننه
 kanununda,fo2ebo1wbo1bo1dh,قانوننده
@@ -2507,15 +2489,15 @@ kanununun,fo2ebo1wbo1bo1ko3,قانوننڭ
 kanununuz,fo2ebo1wbo1ko3ro1,قانونڭز
 kanununuzca,fo2ebo1wbo1ko3ro1xu1h,قانونڭزجه
 kanununuzu,fo2ebo1wbo1ko3ro1y,قانونڭزی
-kanunusani,kebo1wbo1<>bo3ebo1y,کانون‌ثانی
+kanunusani,kebo1wbo1||bo3ebo1y,کانون‌ثانی
 kanunusanisi,kebo1wbo1u4 bo3ebo1ysy,کانونِ ثانیسی
 kanunuyla,fo2ebo1wbo1ylh,قانونیله
 kanunuyladır,fo2ebo1wbo1ylh||dr,قانونیله‌در
 kanunî,fo2ebo1wbo1y,قانونی
 kanunîdir,fo2ebo1wbo1ydr,قانونیدر
-kanunşinas,fo2ebo1wbo1<>so3bo1es,قانون‌شناس
+kanunşinas,fo2ebo1wbo1||so3bo1es,قانون‌شناس
 kanviçe,fo2bo1ewbu2xu3h||,قناويچه‌
-kanviçe,fo2bo1ewyxu3h<>,قناویچه‌
+kanviçe,fo2bo1ewyxu3h||,قناویچه‌
 kanviçe,fo2ebo1ewbu2xu3e,قاناويچا
 kanviçe,fo2ebo1ewyxu3e,قاناویچا
 kanâat,fo2bo1eabo2,قناعت
@@ -2574,7 +2556,6 @@ kapalı,fo2bu3ely,قپالی
 kapalıdır,fo2bu3elydr,قپالیدر
 kapama,fo2ebu3emh,قاپامه
 kapama,fo2ebu3emh||,قاپامه‌
-kapamacı,fo2ebu3emh<>xu1y,قاپامه‌جی
 kapamacı,fo2ebu3emh||xu1y,قاپامه‌جی
 kapamadığınız,fo2bu3emdyao1ko3ro1,قپامدیغڭز
 kapamak,fo2bu3emfo2,قپامق
@@ -2700,7 +2681,6 @@ kapladı,fo2ebu3ledy,قاپلادی
 kapladığını,fo2ebu3ledyao1bo1y,قاپلادیغنی
 kaplama,fo2ebu3lemh,قاپلامه
 kaplama,fo2ebu3lemh||,قاپلامه‌
-kaplamacı,fo2ebu3lemh<>xu1y,قاپلامه‌جی
 kaplamacı,fo2ebu3lemh||xu1y,قاپلامه‌جی
 kaplamak,fo2ebu1lemfo2,قابلامق
 kaplamak,fo2ebu3lemfo2,قاپلامق
@@ -2735,7 +2715,6 @@ kaplumbağa,fo2ebu1lwbu1eao1h||,قابلوباغه‌
 kaplumbağa,fo2ebu3lw bu1ao1h,قاپلو بغه
 kaplumbağa,fo2ebu3lw bu1ao1h||,قاپلو بغه‌
 kaplumbağa,fo2ebu3lwmbu1eao1h,قاپلومباغه
-kaplumbağa,fo2ebu3lwmbu1eao1h<>,قاپلومباغه‌
 kaplumbağa,fo2ebu3lwmbu1eao1h||,قاپلومباغه‌
 kaplı,fo2ebu3ly,قاپلی
 kaplıbağa,fo2ebu3lw bu1ao1h,قاپلو بغه
@@ -2750,7 +2729,7 @@ kaplıyor,fo2ebu3leywr,قاپلایور
 kaplıyordu,fo2ebu3leywrdy,قاپلایوردی
 kapma,fo2ebu3mh,قاپمه
 kapma,fo2ebu3mh||,قاپمه‌
-kapmaca,fo2ebu3mh<>xu1h||,قاپمه‌جه‌
+kapmaca,fo2ebu3mh||xu1h||,قاپمه‌جه‌
 kapmaca,fo2ebu3mh||xu1h,قاپمه‌جه
 kapmak,fo2ebu3mfo2,قاپمق
 kapmamak,fo2ebu3memfo2,قاپمامق
@@ -2789,10 +2768,9 @@ kapudanı deryâ,fo2bu3wdebo1 drbu2e,قپودان دريا
 kapudân (kaptan),fo2bu3wdebo1,قپودان
 kapudân,fo2bu3wdebo1,قپودان
 kapurta,fo2bu2wrth||,قيورطه‌
-kapurta,fo2ywrth<>,قیورطه‌
+kapurta,fo2ywrth||,قیورطه‌
 kapuska,fo2bu3wsfo2h,قپوسقه
 kapuska,fo2bu3wsfo2h||,قپوسقه‌
-kapuska,fo2ebu3wsfo2h<>,قاپوسقه‌
 kapuska,fo2ebu3wsfo2h||,قاپوسقه‌
 kaput başlığı,fo2bu3wt bu1eso3lao1y,قپوط باشلغی
 kaput,fo2bu3wt,قپوط
@@ -2972,7 +2950,7 @@ karabina,fo2rh bu1bu2bo1h,قره بينه
 karabina,fo2rh bu1ybo1h||,قره بینه‌
 karaboya,fo2erebu1wbu2e,قارابويا
 karaboya,fo2erebu1wye,قارابویا
-karaburun,fo2rh<>bu1rwbo1,قره‌برون
+karaburun,fo2rh||bu1rwbo1,قره‌برون
 karabuğday,fo2erebu1wao1dey,قارابوغدای
 karabük'e,fo2rh||bu1wkh,قره‌بوکه
 karabük'te,fo2rh||bu1wkdh,قره‌بوکده
@@ -2980,17 +2958,16 @@ karabük,fo2rh||bu1wk,قره‌بوک
 karaca eti,fo2rexu1h ebo2y,قراجه اتی
 karaca yavrusu,fo2rexu1h bu2ewrbu2sy,قراجه ياوريسی
 karaca yavrusu,fo2rexu1h yewrysy,قراجه یاوریسی
-karaca,fo2erexu1h<>,قاراجه‌
 karaca,fo2erexu1h||,قاراجه‌
 karaca,fo2rexu1h,قراجه
 karaca,fo2rexu1h||,قراجه‌
 karaca,fo2rh||xu1h,قره‌جه
-karacabalığı,fo2erexu1h<>bu1elyao1y,قاراجه‌بالیغی
+karacabalığı,fo2erexu1h||bu1elyao1y,قاراجه‌بالیغی
 karacabalığı,fo2erexu1h||bu1elbu2ao1y,قاراجه‌باليغی
-karacabey,fo2rh<>xu1h<>bu1k,قره‌جه‌بک
-karacakemiği,fo2erexu1h<>kmyko7y,قاراجه‌کمیگی
+karacabey,fo2rh||xu1h||bu1k,قره‌جه‌بک
+karacakemiği,fo2erexu1h||kmyko7y,قاراجه‌کمیگی
 karacakemiği,fo2erexu1h||kmbu2ko7y,قاراجه‌کميگی
-karacasu,fo2rh<>xu1h<>sw,قره‌جه‌سو
+karacasu,fo2rh||xu1h||sw,قره‌جه‌سو
 karacehennem,fo2erexu1hbo1m,قاراجهنم
 karachi,kreso3y,کراشی
 karaciğer,fo2erexu3kr,قاراچکر
@@ -3033,7 +3010,7 @@ karahummâ,fo2erexme,قاراحما
 karain,fo2rebo5bo1,قرائن
 karaini,fo2reyo5bo1y,قرائنی
 karainle,fo2reyo5bo1lh,قرائنله
-karaisalı,fo2rh<>aysely,قره‌عیسالی
+karaisalı,fo2rh||aysely,قره‌عیسالی
 karaiğne,fo2ere ebu2kbo1h,قارا ايکنه
 karaiğne,fo2ere eykbo1h||,قارا ایکنه‌
 karai̇n,fo2rebo5bo1,قرائن
@@ -3051,7 +3028,7 @@ karakimyon,fo2ere kymywbo1,قارا کیمیون
 karakoca,fo2ere fo2wxu1h,قارا قوجه
 karakoca,fo2ere fo2wxu1h||,قارا قوجه‌
 karakol,fo1rh ao1wl,فره غول
-karakol,fo2ere<>ao1wl,قارا‌غول
+karakol,fo2ere||ao1wl,قارا‌غول
 karakol,fo2erefo2wl,قاراقول
 karakol,fo2ere||ao1wl,قارا‌غول
 karakol,fo2rh ao1wl,قره غول
@@ -3074,7 +3051,7 @@ karakulak,fo2rh fo2wlefo2,قره قولاق
 karakurbağa,fo2ere fo2wrbu1eao1h,قارا قورباغه
 karakurbağa,fo2ere fo2wrbu1eao1h||,قارا قورباغه‌
 karakuş,fo2ere fo2wso3,قارا قوش
-karaköse,fo2rh<>kwsh||,قره‌کوسه‌
+karaköse,fo2rh||kwsh||,قره‌کوسه‌
 karakış,fo2ere fo2bu2so3,قارا قيش
 karakış,fo2ere fo2yso3,قارا قیش
 karakış,fo2rh fo2bu2so3,قره قيش
@@ -3100,7 +3077,7 @@ karambol,fo2erembu1wl,قارامبول
 karambolaj,fo2erembu1wlero3,قارامبولاژ
 karamersin,fo2eremrsbu2bo1,قارامرسين
 karamersin,fo2eremrsybo1,قارامرسین
-karamürsel,fo2rh<>mrsl,قره‌مرسل
+karamürsel,fo2rh||mrsl,قره‌مرسل
 karamız,fo2rh||mro1,قره‌مز
 karanfil çiçeği,fo2rbo1fo1l xu3bu2xu3ky,قرنفل چيچکی
 karanfil çiçeği,fo2rbo1fo1l xu3yxu3ky,قرنفل چیچکی
@@ -3139,10 +3116,10 @@ karanlığıyla,fo2reko3lao1y eylh,قراڭلغی ایله
 karantina,fo2erbo1bo2bu2bo1h,قارنتينه
 karantina,fo2erbo1bo2ybo1h||,قارنتینه‌
 karantina,fo2erebo1bo2bu2bo1h||,قارانتينه‌
-karantina,fo2erebo1bo2ybo1h<>,قارانتینه‌
+karantina,fo2erebo1bo2ybo1h||,قارانتینه‌
 karantina,fo2rebo1bo2bu2bo1h,قرانتينه
 karantina,fo2rebo1bo2ybo1h||,قرانتینه‌
-karantinahane,fo2erebo1bo2ybo1h<>xo1ebo1h||,قارانتینه‌خانه‌
+karantinahane,fo2erebo1bo2ybo1h||xo1ebo1h||,قارانتینه‌خانه‌
 karantinahâne,fo2erebo1bo2bu2bo1h||xo1ebo1h,قارانتينه‌خانه
 karanî'nin,fo2rebo1y||bo1ko3,قرانی‌نڭ
 karanî,fo2rebo1y,قرانی
@@ -3550,17 +3527,16 @@ kartlaş,fo2erbo2leso3,قارتلاش
 kartlaşmak,fo2erbo2leso3mfo2,قارتلاشمق
 kartlık,fo2erbo2lfo2,قارتلق
 karton,fo2erbo2wbo1,قارتون
-kartonpiyer,fo2erbo2wbo1<>bu3yh<>r,قارتون‌پیه‌ر
+kartonpiyer,fo2erbo2wbo1||bu3yh||r,قارتون‌پیه‌ر
 kartonpiyer,fo2erbo2wbo1||bu3bu2h||r,قارتون‌پيه‌ر
 kartopu,fo2ertwbu3y,قارطوپی
 kartoğraf,fo2erbo2wao1refo1,قارتوغراف
 kartoğrafi,fo2erbo2wao1refo1y,قارتوغرافی
 kartoğrafik,fo2erbo2wao1refo1bu2k,قارتوغرافيک
 kartoğrafik,fo2erbo2wao1refo1yk,قارتوغرافیک
-kartpostal,fo2erbo2<>bu3wsbo2el,قارت‌پوستال
 kartpostal,fo2erbo2||bu3wsbo2el,قارت‌پوستال
 kartuş,xertwxu1,حارطوج
-kartvizit,fo2erbo2<>wwyro1ybo2,قارت‌وویزیت
+kartvizit,fo2erbo2||wwyro1ybo2,قارت‌وویزیت
 kartvizit,fo2erbo2||wwbu2ro1bu2bo2,قارت‌وويزيت
 kartvizit,fo2erdwwbu2ro1bu2bo2,قاردوويزيت
 kartvizit,fo2erdwwyro1ybo2,قاردوویزیت
@@ -4052,7 +4028,6 @@ kasabalara,fo2zbu1h||lrh,قصبه‌لره
 kasabalarda,fo2zbu1h||lrdh,قصبه‌لرده
 kasabalardan,fo2zbu1h||lrdbo1,قصبه‌لردن
 kasabalarına,fo2zbu1h||lrybo1h,قصبه‌لرینه
-kasabalı,fo2zbu1h<>ly,قصبه‌لی
 kasabalı,fo2zbu1h||ly,قصبه‌لی
 kasabamız,fo2zbu1h||mro1,قصبه‌مز
 kasabamızda,fo2zbu1h||mro1dh,قصبه‌مزده
@@ -4066,7 +4041,6 @@ kasabasıyla,fo2zbu1h||sylh,قصبه‌سیله
 kasabaya,fo2zbu1h||yh,قصبه‌یه
 kasabayı,fo2zbu1h||yy,قصبه‌یی
 kasabiye,fo2zebu1yh||,قصابیه‌
-kasadar,fo2ezh<>der,قاصه‌دار
 kasadar,fo2ezh||der,قاصه‌دار
 kasaid,fo2zebo5d,قصائد
 kasaid-i,fo2zeyo5du4,قصائدِ
@@ -4194,7 +4168,7 @@ kaside,fo2zydh,قصیده
 kaside,fo2zydh||,قصیده‌
 kaside-hân,fo2zydh||xo1ebo1,قصیده‌خان
 kaside-i,fo2zydhu4,قصیدهِ
-kasideci,fo2zydh<>xu1y,قصیده‌جی
+kasideci,fo2zydh||xu1y,قصیده‌جی
 kasideciktir,fo2zydh||xu1kdr,قصیده‌جکدر
 kasidede,fo2zydh||dh,قصیده‌ده
 kasidedir,fo2zydh||dr,قصیده‌در
@@ -4227,11 +4201,8 @@ kasi̇de,fo2o4zydo4h||,قَصیدَه‌
 kasi̇de,fo2zydh||,قصیده‌
 kasi̇desera,fo2zydh sre,قصیده سرا
 kasi̇r,fo2zyr,قصیر
-kaskatı,fo2es<>fo2ebo2y,قاس‌قاتی
 kaskatı,fo2es||fo2ebo2y,قاس‌قاتی
-kaskatı,fo2ez<>fo2ebo2y,قاص‌قاتی
 kaskatı,fo2ez||fo2ebo2y,قاص‌قاتی
-kasket,fo2eskh<>bo2,قاسکه‌ت
 kasket,fo2eskh||bo2,قاسکه‌ت
 kasketinin,fo2eskbo2bo1ko3,قاسکتنڭ
 kasmak,fo2ezmfo2,قاصمق
@@ -4559,7 +4530,7 @@ katletmişti,fo2bo2l eybo2mso3dy,قتل ایتمشدی
 katletse,fo2bo2l eybo2sh,قتل ایتسه
 katli helal olan,fo2bo2ly xlel ewlebo1,قتلی حلال اولان
 katli,fo2bo2ly,قتلی
-katliam,fo2bo2l<>aem,قتل‌عام
+katliam,fo2bo2l||aem,قتل‌عام
 katliam,fo2bo2lu4 aem,قتلِ عام
 katliam,fo2bo2l||aem,قتل‌عام
 katliamları,fo2bo2lu4 aemlry,قتلِ عاملری
@@ -4812,7 +4783,6 @@ kavanozunda,fo2ewebo1wro1bo1dh,قاوانوزنده
 kavanîn-i,fo2webo1ybo1u4,قوانینِ
 kavas,fo2wes,قواس
 kavaslık,fo2wezlfo2,قواصلق
-kavata,fo2eweth<>,قاواطه‌
 kavata,fo2eweth||,قاواطه‌
 kavata,fo2webo2h,قواته
 kavata,fo2webo2h||,قواته‌
@@ -5399,7 +5369,7 @@ kaynamaları,fo2eybo1emh||lry,قاینامه‌لری
 kaynana,fo2ebu2bo1 ebo1e,قاين انا
 kaynana,fo2ebu2bo1||eo6bo1e,قاين‌آنا
 kaynana,fo2eybo1 ebo1e,قاین انا
-kaynana,fo2eybo1<>eo6bo1e,قاین‌آنا
+kaynana,fo2eybo1||eo6bo1e,قاین‌آنا
 kaynar su yarası,fo2ebu2bo1er zwbu2erh sy,قاينار صوياره سی
 kaynar su yarası,fo2eybo1er zwyerh sy,قاینار صویاره سی
 kaynar,fo2eybo1er,قاینار
@@ -5407,7 +5377,7 @@ kaynarca,fo2ebu2bo1erxu1h,قاينارجه
 kaynarca,fo2eybo1erxu1h||,قاینارجه‌
 kaynat,fo2eybo1ebo2,قاینات
 kaynata,fo2ebu2bo1||eo6bo2e,قاين‌آتا
-kaynata,fo2eybo1<>eo6bo2e,قاین‌آتا
+kaynata,fo2eybo1||eo6bo2e,قاین‌آتا
 kaynatdır,fo2eybo1ebo2dyr,قایناتدیر
 kaynatdırmak,fo2ebu2bo1ebo2dbu2rmfo2,قايناتديرمق
 kaynatdırmak,fo2eybo1ebo2dyrmfo2,قایناتدیرمق
@@ -5842,7 +5812,7 @@ kazdılar,fo2ero1dylr,قازدیلر
 kazdır,fo2ero1dyr,قازدیر
 kazdırmak,fo2ero1dbu2rmfo2,قازديرمق
 kazdırmak,fo2ero1dyrmfo2,قازدیرمق
-kazein,fo2ero1h<>bo5ybo1,قازه‌ئین
+kazein,fo2ero1h||bo5ybo1,قازه‌ئین
 kazein,fo2ero1h||bo5bu2bo1,قازه‌ئين
 kazf,fo2do1fo1,قذف
 kazf-ı,fo2do1fo1u4,قذفِ
@@ -5990,7 +5960,6 @@ kaçardı,fo2exu3erdy,قاچاردی
 kaçarlar,fo2exu3erlr,قاچارلر
 kaçarsan,fo2exu3ersh||ko3,قاچارسه‌ڭ
 kaçarsın,fo2exu3ersko3,قاچارسڭ
-kaçgöç,fo2exu3<>kwxu3,قاچ‌کوچ
 kaçgöç,fo2exu3||kwxu3,قاچ‌کوچ
 kaçkın,fo2exu3fo2bu2bo1,قاچقين
 kaçkın,fo2exu3fo2ybo1,قاچقین
@@ -6302,8 +6271,7 @@ kefe-i,kfo1hu4,کفهِ
 kefe-i̇ mi̇zan,ko4fo1o4u4 mu4yro1o4ebo1o0,کَفَِ مِیزَانْ
 kefede,kfo1h||dh,کفه‌ده
 kefel,kfo1l,کفل
-kefele,kfo1h<>l,کفه‌ل
-kefelemek,kfo1h<>lmk,کفه‌لمک
+kefele,kfo1h||l,کفه‌ل
 kefelemek,kfo1h||lmk,کفه‌لمک
 kefen,kfo1bo1,کفن
 kefenci,kfo1bo1xu1y,کفنجی
@@ -6403,12 +6371,10 @@ kehle pire makulesi,khlh bu3yrh mfo2wlh sy,کهله پیره مقوله سی
 kehle pire makûlesi,khlh bu3bu2rh mfo2wlh sy,کهله پيره مقوله سی
 kehle,khlh,کهله
 kehle,khlh||,کهله‌
-kehlelen,khlh<>lbo1,کهله‌لن
-kehlelenmek,khlh<>lbo1mk,کهله‌لنمک
+kehlelen,khlh||lbo1,کهله‌لن
 kehlelenmek,khlh||lbo1mk,کهله‌لنمک
 kehlelerini kırmak,khlh lrbu2bo1y fo2bu2rmfo2,کهله لرينی قيرمق
 kehlelerini kırmak,khlh lrybo1y fo2yrmfo2,کهله لرینی قیرمق
-kehleli,khlh<>ly,کهله‌لی
 kehleli,khlh||ly,کهله‌لی
 kehribar,khrbu1er,کهربار
 kehribar,ko4ho0ru4bu1o4ero0,کَهْرِبَارْ
@@ -6423,13 +6389,11 @@ kej,kro3,کژ
 kejdüm,kro3dm,کژدم
 keke,kkh,ککه
 keke,kkh||,ککه‌
-kekele,kkh<>l,ککه‌ل
+kekele,kkh||l,ککه‌ل
 kekeleme,bu3bu3ky swbu2lmk,پپکی سويلمک
-kekelemek,kkh<>lmk,ککه‌لمک
 kekelemek,kkh||lmk,ککه‌لمک
-kekelik,kkh<>lk,ککه‌لک
 kekelik,kkh||lk,ککه‌لک
-kekeme,kkh<>mh||,ککه‌مه‌
+kekeme,kkh||mh||,ککه‌مه‌
 kekeme,kkh||mh,ککه‌مه
 kekik,kkbu2k,ککيک
 kekik,kkk,ککک
@@ -6442,9 +6406,7 @@ keklik,kklk,ککلک
 keklik,kklyk,ککلیک
 kekre,kkrh,ککره
 kekre,kkrh||,ککره‌
-kekrelik,kkrh<>lk,ککره‌لک
 kekrelik,kkrh||lk,ککره‌لک
-kekremsi,kkrh<>msy,ککره‌مسی
 kekremsi,kkrh||msy,ککره‌مسی
 kel,kl,کل
 kelam,klem,کلام
@@ -6570,9 +6532,7 @@ kelkit,klkybo2,کلکیت
 kelle şekeri,klh so3kry,کله شکری
 kelle,klh,کله
 kelle,klh||,کله‌
-kelle,kllh<>,کلله‌
 kelle,kllh||,کلله‌
-kellekulak,klh<>fo2wlefo2,کله‌قولاق
 kellekulak,klh||fo2wlefo2,کله‌قولاق
 kelli,klly,کللی
 kellifelli,klly fo1lly,کللی فللی
@@ -6829,7 +6789,6 @@ kemankeş,kmebo1kso3,کمانکش
 kemançe,kmebo1xu3h||,کمانچه‌
 kemayenbaği,kme ybo1bu1ao1y,کما ینبغی
 kemayenbaği̇,kme ybo1bu1ao1y,کما ینبغی
-kemence,kmebo1xu1h<>,کمانجه‌
 kemence,kmebo1xu1h||,کمانجه‌
 kemend,kmbo1d,کمند
 kemend-i zülf,kmbo1d ro1lfo1,کمند زلف
@@ -6894,7 +6853,6 @@ kemiğikalın,kmbu2ky fo2elbu2bo1,کميکی قالين
 kemiğikalın,kmyky fo2elybo1,کمیکی قالین
 kemi̇n,kmybo1,کمین
 kemi̇yet,ko4mu4yo4bo2o0,کَمِیَتْ
-kemküm,km<>kwm,کم‌کوم
 kemküm,km||kwm,کم‌کوم
 kemlik,kmlk,کملک
 kemmen,kmo8o44e,کمًّا
@@ -7127,21 +7085,19 @@ kendiyle,kbo1dylh,کندیله
 kene,kbo1h,کنه
 kene,kbo1h||,کنه‌
 kenef,kbo1fo1,کنف
-kenegöz,kbo1h<>ko7wro1,کنه‌گوز
 kenegöz,kbo1h||ko7wro1,کنه‌گوز
-keneotu,kbo1h<>ewbo2y,کنه‌اوتی
 keneotu,kbo1h||ewbo2y,کنه‌اوتی
 kenet,kbu2bo1bo2,کينت
 kenet,kybo1bo2,کینت
-kenetle,kybo1bo2lh<>,کینتله‌
+kenetle,kybo1bo2lh||,کینتله‌
 kenetlemek,kbu2bo1bo2lh||mk,کينتله‌مک
-kenetlemek,kybo1bo2lh<>mk,کینتله‌مک
-kenetlen,kybo1bo2lh<>bo1,کینتله‌ن
+kenetlemek,kybo1bo2lh||mk,کینتله‌مک
+kenetlen,kybo1bo2lh||bo1,کینتله‌ن
 kenetlenmek,kbu2bo1bo2lh||bo1mk,کينتله‌نمک
-kenetlenmek,kybo1bo2lh<>bo1mk,کینتله‌نمک
-kenetlet,kybo1bo2lh<>bo2,کینتله‌ت
+kenetlenmek,kybo1bo2lh||bo1mk,کینتله‌نمک
+kenetlet,kybo1bo2lh||bo2,کینتله‌ت
 kenetletmek,kbu2bo1bo2lh||bo2mk,کينتله‌تمک
-kenetletmek,kybo1bo2lh<>bo2mk,کینتله‌تمک
+kenetletmek,kybo1bo2lh||bo2mk,کینتله‌تمک
 kenetleşmesi,kbo1bo2lso3mh||sy,کنتلشمه‌سی
 kenetli,kbu2bo1bo2ly,کينتلی
 kenetli,kybo1bo2ly,کینتلی
@@ -7166,16 +7122,16 @@ kenîse,kbo1bu2sh,کنيسه
 kenîz,kbo1bu2ro1,کنيز
 kepaze etmek,kbu3ero1h e,کپازه ا
 kepaze,kbu3ero1h||,کپازه‌
-kepazele,kbu3ero1h<>l,کپازه‌ل
-kepazelemek,kbu3ero1h<>lmk,کپازه‌لمک
-kepazelen,kbu3ero1h<>lbo1,کپازه‌لن
-kepazelenmek,kbu3ero1h<>lbo1mk,کپازه‌لنمک
-kepazelet,kbu3ero1h<>lbo2,کپازه‌لت
-kepazeletmek,kbu3ero1h<>lbo2mk,کپازه‌لتمک
-kepazelik,kbu3ero1h<>lk,کپازه‌لک
+kepazele,kbu3ero1h||l,کپازه‌ل
+kepazelemek,kbu3ero1h||lmk,کپازه‌لمک
+kepazelen,kbu3ero1h||lbo1,کپازه‌لن
+kepazelenmek,kbu3ero1h||lbo1mk,کپازه‌لنمک
+kepazelet,kbu3ero1h||lbo2,کپازه‌لت
+kepazeletmek,kbu3ero1h||lbo2mk,کپازه‌لتمک
+kepazelik,kbu3ero1h||lk,کپازه‌لک
 kepce,kbu3xu3h,کپچه
 kepce,kbu3xu3h||,کپچه‌
-kepcekuyruk,kbu3xu3h<>fo2wyrwfo2,کپچه‌قویروق
+kepcekuyruk,kbu3xu3h||fo2wyrwfo2,کپچه‌قویروق
 kepcekuyruk,kbu3xu3h||fo2wbu2rwfo2,کپچه‌قويروق
 kepek,kbu3k,کپک
 kepenek,kbu3bo1k,کپنک
@@ -7187,7 +7143,6 @@ kepâzelenmek,kbu3ero1h||lbo1mk,کپازه‌لنمک
 kepâzeletmek,kbu3ero1h||lbo2mk,کپازه‌لتمک
 kepâzelik,kbu3ero1h||lk,کپازه‌لک
 kepçe,kbu3xu3h,کپچه
-kepçe,kbu3xu3h<>,کپچه‌
 kepçe,kbu3xu3h||,کپچه‌
 kepçe,kfo1xu3h,کفچه
 kepçe,kfo1xu3h||,کفچه‌
@@ -7291,7 +7246,6 @@ kereste,krsbo2h,کرسته
 kereste,krsbo2h||,کرسته‌
 keresteci dükkanı,krsbo2h xu1y dkebo1y,کرسته جی دکانی
 keresteci dükkânı,krsbo2h xu1y dkebo1y,کرسته جی دکانی
-keresteci,kresbo2h<>xu1y,کراسته‌جی
 keresteci,kresbo2h||xu1y,کراسته‌جی
 kerevet,krh wbo2,کره وت
 kerevet,krwbo2,کروت
@@ -7402,7 +7356,6 @@ kerrât,ko4ro4o8ebo2o0,کَرَّاتْ
 kerrât,krebo2,کرات
 kerrûbiyyunun,ko4ro8o9wbu1ywbo1ko3,کَرُّوبیونڭ
 kert,krbo2,کرت
-kerte,krbo1h<>,کرنه‌
 kerte,krbo1h||,کرنه‌
 kerte,krbo1y,کرنی
 kerte,krbo2h,کرته
@@ -7566,16 +7519,16 @@ kesecek,ksh||xu1k,کسه‌جک
 kesecekti,ksh||xu1kdy,کسه‌جکدی
 kesecektim,ksh||xu1kdm,کسه‌جکدم
 keseceği,ksh||xu1ko7y,کسه‌جگی
-kesedar,kysh<>der,کیسه‌دار
+kesedar,kysh||der,کیسه‌دار
 kesedâr,kbu2sh||der,کيسه‌دار
 kesek,ksk,کسک
 kesel,ksl,کسل
-kesele,kysh<>lh<>,کیسه‌له‌
+kesele,kysh||lh||,کیسه‌له‌
 keselemek,kbu2sh||lh||mk,کيسه‌له‌مک
-keselemek,kysh<>lh<>mk,کیسه‌له‌مک
-keselen,kysh<>lbo1,کیسه‌لن
+keselemek,kysh||lh||mk,کیسه‌له‌مک
+keselen,kysh||lbo1,کیسه‌لن
 keselenmek,kbu2sh||lbo1mk,کيسه‌لنمک
-keselenmek,kysh<>lbo1mk,کیسه‌لنمک
+keselenmek,kysh||lbo1mk,کیسه‌لنمک
 keselerinden,kysh||lrbo1dbo1,کیسه‌لرندن
 kesemez,ksh||mro1,کسه‌مز
 kesen,ksbo1,کسن
@@ -7714,9 +7667,9 @@ keskin,kskbu2bo1,کسکين
 keskin,kskybo1,کسکین
 keskindir,kskybo1dr,کسکیندر
 keskindirler,kskybo1drlr,کسکیندرلر
-keskinlen,kskybo1lh<>bo1,کسکینله‌ن
+keskinlen,kskybo1lh||bo1,کسکینله‌ن
 keskinlenmek,kskbu2bo1lh||bo1mk,کسکينله‌نمک
-keskinlenmek,kskybo1lh<>bo1mk,کسکینله‌نمک
+keskinlenmek,kskybo1lh||bo1mk,کسکینله‌نمک
 keskinleş,kskybo1lso3,کسکینلش
 keskinleşmek,kskbu2bo1lso3mk,کسکينلشمک
 keskinleşmek,kskybo1lso3mk,کسکینلشمک
@@ -7724,9 +7677,8 @@ keskinleşmiştir,kskybo1lso3mso3dr,کسکینلشمشدر
 keskinlik,kskbu2bo1lk,کسکينلک
 keskinlik,kskybo1lk,کسکینلک
 kesme,ksmh,کسمه
-kesme,ksmh<>,کسمه‌
 kesme,ksmh||,کسمه‌
-kesmece,ksmh<>xu1h||,کسمه‌جه‌
+kesmece,ksmh||xu1h||,کسمه‌جه‌
 kesmece,ksmh||xu1h,کسمه‌جه
 kesmedi,ksmdy,کسمدی
 kesmediler,ksmdylr,کسمدیلر
@@ -7737,7 +7689,6 @@ kesmek,ksmk,کسمک
 kesmek,kso3mk,کشمک
 kesmekle,ksmklh,کسمکله
 kesmektir,ksmkdr,کسمکدر
-kesmelik,ksmh<>lk,کسمه‌لک
 kesmelik,ksmh||lk,کسمه‌لک
 kesmeme,ksmh||mh,کسمه‌مه
 kesmemiş,ksmh||mso3,کسمه‌مش
@@ -7798,12 +7749,12 @@ kessem,kssh||m,کسسه‌م
 kessin,kssybo1,کسسین
 kestane renkli,ksbo2ebo1h rbo1klw,کستانه رنکلو
 kestane,ksbo2ebo1h||,کستانه‌
-kestaneci,ksbo2ebo1h<>xu1y,کستانه‌جی
-kestanedorusu,ksbo2ebo1h<>dwrwsy,کستانه‌دوروسی
-kestanefişeği,ksbo2ebo1h<>fo1so3ky,کستانه‌فشکی
-kestanelik,ksbo2ebo1h<>lk,کستانه‌لک
-kestanerengi,ksbo2ebo1h<>rbo1ky,کستانه‌رنکی
-kestaneturpu,ksbo2ebo1h<>twrbu3y,کستانه‌طورپی
+kestaneci,ksbo2ebo1h||xu1y,کستانه‌جی
+kestanedorusu,ksbo2ebo1h||dwrwsy,کستانه‌دوروسی
+kestanefişeği,ksbo2ebo1h||fo1so3ky,کستانه‌فشکی
+kestanelik,ksbo2ebo1h||lk,کستانه‌لک
+kestanerengi,ksbo2ebo1h||rbo1ky,کستانه‌رنکی
+kestaneturpu,ksbo2ebo1h||twrbu3y,کستانه‌طورپی
 kestel,fo2sbo2l,قستل
 kestel,ksbo2l,کستل
 kesti,ksdy,کسدی
@@ -8131,14 +8082,12 @@ kezâlik,kdo1elk,کذالک
 kezâlik,kdo1lk,کذلک
 keçe,kxu3h,کچه
 keçe,kxu3h||,کچه‌
-keçeci,kxu3h<>xu1y,کچه‌جی
 keçeci,kxu3h||xu1y,کچه‌جی
-keçekülah,kxu3h<>kleh||,کچه‌کلاه‌
+keçekülah,kxu3h||kleh||,کچه‌کلاه‌
 keçekülâh,kxu3h||kleh,کچه‌کلاه
 keçel,kxu3l,کچل
 keçelenmek,kxu3h lbo1mk,کچه لنمک
-keçeleş,kxu3h<>lso3,کچه‌لش
-keçeleşmek,kxu3h<>lso3mk,کچه‌لشمک
+keçeleş,kxu3h||lso3,کچه‌لش
 keçeleşmek,kxu3h||lso3mk,کچه‌لشمک
 keçeli,kxu3h||ly,کچه‌لی
 keçi,kxu3y,کچی
@@ -8465,11 +8414,11 @@ kilisesine,klysesbo1h,کلیساسنه
 kiliseye,klyseyh,کلیسایه
 kilit,klbu2d,کليد
 kilit,klyd,کلید
-kilitle,klydlh<>,کلیدله‌
+kilitle,klydlh||,کلیدله‌
 kilitlediğimiz,klydldyko7mro1,کلیدلدیگمز
 kilitlemek,klbu2dlh||mk,کليدله‌مک
 kilitlemek,klbu2dlmk,کليدلمک
-kilitlemek,klydlh<>mk,کلیدله‌مک
+kilitlemek,klydlh||mk,کلیدله‌مک
 kilitlemek,klydlmk,کلیدلمک
 kilitlemiş,klydlh||mso3,کلیدله‌مش
 kilitlemiştim,klydlh||mso3dm,کلیدله‌مشدم
@@ -8499,7 +8448,7 @@ kiloğrif,fo2ylwao1ryfo1,قیلوغریف
 kilte,kbu2lbo2h||,کيلته‌
 kilte,klbo2h,کلته
 kilte,klbo2h||,کلته‌
-kilte,kylbo2h<>,کیلته‌
+kilte,kylbo2h||,کیلته‌
 kilye,klbu2h,کليه
 kilye,klyh||,کلیه‌
 kilâ',fo2lea,قلاع
@@ -8556,12 +8505,10 @@ kimsem,kymsh||m,کیمسه‌م
 kimsenin,kymsh||bo1ko3,کیمسه‌نڭ
 kimsesiz,kbu2msh||sro1,کيمسه‌سز
 kimsesiz,kmsh sro1,کمسه سز
-kimsesiz,kymsh<>sro1,کیمسه‌سز
 kimsesiz,kymsh||sro1,کیمسه‌سز
 kimsesizler,kymsh||sro1lr,کیمسه‌سزلر
 kimsesizlerin,kymsh||sro1lrko3,کیمسه‌سزلرڭ
 kimsesizlik,kbu2msh||sro1lk,کيمسه‌سزلک
-kimsesizlik,kymsh<>sro1lk,کیمسه‌سزلک
 kimsesizlik,kymsh||sro1lk,کیمسه‌سزلک
 kimsesizlikte,kymsh||sro1lkdh,کیمسه‌سزلکده
 kimsesizlikteki,kymsh||sro1lkdh||ky,کیمسه‌سزلکده‌کی
@@ -8625,7 +8572,7 @@ kinaye,ku4bo1o4eyo4h||,کِنَایَه‌
 kinayeamiz,kbo1eyh eo6myro1,کنایه آمیز
 kinayede,kbo1eyh||dh,کنایه‌ده
 kinayedir,kbo1eyh||dr,کنایه‌در
-kinayeli,kbo1eyh<>ly,کنایه‌لی
+kinayeli,kbo1eyh||ly,کنایه‌لی
 kinayenin,kbo1eyh||bo1ko3,کنایه‌نڭ
 kinayet,kbo1eybo2,کنایت
 kinayeten,kbo1eyho2o44,کنایةً
@@ -8696,12 +8643,12 @@ kiremid,kremyd,کرامید
 kiremit,kbu2rh||mbu2bo2,کيره‌ميت
 kiremit,krembu2d,کراميد
 kiremit,kremyd,کرامید
-kiremit,kyrh<>mybo2,کیره‌میت
+kiremit,kyrh||mybo2,کیره‌میت
 kiremitci,kbu2rh||mbu2bo2xu1y,کيره‌ميتجی
-kiremitci,kyrh<>mybo2xu1y,کیره‌میتجی
+kiremitci,kyrh||mybo2xu1y,کیره‌میتجی
 kiremitcilik,kbu2rh||mbu2bo2xu1bu2lbu2k,کيره‌ميتجيليک
-kiremitcilik,kyrh<>mybo2xu1ylyk,کیره‌میتجیلیک
-kiremithane,kyrh<>mybo2xo1ebo1h||,کیره‌میتخانه‌
+kiremitcilik,kyrh||mybo2xu1ylyk,کیره‌میتجیلیک
+kiremithane,kyrh||mybo2xo1ebo1h||,کیره‌میتخانه‌
 kiremithâne,kbu2rh||mbu2bo2xo1ebo1h,کيره‌ميتخانه
 kireç,kbu2rxu1,کيرج
 kireç,krxu1,کرج
@@ -8732,7 +8679,7 @@ kirişhane,kryso3xo1ebo1h||,کریشخانه‌
 kirişhâne,krbu2so3xo1ebo1h,کريشخانه
 kirişle,kryso3l,کریشل
 kirişleme,krbu2so3lh||mh,کريشله‌مه
-kirişleme,kryso3lh<>mh||,کریشله‌مه‌
+kirişleme,kryso3lh||mh||,کریشله‌مه‌
 kirişlemek,krbu2so3lmk,کريشلمک
 kirişlemek,kryso3lmk,کریشلمک
 kirişli,kbu2rbu2so3ly,کيريشلی
@@ -8851,7 +8798,7 @@ kitabdan,kbo2ebu1dbo1,کتابدن
 kitabdır,kbo2ebu1dr,کتابدر
 kitabdırlar,kbo2ebu1drlr,کتابدرلر
 kitabe,kbo2ebu1h||,کتابه‌
-kitabeli,kbo2ebu1h<>ly,کتابه‌لی
+kitabeli,kbo2ebu1h||ly,کتابه‌لی
 kitabet,kbo2ebu1bo2,کتابت
 kitabet,ku4bo2o4ebu1o4bo2o0,کِتَابَتْ
 kitabet-i kudret,ku4bo2o4ebu1o4bo2u4 fo2o9do0ro4bo2o0,کِتَابَتِ قُدْرَتْ
@@ -8956,7 +8903,7 @@ kitaptan,kbo2ebu1dbo1,کتابدن
 kitaptır,kbo2ebu1dr,کتابدر
 kitapçı,kbo2ebu1xu1y,کتابجی
 kitle,kbo2lh,کتله
-kitle,kybo2lh<>,کیتله‌
+kitle,kybo2lh||,کیتله‌
 kitle-i nariye,ku4bo2o0lo4u4 bo1o4eru4yo4h||,کِتْلَِ نَارِیَه‌
 kitle-i nâriye,ku4bo2o0lo4u4 bo1o4eru4bu2o4h,کِتْلَِ نَارِيَه
 kitle-i,kbo2lhu4,کتلهِ
@@ -8967,19 +8914,19 @@ kitlelerinden,kbo2lh||lrbo1dbo1,کتله‌لرندن
 kitlelerinin,kbo2lh||lrybo1ko3,کتله‌لرینڭ
 kitlemek,kbo2lmk,کتلمک
 kitlemek,kbu2bo2lh||mk,کيتله‌مک
-kitlemek,kybo2lh<>mk,کیتله‌مک
-kitlen,kybo2lh<>bo1,کیتله‌ن
+kitlemek,kybo2lh||mk,کیتله‌مک
+kitlen,kybo2lh||bo1,کیتله‌ن
 kitlenin,kbo2lh||bo1ko3,کتله‌نڭ
 kitlenmek,kbo2lbo1mk,کتلنمک
 kitlenmek,kbu2bo2lh||bo1mk,کيتله‌نمک
-kitlenmek,kybo2lh<>bo1mk,کیتله‌نمک
+kitlenmek,kybo2lh||bo1mk,کیتله‌نمک
 kitlesi,kbo2lh||sy,کتله‌سی
 kitlesini,kbo2lh||sbo1y,کتله‌سنی
 kitlesinin,kbo2lh||sbo1ko3,کتله‌سنڭ
 kitlesiyiz,kbo2lh||sy||yro1,کتله‌سی‌یز
-kitlet,kybo2lh<>bo2,کیتله‌ت
+kitlet,kybo2lh||bo2,کیتله‌ت
 kitletmek,kbu2bo2lh||bo2mk,کيتله‌تمک
-kitletmek,kybo2lh<>bo2mk,کیتله‌تمک
+kitletmek,kybo2lh||bo2mk,کیتله‌تمک
 kitleye,kbo2lh||yh,کتله‌یه
 kitleyivermek,kbo2lbu2wbu2rmk,کتليويرمک
 kitleyivermek,kbo2lywyrmk,کتلیویرمک
@@ -9061,19 +9008,19 @@ kişir,fo2u4so3u4ro0,قِشِرْ
 kişiye,kyso3y||yh,کیشی‌یه
 kişiyi,kyso3y||yy,کیشی‌یی
 kişizade,kso3y ro1edh||,کشی زاده‌
-kişizade,kyso3y<>ro1edh||,کیشی‌زاده‌
-kişizadelik,kyso3y ro1edh<>lk,کیشی زاده‌لک
+kişizade,kyso3y||ro1edh||,کیشی‌زاده‌
+kişizadelik,kyso3y ro1edh||lk,کیشی زاده‌لک
 kişizâde,kbu2so3y||ro1edh,کيشی‌زاده
 kişizâde,kso3y ro1edh,کشی زاده
 kişizâdelik,kbu2so3y ro1edh||lk,کيشی زاده‌لک
-kişne,kyso3bo1h<>,کیشنه‌
+kişne,kyso3bo1h||,کیشنه‌
 kişnemek,kbu2so3bo1h||mk,کيشنه‌مک
 kişnemek,kso3bo1mk,کشنمک
-kişnemek,kyso3bo1h<>mk,کیشنه‌مک
+kişnemek,kyso3bo1h||mk,کیشنه‌مک
 kişnemesini,kyso3bo1h||msbo1y,کیشنه‌مسنی
 kişnemeyi,kyso3bo1h||mh||yy,کیشنه‌مه‌یی
 kişneyiş,kbu2so3bo1h||bu2bu2so3,کيشنه‌ييش
-kişneyiş,kyso3bo1h<>yyso3,کیشنه‌ییش
+kişneyiş,kyso3bo1h||yyso3,کیشنه‌ییش
 kişniş,kbu2so3bo1bu2so3,کيشنيش
 kişniş,kso3bo1so3,کشنش
 kişniş,kyso3bo1yso3,کیشنیش
@@ -9162,37 +9109,30 @@ koca değil,fo2wxu1h dh kl,قوجه ده کل
 koca,fo2wxu1e,قوجا
 koca,fo2wxu1h,قوجه
 koca,fo2wxu1h||,قوجه‌
-kocabaşı,fo2wxu1h<>bu1eso3y,قوجه‌باشی
 kocabaşı,fo2wxu1h||bu1eso3y,قوجه‌باشی
 kocada,fo2wxu1h dh,قوجه ده
 kocada,fo2wxu1h dh||,قوجه ده‌
-kocadağ,fo2wxu1h<>deao1,قوجه‌داغ
 kocadağ,fo2wxu1h||deao1,قوجه‌داغ
-kocaeli,fo2wxu1h<>eyly,قوجه‌ایلی
+kocaeli,fo2wxu1h||eyly,قوجه‌ایلی
 kocakafalı,fo2wxu1h fo2fo1ely,قوجه قفالی
 kocakarı ilacı,fo2wxu1h fo2ery alexu1y,قوجه قاری علاجی
 kocakarı,fo2wxu1h fo2ery,قوجه قاری
-kocakarı,fo2wxu1h<>fo2ery,قوجه‌قاری
 kocakarı,fo2wxu1h||fo2ery,قوجه‌قاری
 kocakarıyı,fo2wxu1h||fo2ery||yy,قوجه‌قاری‌یی
 kocal,fo2wxu1el,قوجال
-kocalaş,fo2wxu1h<>leso3,قوجه‌لاش
-kocalaşmak,fo2wxu1h<>leso3mfo2,قوجه‌لاشمق
+kocalaş,fo2wxu1h||leso3,قوجه‌لاش
 kocalaşmak,fo2wxu1h||leso3mfo2,قوجه‌لاشمق
 kocaldın,fo2wxu1eldko3,قوجالدڭ
 kocalmak,fo2wxu1elmfo2,قوجالمق
 kocalt,fo2wxu1elbo2,قوجالت
 kocaltmak,fo2wxu1elbo2mfo2,قوجالتمق
-kocalı,fo2wxu1h<>ly,قوجه‌لی
 kocalı,fo2wxu1h||ly,قوجه‌لی
-kocalık,fo2wxu1h<>lfo2,قوجه‌لق
 kocalık,fo2wxu1h||lfo2,قوجه‌لق
 kocamak,fo2wxu1emfo2,قوجامق
 kocaman,fo2wxu1emebo1,قوجامان
 kocaman,fo2wxu1h mebo1,قوجه مان
 kocaman,fo2wxu1h||mebo1,قوجه‌مان
 kocanın,fo2wxu1h||bo1ko3,قوجه‌نڭ
-kocaoğlan,fo2wxu1h<>ewao1lebo1,قوجه‌اوغلان
 kocaoğlan,fo2wxu1h||ewao1lebo1,قوجه‌اوغلان
 kocası,fo2wxu1h||sy,قوجه‌سی
 kocasına,fo2wxu1h||sbo1h,قوجه‌سنه
@@ -9200,7 +9140,6 @@ kocasında,fo2wxu1h||sbo1dh,قوجه‌سنده
 kocasından,fo2wxu1h||sbo1dbo1,قوجه‌سندن
 kocasını,fo2wxu1h||sbo1y,قوجه‌سنی
 kocasının,fo2wxu1h||sbo1ko3,قوجه‌سنڭ
-kocasız,fo2wxu1h<>sro1,قوجه‌سز
 kocasız,fo2wxu1h||sro1,قوجه‌سز
 kocat,fo2wxu1ebo2,قوجات
 kocatmak,fo2wxu1ebo2mfo2,قوجاتمق
@@ -9209,13 +9148,13 @@ kocaya varmak,fo2wxu1h yh wermfo2,قوجه یه وارمق
 kocaya vermek,fo2wxu1h bu2h wbu2rmk,قوجه يه ويرمک
 kocaya vermek,fo2wxu1h yh wyrmk,قوجه یه ویرمک
 kocaya,fo2wxu1h||yh,قوجه‌یه
-kocayemiş,fo2wxu1h<>ymyso3,قوجه‌یمیش
+kocayemiş,fo2wxu1h||ymyso3,قوجه‌یمیش
 kocayemiş,fo2wxu1h||bu2mbu2so3,قوجه‌يميش
 kocayı,fo2wxu1h||yy,قوجه‌یی
 kocun,fo2wxu1bo1,قوجن
 kocunmak,fo2wxu1bo1mfo2,قوجنمق
 kodaman,fo2wdemebo1,قودامان
-kodein,fo2wdh<>bo5ybo1,قوده‌ئین
+kodein,fo2wdh||bo5ybo1,قوده‌ئین
 kodein,fo2wdh||bo5bu2bo1,قوده‌ئين
 kodes,fo2wds,قودس
 kodoş,fo2wdwso3,قودوش
@@ -9301,7 +9240,7 @@ kolay ufanır,fo2wley ewfo1ebo1wr,قولای اوفانور
 kolay,fo2wley,قولای
 kolayca,fo2wleyxu1h,قولایجه
 kolaycacık,fo2wlebu2xu1h||xu1fo2,قولايجه‌جق
-kolaycacık,fo2wleyxu1h<>xu1fo2,قولایجه‌جق
+kolaycacık,fo2wleyxu1h||xu1fo2,قولایجه‌جق
 kolaydı,fo2wleydy,قولایدی
 kolaydır,fo2wleydr,قولایدر
 kolayla,fo2wleyle,قولایلا
@@ -9347,7 +9286,6 @@ kolağası,fo2wl eo6ao1esy,قول آغاسی
 kolcu,fo2wlxu1y,قولجی
 kolculuk,fo2wlxu1bu2lfo2,قولجيلق
 kolculuk,fo2wlxu1ylfo2,قولجیلق
-kolej,fo2wlh<>ro3,قوله‌ژ
 kolej,fo2wlh||ro3,قوله‌ژ
 kolera,fo2wlo4ro4e,قولَرَا
 kolera,fo2wlre,قولرا
@@ -9362,13 +9300,12 @@ kollarına,fo2wllrybo1h,قوللرینه
 kollarını bağlamak,fo2wllrbu2bo1y bu1eao1lemfo2,قوللرينی باغلامق
 kollarını bağlamak,fo2wllrybo1y bu1eao1lemfo2,قوللرینی باغلامق
 kollarını,fo2wllryko3y,قوللریڭی
-kolleksiyon,fo2wllh<>ksywbo1,قولله‌کسیون
+kolleksiyon,fo2wllh||ksywbo1,قولله‌کسیون
 kolleksiyon,fo2wllh||ksbu2wbo1,قولله‌کسيون
-kollektif,fo2wllh<>kbo2yfo1,قولله‌کتیف
+kollektif,fo2wllh||kbo2yfo1,قولله‌کتیف
 kollektif,fo2wllh||kbo2bu2fo1,قولله‌کتيف
-kollektivism,fo2wllh<>kbo2ywyro1m,قولله‌کتیویزم
+kollektivism,fo2wllh||kbo2ywyro1m,قولله‌کتیویزم
 kollektivism,fo2wllh||kbo2bu2wbu2ro1m,قولله‌کتيويزم
-kollektör,fo2wllh<>kbo2wr,قولله‌کتور
 kollektör,fo2wllh||kbo2wr,قولله‌کتور
 kollu,fo2wlly,قوللی
 kolluk,fo2wllfo2,قوللق
@@ -9394,7 +9331,7 @@ koltuklu,fo2wlbo2fo2lw,قولتقلو
 koltuklu,fo2wlbo2fo2ly,قولتقلی
 koltuklu,fo2wlbo2wfo2ly,قولتوقلی
 koltukresmi,fo2wlbo2wfo2 rsmy,قولتوق رسمی
-koltukzaviyesi,fo2wlbo2wfo2 ro1ewyh<>sy,قولتوق زاویه‌سی
+koltukzaviyesi,fo2wlbo2wfo2 ro1ewyh||sy,قولتوق زاویه‌سی
 koltukzâviyesi,fo2wlbo2wfo2 ro1ewbu2h||sy,قولتوق زاويه‌سی
 koltukçu,fo2wlbo2fo2xu1y,قولتقجی
 koltuğu,fo2wlbo2wao1y,قولتوغی
@@ -9416,14 +9353,13 @@ komalastik,fo2wmelesbo2fo2,قومالاستق
 komandit,fo2wmebo1dbu2bo2,قومانديت
 komandit,fo2wmebo1dybo2,قوماندیت
 kombinezon,fo2wmbu1bu2bo1h||ro1wbo1,قومبينه‌زون
-kombinezon,fo2wmbu1ybo1h<>ro1wbo1,قومبینه‌زون
-komedi,fo2wmh<>dy,قومه‌دی
+kombinezon,fo2wmbu1ybo1h||ro1wbo1,قومبینه‌زون
 komedi,fo2wmh||dy,قومه‌دی
-komediyen,fo2wmh<>dyybo1,قومه‌دیین
+komediyen,fo2wmh||dyybo1,قومه‌دیین
 komediyen,fo2wmh||dbu2bu2bo1,قومه‌ديين
-komedya,fo2wmh<>dye,قومه‌دیا
+komedya,fo2wmh||dye,قومه‌دیا
 komedya,fo2wmh||dbu2e,قومه‌ديا
-komedyacı,fo2wmh<>dyexu1y,قومه‌دیاجی
+komedyacı,fo2wmh||dyexu1y,قومه‌دیاجی
 komedyacı,fo2wmh||dbu2exu1y,قومه‌دياجی
 komik,fo2wmbu2k,قوميک
 komik,fo2wmyk,قومیک
@@ -9497,7 +9433,6 @@ komposto,fo2wmbu3wsbo2h||,قومپوسته‌
 komposto,fo2wmbu3wsbo2w,قومپوستو
 kompozitör,fo2wmbu3wro1bu2bo2wr,قومپوزيتور
 kompozitör,fo2wmbu3wro1ybo2wr,قومپوزیتور
-kompres,fo2wmbu3rh<>s,قومپره‌س
 kompres,fo2wmbu3rh||s,قومپره‌س
 komprime,fo2wmbu3rymh,قومپریمه
 komünist,fo2wmwbo1bu2sbo2,قومونيست
@@ -9565,12 +9500,10 @@ kondum,fo2wbo1dm,قوندم
 kondur,fo2wbo1dwr,قوندور
 kondurmak,fo2wbo1dwrmfo2,قوندورمق
 konevî'ye,fo2bo1wy||yh,قنوی‌یه
-konfederasyon,fo2wbo1fo1h<>dh<>resywbo1,قونفه‌ده‌راسیون
+konfederasyon,fo2wbo1fo1h||dh||resywbo1,قونفه‌ده‌راسیون
 konfederasyon,fo2wbo1fo1h||dh||resbu2wbo1,قونفه‌ده‌راسيون
-konferans,fo2wbo1fo1h<>rebo1s,قونفه‌رانس
 konferans,fo2wbo1fo1h||rebo1s,قونفه‌رانس
 konferans,fo2wbo1fo1rebo1s,قونفرانس
-konferanscı,fo2wbo1fo1h<>rebo1sxu1y,قونفه‌رانسجی
 konferanscı,fo2wbo1fo1h||rebo1sxu1y,قونفه‌رانسجی
 konferanslar,fo2wbo1fo1rebo1slr,قونفرانسلر
 konferanslardan,fo2wbo1fo1rebo1slrdbo1,قونفرانسلردن
@@ -9833,7 +9766,7 @@ konuşuyoruz,fo2wbo1wso3wywrro1,قونوشویورز
 konvansiyon,fo2wbo1webo1sbu2wbo1,قونوانسيون
 konvansiyon,fo2wbo1webo1sywbo1,قونوانسیون
 konvansiyonel,fo2wbo1webo1sbu2wbo1h||ly,قونوانسيونه‌لی
-konvansiyonel,fo2wbo1webo1sywbo1h<>ly,قونوانسیونه‌لی
+konvansiyonel,fo2wbo1webo1sywbo1h||ly,قونوانسیونه‌لی
 konya'da,fo2wbo1yh||dh,قونیه‌ده
 konya'daki,fo2wbo1yh||dh||ky,قونیه‌ده‌کی
 konya'dan,fo2wbo1yh||dbo1,قونیه‌دن
@@ -9848,7 +9781,7 @@ konyalı,fo2wbo1yh||ly,قونیه‌لی
 konşu,fo2wkso3y,قوکشی
 konşuluk,fo2wkso3bu2lfo2,قوکشيلق
 konşuluk,fo2wkso3ylfo2,قوکشیلق
-kooperatif,fo2wewbu3h<>rebo2yfo1,قواوپه‌راتیف
+kooperatif,fo2wewbu3h||rebo2yfo1,قواوپه‌راتیف
 kooperatif,fo2wewbu3h||rebo2bu2fo1,قواوپه‌راتيف
 kop,fo2wbu3,قوپ
 kopacak,fo2wbu3exu1fo2,قوپاجق
@@ -9896,7 +9829,6 @@ koparırlardı,fo2wbu3errlrdy,قوپاررلردی
 koparıyor,fo2wbu3eryywr,قوپارییور
 kopil,fo2wbu3bu2l,قوپيل
 kopil,fo2wbu3yl,قوپیل
-kopkolay,fo2wbu3<>fo2wley,قوپ‌قولای
 kopkolay,fo2wbu3||fo2wley,قوپ‌قولای
 kopmak,fo2wbu3mfo2,قوپمق
 kopmakta,fo2wbu3mfo2dh,قوپمقده
@@ -10130,11 +10062,10 @@ koruyucudur,fo2wrwywxu1ydr,قورویوجیدر
 koruyucuya,fo2wrwywxu1y||yh,قورویوجی‌یه
 koruyunuz,fo2wrwyko3ro1,قورویڭز
 korvet,fo2wrwbo2,قوروت
-koskoca,fo2ws<>fo2wxu1h||,قوس‌قوجه‌
+koskoca,fo2ws||fo2wxu1h||,قوس‌قوجه‌
 koskoca,fo2ws||fo2wxu1h,قوس‌قوجه
-koskoca,fo2wz<>fo2wxu1h||,قوص‌قوجه‌
+koskoca,fo2wz||fo2wxu1h||,قوص‌قوجه‌
 koskoca,fo2wz||fo2wxu1h,قوص‌قوجه
-koskocaman,fo2ws<>fo2wxu1emebo1,قوس‌قوجامان
 koskocaman,fo2ws||fo2wxu1emebo1,قوس‌قوجامان
 koskocaman,fo2wz||fo2wxu1h||mebo1,قوص‌قوجه‌مان
 kosova'da,fo2wzwh||dh,قوصوه‌ده
@@ -10150,7 +10081,7 @@ kosturma,fo2wsbo2wrme,قوستورما
 kostüm,fo2wsbo2wm,قوستوم
 kostümlük,fo2wsbo2wmlk,قوستوملک
 koter,fo2wbo2r,قوتر
-koterize,fo2wbo2h<>ryro1h||,قوته‌ریزه‌
+koterize,fo2wbo2h||ryro1h||,قوته‌ریزه‌
 koterize,fo2wbo2h||rbu2ro1h,قوته‌ريزه
 kotra,fo2wbo2re,قوترا
 kotra,fo2wbo2rh,قوتره
@@ -10319,7 +10250,7 @@ kozca,fo2wro1xu1h,قوزجه
 kozluca,fo2wro1lwxu1h||,قوزلوجه‌
 kozmopolit,fo2wro1mwbu3wlbu2bo2,قوزموپوليت
 kozmopolit,fo2wro1mwbu3wlybo2,قوزموپولیت
-kozmotik,fo2wro1mh<>bo2yk,قوزمه‌تیک
+kozmotik,fo2wro1mh||bo2yk,قوزمه‌تیک
 kozmotik,fo2wro1mh||bo2bu2k,قوزمه‌تيک
 kozmoğrafya'nın,fo2wro1mwao1refo1yebo1ko3,قوزموغرافیانڭ
 kozmoğrafya,fo2o9wro1o0mo9wao1o0ro4efo1o0bu2o4h,قُوزْمُوغْرَافْيَه
@@ -10485,7 +10416,6 @@ kraliçe,fo2relbu2xu3h,قراليچه
 kraliçe,fo2relyxu3h||,قرالیچه‌
 krallık,fo2rellfo2,قراللق
 kralâne,fo2relebo1h,قرالانه
-kredi,fo2rh<>dy,قره‌دی
 kredi,fo2rh||dy,قره‌دی
 krep,fo2rbu3,قرپ
 kriket,fo2rbu2bo2bu2k,قريتيک
@@ -10497,7 +10427,7 @@ kritik,fo2rybo2yk,قریتیک
 kriz,fo2rbu2ro1,قريز
 kriz,fo2ryro1,قریز
 krizantem,fo2rbu2ro1ebo1bo2h||m,قريزانته‌م
-krizantem,fo2ryro1ebo1bo2h<>m,قریزانته‌م
+krizantem,fo2ryro1ebo1bo2h||m,قریزانته‌م
 kroki,fo2rwky,قروکی
 krokisine,fo2rwkysbo1h,قروکیسنه
 krokisini,fo2rwkysbo1y,قروکیسنی
@@ -10511,7 +10441,7 @@ kubbe,fo2bu1h,قبه
 kubbe,fo2bu1h||,قبه‌
 kubbe,fo2bu1o8h,قبّه
 kubbe-i,fo2bu1o8hu4,قبّهِ
-kubbealtı,fo2bu1h<>eo6lbo2y,قبه‌آلتی
+kubbealtı,fo2bu1h||eo6lbo2y,قبه‌آلتی
 kubbede,fo2bu1o8h||dh,قبّه‌ده
 kubbedeki,fo2bu1o8h||dh||ky,قبّه‌ده‌کی
 kubbeler,fo2bu1o8h||lr,قبّه‌لر
@@ -10519,7 +10449,6 @@ kubbelerde,fo2bu1o8h||lrdh,قبّه‌لرده
 kubbelerdeki,fo2bu1o8h||lrdh||ky,قبّه‌لرده‌کی
 kubbeleri,fo2bu1o8h||lry,قبّه‌لری
 kubbelerini,fo2bu1o8h||lrybo1y,قبّه‌لرینی
-kubbeli,fo2bu1h<>ly,قبه‌لی
 kubbeli,fo2bu1h||ly,قبه‌لی
 kubbeli,fo2bu1o8h||ly,قبّه‌لی
 kubbenin,fo2bu1o8h||bo1ko3,قبّه‌نڭ
@@ -10840,7 +10769,6 @@ kule,fo2wlh||,قوله‌
 kulecik,fo2wlh xu1k,قوله جک
 kulel,fo2ll,قلل
 kulelerdeki,fo2lh||lrdh||ky,قله‌لرده‌کی
-kuleli,fo2wlh<>ly,قوله‌لی
 kuleli,fo2wlh||ly,قوله‌لی
 kulesinin,fo2lh||sbo1ko3,قله‌سنڭ
 kuleön'lü,fo2lh||ewko3ly,قله‌اوڭلی
@@ -10958,7 +10886,6 @@ kulübe,fo2lbu1h,قلبه
 kulübe,fo2lbu1h||,قلبه‌
 kulübe,fo2wlbu1h,قولبه
 kulübe,fo2wlbu1h||,قولبه‌
-kulübe,fo2wlwbu1h<>,قولوبه‌
 kulübe,fo2wlwbu1h||,قولوبه‌
 kulübe,klbu1h,کلبه
 kulübe,klbu1h||,کلبه‌
@@ -11134,7 +11061,6 @@ kunt,fo2wbo1bo2,قونت
 kupa,fo2wbu3e,قوپا
 kupa,fo2wbu3h,قوپه
 kupa,fo2wbu3h||,قوپه‌
-kupkuru,fo2wbu3<>fo2wrw,قوپ‌قورو
 kupkuru,fo2wbu3||fo2wrw,قوپ‌قورو
 kupon,fo2wbu3wbo1,قوپون
 kur'a çekmek,fo2rah xu3kmk,قرعه چکمک
@@ -11353,7 +11279,6 @@ kurd,fo2wrd,قورد
 kurda,fo2wrdh,قورده
 kurdayağı,fo2wrbo2 eo6bu2eao1y,قورت آياغی
 kurdayağı,fo2wrbo2 eo6yeao1y,قورت آیاغی
-kurdağzı,fo2wrbo2<>eo6ao1ro1y,قورت‌آغزی
 kurdağzı,fo2wrbo2||eo6ao1ro1y,قورت‌آغزی
 kurdela bağı,fo2wrdlh bu1eao1y,قوردله باغی
 kurdeşen,fo2wrdeo5so3bo1,قوردأشن
@@ -11540,7 +11465,6 @@ kurtlaşmış,fo2wrbo2leso3mso3,قورتلاشمش
 kurtlu,fo2wrbo2ly,قورتلی
 kurtludur,fo2wrdlydr,قوردلیدر
 kurtmasalı,fo2wrbo2 mezely,قورت ماصالی
-kurtpençesi,fo2wrbo2 bu3bo1xu3h<>sy,قورت پنچه‌سی
 kurtpençesi,fo2wrbo2 bu3bo1xu3h||sy,قورت پنچه‌سی
 kurttan,fo2wrddbo1,قورددن
 kurttırnağı,fo2wrbo2 tyrbo1eao1y,قورت طیرناغی
@@ -11691,7 +11615,6 @@ kuruduğunu,fo2wrwdyao1bo1y,قورودیغنی
 kuruhavuz,fo2wrwxwzo1,قوروحوض
 kurukahve,fo2wry fo2hwh,قوری قهوه
 kurukahve,fo2wry fo2hwh||,قوری قهوه‌
-kurukahveci,fo2wry fo2hwh<>xu1y,قوری قهوه‌جی
 kurukahveci,fo2wry fo2hwh||xu1y,قوری قهوه‌جی
 kurukemik,fo2wrwkmbu2k,قوروکميک
 kurukemik,fo2wrwkmyk,قوروکمیک
@@ -11827,7 +11750,6 @@ kurşunî,fo2wrso3wbo1y,قورشونی
 kurşûnî,fo2wrso3wbo1y,قورشونی
 kur’a,fo2rah,قرعه
 kur’a,fo2rah||,قرعه‌
-kur’acı,fo2rah<>xu1y,قرعه‌جی
 kur’acı,fo2rah||xu1y,قرعه‌جی
 kur’an,fo2reo6bo1,قرآن
 kus,fo2wz,قوص
@@ -12294,9 +12216,7 @@ kuze,kwro1h||,کوزه‌
 kuzeh,fo2o9ro1o4xo0,قُزَحْ
 kuzeh,fo2ro1x,قزح
 kuzehindeki,fo2ro1xbo1dh||ky,قزحنده‌کی
-kuzen,fo2wro1h<>bo1,قوزه‌ن
 kuzen,fo2wro1h||bo1,قوزه‌ن
-kuzey,fo2wro1h<>y,قوزه‌ی
 kuzey,fo2wro1h||y,قوزه‌ی
 kuzgun,fo2wro1ao1wbo1,قوزغون
 kuzgunayağı,fo2wro1ao1wbo1 eo6bu2eao1y,قوزغون آياغی
@@ -12315,7 +12235,7 @@ kuzu,fo2wro1w,قوزو
 kuzu,fo2wro1y,قوزی
 kuzudişi,fo2wro1wdbu2so3y,قوزوديشی
 kuzudişi,fo2wro1wdyso3y,قوزودیشی
-kuzukestanesi,fo2wro1y ksbo2ebo1h<>sy,قوزی کستانه‌سی
+kuzukestanesi,fo2wro1y ksbo2ebo1h||sy,قوزی کستانه‌سی
 kuzukestânesi,fo2wro1y ksbo2ebo1h||sy,قوزی کستانه‌سی
 kuzukulağı,fo2wro1wfo2wleao1y,قوزوقولاغی
 kuzukulağı,fo2wro1y fo2wleao1y,قوزی قولاغی
@@ -12339,7 +12259,7 @@ kuş tüyü,fo2wso3 bo2wbu2y,قوش تويی
 kuş tüyü,fo2wso3 bo2wyy,قوش تویی
 kuş,fo2wso3,قوش
 kuşa,fo2wso3h,قوشه
-kuşadası,fo2wso3<>eo6desy,قوش‌آداسی
+kuşadası,fo2wso3||eo6desy,قوش‌آداسی
 kuşak,fo2wso3efo2,قوشاق
 kuşakcı,fo2wso3efo2xu1y,قوشاقجی
 kuşakla,fo2wso3efo2le,قوشاقلا
@@ -12356,7 +12276,6 @@ kuşbaz,fo2wso3bu1ero1,قوشباز
 kuşbazlık,fo2wso3bu1ero1lfo2,قوشبازلق
 kuşbaşı,fo2wso3 bu1eso3y,قوش باشی
 kuşbeyi,fo2wso3 bu1ky,قوش بکی
-kuşburnu,fo2wso3<>bu1wrbo1y,قوش‌بورنی
 kuşburnu,fo2wso3||bu1wrbo1y,قوش‌بورنی
 kuşbâz,fo2wso3bu1ero1,قوشباز
 kuşcu,fo2wso3xu1y,قوشجی
@@ -12372,7 +12291,6 @@ kuşk,kwso3k,کوشک
 kuşkanadı,fo2wso3 fo2ebo1edy,قوش قانادی
 kuşkirazı,fo2wso3 krero1y,قوش کرازی
 kuşkonmaz,fo2wso3 fo2wbo1mro1,قوش قونمز
-kuşkonmaz,fo2wso3<>fo2wbo1mero1,قوش‌قونماز
 kuşkonmaz,fo2wso3||fo2wbo1mero1,قوش‌قونماز
 kuşku,fo2wso3fo2w,قوشقو
 kuşkulan,fo2wso3fo2wlebo1,قوشقولان
@@ -12799,7 +12717,6 @@ kîse,kbu2sh,کيسه
 kîş,kbu2so3,کيش
 köfte,kwfo1bo2h,کوفته
 köfte,kwfo1bo2h||,کوفته‌
-köftehor,kwfo1bo2h<>xo1wr,کوفته‌خور
 köftehor,kwfo1bo2h||xo1wr,کوفته‌خور
 köfteler,kwfo1bo2h||lr,کوفته‌لر
 köftelerden,kwfo1bo2h||lrdbo1,کوفته‌لردن
@@ -12812,8 +12729,7 @@ kök salmak,kwk zelmfo2,کوک صالمق
 kök salmak,kwk,کوک
 kök,kwk,کوک
 köke,kwkh,کوکه
-kökle,kwklh<>,کوکله‌
-köklemek,kwklh<>mk,کوکله‌مک
+kökle,kwklh||,کوکله‌
 köklemek,kwklh||mk,کوکله‌مک
 köklen,kwklbo1,کوکلن
 köklenmek,kwklbo1mk,کوکلنمک
@@ -12857,9 +12773,7 @@ köle,kwlh||,کوله‌
 köleleri,kwlh||lry,کوله‌لری
 köleleridir,kwlh||lrydr,کوله‌لریدر
 kölelik,kwlh lk,کوله لک
-kölelik,kwlh<>lk,کوله‌لک
 kölelik,kwlh||lk,کوله‌لک
-kölemen,kwlh<>mbo1,کوله‌من
 kölemen,kwlh||mbo1,کوله‌من
 köleniz,kwlh||ko3ro1,کوله‌ڭز
 kömür madeni,kmwr madbo1y,کمور معدنی
@@ -12886,13 +12800,11 @@ köpekbalığı,kwbu3k bu1elyao1y,کوپک بالیغی
 köpekbalığı,kwbu3k bu1lao1y,کوپک بلغی
 köpekdişi,kwbu3k dbu2so3y,کوپک ديشی
 köpekdişi,kwbu3k dyso3y,کوپک دیشی
-köpekle,kwbu3klh<>,کوپکله‌
-köpeklemek,kwbu3klh<>mk,کوپکله‌مک
+köpekle,kwbu3klh||,کوپکله‌
 köpeklemek,kwbu3klh||mk,کوپکله‌مک
 köpekler,kwbu3klr,کوپکلر
 köpekleri,kwbu3klry,کوپکلری
 köpeklik,kwbu3klk,کوپکلک
-köpekmemesi,kwbu3k mmh<>sy,کوپک ممه‌سی
 köpekmemesi,kwbu3k mmh||sy,کوپک ممه‌سی
 köpekten,kwbu3kdbo1,کوپکدن
 köpektir,kwbu3kdr,کوپکدر
@@ -12946,10 +12858,9 @@ körkaya,kwrfo2eye,کورقایا
 körkörüne,kwrkwrbu2bo1h,کورکورينه
 körkörüne,kwrkwrybo1h||,کورکورینه‌
 körkütük,kwrkwbo2wk,کورکوتوک
-körle,kwrlh<>,کورله‌
-körleme,kwrlh<>mh||,کورله‌مه‌
+körle,kwrlh||,کورله‌
+körleme,kwrlh||mh||,کورله‌مه‌
 körleme,kwrlh||mh,کورله‌مه
-körlemek,kwrlh<>mk,کورله‌مک
 körlemek,kwrlh||mk,کورله‌مک
 körlen,kwrlbo1,کورلن
 körlenmek,kwrlbo1mk,کورلنمک
@@ -12970,7 +12881,6 @@ köroğlu,kwrewao1ly,کوراوغلی
 körpe,kwrbu3h,کورپه
 körpe,kwrbu3h||,کورپه‌
 körpeler,kwrbu3h||lr,کورپه‌لر
-körpelik,kwrbu3h<>lk,کورپه‌لک
 körpelik,kwrbu3h||lk,کورپه‌لک
 körü,kwry,کوری
 körük,kwrk,کورک
@@ -12984,34 +12894,26 @@ köse,kwsh,کوسه
 köse,kwsh||,کوسه‌
 kösele,kwslh,کوسله
 kösele,kwslh||,کوسله‌
-köseleperdahı,kwslh<>bu3rdexo1y,کوسله‌پرداخی
 köseleperdahı,kwslh||bu3rdexo1y,کوسله‌پرداخی
 köselesini vurmak,kwslh sbo1y ewrmfo2,کوسله سنی اورمق
-köseletaşı,kwslh<>teso3y,کوسله‌طاشی
 köseletaşı,kwslh||teso3y,کوسله‌طاشی
-köselik,kwslh<>lk,کوسله‌لک
 köselik,kwslh||lk,کوسله‌لک
 kösem,kwsm,کوسم
 kösemen,kwsmbo1,کوسمن
-köskös,kws<>kws,کوس‌کوس
 köskös,kws||kws,کوس‌کوس
-köskötürüm,kws<>kwbo2wrwm,کوس‌کوتوروم
 köskötürüm,kws||kwbo2wrwm,کوس‌کوتوروم
 köstebek,kwsbo2bu1k,کوستبک
 köstebekilleti,kwsbo2bu1k albo2y,کوستبک علتی
 köstek,kwsbo2k,کوستک
-köstekle,kwsbo2klh<>,کوستکله‌
-kösteklemek,kwsbo2klh<>mk,کوستکله‌مک
+köstekle,kwsbo2klh||,کوستکله‌
 kösteklemek,kwsbo2klh||mk,کوستکله‌مک
-kösteklen,kwsbo2klh<>bo1,کوستکله‌ن
-kösteklenmek,kwsbo2klh<>bo1mk,کوستکله‌نمک
+kösteklen,kwsbo2klh||bo1,کوستکله‌ن
 kösteklenmek,kwsbo2klh||bo1mk,کوستکله‌نمک
 köstekli,kwsbo2klyy,کوستکلیی
 kötek,kwbo2k,کوتک
 kötü,kwbo2w,کوتو
 kötü,kwbo2y,کوتی
-kötüle,kwbo2wlh<>,کوتوله‌
-kötülemek,kwbo2wlh<>mk,کوتوله‌مک
+kötüle,kwbo2wlh||,کوتوله‌
 kötülemek,kwbo2wlh||mk,کوتوله‌مک
 kötülemişler,kwbo2wlh||mso3lr,کوتوله‌مشلر
 kötülen,kwbo2wlbo1,کوتولن
@@ -13101,9 +13003,9 @@ köşe,kwso3h||,کوشه‌
 köşe-i,kwso3hu4,کوشهِ
 köşede,kwso3h||dh,کوشه‌ده
 köşeden,kwso3h||dbo1,کوشه‌دن
-köşekapmaca,kwso3h<>fo2ebu3mh<>xu1h||,کوشه‌قاپمه‌جه‌
+köşekapmaca,kwso3h||fo2ebu3mh||xu1h||,کوشه‌قاپمه‌جه‌
 köşekapmaca,kwso3h||fo2ebu3mh||xu1h,کوشه‌قاپمه‌جه
-köşeleme,kwso3h<>lmh||,کوشه‌لمه‌
+köşeleme,kwso3h||lmh||,کوشه‌لمه‌
 köşeleme,kwso3h||lmh,کوشه‌لمه
 köşeler,kwso3h||lr,کوشه‌لر
 köşelerde,kwso3h||lrdh,کوشه‌لرده
@@ -13117,7 +13019,6 @@ köşelerinden,kwso3h||lrbo1dbo1,کوشه‌لرندن
 köşelerine,kwso3h||lrybo1h,کوشه‌لرینه
 köşelerini,kwso3h||lrybo1y,کوشه‌لرینی
 köşeli,kwso3h lw,کوشه لو
-köşeli,kwso3h<>ly,کوشه‌لی
 köşeli,kwso3h||ly,کوشه‌لی
 köşesi,kwso3h||sy,کوشه‌سی
 köşesinde,kwso3h||sbo1dh,کوشه‌سنده
@@ -13221,11 +13122,8 @@ küf,kfo1,کف
 küf,kwfo1,کوف
 küfe,kwfo1h,کوفه
 küfe,kwfo1h||,کوفه‌
-küfeci,kwfo1h<>xu1y,کوفه‌جی
 küfeci,kwfo1h||xu1y,کوفه‌جی
-küfeli,kwfo1h<>ly,کوفه‌لی
 küfeli,kwfo1h||ly,کوفه‌لی
-küfelik,kwfo1h<>lk,کوفه‌لک
 küfelik,kwfo1h||lk,کوفه‌لک
 küffar,kfo1er,کفار
 küffar,kfo1o8er,کفّار
@@ -13322,7 +13220,6 @@ küfürde,kfo1rdh,کفرده
 küfürdeki,kfo1rdh||ky,کفرده‌کی
 küfürden,kfo1rdbo1,کفردن
 küfürdür,kfo1rdr,کفردر
-küfürküfür,kwfo1wr<>kwfo1wr,کوفور‌کوفور
 küfürküfür,kwfo1wr||kwfo1wr,کوفور‌کوفور
 küfürle,kfo1rlh,کفرله
 küfürler,kfo1rlr,کفرلر
@@ -13338,9 +13235,8 @@ kühen,khbo1,کهن
 küheylan,khbu2lebo1,کهيلان
 küheylan,khylebo1,کهیلان
 kühûlette,khwlbo2dh,کهولتده
-kükre,ko7wkrh<>,گوکره‌
+kükre,ko7wkrh||,گوکره‌
 kükrek,kwkrk,کوکرک
-kükremek,ko7wkrh<>mk,گوکره‌مک
 kükremek,ko7wkrh||mk,گوکره‌مک
 kükreyecek,kwkrh||yh||xu1k,کوکره‌یه‌جک
 kükreyip,kwkrh||ywbu1,کوکره‌یوب
@@ -13394,7 +13290,7 @@ külhân,ko9lo0xo1o4ebo1o0,کُلْخَانْ
 külhânî,kwlxo1ebo1y,کولخانی
 külhĀn,ko9lo0xo1o4ebo1o0,کُلْخَانْ
 külhān,ko9lo0xo1o4ebo1o0,کُلْخَانْ
-külkedisi,kwl<>kdysy,کول‌کدیسی
+külkedisi,kwl||kdysy,کول‌کدیسی
 külkedisi,kwl||kdbu2sy,کول‌کديسی
 küll'ün,klo8ko3,کلّڭ
 küll,kl,کل
@@ -13405,7 +13301,6 @@ küll-ü,klo8u4,کلِّ
 küllde,klo8dh,کلّده
 külldür,klo8dr,کلّدر
 külle,klo8h,کلّه
-külleme,kwllh<>mh<>,کولله‌مه‌
 külleme,kwllh||mh||,کولله‌مه‌
 külleme,kwllmh,کوللمه
 külleme,kwllmh||,کوللمه‌
@@ -13544,13 +13439,11 @@ küllü,kwlly,کوللی
 küllün,klo8ko3,کلّڭ
 küllüne,klo8bo1h,کلّنه
 küllünü,klo8bo1y,کلّنی
-küllüsü,kwlly<>zw,کوللی‌صو
 küllüsü,kwlly||zw,کوللی‌صو
 küllüğe,klo8lko7h,کلّلگه
 külrengi,kwl rbo1ky,کول رنکی
 külte,klbo2h,کلته
 külte,klbo2h||,کلته‌
-külte,kwlbo2h<>,کولته‌
 külte,kwlbo2h||,کولته‌
 kültür,kwlbo2wr,کولتور
 kültürden,kwlbo2wrdbo1,کولتوردن
@@ -13614,9 +13507,8 @@ küp,kwbu3,کوپ
 küpe,kwbu3h,کوپه
 küpe,kwbu3h||,کوپه‌
 küpeka,kbu3ke,کپکا
-küpeli,kwbu3h<>ly,کوپه‌لی
 küpeli,kwbu3h||ly,کوپه‌لی
-küpeçiçeği,kwbu3h<>xu3yyxu3ky,کوپه‌چییچکی
+küpeçiçeği,kwbu3h||xu3yyxu3ky,کوپه‌چییچکی
 küpeçiçeği,kwbu3h||xu3bu2bu2xu3ky,کوپه‌چييچکی
 küpeşte,kwbu3so3bo2h,کوپشته
 küpeşte,kwbu3so3bo2h||,کوپشته‌
@@ -13666,9 +13558,7 @@ küre'ye,kwrh||yh,کوره‌یه
 küre,krh,کره
 küre,krh||,کره‌
 küre,kwrh,کوره
-küre,kwrh<>,کوره‌
 küre,kwrh||,کوره‌
-küre-i arz,ko9ro4u4 eo4ro0zo1o0,کُرَِ اَرْضْ
 küre-i arz,ko9ro4u4 eo4ro0zo1o0,کُرَِ اَرْضْ
 küre-i arz,krhc erzo1,کرهء ارض
 küre-i hava,krhchwe,کرهءهوا
@@ -13683,7 +13573,6 @@ kürecikleri,krh||xu1klry,کره‌جکلری
 kürede,krh||dh,کره‌ده
 küreden,krh||dbo1,کره‌دن
 kürek çekmek,kwrk xu3kmk,کورک چکمک
-kürek,kwrh<>k,کوره‌ک
 kürek,kwrh||k,کوره‌ک
 kürek,kwrk,کورک
 kürekkemiği,kwrk kmbu2ko7y,کورک کميگی
@@ -13691,15 +13580,13 @@ kürekkemiği,kwrk kmyko7y,کورک کمیگی
 kürekle atmak,kwrklh ebo2mfo2,کورکله اتمق
 kürekli,kwrkly,کورکلی
 kürekçi,kwrkxu3y,کورکچی
-kürele,kwrh<>l,کوره‌ل
-kürelemek,kwrh<>lmk,کوره‌لمک
+kürele,kwrh||l,کوره‌ل
 kürelemek,kwrh||lmk,کوره‌لمک
 küreler,krh||lr,کره‌لر
 kürelere,krh||lrh,کره‌لره
 küreleri,krh||lry,کره‌لری
 kürelerin,krh||lrko3,کره‌لرڭ
 kürelerine,krh||lrybo1h,کره‌لرینه
-küremek,kwrh<>mk,کوره‌مک
 küremek,kwrh||mk,کوره‌مک
 küremiz,krh||mro1,کره‌مز
 küremizde,krh||mro1dh,کره‌مزده
@@ -13778,7 +13665,6 @@ küser,kwsr,کوسر
 küserek,kwsh||rk,کوسه‌رک
 küskün,kwskwbo1,کوسکون
 küskünlük,kwskwbo1lk,کوسکونلک
-küskütük,kws<>kwbo2wk,کوس‌کوتوک
 küskütük,kws||kwbo2wk,کوس‌کوتوک
 küsme,kwsmh,کوسمه
 küsme,kwsmh||,کوسمه‌
@@ -13855,15 +13741,13 @@ kütahya'dan,kwbo2ehyh||dbo1,کوتاهیه‌دن
 kütahya'ya,kwbo2ehyh||yh,کوتاهیه‌یه
 kütahya,kwbo2ehyh,کوتاهیه
 kütahya,kwbo2ehyh||,کوتاهیه‌
-kütküt,kwbo2<>kwbo2,کوت‌کوت
 kütküt,kwbo2||kwbo2,کوت‌کوت
 kütle,kbo2lh,کتله
 kütle,kbo2lh||,کتله‌
-kütle,kwbo2lh<>,کوتله‌
+kütle,kwbo2lh||,کوتله‌
 kütle-i,ko9bo2lhu4,کُتلهِ
 kütleler,kbo2lh||lr,کتله‌لر
 kütleleri,kbo2lh||lry,کتله‌لری
-kütlemek,kwbo2lh<>mk,کوتله‌مک
 kütlemek,kwbo2lh||mk,کوتله‌مک
 kütlesi,kbo2lh||sy,کتله‌سی
 kütleyi,kbo2lh||yy,کتله‌یی
@@ -13912,11 +13796,9 @@ kütüphanesi,kbo2bu1xo1ebo1h||sy,کتبخانه‌سی
 kütüphâne,kbo2bu1xo1ebo1h,کتبخانه
 kütüphâne,kbo2bu1xu1ebo1h,کتبجانه
 kütüphâne-i,kbo2bu1xo1ebo1hu4,کتبخانهِ
-kütürde,kwbo2wrdh<>,کوتورده‌
-kütürdemek,kwbo2wrdh<>mk,کوتورده‌مک
+kütürde,kwbo2wrdh||,کوتورده‌
 kütürdemek,kwbo2wrdh||mk,کوتورده‌مک
 kütürdü,kwbo2wrdy,کوتوردی
-kütürkütür,kwbo2wr<>kwbo2wr,کوتور‌کوتور
 kütürkütür,kwbo2wr||kwbo2wr,کوتور‌کوتور
 kütüğün,kwbo2wko7ko3,کوتوگڭ
 kütüğüne,kwbo2wko7bo1h,کوتوگنه
@@ -14059,12 +13941,11 @@ kıbledir,fo2bu1lh||dr,قبله‌در
 kıblegâhın,fo2bu1lh||ko7ehko3,قبله‌گاهڭ
 kıblegâhını,fo2bu1lh||ko7ehbo1y,قبله‌گاهنی
 kıbleleri,fo2bu1lh||lry,قبله‌لری
-kıblename,fo2bu1lh<>bo1emh||,قبله‌نامه‌
+kıblename,fo2bu1lh||bo1emh||,قبله‌نامه‌
 kıblenamedeki,fo2bu1lh||bo1emh||dh||ky,قبله‌نامه‌ده‌کی
 kıblenameli,fo2bu1lh||bo1emh||ly,قبله‌نامه‌لی
 kıbleniz,fo2bu1lh||ko3ro1,قبله‌ڭز
 kıblenâme,fo2bu1lh||bo1emh,قبله‌نامه
-kıblenüma,fo2bu1lh<>bo1me,قبله‌نما
 kıblenüma,fo2bu1lh||bo1me,قبله‌نما
 kıblesi,fo2bu1lh||sy,قبله‌سی
 kıblesiz,fo2bu1lh||sro1,قبله‌سز
@@ -14127,7 +14008,7 @@ kılağılı,fo2leao1bu2lw,قلاغيلو
 kılağılı,fo2leao1ylw,قلاغیلو
 kıla’,fo2lea,قلاع
 kılbarak,fo2bu2l||bu1erefo2,قيل‌باراق
-kılbarak,fo2yl<>bu1erefo2,قیل‌باراق
+kılbarak,fo2yl||bu1erefo2,قیل‌باراق
 kılburun,fo2bu2l bu1wrwbo1,قيل بورون
 kılburun,fo2yl bu1wrwbo1,قیل بورون
 kılda,fo2yldh,قیلده
@@ -14150,7 +14031,7 @@ kıldığı,fo2yldyao1y,قیلدیغی
 kıldığım,fo2yldyao1m,قیلدیغم
 kıldığını,fo2yldyao1bo1y,قیلدیغنی
 kılkuyruk,fo2bu2l||fo2wbu2rwfo2,قيل‌قويروق
-kılkuyruk,fo2yl<>fo2wyrwfo2,قیل‌قویروق
+kılkuyruk,fo2yl||fo2wyrwfo2,قیل‌قویروق
 kıllan,fo2yllebo1,قیللان
 kıllanmak,fo2bu2llebo1mfo2,قيللانمق
 kıllanmak,fo2yllebo1mfo2,قیللانمق
@@ -14307,7 +14188,7 @@ kılıçtan,fo2ylbo1xu1dbo1,قیلنجدن
 kılıççı,fo2lxu1xu1y,قلججی
 kılığına,fo2ylao1bo1h,قیلغنه
 kımkım,fo2bu2m||fo2bu2m,قيم‌قيم
-kımkım,fo2ym<>fo2ym,قیم‌قیم
+kımkım,fo2ym||fo2ym,قیم‌قیم
 kımılda,fo2ylmylde,قیلمیلدا
 kımıldamak,fo2bu2lmbu2ldemfo2,قيلميلدامق
 kımıldamak,fo2ylmyldemfo2,قیلمیلدامق
@@ -14347,7 +14228,7 @@ kına,fo1bo1e,فنا
 kına,fo2bu2bo1e,قينا
 kına,fo2ybo1e,قینا
 kınagecesi,fo2bu2bo1e ko7bu2xu1h||sy,قينا گيجه‌سی
-kınagecesi,fo2ybo1e ko7yxu1h<>sy,قینا گیجه‌سی
+kınagecesi,fo2ybo1e ko7yxu1h||sy,قینا گیجه‌سی
 kınakına,fo2bu2bo1efo2bu2bo1e,قيناقينا
 kınakına,fo2ybo1efo2ybo1e,قیناقینا
 kınamak,fo2bu2bo1emfo2,قينامق
@@ -14551,7 +14432,7 @@ kırksekizdir,fo2rfo2 skro1dr,قرق سکزدر
 kırksekize,fo2rfo2 skro1h,قرق سکزه
 kırkta,fo2rfo2dh,قرقده
 kırktabir,fo2bu2rfo2dh||bu1r,قيرقده‌بر
-kırktabir,fo2yrfo2dh<>bu1r,قیرقده‌بر
+kırktabir,fo2yrfo2dh||bu1r,قیرقده‌بر
 kırktan,fo2rfo2dbo1,قرقدن
 kırkyaprak,fo2bu2rfo2 bu2ebu3refo2,قيرق ياپراق
 kırkyaprak,fo2yrfo2 yebu3refo2,قیرق یاپراق
@@ -14580,7 +14461,7 @@ kırlangıçbalığı,fo2yrlebo1ao1yxu1 bu1elyao1y,قیرلانغیج بالیغ
 kırlangıçdönümü,fo2bu2rlebo1ao1bu2xu1 dwbo1wmy,قيرلانغيج دونومی
 kırlangıçdönümü,fo2yrlebo1ao1yxu1 dwbo1wmy,قیرلانغیج دونومی
 kırlangıçfırtınası,fo2bu2rlebo1ao1bu2xu1 fo1wrtbo1h||sy,قيرلانغيج فورطنه‌سی
-kırlangıçfırtınası,fo2yrlebo1ao1yxu1 fo1wrtbo1h<>sy,قیرلانغیج فورطنه‌سی
+kırlangıçfırtınası,fo2yrlebo1ao1yxu1 fo1wrtbo1h||sy,قیرلانغیج فورطنه‌سی
 kırlangıçotu,fo2bu2rlebo1ao1bu2xu1 ewbo2y,قيرلانغيج اوتی
 kırlangıçotu,fo2yrlebo1ao1yxu1 ewbo2y,قیرلانغیج اوتی
 kırlara,fo2yrlrh,قیرلره
@@ -14593,7 +14474,7 @@ kırma,fo2bu2rmh,قيرمه
 kırma,fo2yrmh,قیرمه
 kırma,fo2yrmh||,قیرمه‌
 kırmacı,fo2bu2rmh||xu1y,قيرمه‌جی
-kırmacı,fo2yrmh<>xu1y,قیرمه‌جی
+kırmacı,fo2yrmh||xu1y,قیرمه‌جی
 kırmadan,fo2yrmedbo1,قیرمادن
 kırmadı,fo2yrmedy,قیرمادی
 kırmadığım,fo2yrmdyao1m,قیرمدیغم
@@ -14608,7 +14489,7 @@ kırmalarıyla,fo2yrmelrylh,قیرمالریله
 kırmalı yenlik,fo2bu2rmh lwbu2bo1lk,قيرمه لوينلک
 kırmalı yenlik,fo2yrmh lwybo1lk,قیرمه لوینلک
 kırmalı,fo2bu2rmh||ly,قيرمه‌لی
-kırmalı,fo2yrmh<>ly,قیرمه‌لی
+kırmalı,fo2yrmh||ly,قیرمه‌لی
 kırmamak,fo2yrmemfo2,قیرمامق
 kırmamakla,fo2yrmemfo2lh,قیرمامقله
 kırmamaya,fo2yrmh||mao1h,قیرمه‌مغه
@@ -14855,7 +14736,7 @@ kıskaç,fo2bu2zfo2exu1,قيصقاج
 kıskaç,fo2yzfo2exu1,قیصقاج
 kıskaç,fo2zexu1,قصاج
 kıskıs,fo2bu2z||fo2bu2z,قيص‌قيص
-kıskıs,fo2yz<>fo2yz,قیص‌قیص
+kıskıs,fo2yz||fo2yz,قیص‌قیص
 kıskıvrak,fo2bu2z fo2bu2wrefo2,قيص قيوراق
 kıskıvrak,fo2yz fo2ywrefo2,قیص قیوراق
 kısm,fo2sm,قسم
@@ -15450,8 +15331,8 @@ kızılca,fo2ro1lxu1h,قزلجه
 kızılca,fo2ro1lxu1h||,قزلجه‌
 kızılca,fo2yro1ylxu1h||,قیزیلجه‌
 kızılcabuğday,fo2bu2ro1bu2lxu1h||bu1wao1dey,قيزيلجه‌بوغدای
-kızılcabuğday,fo2yro1ylxu1h<>bu1wao1dey,قیزیلجه‌بوغدای
-kızılcakıyamet,fo2yro1ylxu1h<>fo2yembo2,قیزیلجه‌قیامت
+kızılcabuğday,fo2yro1ylxu1h||bu1wao1dey,قیزیلجه‌بوغدای
+kızılcakıyamet,fo2yro1ylxu1h||fo2yembo2,قیزیلجه‌قیامت
 kızılcakıyâmet,fo2bu2ro1bu2lxu1h||fo2bu2embo2,قيزيلجه‌قيامت
 kızılcık,fo2bu2ro1bu2lxu1fo2,قيزيلجق
 kızılcık,fo2ro1lxu1fo2,قزلجق
@@ -15463,7 +15344,7 @@ kızıldeli,fo2yro1yl dly,قیزیل دلی
 kızılelma,fo2bu2ro1bu2l elme,قيزيل الما
 kızılelma,fo2yro1yl elme,قیزیل الما
 kızılhastalığı,fo2bu2ro1bu2l xo1sbo2h||lao1y,قيزيل خسته‌لغی
-kızılhastalığı,fo2yro1yl xo1sbo2h<>lao1y,قیزیل خسته‌لغی
+kızılhastalığı,fo2yro1yl xo1sbo2h||lao1y,قیزیل خسته‌لغی
 kızıllık,fo2bu2ro1bu2llfo2,قيزيللق
 kızıllık,fo2yro1yllfo2,قیزیللق
 kızıllıkotu,fo2bu2ro1bu2llfo2 ewbo2y,قيزيللق اوتی
@@ -15495,7 +15376,7 @@ kıçın kıçın gitmek,fo2yxu3ybo1 fo2yxu3ybo1 kbo2mk,قیچین قیچین ک
 kıçın kıçın,fo2bu2xu3bu2bo1 fo2bu2xu3bu2bo1,قيچين قيچين
 kıçın kıçın,fo2yxu3ybo1 fo2yxu3ybo1,قیچین قیچین
 kıçınkıçın,fo2bu2xu3bu2bo1||fo2bu2xu3bu2bo1,قيچين‌قيچين
-kıçınkıçın,fo2yxu3ybo1<>fo2yxu3ybo1,قیچین‌قیچین
+kıçınkıçın,fo2yxu3ybo1||fo2yxu3ybo1,قیچین‌قیچین
 kığı,kyfo1y,کیفی
 kış gibi,fo2bu2so3 kbu1y,قيش کبی
 kış gibi,fo2yso3 kbu1y,قیش کبی
@@ -15506,7 +15387,7 @@ kışkırt,fo2yso3fo2yrbo2,قیشقیرت
 kışkırtmak,fo2bu2so3fo2bu2rbo2mfo2,قيشقيرتمق
 kışkırtmak,fo2yso3fo2yrbo2mfo2,قیشقیرتمق
 kışkış,fo2bu2so3||fo2bu2so3,قيش‌قيش
-kışkış,fo2yso3<>fo2yso3,قیش‌قیش
+kışkış,fo2yso3||fo2yso3,قیش‌قیش
 kışla,fo2bu2so3le,قيشلا
 kışla,fo2bu2so3lh,قيشله
 kışla,fo2so3le,قشلا

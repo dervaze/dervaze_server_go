@@ -557,7 +557,6 @@ acele ile,axu1lh ebu2lh,عجله ايله
 acele ile,axu1lh eylh||,عجله ایله‌
 acele,axu1lh,عجله
 acele,axu1lh||,عجله‌
-acele_ci,axu1lh<>xu1y,عجله‌جی
 acele_ci,axu1lh||xu1y,عجله‌جی
 acele_cileri,axu1lh||xu1ylry,عجله‌جیلری
 acele_lik,axu1lh||lk,عجله‌لک
@@ -706,8 +705,6 @@ acâip_lere,axu1eyo5bu1lrh,عجائبلره
 acâlet_en,axu1elho2,عجالة
 acâyib,axu1ebo5bu1,عجائب
 acîb,axu1bu2bu1,عجيب
-acîb,axu1bu2bu1,عجيب
-acîb,axu1bu2bu1,عجيب
 acîb,axu1ybu1,عجیب
 acîb_dir,axu1ybu1dr,عجیبدر
 acîbe,axu1bu2bu1h,عجيبه
@@ -797,56 +794,52 @@ acı_mıyorlar,eo6xu1ymyywrlr,آجیمییورلر
 acı_mıyorum,eo6xu1ymyywrm,آجیمییورم
 acı_mış,eo6xu1ymso3,آجیمش
 acı_mıştım,eo6xu1ymso3dm,آجیمشدم
-# LEFT HERE 2020-12-06,
-acın,eo6xu1ybo1,آجین
-acınacak,eo6xu1bu2bo1h||xu1fo2,آجينه‌جق
-acınacak,eo6xu1ybo1h<>xu1fo2,آجینه‌جق
-acınacak,eo6xu1ybo1h||xu1fo2,آجینه‌جق
-acınacak,exu1bo1h xu1fo2,اجنه جق
-acından,eo6xu1bo1dbo1,آجندن
-acındır,eo6xu1ybo1dyr,آجیندیر
-acındırmak,eo6xu1bu2bo1dbu2rmfo2,آجينديرمق
-acındırmak,eo6xu1ybo1dyrmfo2,آجیندیرمق
-acınmak,eo6xu1bo1mfo2,آجنمق
-acınmak,eo6xu1bu2bo1mfo2,آجينمق
-acınmak,eo6xu1ybo1mfo2,آجینمق
-acınmaya,eo6xu1ybo1mao1h,آجینمغه
-acınmayacak,eo6xu1ybo1myh||xu1fo2,آجینمیه‌جق
-acınmaz,eo6xu1ybo1mero1,آجینماز
+acın_acak,eo6xu1bu2bo1h||xu1fo2,آجينه‌جق
+acın_acak,eo6xu1ybo1h||xu1fo2,آجینه‌جق
+acın_acak,exu1bo1h xu1fo2,اجنه جق
+acın_dan,eo6xu1bo1dbo1,آجندن
+acın_dır,eo6xu1ybo1dyr,آجیندیر
+acın_dırmak,eo6xu1bu2bo1dbu2rmfo2,آجينديرمق
+acın_dırmak,eo6xu1ybo1dyrmfo2,آجیندیرمق
+acın_mak,eo6xu1bo1mfo2,آجنمق
+acın_mak,eo6xu1bu2bo1mfo2,آجينمق
+acın_mak,eo6xu1ybo1mfo2,آجینمق
+acın_maya,eo6xu1ybo1mao1h,آجینمغه
+acın_mayacak,eo6xu1ybo1myh||xu1fo2,آجینمیه‌جق
+acın_maz,eo6xu1ybo1mero1,آجینماز
 acır,eo6xu1yr,آجیر
 acır,exu1r,اجر
 acırak,eo6xu1bu2refo2,آجيراق
 acırak,eo6xu1yrefo2,آجیراق
 acırga,eo6xu1bu2rao1h,آجيرغه
 acırga,eo6xu1yrao1h||,آجیرغه‌
-acırganmak,eo6xu1bu2rao1bo1mfo2,آجيرغنمق
-acırganmak,eo6xu1yrao1bo1mfo2,آجیرغنمق
-acısı,eo6xu1ysy,آجیسی
-acısın,eo6xu1ysybo1,آجیسین
-acısına,eo6xu1ysbo1h,آجیسنه
-acısından,eo6xu1ysbo1dbo1,آجیسندن
-acısını çıkarmak,exu1bu2sbo1y xu3bu2fo2ermfo2,اجيسنی چيقارمق
-acısını çıkarmak,exu1ysbo1y xu3yfo2ermfo2,اجیسنی چیقارمق
-acısını,eo6xu1ysbo1y,آجیسنی
-acıt,eo6xu1ybo2,آجیت
-acıtmak,eo6xu1bu2bo2mfo2,آجيتمق
-acıtmak,eo6xu1ybo2mfo2,آجیتمق
-acıtmak,exu1bo2mfo2,اجتمق
-acıyacak,eo6xu1yyh||xu1fo2,آجییه‌جق
-acıyacaksınız,eo6xu1yyh||xu1fo2sko3ro1,آجییه‌جقسڭز
-acıyacaktım,eo6xu1yyh||xu1fo2dm,آجییه‌جقدم
-acıyan,eo6xu1yyebo1,آجییان
-acıyarak,eo6xu1yyh||rfo2,آجییه‌رق
-acıyor,eo6xu1yywr,آجییور
-acıyor,exu1bu2wr,اجيور
-acıyor,exu1ywr,اجیور
-acıyordu,eo6xu1yywrdy,آجییوردی
-acıyordum,eo6xu1yywrdm,آجییوردم
-acıyorsan,eo6xu1yywrsh||ko3,آجییورسه‌ڭ
-acıyorum,eo6xu1yywrm,آجییورم
-acıyoruz,eo6xu1yywrro1,آجییورز
-acıyı,eo6xu1y||yy,آجی‌یی
-acıyıp,eo6xu1yywbu1,آجییوب
+acırgan_mak,eo6xu1bu2rao1bo1mfo2,آجيرغنمق
+acırgan_mak,eo6xu1yrao1bo1mfo2,آجیرغنمق
+acı_sı,eo6xu1ysy,آجیسی
+acı_sın,eo6xu1ysybo1,آجیسین
+acı_sına,eo6xu1ysbo1h,آجیسنه
+acı_sından,eo6xu1ysbo1dbo1,آجیسندن
+acı_sını çıkarmak,exu1bu2sbo1y xu3bu2fo2ermfo2,اجيسنی چيقارمق
+acı_sını çıkarmak,exu1ysbo1y xu3yfo2ermfo2,اجیسنی چیقارمق
+acı_sını,eo6xu1ysbo1y,آجیسنی
+acıt_mak,eo6xu1bu2bo2mfo2,آجيتمق
+acıt_mak,eo6xu1ybo2mfo2,آجیتمق
+acıt_mak,exu1bo2mfo2,اجتمق
+acı_yacak,eo6xu1yyh||xu1fo2,آجییه‌جق
+acı_yacaksınız,eo6xu1yyh||xu1fo2sko3ro1,آجییه‌جقسڭز
+acı_yacaktım,eo6xu1yyh||xu1fo2dm,آجییه‌جقدم
+acı_yan,eo6xu1yyebo1,آجییان
+acı_yarak,eo6xu1yyh||rfo2,آجییه‌رق
+acı_yor,eo6xu1yywr,آجییور
+acı_yor,exu1bu2wr,اجيور
+acı_yor,exu1ywr,اجیور
+acı_yordu,eo6xu1yywrdy,آجییوردی
+acı_yordum,eo6xu1yywrdm,آجییوردم
+acı_yorsan,eo6xu1yywrsh||ko3,آجییورسه‌ڭ
+acı_yorum,eo6xu1yywrm,آجییورم
+acı_yoruz,eo6xu1yywrro1,آجییورز
+acı_yı,eo6xu1y||yy,آجی‌یی
+acı_yıp,eo6xu1yywbu1,آجییوب
 ad koymak,edfo2wmfo2,ادقومق
 ad takmak,edtefo2mfo2,ادطاقمق
 ad vermek,edwbu2rmfo2,ادويرمق
@@ -856,7 +849,7 @@ ad vermek,edwyrmk,ادویرمک
 ad,ed,اد
 ad,eo6d,آد
 ada tavşanı,eth twso3ebo1y,اطه طوشانی
-ada'da,eo6th||dh,آطه‌ده
+ada_da,eo6th||dh,آطه‌ده
 ada,eo6de,آدا
 ada,eo6th,آطه
 ada,eo6th||,آطه‌
@@ -868,55 +861,53 @@ adab,eo6debu1,آداب
 adab-i kur'ani̇ye,edo4ebu1u4 fo2o9ro0eo6bo1u4yo4h||,ادَابِ قُرْآنِیَه‌
 adab-ı kur'aniye,edo4ebu1u4 fo2o9ro0eo6bo1u4yo4h||,ادَابِ قُرْآنِیَه‌
 adabalığı,eth bu1elao1y,اطه بالغی
-adada,eo6th||dh,آطه‌ده
 adak,edefo2,اداق
 adak,eo6defo2,آداق
 adalat,azo1lebo2,عضلات
 adale,azo1lh,عضله
 adale,azo1lh||,عضله‌
-adalet'e,adelbo2h,عدالته
-adalet'tir,adelbo2dr,عدالتدر
+adalet_e,adelbo2h,عدالته
+adalet_tir,adelbo2dr,عدالتدر
 adalet,adelbo2,عدالت
-adalet-i mutlaka,ao4do4elo4bo2u4 mo9to0lo4fo2o4h||,عَدَالَتِ مُطْلَقَه‌
+adalet-i mutlak_a,ao4do4elo4bo2u4 mo9to0lo4fo2o4h||,عَدَالَتِ مُطْلَقَه‌
 adalet-i,adelbo2u4,عدالتِ
 adalet-i̇ mutlaka,ao4do4elo4bo2u4 mo9to0lo4fo2o4h||,عَدَالَتِ مُطْلَقَه‌
 adalet-perver,adelbo2||bu3rwr,عدالت‌پرور
 adalet-pîşe,adelbo2||bu3yso3h,عدالت‌پیشه
-adalete,adelbo2h,عدالته
-adaleti,adelbo2y,عدالتی
-adaletin,adelbo2ko3,عدالتڭ
-adaletinde,adelbo2bo1dh,عدالتنده
-adaletinden,adelbo2bo1dbo1,عدالتندن
-adaletine,adelbo2bo1h,عدالتنه
-adaletini,adelbo2bo1y,عدالتنی
-adaletinin,adelbo2bo1ko3,عدالتنڭ
-adaletiniz,adelbo2ko3ro1,عدالتڭز
-adaletinizden,adelbo2ko3ro1dbo1,عدالتڭزدن
-adaletinize,adelbo2ko3ro1h,عدالتڭزه
-adaletinizin,adelbo2ko3ro1ko3,عدالتڭزڭ
-adaletiyle,adelbo2ylh,عدالتیله
-adaletkar,adelbo2ker,عدالتکار
-adaletkâr,adelbo2ker,عدالتکار
-adaletle,adelbo2lh,عدالتله
-adaletleri,adelbo2lry,عدالتلری
-adaletlerine,adelbo2lrybo1h,عدالتلرینه
-adaletlerini,adelbo2lrybo1y,عدالتلرینی
-adaletli,adelbo2ly,عدالتلی
-adaletname-i,adelbo2bo1emh||u4,عدالتنامه‌ِ
-adaletperver,adelbo2||bu3rwr,عدالت‌پرور
-adaletperverliğinizi,adelbo2||bu3rwrlko7ko3ro1y,عدالت‌پرورلگڭزی
-adaletsiz,adelbo2sro1,عدالتسز
-adaletsizlik,adelbo2sro1lk,عدالتسزلک
-adaletsizliğe,adelbo2sro1lko7h,عدالتسزلگه
-adaletsizliğine,adelbo2sro1lko7bo1h,عدالتسزلگنه
-adalette,adelbo2dh,عدالتده
-adaletten,adelbo2dbo1,عدالتدن
-adalettir,adelbo2dr,عدالتدر
+adalet_e,adelbo2h,عدالته
+adalet_i,adelbo2y,عدالتی
+adalet_in,adelbo2ko3,عدالتڭ
+adalet_inde,adelbo2bo1dh,عدالتنده
+adalet_inden,adelbo2bo1dbo1,عدالتندن
+adalet_ine,adelbo2bo1h,عدالتنه
+adalet_ini,adelbo2bo1y,عدالتنی
+adalet_inin,adelbo2bo1ko3,عدالتنڭ
+adalet_iniz,adelbo2ko3ro1,عدالتڭز
+adalet_inizden,adelbo2ko3ro1dbo1,عدالتڭزدن
+adalet_inize,adelbo2ko3ro1h,عدالتڭزه
+adalet_inizin,adelbo2ko3ro1ko3,عدالتڭزڭ
+adalet_iyle,adelbo2ylh,عدالتیله
+adalet_kar,adelbo2ker,عدالتکار
+adalet_kâr,adelbo2ker,عدالتکار
+adalet_le,adelbo2lh,عدالتله
+adalet_leri,adelbo2lry,عدالتلری
+adalet_lerine,adelbo2lrybo1h,عدالتلرینه
+adalet_lerini,adelbo2lrybo1y,عدالتلرینی
+adalet_li,adelbo2ly,عدالتلی
+adalet_name-i,adelbo2bo1emh||u4,عدالتنامه‌ِ
+adalet_perver,adelbo2||bu3rwr,عدالت‌پرور
+adalet_perverliğinizi,adelbo2||bu3rwrlko7ko3ro1y,عدالت‌پرورلگڭزی
+adalet_siz,adelbo2sro1,عدالتسز
+adalet_sizlik,adelbo2sro1lk,عدالتسزلک
+adalet_sizliğe,adelbo2sro1lko7h,عدالتسزلگه
+adalet_sizliğine,adelbo2sro1lko7bo1h,عدالتسزلگنه
+adalet_te,adelbo2dh,عدالتده
+adalet_ten,adelbo2dbo1,عدالتدن
+adalet_tir,adelbo2dr,عدالتدر
 adaletullah,adelbo2 e||ellh,عدالت ا‌الله
 adali,azo1ly,عضلی
 adalât,azo1lebo2,عضلات
 adalî,azo1ly,عضلی
-adalı,eo6th<>ly,آطه‌لی
 adalı,eo6th||ly,آطه‌لی
 adam boğulur,edm bu1wao1lwr,ادم بوغلور
 adam ile donatmak,edm ebu2lh dwbo1ebo2mfo2,ادم ايله دوناتمق
@@ -928,161 +919,139 @@ adam,edm,ادم
 adam,eo6dem,آدام
 adam,eo6dm,آدم
 adama,eo6dmh,آدمه
-adamak,eo6demfo2,آدامق
+ada_mak,eo6demfo2,آدامق
 adamakıllı,eo6dem afo2lly,آدام عقللی
-adamcasına,eo6dmxu1h<>sbo1h||,آدمجه‌سنه‌
+adamcasına,eo6dmxu1h||sbo1h||,آدمجه‌سنه‌
 adamcasına,eo6dmxu1h||sbo1h,آدمجه‌سنه
 adamcağız,eo6demxu1ao1ro1,آدامجغز
 adamcağız,eo6dmxu1ao1ro1,آدمجغز
 adamcağıza,eo6dmxu1ao1ro1h,آدمجغزه
 adamcağızın,eo6dmxu1ao1ro1ko3,آدمجغزڭ
-adamcık,eo6demxu1fo2,آدامجق
-adamcık,eo6dmxu1fo2,آدمجق
-adamcıl,eo6demxu1bu2l,آدامجيل
-adamcıl,eo6demxu1yl,آدامجیل
-adamcıl,eo6dmxu1bu2l,آدمجيل
-adamcıl,eo6dmxu1yl,آدمجیل
-adamcılayın,eo6dmxu1bu2lebu2bo1,آدمجيلاين
-adamcılayın,eo6dmxu1yleybo1,آدمجیلاین
-adamda,eo6dmdh,آدمده
-adamdaki,eo6dmdh||ky,آدمده‌کی
-adamdan,eo6dmdbo1,آدمدن
-adamdır,eo6dmdr,آدمدر
-adamla,eo6dmlh,آدمله
-adamlar,eo6dmlr,آدملر
-adamlara,eo6dmlrh,آدملره
-adamlarda,eo6dmlrdh,آدملرده
-adamlardan,eo6dmlrdbo1,آدملردن
-adamlardansan,eo6dmlrdbo1sh||ko3,آدملردنسه‌ڭ
-adamlardır,eo6dmlrdr,آدملردر
-adamlarla,eo6dmlrlh,آدملرله
-adamlarsınız,eo6dmlrsko3ro1,آدملرسڭز
-adamları,eo6dmlry,آدملری
-adamlarıdır,eo6dmlrydr,آدملریدر
-adamlarımız,eo6dmlrymro1,آدملریمز
-adamlarımızı,eo6dmlrymro1y,آدملریمزی
-adamların,eo6dmlrko3,آدملرڭ
-adamlarına izin vermek,edmlrbu2bo1h edo1bo1 wbu2rmk,ادملرينه اذن ويرمک
-adamlarına izin vermek,edmlrybo1h edo1bo1 wyrmk,ادملرینه اذن ویرمک
-adamlarına,eo6dmlrybo1h,آدملرینه
-adamlarından,eo6dmlrbo1dbo1,آدملرندن
-adamlarını,eo6dmlrybo1y,آدملرینی
-adamlarının,eo6dmlrybo1ko3,آدملرینڭ
-adamlarınız,eo6dmlryko3ro1,آدملریڭز
-adamlık,edmlfo2,ادملق
-adamsı,eo6th<>msy,آطه‌مسی
-adamsı,eo6th||msy,آطه‌مسی
-adamsın,eo6dmsko3,آدمسڭ
-adamsız,eo6demsro1,آدامسز
-adamsız,eo6dmsro1,آدمسز
-adamsızlık,eo6dmsro1lfo2,آدمسزلق
-adamı aldatır,edmy eldedr,ادمی الدادر
-adamı,eo6dmy,آدمی
-adamıdır,eo6dmydr,آدمیدر
-adamım,eo6dmm,آدمم
-adamın bedine gitmek,edmk bu1dbu2bo1h kbo2mk,ادمک بدينه کتمک
-adamın bedine gitmek,edmk bu1dybo1h kbo2mk,ادمک بدینه کتمک
-adamın canını sıkar,edmk xu1ebo1bo1y zbu2fo2er,ادمک جاننی صيقار
-adamın canını sıkar,edmk xu1ebo1bo1y zyfo2er,ادمک جاننی صیقار
-adamın gücüne gider,edmk kwxu1bo1h kbu2dr,ادمک کوجنه کيدر
-adamın gücüne gider,edmk kwxu1bo1h kydr,ادمک کوجنه کیدر
-adamın gücüne gitmek,edmk kwxu1bo1h kbo2mk,ادمک کوجنه کتمک
-adamın yüreği dayanmaz,edmk bu2wrky tbu2ebo1mro1,ادمک يورکی طيانمز
-adamın yüreği dayanmaz,edmk ywrky tyebo1mro1,ادمک یورکی طیانمز
-adamın yüreğini kanatmak,edmk bu2wrkbo1y fo2ebo1ebo2mfo2,ادمک يورکنی قاناتمق
-adamın yüreğini kanatmak,edmk ywrkbo1y fo2ebo1ebo2mfo2,ادمک یورکنی قاناتمق
-adamın,eo6dmko3,آدمڭ
-adamına,eo6dmbo1h,آدمنه
-adamını,eo6dmbo1y,آدمنی
-adamının,eo6dmbo1ko3,آدمنڭ
-adamış,eo6demso3,آدامش
-adana'da,eo6debo1h||dh,آدانه‌ده
-adana,eo6debo1h||,آدانه‌
-adana,eo6tbo1h||,آطنه‌
-adapazar'a,eo6th||bu3ero1erh,آطه‌پازاره
-adapazar,eo6th||bu3ero1er,آطه‌پازار
-adapazarı,eo6th<>bu3ero1ery,آطه‌پازاری
-adapazarı,eo6th||bu3ero1ery,آطه‌پازاری
+adam_cık,eo6demxu1fo2,آدامجق
+adam_cık,eo6dmxu1fo2,آدمجق
+adam_cıl,eo6demxu1bu2l,آدامجيل
+adam_cıl,eo6demxu1yl,آدامجیل
+adam_cıl,eo6dmxu1bu2l,آدمجيل
+adam_cıl,eo6dmxu1yl,آدمجیل
+adam_cılayın,eo6dmxu1bu2lebu2bo1,آدمجيلاين
+adam_cılayın,eo6dmxu1yleybo1,آدمجیلاین
+adam_da,eo6dmdh,آدمده
+adam_daki,eo6dmdh||ky,آدمده‌کی
+adam_dan,eo6dmdbo1,آدمدن
+adam_dır,eo6dmdr,آدمدر
+adam_la,eo6dmlh,آدمله
+adam_lar,eo6dmlr,آدملر
+adam_lara,eo6dmlrh,آدملره
+adam_larda,eo6dmlrdh,آدملرده
+adam_lardan,eo6dmlrdbo1,آدملردن
+adam_lardansan,eo6dmlrdbo1sh||ko3,آدملردنسه‌ڭ
+adam_lardır,eo6dmlrdr,آدملردر
+adam_larla,eo6dmlrlh,آدملرله
+adam_larsınız,eo6dmlrsko3ro1,آدملرسڭز
+adam_ları,eo6dmlry,آدملری
+adam_larıdır,eo6dmlrydr,آدملریدر
+adam_larımız,eo6dmlrymro1,آدملریمز
+adam_larımızı,eo6dmlrymro1y,آدملریمزی
+adam_ların,eo6dmlrko3,آدملرڭ
+adam_larına,eo6dmlrybo1h,آدملرینه
+adam_larından,eo6dmlrbo1dbo1,آدملرندن
+adam_larını,eo6dmlrybo1y,آدملرینی
+adam_larının,eo6dmlrybo1ko3,آدملرینڭ
+adam_larınız,eo6dmlryko3ro1,آدملریڭز
+adam_lık,edmlfo2,ادملق
+adam_sı,eo6th||msy,آطه‌مسی
+adam_sın,eo6dmsko3,آدمسڭ
+adam_sız,eo6demsro1,آدامسز
+adam_sız,eo6dmsro1,آدمسز
+adam_sızlık,eo6dmsro1lfo2,آدمسزلق
+adam_ı aldatır,edmy eldedr,ادمی الدادر
+adam_ı,eo6dmy,آدمی
+adam_ıdır,eo6dmydr,آدمیدر
+adam_ım,eo6dmm,آدمم
+adam_ın,eo6dmko3,آدمڭ
+adam_ına,eo6dmbo1h,آدمنه
+adam_ını,eo6dmbo1y,آدمنی
+adam_ının,eo6dmbo1ko3,آدمنڭ
+ada_mış,eo6demso3,آدامش
 adaptasyon,eo6debu1bo2esbu2wbo1,آدابتاسيون
 adaptasyon,eo6debu1bo2esywbo1,آدابتاسیون
-adası'nın,eo6th||sbo1ko3,آطه‌سنڭ
-adasında,eo6th||sbo1dh,آطه‌سنده
-adasındaki,eo6th||sbo1dh||ky,آطه‌سنده‌کی
+adası_nın,eo6th||sbo1ko3,آطه‌سنڭ
+adası_nda,eo6th||sbo1dh,آطه‌سنده
+adası_ndaki,eo6th||sbo1dh||ky,آطه‌سنده‌کی
 adat,aedebo2,عادات
 adat,ao4edo4ebo2o0,عَادَاتْ
 adat,eo6debo2,آدات
-adatmak,eo6debo2mfo2,آداتمق
-adavet etmek,adewbo2 e,عداوت ا
+adat_mak,eo6debo2mfo2,آداتمق
 adavet,adewbo2,عداوت
 adavet,ao4do4ewo4bo2o0,عَدَاوَتْ
 adavet-i,adewbo2u4,عداوتِ
-adavete,adewbo2h,عداوته
-adaveti,adewbo2y,عداوتی
-adavetidir,adewbo2ydr,عداوتیدر
-adavetim,adewbo2m,عداوتم
-adavetimiz,adewbo2mro1,عداوتمز
-adavetin,adewbo2ko3,عداوتڭ
-adavetinden,adewbo2ko3dbo1,عداوتڭدن
-adavetine,adewbo2bo1h,عداوتنه
-adavetini,adewbo2ko3y,عداوتڭی
-adavetinin,adewbo2bo1ko3,عداوتنڭ
-adavetinizi,adewbo2ko3ro1y,عداوتڭزی
-adavetkârane,adewbo2kerebo1h,عداوتکارانه
-adavetle,adewbo2lh,عداوتله
-adavetleri,adewbo2lry,عداوتلری
-adavetlerinden,adewbo2lrbo1dbo1,عداوتلرندن
-adavetlerle,adewbo2lrlh,عداوتلرله
-adavetten,adewbo2dbo1,عداوتدن
-adavettir,adewbo2dr,عداوتدر
-adaya,eo6teyh,آطایه
+adavet_e,adewbo2h,عداوته
+adavet_i,adewbo2y,عداوتی
+adavet_idir,adewbo2ydr,عداوتیدر
+adavet_im,adewbo2m,عداوتم
+adavet_imiz,adewbo2mro1,عداوتمز
+adavet_in,adewbo2ko3,عداوتڭ
+adavet_inden,adewbo2ko3dbo1,عداوتڭدن
+adavet_ine,adewbo2bo1h,عداوتنه
+adavet_ini,adewbo2ko3y,عداوتڭی
+adavet_inin,adewbo2bo1ko3,عداوتنڭ
+adavet_inizi,adewbo2ko3ro1y,عداوتڭزی
+adavet_kârane,adewbo2kerebo1h,عداوتکارانه
+adavet_le,adewbo2lh,عداوتله
+adavet_leri,adewbo2lry,عداوتلری
+adavet_lerinden,adewbo2lrbo1dbo1,عداوتلرندن
+adavet_lerle,adewbo2lrlh,عداوتلرله
+adavet_ten,adewbo2dbo1,عداوتدن
+adavet_tir,adewbo2dr,عداوتدر
+ada_ya,eo6teyh,آطایه
 adaçayı,eth xu3ebu2y,اطه چايی
 adaçayı,eth xu3eyy,اطه چایی
 adaş,eo6deso3,آداش
-adaşlık,eo6deso3lfo2,آداشلق
+adaş_lık,eo6deso3lfo2,آداشلق
 adbâ,azo1bu1e,عضبا
 add etmek,ade,عدا
 add,ad,عد
 add,ado8,عدّ
 addaş,eddeso3,ادداش
-addedebilir,ado8 eydh||bu1ylyr,عدّ ایده‌بیلیر
-addeden,ado8 eydbo1,عدّ ایدن
-addeder,ado8 eydr,عدّ ایدر
-addederek,ado8 eydh||rk,عدّ ایده‌رک
-addederim,ado8 eydrm,عدّ ایدرم
-addedildiği,ado8 eydyldyko7y,عدّ ایدیلدیگی
-addedilecek,ado8 eydylh||xu1k,عدّ ایدیله‌جک
-addedilecekti,ado8 eydylh||xu1kdy,عدّ ایدیله‌جکدی
-addedilemez,ado8 eydylh||mro1,عدّ ایدیله‌مز
-addedilen,ado8 eydylbo1,عدّ ایدیلن
-addedilerek,ado8 eydylh||rk,عدّ ایدیله‌رک
-addedilmediklerine,ado8 eydylmdklrybo1h,عدّ ایدیلمدکلرینه
-addedilmek,ado8 eydylmk,عدّ ایدیلمک
-addedilmektedirler,ado8 eydylmkdh||drlr,عدّ ایدیلمکده‌درلر
-addedilmemesi,ado8 eydylmh||msy,عدّ ایدیلمه‌مسی
-addedilmemesine,ado8 eydylmh||msbo1h,عدّ ایدیلمه‌مسنه
-addedilmemiştir,ado8 eydylmh||mso3dr,عدّ ایدیلمه‌مشدر
-addedilmeye,ado8 eydylmh||yh,عدّ ایدیلمه‌یه
-addedilmiştir,ado8 eydylmso3dr,عدّ ایدیلمشدر
-addedip,ado8 eydwbu1,عدّ ایدوب
-addediyor,ado8 eydyywr,عدّ ایدییور
-addediyorlar,ado8 eydyywrlr,عدّ ایدییورلر
-addediyorum,ado8 eydyywrm,عدّ ایدییورم
-addet,adeybo2,عدایت
-addetmek,adebu2bo2mk,عدايتمک
-addetmek,adeybo2mk,عدایتمک
-addetmek,ado8 eybo2mk,عدّ ایتمک
-addetmekliğimizi,ado8 eybo2mklko7mro1y,عدّ ایتمکلگمزی
-addetmeliyiz,ado8 eybo2mh||ly||yro1,عدّ ایتمه‌لی‌یز
-addetmeyen,ado8 eybo2mh||ybo1,عدّ ایتمه‌ین
-addetsek,ado8 eybo2sh||k,عدّ ایتسه‌ک
-addettik,ado8 eybo2dk,عدّ ایتدک
-addettikleri,ado8 eybo2dklry,عدّ ایتدکلری
-addettim,ado8 eybo2dm,عدّ ایتدم
-addettiği,ado8 eybo2dyko7y,عدّ ایتدیگی
-addeylerler,ado8 eo5ylrlr,عدّ أیلرلر
-addile,ado8 eylh,عدّ ایله
-addolunmaz,ado8 ewlwbo1mero1,عدّ اولونماز
-addolunurlar,ado8 ewlwbo1wrlr,عدّ اولونورلر
+add_edebilir,ado8 eydh||bu1ylyr,عدّ ایده‌بیلیر
+add_eden,ado8 eydbo1,عدّ ایدن
+add_eder,ado8 eydr,عدّ ایدر
+add_ederek,ado8 eydh||rk,عدّ ایده‌رک
+add_ederim,ado8 eydrm,عدّ ایدرم
+add_edildiği,ado8 eydyldyko7y,عدّ ایدیلدیگی
+add_edilecek,ado8 eydylh||xu1k,عدّ ایدیله‌جک
+add_edilecekti,ado8 eydylh||xu1kdy,عدّ ایدیله‌جکدی
+add_edilemez,ado8 eydylh||mro1,عدّ ایدیله‌مز
+add_edilen,ado8 eydylbo1,عدّ ایدیلن
+add_edilerek,ado8 eydylh||rk,عدّ ایدیله‌رک
+add_edilmediklerine,ado8 eydylmdklrybo1h,عدّ ایدیلمدکلرینه
+add_edilmek,ado8 eydylmk,عدّ ایدیلمک
+add_edilmektedirler,ado8 eydylmkdh||drlr,عدّ ایدیلمکده‌درلر
+add_edilmemesi,ado8 eydylmh||msy,عدّ ایدیلمه‌مسی
+add_edilmemesine,ado8 eydylmh||msbo1h,عدّ ایدیلمه‌مسنه
+add_edilmemiştir,ado8 eydylmh||mso3dr,عدّ ایدیلمه‌مشدر
+add_edilmeye,ado8 eydylmh||yh,عدّ ایدیلمه‌یه
+add_edilmiştir,ado8 eydylmso3dr,عدّ ایدیلمشدر
+add_edip,ado8 eydwbu1,عدّ ایدوب
+add_ediyor,ado8 eydyywr,عدّ ایدییور
+add_ediyorlar,ado8 eydyywrlr,عدّ ایدییورلر
+add_ediyorum,ado8 eydyywrm,عدّ ایدییورم
+add_et,adeybo2,عدایت
+add_etmek,adebu2bo2mk,عدايتمک
+add_etmek,adeybo2mk,عدایتمک
+add_etmek,ado8 eybo2mk,عدّ ایتمک
+add_etmekliğimizi,ado8 eybo2mklko7mro1y,عدّ ایتمکلگمزی
+add_etmeliyiz,ado8 eybo2mh||ly||yro1,عدّ ایتمه‌لی‌یز
+add_etmeyen,ado8 eybo2mh||ybo1,عدّ ایتمه‌ین
+add_etsek,ado8 eybo2sh||k,عدّ ایتسه‌ک
+add_ettik,ado8 eybo2dk,عدّ ایتدک
+add_ettikleri,ado8 eybo2dklry,عدّ ایتدکلری
+add_ettim,ado8 eybo2dm,عدّ ایتدم
+add_ettiği,ado8 eybo2dyko7y,عدّ ایتدیگی
+add_eylerler,ado8 eo5ylrlr,عدّ أیلرلر
+add_ile,ado8 eylh,عدّ ایله
+add_olunmaz,ado8 ewlwbo1mero1,عدّ اولونماز
+add_olunurlar,ado8 ewlwbo1wrlr,عدّ اولونورلر
 addâş,eddeso3,ادداش
 aded hesabı,add xsebu1y,عدد حسابی
 aded hesâbı,add xsebu1y,عدد حسابی
@@ -1090,48 +1059,47 @@ aded,add,عدد
 aded-i sahih,add zxyx,عدد صحیح
 aded-i sahîh,add zxbu2x,عدد صحيح
 aded-i,addu4,عددِ
-adedce,addxu1h,عددجه
-adedde,adddh,عددده
-adedden,adddbo1,عدددن
-adede,addh,عدده
-adeden,adde,عددا
-adedi ziyade olmak,addy ro1yedh ew,عددی زیاده او
-adedi ziyâde olmak,addy ro1bu2edh ew,عددی زياده او
-adedi,addy,عددی
-adedin,addko3,عددڭ
-adedince,addbo1xu1h,عددنجه
-adedinde,addbo1dh,عددنده
-adedinden,addbo1dbo1,عددندن
-adedine,addybo1h,عددینه
-adedini,addybo1y,عددینی
-adedinin,addybo1ko3,عددینڭ
-adediye,addyh,عددیه
-adediyesi,addyh||sy,عددیه‌سی
-adediyet,addybo2,عددیت
-adediyle,addylh,عددیله
-adedle,addlh,عددله
-adedler,addlr,عددلر
-adedlerde,addlrdh,عددلرده
-adedleri,addlry,عددلری
-adedlerime,addlrymh,عددلریمه
-adedlerin,addlrko3,عددلرڭ
-adedlerince,addlrbo1xu1h,عددلرنجه
-adedlerinde,addlrbo1dh,عددلرنده
-adedlerine,addlrybo1h,عددلرینه
-adedlerini,addlrybo1y,عددلرینی
-adedlerinin,addlrybo1ko3,عددلرینڭ
-adedleriyle,addlrylh,عددلریله
-adedli,addly,عددلی
-adedsiz,addsro1,عددسز
-adedçe,addxu1h,عددجه
-adedî,addy,عددی
-adem (adam),edm,ادم
+aded_ce,addxu1h,عددجه
+aded_de,adddh,عددده
+aded_den,adddbo1,عدددن
+aded_e,addh,عدده
+aded_en,adde,عددا
+aded_i,addy,عددی
+aded_in,addko3,عددڭ
+aded_ince,addbo1xu1h,عددنجه
+aded_inde,addbo1dh,عددنده
+aded_inden,addbo1dbo1,عددندن
+aded_ine,addybo1h,عددینه
+aded_ini,addybo1y,عددینی
+aded_inin,addybo1ko3,عددینڭ
+aded_iye,addyh,عددیه
+aded_iyesi,addyh||sy,عددیه‌سی
+aded_iyet,addybo2,عددیت
+aded_iyle,addylh,عددیله
+aded_le,addlh,عددله
+aded_ler,addlr,عددلر
+aded_lerde,addlrdh,عددلرده
+aded_leri,addlry,عددلری
+aded_lerime,addlrymh,عددلریمه
+aded_lerin,addlrko3,عددلرڭ
+aded_lerince,addlrbo1xu1h,عددلرنجه
+aded_lerinde,addlrbo1dh,عددلرنده
+aded_lerine,addlrybo1h,عددلرینه
+aded_lerini,addlrybo1y,عددلرینی
+aded_lerinin,addlrybo1ko3,عددلرینڭ
+aded_leriyle,addlrylh,عددلریله
+aded_li,addly,عددلی
+aded_siz,addsro1,عددسز
+aded_çe,addxu1h,عددجه
+aded_î,addy,عددی
+adem,edm,ادم
+adam,edm,ادم
 adem -i muvaffakiyet,adm mwfo1fo2ybo2,عدم موفقیت
 adem -i muvazenet,adm mwero1bo1bo2,عدم موازنت
 adem -i riayet,adm raeybo2,عدم رعایت
 adem -i teveccüh,adm bo2wxu1h||,عدم توجه‌
 adem -i te’lifiyet,adm bo2eo5lyfo1ybo2,عدم تألیفیت
-adem'in,admko3,عدمڭ
+adem_in,admko3,عدمڭ
 adem,adm,عدم
 adem,ao4do4mo0,عَدَمْ
 adem,eo6dm,آدم
@@ -1234,50 +1202,50 @@ adem-âlûd,adm||eo6lwd,عدم‌آلود
 adem-âlûddur,adm||eo6lwddr,عدم‌آلوددر
 adem-ül,adm el,عدم ال
 ademabad,adm eo6bu1ed,عدم آباد
-ademde,admdh,عدمده
-ademdeki,admdh||ky,عدمده‌کی
-ademden,admdbo1,عدمدن
-ademdi,admdy,عدمدی
-ademdir,admdr,عدمدر
-ademdirler,admdrlr,عدمدرلر
-ademe,admh,عدمه
-ademhar,eo6dm xo1wer,آدم خوار
-ademi,admy,عدمی
-ademi,ao4do4my,عَدَمی
-ademi,edmy,ادمی
-ademi,eo6dmy,آدمی
-ademin,admko3,عدمڭ
-ademinde,admbo1dh,عدمنده
-ademinden,admbo1dbo1,عدمندن
-ademine,admbo1h,عدمنه
-ademini,admbo1y,عدمنی
-ademinin,admbo1ko3,عدمنڭ
-ademistan,admsbo2ebo1,عدمستان
-ademistan,ao4do4mu4so0bo2o4ebo1o0,عَدَمِسْتَانْ
-ademistana,admsbo2ebo1h,عدمستانه
-ademistân,ao4do4mu4so0bo2o4ebo1o0,عَدَمِسْتَانْ
-ademiyan,eo6dmyebo1,آدمیان
-ademiyat,admyebo2,عدمیات
-ademiyede,admyh||dh,عدمیه‌ده
-ademiyet,edo4mu4yo4bo2o0,ادَمِیَتْ
-ademiyet,eo6dmybo2,آدمیت
-ademiyle,admylh,عدمیله
-ademiyyet,eo6dmybo2,آدمیت
-ademi̇,ao4do4my,عَدَمی
-ademi̇stan,ao4do4mu4so0bo2o4ebo1o0,عَدَمِسْتَانْ
-ademi̇yet,edo4mu4yo4bo2o0,ادَمِیَتْ
-ademle,admlh,عدمله
-ademler,admlr,عدملر
-ademlerden,admlrdbo1,عدملردن
-ademlere,admlrh,عدملره
-ademleri,admlry,عدملری
-ademse,admsh,عدمسه
-ademâbâd,adm eo6bu1ed,عدم آباد
-ademî,admy,عدمی
-ademî,ao4do4mbu2,عَدَمي
-ademîdir,admydr,عدمیدر
-ademîye,admy||yh,عدمی‌یه
-adenit,eo6dh<>bo1ybo2,آده‌نیت
+adem_de,admdh,عدمده
+adem_deki,admdh||ky,عدمده‌کی
+adem_den,admdbo1,عدمدن
+adem_di,admdy,عدمدی
+adem_dir,admdr,عدمدر
+adem_dirler,admdrlr,عدمدرلر
+adem_e,admh,عدمه
+adem_har,eo6dm xo1wer,آدم خوار
+adem_i,admy,عدمی
+adem_i,ao4do4my,عَدَمی
+adem_i,edmy,ادمی
+adem_i,eo6dmy,آدمی
+adem_in,admko3,عدمڭ
+adem_inde,admbo1dh,عدمنده
+adem_inden,admbo1dbo1,عدمندن
+adem_ine,admbo1h,عدمنه
+adem_ini,admbo1y,عدمنی
+adem_inin,admbo1ko3,عدمنڭ
+adem_istan,admsbo2ebo1,عدمستان
+adem_istan,ao4do4mu4so0bo2o4ebo1o0,عَدَمِسْتَانْ
+adem_istana,admsbo2ebo1h,عدمستانه
+adem_istân,ao4do4mu4so0bo2o4ebo1o0,عَدَمِسْتَانْ
+adem_iyan,eo6dmyebo1,آدمیان
+adem_iyat,admyebo2,عدمیات
+adem_iyede,admyh||dh,عدمیه‌ده
+adem_iyet,edo4mu4yo4bo2o0,ادَمِیَتْ
+adem_iyet,eo6dmybo2,آدمیت
+adem_iyle,admylh,عدمیله
+adem_iyyet,eo6dmybo2,آدمیت
+adem_i̇,ao4do4my,عَدَمی
+adem_i̇stan,ao4do4mu4so0bo2o4ebo1o0,عَدَمِسْتَانْ
+adem_i̇yet,edo4mu4yo4bo2o0,ادَمِیَتْ
+adem_le,admlh,عدمله
+adem_ler,admlr,عدملر
+adem_lerden,admlrdbo1,عدملردن
+adem_lere,admlrh,عدملره
+adem_leri,admlry,عدملری
+adem_se,admsh,عدمسه
+adem_âbâd,adm eo6bu1ed,عدم آباد
+adem_î,admy,عدمی
+adem_î,ao4do4mbu2,عَدَمي
+adem_îdir,admydr,عدمیدر
+adem_îye,admy||yh,عدمی‌یه
+adenit,eo6dh||bo1ybo2,آده‌نیت
 adenit,eo6dh||bo1bu2bo2,آده‌نيت
 ades,ads,عدس
 adese,adsh,عدسه
@@ -1295,14 +1263,14 @@ adet,aedbo2,عادت
 adet-i arziye,ao4edo4bo2u4 eo4ro0zo1u4yo4h||,عَادَتِ اَرْضِیَه‌
 adet-i resmiyye,aedbo2 rsmyh||,عادت رسمیه‌
 adet-i̇ arzi̇ye,ao4edo4bo2u4 eo4ro0zo1u4yo4h||,عَادَتِ اَرْضِیَه‌
-adeta,aedbo2e,عادتا
-adeten,adbo2e,عدتا
-adetle,addlh,عددله
-adetlerin,addlrko3,عددلرڭ
-adetten,adddbo1,عدددن
-adetullah,aedbo2 ello8o99h||,عادت اللٌّه‌
-adetullah,ao4edo4bo2o9 ello8ho0,عَادَتُ اللّهْ
-adetçe,addxu1h,عددجه
+adet_a,aedbo2e,عادتا
+adet_en,adbo2e,عدتا
+adet_le,addlh,عددله
+adet_lerin,addlrko3,عددلرڭ
+adet_ten,adddbo1,عدددن
+adet_ullah,aedbo2 ello8o99h||,عادت اللٌّه‌
+adet_ullah,ao4edo4bo2o9 ello8ho0,عَادَتُ اللّهْ
+adet_çe,addxu1h,عددجه
 adha,ezo1xy,اضحی
 adhâ,ezo1xy,اضحی
 adi gün,aedy kwbo1,عادی کون
@@ -1316,12 +1284,12 @@ adil,adyl,عدیل
 adil,aedl,عادل
 adil,ao4edu4lo0,عَادِلْ
 adil-i mutlak,ao4edu4lu4 mo9to0lo4fo2o0,عَادِلِ مُطْلَقْ
-adilane,adlebo1h||,عدلانه‌
-adilane,aedlebo1h||,عادلانه‌
-adilane,ao4edu4lo4ebo1o4h||,عَادِلَانَه‌
-adildir,adldr,عدلدر
-adilik,aedylk,عادیلک
-adilli,adlly,عدللی
+adil_ane,adlebo1h||,عدلانه‌
+adil_ane,aedlebo1h||,عادلانه‌
+adil_ane,ao4edu4lo4ebo1o4h||,عَادِلَانَه‌
+adil_dir,adldr,عدلدر
+adi_lik,aedylk,عادیلک
+adil_li,adlly,عدللی
 adim,adym,عدیم
 adim-ül-imkan,adym elemkebo1,عدیم الامکان
 adimülimkan,adym elemkebo1,عدیم الامکان
@@ -1332,55 +1300,55 @@ adi̇,ao4edy,عَادی
 adi̇l,aedl,عادل
 adi̇l,ao4edu4lo0,عَادِلْ
 adi̇l-i̇ mutlak,ao4edu4lu4 mo9to0lo4fo2o0,عَادِلِ مُطْلَقْ
-adi̇lane,ao4edu4lo4ebo1o4h||,عَادِلَانَه‌
+adi̇l_ane,ao4edu4lo4ebo1o4h||,عَادِلَانَه‌
 adl'in,adlko3,عدلڭ
 adl,adl,عدل
 adl-i,adlu4,عدلِ
 adla',ezo1lea,اضلاع
-adla,eo6dle,آدلا
-adlamak,eo6dlemfo2,آدلامق
-adlan,eo6dlebo1,آدلان
-adlandırılmaktadır,eo6dlebo1dyrlmfo2dh||dr,آدلاندیرلمقده‌در
-adlanmak,eo6dlebo1mfo2,آدلانمق
+ad_la,eo6dle,آدلا
+ad_lamak,eo6dlemfo2,آدلامق
+ad_lan,eo6dlebo1,آدلان
+ad_landırılmaktadır,eo6dlebo1dyrlmfo2dh||dr,آدلاندیرلمقده‌در
+ad_lanmak,eo6dlebo1mfo2,آدلانمق
 adla’,ezo1lea,اضلاع
-adlde,adldh,عدلده
-adldir,adldr,عدلدر
-adli,adly,عدلی
-adlin,adlko3,عدلڭ
-adlinde,adlbo1dh,عدلنده
-adlini,adlbo1y,عدلنی
+adl_de,adldh,عدلده
+adl_dir,adldr,عدلدر
+adl_i,adly,عدلی
+adl_in,adlko3,عدلڭ
+adl_inde,adlbo1dh,عدلنده
+adl_ini,adlbo1y,عدلنی
 adliye vekaleti,ao4do0lu4yo4h wo4ko4elo4bo2u4y,عَدْلِیَه وَکَالَتِی
 adliye vekâleti,ao4do0lu4bu2o4h wo4ko4elo4bo2u4bu2,عَدْلِيَه وَکَالَتِي
 adliye,adlbu2h,عدليه
 adliye,adlyh,عدلیه
 adliye,adlyh||,عدلیه‌
-adliyece,adlyh||xu1h,عدلیه‌جه
-adliyeci,adlyh||xu1y,عدلیه‌جی
-adliyeciler,adlyh||xu1ylr,عدلیه‌جیلر
-adliyecileri,adlyh||xu1ylry,عدلیه‌جیلری
-adliyede,adlyh||dh,عدلیه‌ده
-adliyedeki,adlyh||dh||ky,عدلیه‌ده‌کی
-adliyeden,adlyh||dbo1,عدلیه‌دن
-adliyedir,adlyh||dr,عدلیه‌در
-adliyeler,adlyh||lr,عدلیه‌لر
-adliyelere,adlyh||lrh,عدلیه‌لره
-adliyeleri,adlyh||lry,عدلیه‌لری
-adliyelerin,adlyh||lrko3,عدلیه‌لرڭ
-adliyelerine,adlyh||lrybo1h,عدلیه‌لرینه
-adliyelerini,adlyh||lrybo1y,عدلیه‌لرینی
-adliyelerinin,adlyh||lrybo1ko3,عدلیه‌لرینڭ
-adliyeleriniz,adlyh||lryko3ro1,عدلیه‌لریڭز
-adliyelik,adlyh||lk,عدلیه‌لک
-adliyenin,adlyh||bo1ko3,عدلیه‌نڭ
-adliyesi'nden,adlyh||sbo1dbo1,عدلیه‌سندن
-adliyesi,adlyh||sy,عدلیه‌سی
-adliyesinde,adlyh||sbo1dh,عدلیه‌سنده
-adliyesine,adlyh||sbo1h,عدلیه‌سنه
-adliyesini,adlyh||sbo1y,عدلیه‌سنی
-adliyesinin,adlyh||sbo1ko3,عدلیه‌سنڭ
-adliyesiyle,adlyh||sylh,عدلیه‌سیله
-adliyeye,adlyh||yh,عدلیه‌یه
-adliyeyi,adlyh||yy,عدلیه‌یی
+adliye_ce,adlyh||xu1h,عدلیه‌جه
+adliye_ci,adlyh||xu1y,عدلیه‌جی
+adliye_ciler,adlyh||xu1ylr,عدلیه‌جیلر
+adliye_cileri,adlyh||xu1ylry,عدلیه‌جیلری
+adliye_de,adlyh||dh,عدلیه‌ده
+adliye_deki,adlyh||dh||ky,عدلیه‌ده‌کی
+adliye_den,adlyh||dbo1,عدلیه‌دن
+adliye_dir,adlyh||dr,عدلیه‌در
+adliye_ler,adlyh||lr,عدلیه‌لر
+adliye_lere,adlyh||lrh,عدلیه‌لره
+adliye_leri,adlyh||lry,عدلیه‌لری
+adliye_lerin,adlyh||lrko3,عدلیه‌لرڭ
+adliye_lerine,adlyh||lrybo1h,عدلیه‌لرینه
+adliye_lerini,adlyh||lrybo1y,عدلیه‌لرینی
+adliye_lerinin,adlyh||lrybo1ko3,عدلیه‌لرینڭ
+adliye_leriniz,adlyh||lryko3ro1,عدلیه‌لریڭز
+adliye_lik,adlyh||lk,عدلیه‌لک
+adliye_nin,adlyh||bo1ko3,عدلیه‌نڭ
+adliye_sinden,adlyh||sbo1dbo1,عدلیه‌سندن
+adliye_si,adlyh||sy,عدلیه‌سی
+adliye_sinde,adlyh||sbo1dh,عدلیه‌سنده
+adliye_sine,adlyh||sbo1h,عدلیه‌سنه
+adliye_sini,adlyh||sbo1y,عدلیه‌سنی
+adliye_sinin,adlyh||sbo1ko3,عدلیه‌سنڭ
+adliye_siyle,adlyh||sylh,عدلیه‌سیله
+adliye_ye,adlyh||yh,عدلیه‌یه
+adliye_yi,adlyh||yy,عدلیه‌یی
 adliyye,adlbu2h,عدليه
 adliyye,adlyh||,عدلیه‌
 adli̇ye vekaleti̇,ao4do0lu4yo4h wo4ko4elo4bo2u4y,عَدْلِیَه وَکَالَتِی
@@ -1394,38 +1362,38 @@ adn,adbo1,عدن
 adnan,adbo1ebo1,عدنان
 adres,edrs,ادرس
 adres,eo6drs,آدرس
-adresi,eo6drsy,آدرسی
-adresim,eo6drsm,آدرسم
-adresime,eo6drsmh,آدرسمه
-adresini,eo6drsbo1y,آدرسنی
-adresinizi,eo6drsko3ro1y,آدرسڭزی
-adresiyle,eo6drsylh,آدرسیله
-adreslerine,eo6drslrybo1h,آدرسلرینه
-adreslerini,eo6drslrybo1y,آدرسلرینی
-adresleriyle,eo6drslrylh,آدرسلریله
+adres_i,eo6drsy,آدرسی
+adres_im,eo6drsm,آدرسم
+adres_ime,eo6drsmh,آدرسمه
+adres_ini,eo6drsbo1y,آدرسنی
+adres_inizi,eo6drsko3ro1y,آدرسڭزی
+adres_iyle,eo6drsylh,آدرسیله
+adres_lerine,eo6drslrybo1h,آدرسلرینه
+adres_lerini,eo6drslrybo1y,آدرسلرینی
+adres_leriyle,eo6drslrylh,آدرسلریله
 adress,eo6drs,آدرس
 adsız,eo6dsro1,آدسز
 adu,adw,عدو
 adâlet,adelbo2,عدالت
 adâlet-i mutlaka,ao4do4elo4bo2u4 mo9to0lo4fo2o4h,عَدَالَتِ مُطْلَقَه
-adâletinde,adelbo2bo1dh,عدالتنده
-adâletsiz,adelbo2sro1,عدالتسز
-adâletsizlik,adelbo2sro1lk,عدالتسزلک
-adâletsizliğe,adelbo2sro1lko7h,عدالتسزلگه
+adâlet_inde,adelbo2bo1dh,عدالتنده
+adâlet_siz,adelbo2sro1,عدالتسز
+adâlet_sizlik,adelbo2sro1lk,عدالتسزلک
+adâlet_sizliğe,adelbo2sro1lko7h,عدالتسزلگه
 adâvet etmek,adewbo2 e,عداوت ا
 adâvet,adewbo2,عداوت
 adâvet,ao4do4ewo4bo2o0,عَدَاوَتْ
 adâvet-i,adewbo2u4,عداوتِ
-adâvete,adewbo2h,عداوته
-adâveti,adewbo2y,عداوتی
-adâvetini,adewbo2ko3y,عداوتڭی
-adâvetle,adewbo2lh,عداوتله
-adâvetten,adewbo2dbo1,عداوتدن
+adâvet_e,adewbo2h,عداوته
+adâvet_i,adewbo2y,عداوتی
+adâvet_ini,adewbo2ko3y,عداوتڭی
+adâvet_le,adewbo2lh,عداوتله
+adâvet_ten,adewbo2dbo1,عداوتدن
 adî,aedy,عادی
 adîd,adyd,عدید
 adîde,adydh,عدیده
-adîdeden,adydh||dbo1,عدیده‌دن
-adîdeyi,adydh||yy,عدیده‌یی
+adîde_den,adydh||dbo1,عدیده‌دن
+adîde_yi,adydh||yy,عدیده‌یی
 adîl,adyl,عدیل
 adîm,adym,عدیم
 adîm-ül,adym el,عدیم ال
@@ -1438,24 +1406,23 @@ adüvv-ü,adwo8u4o8,عدوِّّ
 adüvv-üd,adwo8 el,عدوّ ال
 adüvvü,ado9wo8y,عدُوّی
 adı,eo6dy,آدی
-adıdır,eo6dydr,آدیدر
+adı_dır,eo6dydr,آدیدر
 adım,edbu2m,اديم
 adım,edym,ادیم
 adım,eo6dbu2m,آديم
 adım,eo6dym,آدیم
-adımla,eo6dymle,آدیملا
-adımlamak,eo6dbu2mlemfo2,آديملامق
-adımlamak,eo6dymlemfo2,آدیملامق
-adımlar,eo6dymlr,آدیملر
-adımlarla,eo6dymlrlh,آدیملرله
-adımlarını,eo6dymlrybo1y,آدیملرینی
-adımlarının,eo6dymlrybo1ko3,آدیملرینڭ
-adımı,eo6dymy,آدیمی
+adım_la,eo6dymle,آدیملا
+adım_lamak,eo6dbu2mlemfo2,آديملامق
+adım_lamak,eo6dymlemfo2,آدیملامق
+adım_lar,eo6dymlr,آدیملر
+adım_larla,eo6dymlrlh,آدیملرله
+adım_larını,eo6dymlrybo1y,آدیملرینی
+adım_larının,eo6dymlrybo1ko3,آدیملرینڭ
+adım_ı,eo6dymy,آدیمی
 adın,eo6dko3,آدڭ
-adına,eo6dybo1h,آدینه
-adını,eo6dybo1y,آدینی
-adıyaman,eo6dy<>yemebo1,آدی‌یامان
-adıyla,eo6dylh,آدیله
+adı_na,eo6dybo1h,آدینه
+adı_nı,eo6dybo1y,آدینی
+adı_yla,eo6dylh,آدیله
 af,afo1w,عفو
 afacan,eo6fo1exu1ebo1,آفاجان
 afak,efo1o4efo2o0,افَاقْ
@@ -1465,13 +1432,10 @@ afaki,eo6fo1efo2y,آفاقی
 afaki,eo6fo1eo4fo2u4y,آفاَقِی
 afaki̇,efo1o4efo2y,افَاقی
 afaki̇,eo6fo1eo4fo2u4y,آفاَقِی
-afalla,eo6fo1elle,آفاللا
-afallamak,eo6fo1ellemfo2,آفاللامق
-afallat,eo6fo1ellebo2,آفاللات
-afallatmak,eo6fo1ellebo2mfo2,آفاللاتمق
-afallaş,eo6fo1ellso3,آفاللش
-afallaşmak,eo6fo1ellso3mfo2,آفاللشمق
-afaq,eo6fo1efo2,آفاق
+afalla_mak,eo6fo1ellemfo2,آفاللامق
+afallat_mak,eo6fo1ellebo2mfo2,آفاللاتمق
+afallaş_mak,eo6fo1ellso3mfo2,آفاللشمق
+afak,eo6fo1efo2,آفاق
 afat,efo1o4ebo2o0,افَاتْ
 afat,eo6fo1ebo2,آفات
 afat-i semavi̇ye,efo1o4ebo2u4 so4mo4ewu4yo4h||,افَاتِ سَمَاوِیَه‌
@@ -1482,8 +1446,8 @@ aferidgar,eo6fo1rydko7er,آفریدگار
 aferin,efo1rbu2bo1,افرين
 aferin,efo1rybo1,افرین
 aferin,eo6fo1rybo1,آفرین
-aferinende,eo6fo1rybo1bo1dh||,آفریننده‌
-aferinende,eo6fo1rybo1dh||,آفرینده‌
+aferin_ende,eo6fo1rybo1bo1dh||,آفریننده‌
+aferin_ende,eo6fo1rybo1dh||,آفرینده‌
 aferiniş,eo6fo1rybo1so3,آفرینش
 afet -i can,eo6fo1bo2 xu1ebo1,آفت جان
 afet -i devran,eo6fo1bo2 dwrebo1,آفت دوران
@@ -1493,39 +1457,35 @@ afet-i can,eo6fo1bo2 xu1ebo1,آفت جان
 afet-i devran,eo6fo1bo2 dwrebo1,آفت دوران
 afet-i̇ can,eo6fo1bo2 xu1ebo1,آفت جان
 afet-i̇ devran,eo6fo1bo2 dwrebo1,آفت دوران
-afetengiz,eo6fo1bo2 ebo1ko7yro1,آفت انگیز
-afetresan,eo6fo1bo2 rsebo1,آفت رسان
-afetzede,eo6fo1bo2 ro1dh||,آفت زده‌
-afetzede,eo6fo1bo2<>ro1dh||,آفت‌زده‌
+afet_engiz,eo6fo1bo2 ebo1ko7yro1,آفت انگیز
+afet_resan,eo6fo1bo2 rsebo1,آفت رسان
+afet_zede,eo6fo1bo2 ro1dh||,آفت زده‌
+afet_zede,eo6fo1bo2||ro1dh||,آفت‌زده‌
 aff-ı,afo1wu4,عفوِ
 affan'a,afo1o8ebo1h,عفّانه
-affan,afo1o8ebo1,عفّان
-affeder,afo1w eydr,عفو ایدر
-affedersiniz,afo1w eydrsko3ro1,عفو ایدرسڭز
-affediniz,afo1w eydyko3ro1,عفو ایدیڭز
-affedip,afo1w eydwbu1,عفو ایدوب
-affet,afo1w eybo2,عفو ایت
-affetmek,afo1w eybo2mk,عفو ایتمک
-affetmekte,afo1w eybo2mkdh,عفو ایتمکده
-affetsin,afo1w eybo2sybo1,عفو ایتسین
-affetsinler,afo1w eybo2sybo1lr,عفو ایتسینلر
-affettik,afo1w eybo2dk,عفو ایتدک
-affettirir,afo1w eybo2dyrr,عفو ایتدیرر
-affettiğine,afo1w eybo2dyko7bo1h,عفو ایتدیگنه
-affeyle,afo1w eo5ylh,عفو أیله
-affolunamaz,afo1w ewlwbo1emero1,عفو اولوناماز
-affolunmak,afo1w ewlbo1mfo2,عفو اولنمق
-affolur,afo1w ewlwr,عفو اولور
-affımızı,afo1wymro1y,عفویمزی
-affını,afo1wybo1y,عفوینی
-affınız,afo1wyko3ro1,عفویڭز
-affınıza,afo1wyko3ro1h,عفویڭزه
-affınızı,afo1wyko3ro1y,عفویڭزی
+aff_eder,afo1w eydr,عفو ایدر
+aff_edersiniz,afo1w eydrsko3ro1,عفو ایدرسڭز
+aff_ediniz,afo1w eydyko3ro1,عفو ایدیڭز
+aff_edip,afo1w eydwbu1,عفو ایدوب
+aff_et,afo1w eybo2,عفو ایت
+aff_etmek,afo1w eybo2mk,عفو ایتمک
+aff_etmekte,afo1w eybo2mkdh,عفو ایتمکده
+aff_etsin,afo1w eybo2sybo1,عفو ایتسین
+aff_etsinler,afo1w eybo2sybo1lr,عفو ایتسینلر
+aff_ettik,afo1w eybo2dk,عفو ایتدک
+aff_ettirir,afo1w eybo2dyrr,عفو ایتدیرر
+aff_ettiğine,afo1w eybo2dyko7bo1h,عفو ایتدیگنه
+aff_eyle,afo1w eo5ylh,عفو أیله
+aff_olunamaz,afo1w ewlwbo1emero1,عفو اولوناماز
+aff_olunmak,afo1w ewlbo1mfo2,عفو اولنمق
+aff_olur,afo1w ewlwr,عفو اولور
+aff_ımızı,afo1wymro1y,عفویمزی
+aff_ını,afo1wybo1y,عفوینی
+aff_ınız,afo1wyko3ro1,عفویڭز
+aff_ınıza,afo1wyko3ro1h,عفویڭزه
+aff_ınızı,afo1wyko3ro1y,عفویڭزی
 afgan'dan,eo5fo1ao1ebo1dbo1,أفغاندن
-afgan,efo1ao1ebo1,افغان
-afgan,eo6fo1ao1ebo1,آفغان
 afganistan'a,efo1ao1ebo1sbo2ebo1h,افغانستانه
-afganistan,efo1ao1ebo1sbo2ebo1,افغانستان
 afif,afo1fo1,عفف
 afif,afo1yfo1,عفیف
 afife,afo1yfo1h||,عفیفه‌
@@ -1542,15 +1502,15 @@ afiyyet,aefo1ybo2,عافیت
 afiş,eo6fo1bu2so3,آفيش
 afiş,eo6fo1yso3,آفیش
 afi̇yetbahş,eo6fo1ybo2 bu1xo1so3,آفیت بخش
-afla,afo1wlh,عفوله
-aflar,afo1wlr,عفولر
-aflarına,afo1wlrybo1h,عفولرینه
-aflarını,afo1wlrybo1y,عفولرینی
+af_la,afo1wlh,عفوله
+af_lar,afo1wlr,عفولر
+af_larına,afo1wlrybo1h,عفولرینه
+af_larını,afo1wlrybo1y,عفولرینی
 aforoz,efo1rwro1,افروز
 aforoz,efo1wrwro1,افوروز
 aforoz,eo6fo1fo1wrwro1,آففوروز
-aforozla,eo6fo1wrwro1le,آفوروزلا
-aforozlamak,eo6fo1wrwro1lemfo2,آفوروزلامق
+aforoz_la,eo6fo1wrwro1le,آفوروزلا
+aforoz_lamak,eo6fo1wrwro1lemfo2,آفوروزلامق
 afra',afo1rec,عفراء
 afrika'da,eo6fo1ryfo2edh,آفریقاده
 afrika'daki,eo6fo1ryfo2edh||ky,آفریقاده‌کی
@@ -1558,66 +1518,61 @@ afrika'dan,eo6fo1ryfo2edbo1,آفریقادن
 afrika'nın,eo6fo1ryfo2ebo1ko3,آفریقانڭ
 afrika'ya,eo6fo1ryfo2eyh,آفریقایه
 afrika'yı,eo6fo1ryfo2eyy,آفریقایی
-afrika,efo1ryfo2e,افریقا
-afrika,eo6fo1ryfo2e,آفریقا
 afrikalıları,eo6fo1ryfo2elylry,آفریقالیلری
 afsun,efo1swbo1,افسون
 aftab,eo6fo1bo2ebu1,آفتاب
-aftabe,eo6fo1bo2ebu1h||,آفتابه‌
-aftabgir,eo6fo1bo2ebu1ko7yr,آفتابگیر
+aftab_e,eo6fo1bo2ebu1h||,آفتابه‌
+aftab_gir,eo6fo1bo2ebu1ko7yr,آفتابگیر
 aftabi,eo6fo1bo2ebu1y,آفتابی
 aftabru,eo6fo1bo2ebu1 rw,آفتاب رو
 afuvkârane,afo1wkerebo1h,عفوکارانه
-afv etmek,afo1w e,عفو ا
-afv etmek,afo1we,عفوا
-afv olunmaz,afo1wewlmro1,عفواولمز
+afvolunmaz,afo1wewlmro1,عفواولمز
 afv,afo1w,عفو
 afv-ı,afo1wu4,عفوِ
-afva,afo1wh,عفوه
-afvdan,afo1wdbo1,عفودن
-afve,afo1wh,عفوه
-afvedebilir,afo1w  eydh||bu1ylyr,عفو  ایده‌بیلیر
-afveder,afo1w eydr,عفو ایدر
-afvedersiniz,afo1w eydrsko3ro1,عفو ایدرسڭز
-afvedilir,afo1w eydylyr,عفو ایدیلیر
-afvedilmez,afo1w eydylmro1,عفو ایدیلمز
-afvediniz,afo1w eydyko3ro1,عفو ایدیڭز
-afvedip,afo1w eydwbu1,عفو ایدوب
-afvet,afo1w eybo2,عفو ایت
-afvetmek,afo1w eybo2mk,عفو ایتمک
-afvetmesi,afo1w eybo2mh||sy,عفو ایتمه‌سی
-afvetmesini,afo1w eybo2mh||sbo1y,عفو ایتمه‌سنی
-afvetmez,afo1webu2bo2mro1,عفوايتمز
-afvetmez,afo1weybo2mro1,عفوایتمز
-afvetsin,afo1w eybo2sybo1,عفو ایتسین
-afvetti,afo1w eybo2dy,عفو ایتدی
-afvettikleri,afo1w eybo2dklry,عفو ایتدکلری
-afvettirdi,afo1w eybo2dyrdy,عفو ایتدیردی
-afvettirdiler,afo1w eybo2dyrdylr,عفو ایتدیردیلر
-afvettirir,afo1w eybo2dyrr,عفو ایتدیرر
-afvettiriyor,afo1w eybo2dyryywr,عفو ایتدیرییور
-afvettirmek,afo1w eybo2dyrmk,عفو ایتدیرمک
-afvettirmesi,afo1w eybo2dyrmh||sy,عفو ایتدیرمه‌سی
-afvettirmeğe,afo1w eybo2dyrmko7h,عفو ایتدیرمگه
-afvettiğinden,afo1w eybo2dyko7bo1dbo1,عفو ایتدیگندن
-afvettiğiniz,afo1w eybo2dyko7ko3ro1,عفو ایتدیگڭز
-afveyle,afo1w eo5ylh,عفو أیله
+afv_a,afo1wh,عفوه
+afv_dan,afo1wdbo1,عفودن
+afv_e,afo1wh,عفوه
+afv_edebilir,afo1w  eydh||bu1ylyr,عفو  ایده‌بیلیر
+afv_eder,afo1w eydr,عفو ایدر
+afv_edersiniz,afo1w eydrsko3ro1,عفو ایدرسڭز
+afv_edilir,afo1w eydylyr,عفو ایدیلیر
+afv_edilmez,afo1w eydylmro1,عفو ایدیلمز
+afv_ediniz,afo1w eydyko3ro1,عفو ایدیڭز
+afv_edip,afo1w eydwbu1,عفو ایدوب
+afv_et,afo1w eybo2,عفو ایت
+afv_etmek,afo1w eybo2mk,عفو ایتمک
+afv_etmesi,afo1w eybo2mh||sy,عفو ایتمه‌سی
+afv_etmesini,afo1w eybo2mh||sbo1y,عفو ایتمه‌سنی
+afv_etmez,afo1webu2bo2mro1,عفوايتمز
+afv_etmez,afo1weybo2mro1,عفوایتمز
+afv_etsin,afo1w eybo2sybo1,عفو ایتسین
+afv_etti,afo1w eybo2dy,عفو ایتدی
+afv_ettikleri,afo1w eybo2dklry,عفو ایتدکلری
+afv_ettirdi,afo1w eybo2dyrdy,عفو ایتدیردی
+afv_ettirdiler,afo1w eybo2dyrdylr,عفو ایتدیردیلر
+afv_ettirir,afo1w eybo2dyrr,عفو ایتدیرر
+afv_ettiriyor,afo1w eybo2dyryywr,عفو ایتدیرییور
+afv_ettirmek,afo1w eybo2dyrmk,عفو ایتدیرمک
+afv_ettirmesi,afo1w eybo2dyrmh||sy,عفو ایتدیرمه‌سی
+afv_ettirmeğe,afo1w eybo2dyrmko7h,عفو ایتدیرمگه
+afv_ettiğinden,afo1w eybo2dyko7bo1dbo1,عفو ایتدیگندن
+afv_ettiğiniz,afo1w eybo2dyko7ko3ro1,عفو ایتدیگڭز
+afv_eyle,afo1w eo5ylh,عفو أیله
 afvi amm,afo1waem,عفوعام
 afvi âmm,afo1waem,عفوعام
-afvlarına,afo1wlrybo1h,عفولرینه
-afvolmuştur,afo1w ewlmso3dr,عفو اولمشدر
-afvolunmaz,afo1w ewlwbo1mero1,عفو اولونماز
-afvolur,afo1w ewlwr,عفو اولور
-afvü,afo1o0w,عفْو
-afvı,afo1wy,عفوی
-afvımı,afo1wymy,عفویمی
-afvımıza,afo1wymro1h,عفویمزه
-afvına,afo1wybo1h,عفوینه
-afvını,afo1wybo1y,عفوینی
-afvınıza,afo1wyko3ro1h,عفویڭزه
-afvınızı,afo1wyko3ro1y,عفویڭزی
-afvıyla,afo1wylh,عفویله
-afyon karahisar,eo6fo1ywbo1 fo2rh<>xzer,آفیون قره‌حصار
+afv_larına,afo1wlrybo1h,عفولرینه
+afv_olmuştur,afo1w ewlmso3dr,عفو اولمشدر
+afv_olunmaz,afo1w ewlwbo1mero1,عفو اولونماز
+afv_olur,afo1w ewlwr,عفو اولور
+afv_ü,afo1o0w,عفْو
+afv_ı,afo1wy,عفوی
+afv_ımı,afo1wymy,عفویمی
+afv_ımıza,afo1wymro1h,عفویمزه
+afv_ına,afo1wybo1h,عفوینه
+afv_ını,afo1wybo1y,عفوینی
+afv_ınıza,afo1wyko3ro1h,عفویڭزه
+afv_ınızı,afo1wyko3ro1y,عفویڭزی
+afv_ıyla,afo1wylh,عفویله
 afyon'a,eo6fo1ywbo1h,آفیونه
 afyon'da,eo6fo1ywbo1dh,آفیونده
 afyon'daki,eo6fo1ywbo1dh||ky,آفیونده‌کی
@@ -1628,12 +1583,12 @@ afyon,efo1bu2wbo1,افيون
 afyon,efo1ywbo1,افیون
 afyon,eo6fo1bu2wbo1,آفيون
 afyon,eo6fo1ywbo1,آفیون
-afyona,eo6fo1ywbo1h,آفیونه
-afyonda,eo6fo1ywbo1dh,آفیونده
-afyonruhu,efo1bu2wbo1 rwxy,افيون روحی
-afyonruhu,efo1ywbo1 rwxy,افیون روحی
-afyonun,eo6fo1ywbo1ko3,آفیونڭ
-afyonunu,eo6fo1ywbo1bo1y,آفیوننی
+afyon_a,eo6fo1ywbo1h,آفیونه
+afyon_da,eo6fo1ywbo1dh,آفیونده
+afyon_ruhu,efo1bu2wbo1 rwxy,افيون روحی
+afyon_ruhu,efo1ywbo1 rwxy,افیون روحی
+afyon_un,eo6fo1ywbo1ko3,آفیونڭ
+afyon_unu,eo6fo1ywbo1bo1y,آفیوننی
 afâhu,aefo1eh,عافاه
 afîf,afo1bu2fo1,عفيف
 afîfe,afo1bu2fo1h,عفيفه
@@ -1644,7 +1599,7 @@ agah,eo6ko7o4eho0,آگَاهْ
 agahi,eo6ko7ehy,آگاهی
 agaz etmek,eao1ero1e,اغازا
 ageh,eo6ko7h||,آگه‌
-agehi,eo6ko7hy,آگهی
+ageh_i,eo6ko7hy,آگهی
 agel,ao4ko7lo0,عَگلْ
 agin,eo6ko7ybo1,آگین
 agisna,eo4ao1u4bo3o0bo1e,اَغِثْنا
@@ -1670,77 +1625,77 @@ ahali,eo4ho4ely,اَهَالی
 ahali,eo5hely,أهالی
 ahali-i,eo5helyo5u4,أهالئِ
 ahaliden hali kılmak,ehelydbo1 xo1ely fo2ylmfo2,اهالیدن خالی قیلمق
-ahaliden,eo5helydbo1,أهالیدن
-ahalimiz,eo5helymro1,أهالیمز
-ahalinin,eo5helybo1ko3,أهالینڭ
-ahalisi,eo5helysy,أهالیسی
-ahalisince,eo5helysbo1xu1h,أهالیسنجه
-ahalisinde,eo5helysbo1dh,أهالیسنده
-ahalisinden,eo5helysbo1dbo1,أهالیسندن
-ahalisine,eo5helysbo1h,أهالیسنه
-ahalisini,eo5helysbo1y,أهالیسنی
-ahalisinin,eo5helysbo1ko3,أهالیسنڭ
-ahalisiyle,eo5helysylh,أهالیسیله
-ahaliye,eo5hely||yh,أهالی‌یه
-ahaliyi,eo5hely||yy,أهالی‌یی
+ahali_den,eo5helydbo1,أهالیدن
+ahali_miz,eo5helymro1,أهالیمز
+ahali_nin,eo5helybo1ko3,أهالینڭ
+ahali_si,eo5helysy,أهالیسی
+ahali_since,eo5helysbo1xu1h,أهالیسنجه
+ahali_sinde,eo5helysbo1dh,أهالیسنده
+ahali_sinden,eo5helysbo1dbo1,أهالیسندن
+ahali_sine,eo5helysbo1h,أهالیسنه
+ahali_sini,eo5helysbo1y,أهالیسنی
+ahali_sinin,eo5helysbo1ko3,أهالیسنڭ
+ahali_siyle,eo5helysylh,أهالیسیله
+ahali_ye,eo5hely||yh,أهالی‌یه
+ahali_yi,eo5hely||yy,أهالی‌یی
 ahali̇,eo4ho4ely,اَهَالی
 ahar,eo6xo1er,آخار
 ahar,eo6xo1r,آخر
 ahar,exo1o4ro0,اخَرْ
 ahar,exo1r,اخر
-ahara temlik etmek,exo1rh bo2mlyk e,اخره تملیک ا
-ahara temlîk etmek,exo1rh bo2mlbu2k e,اخره تمليک ا
-aharlamak,eo6xo1erlemfo2,آخارلامق
+ahara temlik,exo1rh bo2mlyk,اخره تملیک ا
+ahara temlîk,exo1rh bo2mlbu2k,اخره تمليک ا
+ahar_lamak,eo6xo1erlemfo2,آخارلامق
 ahavat,exo1webo2,اخوات
 ahavât,exo1webo2,اخوات
 ahbab takımı,exbu1ebu1 tefo2my,احباب طاقمی
 ahbab,eo5xbu1ebu1,أحباب
 ahbab,exbu1ebu1,احباب
 ahbab-ı,eo5xbu1ebu1u4,أحبابِ
-ahbaba,eo5xbu1ebu1h,أحبابه
-ahbabdan,eo5xbu1ebu1dbo1,أحبابدن
-ahbabla,eo5xbu1ebu1lh,أحبابله
-ahbablar,eo5xbu1ebu1lr,أحبابلر
-ahbablara,eo5xbu1ebu1lrh,أحبابلره
-ahbablardan,eo5xbu1ebu1lrdbo1,أحبابلردن
-ahbablarla,eo5xbu1ebu1lrlh,أحبابلرله
-ahbabları,eo5xbu1ebu1lry,أحبابلری
-ahbablarım,eo5xbu1ebu1lrm,أحبابلرم
-ahbablarımı,eo5xbu1ebu1lrymy,أحبابلریمی
-ahbabların,eo5xbu1ebu1lrko3,أحبابلرڭ
-ahbablarına,eo5xbu1ebu1lrybo1h,أحبابلرینه
-ahbablarını,eo5xbu1ebu1lrybo1y,أحبابلرینی
-ahbablarının,eo5xbu1ebu1lrybo1ko3,أحبابلرینڭ
-ahbablarıyla,eo5xbu1ebu1lrylh,أحبابلریله
-ahbabsız,eo5xbu1ebu1sro1,أحبابسز
-ahbabsızlıktan,eo5xbu1ebu1sro1lfo2dbo1,أحبابسزلقدن
-ahbabı,eo5xbu1ebu1y,أحبابی
-ahbabım,eo5xbu1ebu1m,أحبابم
-ahbabıma,eo5xbu1ebu1mh,أحبابمه
-ahbabımı,eo5xbu1ebu1my,أحبابمی
-ahbabın,eo5xbu1ebu1ko3,أحبابڭ
-ahbabına,eo5xbu1ebu1bo1h,أحبابنه
-ahbabında,eo5xbu1ebu1bo1dh,أحبابنده
-ahbabından,eo5xbu1ebu1bo1dbo1,أحبابندن
-ahbabını,eo5xbu1ebu1bo1y,أحبابنی
-ahbabının,eo5xbu1ebu1bo1ko3,أحبابنڭ
-ahbabınızda,eo5xbu1ebu1ko3ro1dh,أحبابڭزده
+ahbab_a,eo5xbu1ebu1h,أحبابه
+ahbab_dan,eo5xbu1ebu1dbo1,أحبابدن
+ahbab_la,eo5xbu1ebu1lh,أحبابله
+ahbab_lar,eo5xbu1ebu1lr,أحبابلر
+ahbab_lara,eo5xbu1ebu1lrh,أحبابلره
+ahbab_lardan,eo5xbu1ebu1lrdbo1,أحبابلردن
+ahbab_larla,eo5xbu1ebu1lrlh,أحبابلرله
+ahbab_ları,eo5xbu1ebu1lry,أحبابلری
+ahbab_larım,eo5xbu1ebu1lrm,أحبابلرم
+ahbab_larımı,eo5xbu1ebu1lrymy,أحبابلریمی
+ahbab_ların,eo5xbu1ebu1lrko3,أحبابلرڭ
+ahbab_larına,eo5xbu1ebu1lrybo1h,أحبابلرینه
+ahbab_larını,eo5xbu1ebu1lrybo1y,أحبابلرینی
+ahbab_larının,eo5xbu1ebu1lrybo1ko3,أحبابلرینڭ
+ahbab_larıyla,eo5xbu1ebu1lrylh,أحبابلریله
+ahbab_sız,eo5xbu1ebu1sro1,أحبابسز
+ahbab_sızlıktan,eo5xbu1ebu1sro1lfo2dbo1,أحبابسزلقدن
+ahbab_ı,eo5xbu1ebu1y,أحبابی
+ahbab_ım,eo5xbu1ebu1m,أحبابم
+ahbab_ıma,eo5xbu1ebu1mh,أحبابمه
+ahbab_ımı,eo5xbu1ebu1my,أحبابمی
+ahbab_ın,eo5xbu1ebu1ko3,أحبابڭ
+ahbab_ına,eo5xbu1ebu1bo1h,أحبابنه
+ahbab_ında,eo5xbu1ebu1bo1dh,أحبابنده
+ahbab_ından,eo5xbu1ebu1bo1dbo1,أحبابندن
+ahbab_ını,eo5xbu1ebu1bo1y,أحبابنی
+ahbab_ının,eo5xbu1ebu1bo1ko3,أحبابنڭ
+ahbab_ınızda,eo5xbu1ebu1ko3ro1dh,أحبابڭزده
 ahbap,exbu1ebu1,احباب
-ahbaplarının,eo5xbu1ebu1lrybo1ko3,أحبابلرینڭ
+ahbap_larının,eo5xbu1ebu1lrybo1ko3,أحبابلرینڭ
 ahbar,eo5xo1bu1er,أخبار
 ahbar,exo1bu1er,اخبار
-ahbarını,eo5xo1bu1erybo1y,أخبارینی
+ahbar_ını,eo5xo1bu1erybo1y,أخبارینی
 ahbâb takımı,exbu1ebu1 tefo2my,احباب طاقمی
 ahbâb,exbu1ebu1,احباب
-ahbâbının,eo5xbu1ebu1bo1ko3,أحبابنڭ
+ahbâb_ının,eo5xbu1ebu1bo1ko3,أحبابنڭ
 ahbâr,exo1bu1er,اخبار
 ahcar,exxu1er,احجار
 ahcar-ı,eo5xxu1eru4,أحجارِ
 ahcarı,eo5xxu1ery,أحجاری
 ahcâr,exxu1er,احجار
 ahcâr-ı,eo5xxu1eru4,أحجارِ
-ahd -i atik,ahd abo2yfo2,عهد عتیق
-ahd -i cedid,ahd xu1dyd,عهد جدید
+ahd-i atik,ahd abo2yfo2,عهد عتیق
+ahd-i cedid,ahd xu1dyd,عهد جدید
 ahd,ahd,عهد
 ahd-i atik,ahd abo2yfo2,عهد عتیق
 ahd-i atîk,ahd abo2bu2fo2,عهد عتيق
@@ -1755,20 +1710,20 @@ ahdar,exzo1r,احضر
 ahdas,exdebo3,احداث
 ahddir,ahddr,عهددر
 ahdeb,exdbu1,احدب
-ahdeden,ahd eydbo1,عهد ایدن
-ahdediyoruz,ahd eydywrro1,عهد ایدیورز
-ahdet,ahdebo2,عهدات
-ahdetmek,ahdebo2mk,عهداتمک
-ahdetmiş,ahd eybo2mso3,عهد ایتمش
-ahdetmişim,ahd eybo2myso3m,عهد ایتمیشم
-ahdettiler,ahd eybo2dylr,عهد ایتدیلر
-ahdettiği,ahd eybo2dyko7y,عهد ایتدیگی
-ahdettiğini,ahd eybo2dyko7bo1y,عهد ایتدیگنی
-ahdi,ahdy,عهدی
-ahdin,ahdko3,عهدڭ
-ahdini,ahdybo1y,عهدینی
-ahdlerine,ahdlrybo1h,عهدلرینه
-ahdlerinin,ahdlrybo1ko3,عهدلرینڭ
+ahd_eden,ahd eydbo1,عهد ایدن
+ahd_ediyoruz,ahd eydywrro1,عهد ایدیورز
+ahd_et,ahdebo2,عهدات
+ahd_etmek,ahdebo2mk,عهداتمک
+ahd_etmiş,ahd eybo2mso3,عهد ایتمش
+ahd_etmişim,ahd eybo2myso3m,عهد ایتمیشم
+ahd_ettiler,ahd eybo2dylr,عهد ایتدیلر
+ahd_ettiği,ahd eybo2dyko7y,عهد ایتدیگی
+ahd_ettiğini,ahd eybo2dyko7bo1y,عهد ایتدیگنی
+ahd_i,ahdy,عهدی
+ahd_in,ahdko3,عهدڭ
+ahd_ini,ahdybo1y,عهدینی
+ahd_lerine,ahdlrybo1h,عهدلرینه
+ahd_lerinin,ahdlrybo1ko3,عهدلرینڭ
 ahdname,ahdbo1emh||,عهدنامه‌
 ahdnâme,ahdbo1emh,عهدنامه
 ahdâs,exdebo3,احداث
@@ -1779,41 +1734,41 @@ ahek,eo6hk,آهک
 ahen,ehbo1,اهن
 ahen,eo6hbo1,آهن
 ahendil,eo6hbo1 dl,آهن دل
-aheng -i esvat,eo6hbo1ko7 ezwebo2,آهنگ اصوات
+aheng-i esvat,eo6hbo1ko7 ezwebo2,آهنگ اصوات
 aheng,eo6hbo1ko7,آهنگ
 aheng-i esvat,eo6hbo1ko7 ezwebo2,آهنگ اصوات
 aheng-i,eo6hbo1ko7u4,آهنگِ
 aheng-i̇ esvat,eo6hbo1ko7 ezwebo2,آهنگ اصوات
-ahengdar,eo6hbo1ko7der,آهنگدار
-ahenger,ehbo1kr,اهنکر
-ahenger,eo6hbo1ko7r,آهنگر
-ahenggüzar,eo6hbo1ko7 ko7do1er,آهنگ گذار
+aheng_dar,eo6hbo1ko7der,آهنگدار
+aheng_er,ehbo1kr,اهنکر
+aheng_er,eo6hbo1ko7r,آهنگر
+aheng_güzar,eo6hbo1ko7 ko7do1er,آهنگ گذار
 ahengi bozulmuş,ehbo1ky bu1wro1lmso3,اهنکی بوزلمش
-ahengindeki,eo6hbo1ko7bo1dh||ky,آهنگنده‌کی
-ahengini,eo6hbo1ko7bo1y,آهنگنی
+aheng_indeki,eo6hbo1ko7bo1dh||ky,آهنگنده‌کی
+aheng_ini,eo6hbo1ko7bo1y,آهنگنی
 ahenin,eo6hbo1ybo1,آهنین
 ahenindil,eo6hbo1ybo1 dl,آهنین دل
 ahenk etmek,ehbo1k e,اهنک ا
 ahenk,ehbo1k,اهنک
 ahenk,eo6hbo1k,آهنک
 ahenk,eo6hbo1ko7,آهنگ
-ahenkdar,eo6hbo1ko7 der,آهنگ دار
+ahenk_dar,eo6hbo1ko7 der,آهنگ دار
 ahenkeş,eo6hbo1kso3,آهنکش
 ahenrüba,eo6hbo1 rbu1e,آهن ربا
-ahensa(y),eo6hbo1 sey,آهن سای
+ahensay,eo6hbo1 sey,آهن سای
 ahensa,eo6hbo1 sey,آهن سای
 aher,eo6xo1r,آخر
 aherin,eo6xo1rybo1,آخرین
 aheste,eo6hsbo2h||,آهسته‌
-ahestegi,eo6hsbo2ko7y,آهستگی
+aheste_gi,eo6hsbo2ko7y,آهستگی
 ahfa,eo4xo1o0fo1o4e,اَخْفَا
 ahfa,exo1fo1e,اخفا
 ahfad,eo5xfo1ed,أحفاد
 ahfad,exfo1ed,احفاد
-ahfadları,eo5xfo1edlry,أحفادلری
-ahfadlarına,eo5xfo1edlrybo1h,أحفادلرینه
-ahfadı,eo5xfo1edy,أحفادی
-ahfadın,eo5xfo1edko3,أحفادڭ
+ahfad_ları,eo5xfo1edlry,أحفادلری
+ahfad_larına,eo5xfo1edlrybo1h,أحفادلرینه
+ahfad_ı,eo5xfo1edy,أحفادی
+ahfad_ın,eo5xfo1edko3,أحفادڭ
 ahfâ,eo4xo1o0fo1o4e,اَخْفَا
 ahfâ,eo5xo1fo1e,أخفا
 ahfâ,exo1fo1e,اخفا
@@ -1823,28 +1778,28 @@ ahibba,exbu1e,احبا
 ahibbâ,exbu1e,احبا
 ahid,ahd,عهد
 ahid,ao4hu4do0,عَهِدْ
-ahidde,ahddh,عهدده
-ahidlerine,ahdlrybo1h,عهدلرینه
-ahidlerini,ahdlrybo1y,عهدلرینی
-ahidleş,ahdlso3,عهدلش
-ahidleşmek,ahdlso3mk,عهدلشمک
-ahidname,ahdbo1emh||,عهدنامه‌
-ahidnâme,ahdbo1emh,عهدنامه
-ahidşiken,ahdso3kbo1,عهدشکن
-ahihte,eo6hyxo1bo2h||,آهیخته‌
-ahir -i kar,eo6xo1r ker,آخر کار
+ahid_de,ahddh,عهدده
+ahid_lerine,ahdlrybo1h,عهدلرینه
+ahid_lerini,ahdlrybo1y,عهدلرینی
+ahid_leş,ahdlso3,عهدلش
+ahid_leşmek,ahdlso3mk,عهدلشمک
+ahid_name,ahdbo1emh||,عهدنامه‌
+ahid_nâme,ahdbo1emh,عهدنامه
+ahid_şiken,ahdso3kbo1,عهدشکن
+ahih_te,eo6hyxo1bo2h||,آهیخته‌
+ahir-i kar,eo6xo1r ker,آخر کار
 ahir,eo6xo1r,آخر
 ahir,exo1r,اخر
 ahir,exo1u4ro0,اخِرْ
 ahir-i kar,eo6xo1r ker,آخر کار
-ahirbin,eo6xo1rbu1ybo1,آخربین
-ahire,eo6xo1rh||,آخره‌
-ahiren,exo1bu1reo44,اخبراً
-ahiren,exo1yre,اخیرا
+ahir_bin,eo6xo1rbu1ybo1,آخربین
+ahir_e,eo6xo1rh||,آخره‌
+ahir_en,exo1bu1reo44,اخبراً
+ahir_en,exo1yre,اخیرا
 ahiret,eo6xo1rbo2,آخرت
 ahiret,exo1rbo2,اخرت
-ahiretlik,eo6xo1rbo2lk,آخرتلک
-ahiretlik,exo1rbo2lk,اخرتلک
+ahiret_lik,eo6xo1rbo2lk,آخرتلک
+ahiret_lik,exo1rbo2lk,اخرتلک
 ahirin,eo6xo1rybo1,آخرین
 ahirkar,eo6xo1rker,آخرکار
 ahirülemr,eo6xo1relemr,آخرالامر
@@ -1858,7 +1813,7 @@ ahi̇r,exo1u4ro0,اخِرْ
 ahi̇r-i̇ kar,eo6xo1r ker,آخر کار
 ahi̇ret,eo6xo1rbo2,آخرت
 ahi̇ze,exo1u4do1o4h||,اخِذَه‌
-ahkaf'ın,eo5xfo2efo1ko3,أحقافڭ
+ahkaf_ın,eo5xfo2efo1ko3,أحقافڭ
 ahkam,eo4xo0ko4emo0,اَحْکَامْ
 ahkam,eo5xkem,أحکام
 ahkam,exkem,احکام
@@ -1876,34 +1831,34 @@ ahkâm,exkem,احکام
 ahkâm-i mesture,eo4xo0ko4emu4 mo4so0bo2o9wro4h,اَحْکَامِ مَسْتُورَه
 ahkâm-ı mesture,eo4xo0ko4emu4 mo4so0bo2o9wro4h,اَحْکَامِ مَسْتُورَه
 ahkâm-ı,eo5xkemu4,أحکامِ
-ahkâma,eo5xkemh,أحکامه
-ahkâmca,eo5xkemxu1h,أحکامجه
-ahkâmda,eo5xkemdh,أحکامده
-ahkâmdaki,eo5xkemdh||ky,أحکامده‌کی
-ahkâmdan,eo5xkemdbo1,أحکامدن
-ahkâmdır,eo5xkemdr,أحکامدر
-ahkâmiyle,eo5xkemylh,أحکامیله
-ahkâmlar,eo5xkemlr,أحکاملر
-ahkâmlara,eo5xkemlrh,أحکاملره
-ahkâmları,eo5xkemlry,أحکاملری
-ahkâmların,eo5xkemlrko3,أحکاملرڭ
-ahkâmlarına,eo5xkemlrybo1h,أحکاملرینه
-ahkâmlarını,eo5xkemlrybo1y,أحکاملرینی
-ahkâmı,eo5xkemy,أحکامی
-ahkâmın,eo5xkemko3,أحکامڭ
-ahkâmına,eo5xkembo1h,أحکامنه
-ahkâmından,eo5xkembo1dbo1,أحکامندن
-ahkâmındandır,eo5xkembo1dbo1dr,أحکامندندر
-ahkâmını,eo5xkembo1y,أحکامنی
-ahkâmıyla,eo5xkemylh,أحکامیله
+ahkâm_a,eo5xkemh,أحکامه
+ahkâm_ca,eo5xkemxu1h,أحکامجه
+ahkâm_da,eo5xkemdh,أحکامده
+ahkâm_daki,eo5xkemdh||ky,أحکامده‌کی
+ahkâm_dan,eo5xkemdbo1,أحکامدن
+ahkâm_dır,eo5xkemdr,أحکامدر
+ahkâm_iyle,eo5xkemylh,أحکامیله
+ahkâm_lar,eo5xkemlr,أحکاملر
+ahkâm_lara,eo5xkemlrh,أحکاملره
+ahkâm_ları,eo5xkemlry,أحکاملری
+ahkâm_ların,eo5xkemlrko3,أحکاملرڭ
+ahkâm_larına,eo5xkemlrybo1h,أحکاملرینه
+ahkâm_larını,eo5xkemlrybo1y,أحکاملرینی
+ahkâm_ı,eo5xkemy,أحکامی
+ahkâm_ın,eo5xkemko3,أحکامڭ
+ahkâm_ına,eo5xkembo1h,أحکامنه
+ahkâm_ından,eo5xkembo1dbo1,أحکامندن
+ahkâm_ındandır,eo5xkembo1dbo1dr,أحکامندندر
+ahkâm_ını,eo5xkembo1y,أحکامنی
+ahkâm_ıyla,eo5xkemylh,أحکامیله
 ahlaf,exlefo1,احلاف
 ahlaf,exo1lefo1,اخلاف
-ahlafa,eo5xo1lefo1h,أخلافه
-ahlafın,eo5xo1lefo1ko3,أخلافڭ
-ahlak -ı ameli,exo1lefo2 amly,اخلاق عملی
-ahlak -ı hasene,exo1lefo2 xsbo1h||,اخلاق حسنه‌
-ahlak -ı nazari,exo1lefo2 bo1to1ry,اخلاق نظری
-ahlak -ı zemime,exo1lefo2 do1mymh||,اخلاق ذمیمه‌
+ahlaf_a,eo5xo1lefo1h,أخلافه
+ahlaf_ın,eo5xo1lefo1ko3,أخلافڭ
+ahlak-ı ameli,exo1lefo2 amly,اخلاق عملی
+ahlak-ı hasene,exo1lefo2 xsbo1h||,اخلاق حسنه‌
+ahlak-ı nazari,exo1lefo2 bo1to1ry,اخلاق نظری
+ahlak-ı zemime,exo1lefo2 do1mymh||,اخلاق ذمیمه‌
 ahlak,eo5xo1lefo2,أخلاق
 ahlak,exo1lefo2,اخلاق
 ahlak-i ameli̇,exo1lefo2 amly,اخلاق عملی
@@ -1920,16 +1875,16 @@ ahlak-ı seyyie,eo4xo1o0lo4efo2u4 so4yu4o8bo5o4h||,اَخْلَاقِ سَیِّ
 ahlak-ı zemime,exo1lefo2 do1mymh||,اخلاق ذمیمه‌
 ahlak-ı,eo5xo1lefo2u4,أخلاقِ
 ahlaka,eo5xo1lefo2h,أخلاقه
-ahlaken,exo1lefo2e,اخلاقا
-ahlaki,exo1lefo2y,اخلاقی
-ahlakiyat,exo1lefo2yebo2,اخلاقیات
-ahlakiyun,exo1lefo2ywbo1,اخلاقیون
-ahlaksız,exo1lefo2sro1,اخلاقسز
-ahlakıyat,exo1lefo2yebo2,اخلاقیات
-ahlakıyun,exo1lefo2ywbo1,اخلاقیون
+ahlak_en,exo1lefo2e,اخلاقا
+ahlak_i,exo1lefo2y,اخلاقی
+ahlak_iyat,exo1lefo2yebo2,اخلاقیات
+ahlak_iyun,exo1lefo2ywbo1,اخلاقیون
+ahlak_sız,exo1lefo2sro1,اخلاقسز
+ahlak_ıyat,exo1lefo2yebo2,اخلاقیات
+ahlak_ıyun,exo1lefo2ywbo1,اخلاقیون
 ahlam,exlem,احلام
 ahların,eo6hlrko3,آهلرڭ
-ahlat -ı erba’a,exo1let erbu1ah||,اخلاط اربعه‌
+ahlat-ı erba’a,exo1let erbu1ah||,اخلاط اربعه‌
 ahlat,eo6xo1let,آخلاط
 ahlat,exo1let,اخلاط
 ahlat-i erba'a,exo1let erbu1ah||,اخلاط اربعه‌
@@ -1950,9 +1905,9 @@ ahlâk-ı nazarî,exo1lefo2 bo1to1ry,اخلاق نظری
 ahlâk-ı seyyie,eo4xo1o0lo4efo2u4 so4bu2u4o8bo5o4h,اَخْلَاقِ سَيِّئَه
 ahlâk-ı zemîme,exo1lefo2 do1mbu2mh,اخلاق ذميمه
 ahlâk-ı,eo5xo1lefo2u4,أخلاقِ
-ahlâka,eo5xo1lefo2h,أخلاقه
-ahlâken,eo5xo1lefo2o44e,أخلاقًا
-ahlâken,exo1lefo2e,اخلاقا
+ahlâk_a,eo5xo1lefo2h,أخلاقه
+ahlâk_en,eo5xo1lefo2o44e,أخلاقًا
+ahlâk_en,exo1lefo2e,اخلاقا
 ahlâki,eo5xo1lefo2y,أخلاقی
 ahlâkiyat,exo1lefo2bu2ebo2,اخلاقيات
 ahlâkiyatı,eo5xo1lefo2yebo2y,أخلاقیاتی
@@ -2171,10 +2126,10 @@ ahtâr,exo1ter,اخطار
 ahu,ehw,اهو
 ahu,eo6hw,آهو
 ahu,exo1w,اخو
-ahubaba,eo6xo1w<>bu1ebu1e,آخو‌بابا
+ahubaba,eo6xo1w||bu1ebu1e,آخو‌بابا
 ahubere,eo6hwbu1rh||,آهوبره‌
 ahudil,eo6hwdl,آهودل
-ahududu,eo6hw<>twdy,آهو‌طودی
+ahududu,eo6hw||twdy,آهو‌طودی
 ahund,eo6xo1wbo1d,آخوند
 ahunigah,eo6hwbo1ko7eh||,آهونگاه‌
 ahur,eo6xo1r,آخر
@@ -2399,7 +2354,6 @@ akabinde,afo2bu1bo1dh,عقبنده
 akabindeki,afo2bu1bo1dh||ky,عقبنده‌کی
 akabât,afo2bu1ebo2,عقبات
 akacak,eo6fo2exu1fo2,آقاجق
-akademi,eo6fo2edh<>my,آقاده‌می
 akademi,eo6fo2edh||my,آقاده‌می
 akademi,eo6fo2edmy,آقادمی
 akademisi,eo6fo2edmysy,آقادمیسی
@@ -2435,17 +2389,13 @@ akarsu,eo6fo2erzw,آقارصو
 akarât,afo2rebo2,عقرات
 akasya,eo6fo2esbu2e,آقاسيا
 akasya,eo6fo2esye,آقاسیا
-akağaç,eo6fo2<>eo6ao1exu1,آق‌آغاج
 akağaç,eo6fo2||eo6ao1exu1,آق‌آغاج
 akbaba,efo2 bu1ebu1e,اق بابا
-akbaba,eo6fo2<>bu1ebu1e,آق‌بابا
 akbaba,eo6fo2||bu1ebu1e,آق‌بابا
 akbalık,eo6fo2 bu1elyfo2,آق بالیق
 akbeh,efo2bu1x,اقبح
-akbenek,eo6fo2<>bu1bo1k,آق‌بنک
 akbenek,eo6fo2||bu1bo1k,آق‌بنک
 akciğer,efo2 xu1kr,اق جکر
-akciğer,eo6fo2<>xu3ko7r,آق‌چگر
 akciğer,eo6fo2||xu3ko7r,آق‌چگر
 akd etmek,afo2d e,عقد ا
 akd etmek,afo2de,عقدا
@@ -2463,7 +2413,7 @@ akdamar,efo2 tmr,اق طمر
 akdamardan ibaret olan,efo2 tmrdbo1 abu1erbo2 ewlebo1,اق طمردن عبارت اولان
 akdamardan ibâret olan,efo2 tmrdbo1 abu1erbo2 ewlebo1,اق طمردن عبارت اولان
 akdamarlara müteallik olan,efo2 tmrlrh mbo2alfo2 ewlebo1,اق طمرلره متعلق اولان
-akdağ maden,eo6fo2deao1<>madbo1,آقداغ‌معدن
+akdağ maden,eo6fo2deao1||madbo1,آقداغ‌معدن
 akdağ'ın,eo6fo2deao1ko3,آقداغڭ
 akdağ,eo6fo2deao1,آقداغ
 akdeder,afo2d eydr,عقد ایدر
@@ -2494,16 +2444,13 @@ akdet,afo2deybo2,عقدایت
 akdetmek,afo2debu2bo2mk,عقدايتمک
 akdetmek,afo2deybo2mk,عقدایتمک
 akdi,afo2dy,عقدی
-akdiken,eo6fo2<>dykbo1,آق‌دیکن
+akdiken,eo6fo2||dykbo1,آق‌دیکن
 akdiken,eo6fo2||dbu2kbo1,آق‌ديکن
 akdini,afo2dko3y,عقدڭی
 akdâh,efo2dex,اقداح
 akdâm,efo2dem,اقدام
-akgünlük,eo6fo2<>kwbo1lk,آق‌کونلک
 akgünlük,eo6fo2||kwbo1lk,آق‌کونلک
-akhardal,eo6fo2<>xrdel,آق‌حردال
 akhardal,eo6fo2||xrdel,آق‌حردال
-akhaşhaş,eo6fo2<>xo1so3xo1eso3,آق‌خشخاش
 akhaşhaş,eo6fo2||xo1so3xo1eso3,آق‌خشخاش
 akhisar,eo6fo2xser,آقحسار
 akibe,aefo2bu1h,عاقبه
@@ -2582,7 +2529,7 @@ aki̇de,ao4fo2ydo4h||,عَقیدَه‌
 aki̇m,ao4fo2ymo0,عَقیمْ
 aki̇s,ao4ku4so0,عَکِسْ
 akkefal,eo6fo2 kfo1el,آق کفال
-akkuyruk,eo6fo2<>fo2wyrwfo2,آق‌قویروق
+akkuyruk,eo6fo2||fo2wyrwfo2,آق‌قویروق
 akl -ı baliğ,afo2l bu1elao1,عقل بالغ
 akl -ı evvel,afo2l ewl,عقل اول
 akl -ı küll,afo2l kl,عقل کل
@@ -2891,7 +2838,6 @@ aksinin,aksbo1ko3,عکسنڭ
 aksiyle,aksylh,عکسیله
 aksiyon,eo6fo2sbu2wbo1,آقسيون
 aksiyon,eo6fo2sywbo1,آقسیون
-aksu,eo6fo2<>sw,آق‌سو
 aksu,eo6fo2||sw,آق‌سو
 aksâ,efo2zy,اقصی
 aksâ,eo6fo2se,آقسا
@@ -2905,7 +2851,6 @@ aksâm-i sâire,efo2sem sebo5rh,اقسام سائره
 aksâm-ı sâire,efo2sem sebo5rh,اقسام سائره
 aksâmını,eo5fo2sembo1y,أقسامنی
 aksî,aksy,عکسی
-aksöğüt,eo6fo2<>skwd,آق‌سکود
 aksöğüt,eo6fo2||skwd,آق‌سکود
 aksü'l-amel,aks elaml,عکس العمل
 aksü'l-amel,ao4ko0so9 elo0ao4mo4lo0,عَکْسُ الْعَمَلْ
@@ -2913,7 +2858,6 @@ aksül'amel,aks elaml,عکس العمل
 aksülamel,aks elaml,عکس العمل
 aksülamel,ao4ko0so9 elo0ao4mo4lo0,عَکْسُ الْعَمَلْ
 aksülâmel,aks elaml,عکس العمل
-aksülümen,eo6fo2<>slmbo1,آق‌سلمن
 aksülümen,eo6fo2||slmbo1,آق‌سلمن
 aksımak,efo2zbu2mfo2,اقصيمق
 aksımak,efo2zymfo2,اقصیمق
@@ -2972,7 +2916,6 @@ aktarında,eo5fo2terbo1dh,أقطارنده
 aktarından,eo5fo2terbo1dbo1,أقطارندن
 aktarını,eo5fo2terybo1y,أقطارینی
 aktarıyla,eo5fo2terylh,أقطاریله
-aktavşan,eo6fo2<>tewso3ebo1,آق‌طاوشان
 aktavşan,eo6fo2||tewso3ebo1,آق‌طاوشان
 akta’ (),efo2tebu1,اقطاب
 aktris,eo6fo2bo2rbu2s,آقتريس
@@ -3037,13 +2980,10 @@ akâid-i,afo2eyo5du4,عقائدِ
 akâmet,afo2embo2,عقامت
 akça,eo6fo2xu3h,آقچه
 akça,eo6fo2xu3h||,آقچه‌
-akçaabat,eo6fo2xu3h<>eo6bu1ed,آقچه‌آباد
-akçaarmudu,eo6fo2xu3h<>eo6rmwdy,آقچه‌آرمودی
+akçaabat,eo6fo2xu3h||eo6bu1ed,آقچه‌آباد
 akçaarmudu,eo6fo2xu3h||eo6rmwdy,آقچه‌آرمودی
-akçaağaç,eo6fo2xu3h<>eo6ao1exu1,آقچه‌آغاج
 akçaağaç,eo6fo2xu3h||eo6ao1exu1,آقچه‌آغاج
-akçadağ,eo6fo2xu3h<>deao1,آقچه‌داغ
-akçakavak,eo6fo2xu3h<>fo2ewefo2,آقچه‌قاواق
+akçadağ,eo6fo2xu3h||deao1,آقچه‌داغ
 akçakavak,eo6fo2xu3h||fo2ewefo2,آقچه‌قاواق
 akçe,efo2o0xu3o4h,اقْچَه
 akçe,efo2o0xu3o4h||,اقْچَه‌
@@ -3167,7 +3107,7 @@ akıtmak,eo6fo2ybo2mfo2,آقیتمق
 akıtmakla,eo6fo2ybo2mfo2lh,آقیتمقله
 akıtmakta,eo6fo2ybo2mfo2dh,آقیتمقده
 akıtmalı,eo6fo2bu2bo2mh||ly,آقيتمه‌لی
-akıtmalı,eo6fo2ybo2mh<>ly,آقیتمه‌لی
+akıtmalı,eo6fo2ybo2mh||ly,آقیتمه‌لی
 akıtması,eo6fo2ybo2mesy,آقیتماسی
 akıtmasına,eo6fo2ybo2mesbo1h,آقیتماسنه
 akıtmağa,eo6fo2ybo2mao1h,آقیتمغه
@@ -3591,17 +3531,17 @@ alel-ıtlak'ın,aly eleu5tlefo2ko3,علی الإطلاقڭ
 alel-ıtlaktır,aly eleu5tlefo2dr,علی الإطلاقدر
 alelacele,aly elaxu1lh,علی العجله
 alelacele,aly elaxu1lh||,علی العجله‌
-alelacele,aly<>elaxu1lh||,علی‌العجله‌
+alelacele,aly||elaxu1lh||,علی‌العجله‌
 alelacele,aly||elaxu1lh,علی‌العجله
 alelade,aly elaedh||,علی العاده‌
-alelade,aly<>elaedh||,علی‌العاده‌
+alelade,aly||elaedh||,علی‌العاده‌
 alelamya,aly elamye,علی العمیا
 alelamyâ,aly elambu2e,علی العميا
 alelamyâ,aly elamye,علی العمیا
 alelekser,aly elekbo3r,علی الاکثر
 alelekser,aly eleo5kbo3r,علی الأکثر
 alelhusus,aly elxo1zwz,علی الخصوص
-alelhusus,aly<>elxo1zwz,علی‌الخصوص
+alelhusus,aly||elxo1zwz,علی‌الخصوص
 alelhusûs,aly elxo1zwz,علی الخصوص
 alelhusûs,aly||elxo1zwz,علی‌الخصوص
 alelicmal,aly elexu1mel,علی الاجمال
@@ -3618,13 +3558,13 @@ alelkifâye,aly elkfo1eyh,علی الکفایه
 alelküll,ao4lo4y elko9lo8,عَلَی الکُلّ
 alellah,aly e||ellh,علی ا‌الله
 alelumum,aly elamwm,علی العموم
-alelumum,aly<>elamwm,علی‌العموم
+alelumum,aly||elamwm,علی‌العموم
 alelumûm,aly elamwm,علی العموم
 alelusûl,aly eleo9zwl,علی الاُصول
 alelâde,aly elaedh,علی العاده
 alelâde,aly||elaedh,علی‌العاده
 alelûmûm,aly||elamwm,علی‌العموم
-alelüsul,aly<>elezwl,علی‌الاصول
+alelüsul,aly||elezwl,علی‌الاصول
 alelüsûl,aly||elezwl,علی‌الاصول
 alelıtlak'ın,aly eleu5tlefo2ko3,علی الإطلاقڭ
 alelıtlak,aly eletlefo2,علی الاطلاق
@@ -3742,7 +3682,6 @@ alev ile yanar,alweylh ybo1er,علوایله ینار
 alev vermek,alwwbu2rmk,علوويرمک
 alev vermek,alwwyrmk,علوویرمک
 alev,alw,علو
-alev,eo6lh<>w,آله‌و
 alev,eo6lh||w,آله‌و
 alev,eo6lo4wo0,آلَوْ
 alev,eo6lw,آلو
@@ -3761,8 +3700,8 @@ aleviyeye,ao4lo4wyh||yh,عَلَویه‌یه
 aleviyeyi,ao4lo4wyh||yy,عَلَویه‌یی
 aleviyye,ao4lo4wyh,عَلَویه
 alevlemiş,eo6lo4wo0lh||mso3,آلَوْله‌مش
-alevlen,alw<>lbo1,علو‌لن
-alevlen,eo6lw<>lbo1,آلو‌لن
+alevlen,alw||lbo1,علو‌لن
+alevlen,eo6lw||lbo1,آلو‌لن
 alevlendir,alwlbo1dyr,علولندیر
 alevlendir,eo6lwlbo1dyr,آلولندیر
 alevlendiriyor,eo6lo4wo0lbo1dyryywr,آلَوْلندیرییور
@@ -3771,10 +3710,9 @@ alevlendirmek,alwlbo1drmk,علولندرمک
 alevlendirmek,alwlbo1dyrmk,علولندیرمک
 alevlendirmek,eo6lwlbo1dbu2rmk,آلولنديرمک
 alevlendirmek,eo6lwlbo1dyrmk,آلولندیرمک
-alevlenmek,alw<>lbo1mk,علو‌لنمک
+alevlenmek,alw||lbo1mk,علو‌لنمک
 alevlenmek,alwlbo1mk,علولنمک
 alevlenmek,alw||lbo1mk,علو‌لنمک
-alevlenmek,eo6lw<>lbo1mk,آلو‌لنمک
 alevlenmek,eo6lw||lbo1mk,آلو‌لنمک
 alevler,eo6lo4wo0lr,آلَوْلر
 alevleri,eo6lo4wo0lry,آلَوْلری
@@ -4213,7 +4151,6 @@ altmış-yetmiş,eo6lbo2mso3 ybo2mso3,آلتمش یتمش
 altmış-yetmişi,eo6lbo2mso3 ybo2mso3y,آلتمش یتمشی
 altmışa,eo6lbo2mso3h,آلتمشه
 altmışaltı,eo6lbo2mso3 eo6lbo2y,آلتمش آلتی
-altmışaltı,eo6lbo2mso3<>eo6lbo2y,آلتمش‌آلتی
 altmışaltı,eo6lbo2mso3||eo6lbo2y,آلتمش‌آلتی
 altmışaltıdır,eo6lbo2mso3 eo6lbo2ydr,آلتمش آلتیدر
 altmışaltının,eo6lbo2mso3 eo6lbo2ybo1ko3,آلتمش آلتینڭ
@@ -4270,7 +4207,7 @@ altıbin,eo6lbo2y bu1yko3,آلتی بیڭ
 altıda bir,elbo2bu2dh bu1r,التيده بر
 altıda bir,elbo2ydh bu1r,التیده بر
 altıdır,eo6lbo2ydr,آلتیدر
-altıköşe,eo6lbo2y<>kwso3h||,آلتی‌کوشه‌
+altıköşe,eo6lbo2y||kwso3h||,آلتی‌کوشه‌
 altıköşe,eo6lbo2y||kwso3h,آلتی‌کوشه
 altılarına,eo6lbo2ylrybo1h,آلتیلرینه
 altılık,eo6lbo2bu2lfo2,آلتيلق
@@ -4309,7 +4246,6 @@ altındayım,eo6lbo2bo1dh||ym,آلتنده‌یم
 altındayız,eo6lbo2bo1dh||yro1,آلتنده‌یز
 altınkuyruk,eo6lbo2wbo1 fo2wbu2rwfo2,آلتون قويروق
 altınkuyruk,eo6lbo2wbo1 fo2wyrwfo2,آلتون قویروق
-altınkökü,eo6lbo2wbo1<>kwky,آلتون‌کوکی
 altınkökü,eo6lbo2wbo1||kwky,آلتون‌کوکی
 altınla,eo6lbo2wbo1le,آلتونلا
 altınla,eo6lbo2wbo1lh,آلتونله
@@ -4323,7 +4259,6 @@ altının,eo6lbo2bo1ko3,آلتنڭ
 altınını,eo6lbo2wbo1bo1y,آلتوننی
 altıparmak,elbo2y bu3rmfo2,التی پرمق
 altıparmak,eo6lbo2y bu3ermefo2,آلتی پارماق
-altıpatlar,eo6lbo2y<>bu3ebo2ler,آلتی‌پاتلار
 altıpatlar,eo6lbo2y||bu3ebo2ler,آلتی‌پاتلار
 altısı,eo6lbo2ysy,آلتیسی
 altısına,eo6lbo2ysbo1h,آلتیسنه
@@ -4771,16 +4706,14 @@ amca,amwxu1h||,عموجه‌
 amca,amxu1h,عمجه
 amca,amxu1h||,عمجه‌
 amcacığım,amwxu1h||xu1ao1m,عموجه‌جغم
-amcalık,amxu1h<>lfo2,عمجه‌لق
 amcalık,amxu1h||lfo2,عمجه‌لق
 amcam,amwxu1h||m,عموجه‌م
 amcamdan,amwxu1h||mdbo1,عموجه‌مدن
 amcamın,amwxu1h||mko3,عموجه‌مڭ
-amcaoğlu,amxu1h<>ewao1ly,عمجه‌اوغلی
 amcaoğlu,amxu1h||ewao1ly,عمجه‌اوغلی
 amcası,amwxu1h||sy,عموجه‌سی
 amcasının,amwxu1h||sbo1ko3,عموجه‌سنڭ
-amcazade,amxu1h<>ro1edh||,عمجه‌زاده‌
+amcazade,amxu1h||ro1edh||,عمجه‌زاده‌
 amcazadem,amwxu1h||ro1edh||m,عموجه‌زاده‌م
 amcazâde,amxu1h||ro1edh,عمجه‌زاده
 amd,amd,عمد
@@ -4814,7 +4747,6 @@ amelden,amldbo1,عملدن
 ameldir,amldr,عملدر
 amele,amlh,عمله
 amele,amlh||,عمله‌
-amele-i mümessil,ao4mo4lu4 mo9mo4bo3u4o8lo0,عَمَلِ مُمَثِّلْ
 amele-i mümessil,ao4mo4lu4 mo9mo4bo3u4o8lo0,عَمَلِ مُمَثِّلْ
 amele-i,amlh||u4,عمله‌ِ
 amele-i̇ mümessi̇l,ao4mo4lu4 mo9mo4bo3u4o8lo0,عَمَلِ مُمَثِّلْ
@@ -5223,10 +5155,8 @@ andırıyor,eo6ko3dyryywr,آڭدیرییور
 andırış,ekdrso3,اکدرش
 andızotu,eo6bo1dyro1ewbo1y,آندیزاونی
 ane,ebo1h||,انه‌
-ane,eo6bo1h<>,آنه‌
-anestezi,eo6bo1h<>sbo2h<>ro1y,آنه‌سته‌زی
+ane,eo6bo1h||,آنه‌
 anestezi,eo6bo1h||sbo2h||ro1y,آنه‌سته‌زی
-anfiteatr,eo6bo1fo1y<>bo2h<>eo6bo2r,آنفی‌ته‌آتر
 anfiteatr,eo6bo1fo1y||bo2h||eo6bo2r,آنفی‌ته‌آتر
 angajman,eo6bo1ao1ero3mebo1,آنغاژمان
 angarya,eo6bo1ao1eryh,آنغاریه
@@ -5593,7 +5523,7 @@ ansamimilkalb,abo1 zmym elfo2lbu1,عن صمیم القلب
 ansamîmilkalb,abo1 zmbu2m elfo2lbu1,عن صميم القلب
 ansar,eo4bo1o0zer,اَنْصار
 ansiklopedi,eo6bo1sbu2fo2lwbu2h||dy,آنسيقلويه‌دی
-ansiklopedi,eo6bo1syfo2lwyh<>dy,آنسیقلویه‌دی
+ansiklopedi,eo6bo1syfo2lwyh||dy,آنسیقلویه‌دی
 ansiklopedisi,eo6bo1syfo2lwbu3h||dysy,آنسیقلوپه‌دیسی
 ansız,ebo1sro1,انسز
 ansız,eo6ko3sro1,آڭسز
@@ -5609,7 +5539,6 @@ antalya'lı,eo6bo1telyh||ly,آنطالیه‌لی
 antalya'ya,eo6bo1telyh||yh,آنطالیه‌یه
 antalya,eo6bo1telyh,آنطالیه
 antalya,eo6bo1telyh||,آنطالیه‌
-anten,eo6bo1bo2h<>bo1,آنته‌ن
 anten,eo6bo1bo2h||bo1,آنته‌ن
 antere,abo1bo2rh,عنتره
 antidemokratik,eo6bo1bo2y dmwfo2rebo2yk,آنتی دموقراتیک
@@ -5628,13 +5557,10 @@ antikasıdır,eo6bo1bo2yfo2h||sydr,آنتیقه‌سیدر
 antikasını,eo6bo1bo2yfo2h||sbo1y,آنتیقه‌سنی
 antimon,eo6bo1bo2ymwbo1,آنتیمون
 antipirin,eo6bo1bo2ybu3yrybo1,آنتیپیرین
-antisepsi,eo6bo1bo2y<>sh<>bu3sy,آنتی‌سه‌پسی
 antisepsi,eo6bo1bo2y||sh||bu3sy,آنتی‌سه‌پسی
-antiseptik,eo6bo1bo2y<>sh<>bu3bo2yk,آنتی‌سه‌پتیک
 antiseptik,eo6bo1bo2y||sh||bu3bo2yk,آنتی‌سه‌پتیک
 antre,eo6bo1bo2rh,آنتره
 antre,eo6bo1bo2rh||,آنتره‌
-antrenör,eo6bo1bo2rh<>bo1wr,آنتره‌نور
 antrenör,eo6bo1bo2rh||bo1wr,آنتره‌نور
 antrepo,eo6bo1bo2rbu3w,آنترپو
 antrik,eo6bo1tryfo2,آنطریق
@@ -5694,7 +5620,6 @@ ap,eo6bu3,آپ
 apalak,eo6bu3elefo2,آپالاق
 apandisit,eo6bu3ebo1dysybo2,آپاندیسیت
 apansız,ebu1 ebo1sro1,اب انسز
-apansız,ebu3<>ebo1sro1,اپ‌انسز
 apansız,ebu3||ebo1sro1,اپ‌انسز
 apansız,eo6bu3eko3sro1,آپاڭسز
 apansız,eo6bu3eksro1,آپاکسز
@@ -5714,9 +5639,7 @@ apaz,eo6bu3ero1,آپاز
 apazlama,eo6bu3ero1lemh,آپازلامه
 apazlama,eo6bu3ero1lemh||,آپازلامه‌
 apazlamak,eo6bu3ero1lemfo2,آپازلامق
-apaçık,ebu3<>exu3fo2,اپ‌اچق
 apaçık,ebu3||exu3fo2,اپ‌اچق
-apaçık,eo6bu3<>eo6xu3yfo2,آپ‌آچیق
 apaçık,eo6bu3||eo6xu3yfo2,آپ‌آچیق
 apaşikâr,eo6bu3 eo6so3ker,آپ آشکار
 apiko,eo6bu3bu2wfo2w,آپيوقو
@@ -5777,10 +5700,9 @@ araba,eo6rebu1h,آرابه
 araba,eo6rebu1h||,آرابه‌
 arabacı,arbu1h xu1y,عربه جی
 arabacı,eo6rebu1exu1y,آراباجی
-arabacı,eo6rebu1h<>xu1y,آرابه‌جی
 arabacı,eo6rebu1h||xu1y,آرابه‌جی
 arabacılar,eo6rebu1h||xu1ylr,آرابه‌جیلر
-arabacılık,eo6rebu1h<>xu1ylfo2,آرابه‌جیلق
+arabacılık,eo6rebu1h||xu1ylfo2,آرابه‌جیلق
 arabacılık,eo6rebu1h||xu1bu2lfo2,آرابه‌جيلق
 arabamızın,eo6rebu1h||mro1ko3,آرابه‌مزڭ
 arabanın,eo6rebu1h||bo1ko3,آرابه‌نڭ
@@ -5913,7 +5835,6 @@ aralatmak,eo6relebo2mfo2,آرالاتمق
 aralaş,eo6releso3,آرالاش
 aralaşmak,eo6releso3mfo2,آرالاشمق
 aralık,eo6relfo2,آرالق
-aralık,eo6rh<>lfo2,آره‌لق
 aralık,eo6rh||lfo2,آره‌لق
 aralık,erelfo2,ارالق
 aralıktan bakmak,erelfo2dbo1 bu1efo2mfo2,ارالقدن باقمق
@@ -6024,7 +5945,6 @@ arasından,eo6resbo1dbo1,آراسندن
 arasındasın,eo6resbo1dh||sko3,آراسنده‌سڭ
 arasınlar,eo6resybo1lr,آراسینلر
 arasıra,eo6re zyrh,آرا صیره
-arasıra,eo6re<>syre,آرا‌سیرا
 arasıra,eo6re||syre,آرا‌سیرا
 arat,eo6rebo2,آرات
 aratmak,eo6rebo2mfo2,آراتمق
@@ -6287,12 +6207,10 @@ arkalarındaki,eo6rfo2h||lrbo1dh||ky,آرقه‌لرنده‌کی
 arkalarından,eo6rfo2h||lrbo1dbo1,آرقه‌لرندن
 arkalarını,eo6rfo2h||lrybo1y,آرقه‌لرینی
 arkalı,eo6rfo2ely,آرقالی
-arkalı,eo6rfo2h<>ly,آرقه‌لی
 arkalı,eo6rfo2h||ly,آرقه‌لی
 arkalık,eo6rfo2elfo2,آرقالق
-arkalık,eo6rfo2h<>lfo2,آرقه‌لق
 arkalık,eo6rfo2h||lfo2,آرقه‌لق
-arkalıç,eo6rfo2h<>lyxu1,آرقه‌لیج
+arkalıç,eo6rfo2h||lyxu1,آرقه‌لیج
 arkalıç,eo6rfo2h||lbu2xu1,آرقه‌ليج
 arkama,eo6rfo2h||mh,آرقه‌مه
 arkamda,eo6rfo2h||mdh,آرقه‌مده
@@ -6370,7 +6288,7 @@ arnold,eo6rbo1wld,آرنولد
 arpa saman,erbu3h zmebo1,ارپه صمان
 arpa suyu mayası,erbu3h zwbu2y mebu2h sy,ارپه صويی مايه سی
 arpa suyu mayası,erbu3h zwyy meyh sy,ارپه صویی مایه سی
-arpa suyu,eo6rbu3h<>zwyy,آرپه‌صویی
+arpa suyu,eo6rbu3h||zwyy,آرپه‌صویی
 arpa suyu,eo6rbu3h||zwbu2y,آرپه‌صويی
 arpa suyu,erbu3h zwbu2y,ارپه صويی
 arpa suyu,erbu3h zwyy,ارپه صویی
@@ -6379,19 +6297,15 @@ arpa,eo6rbu3h,آرپه
 arpa,eo6rbu3h||,آرپه‌
 arpa,erbu3h,ارپه
 arpa,erbu3h||,ارپه‌
-arpacı,eo6rbu3h<>xu1y,آرپه‌جی
 arpacı,eo6rbu3h||xu1y,آرپه‌جی
 arpacık,eo6rbu3exu1fo2,آرپاجق
-arpacık,eo6rbu3h<>xu1fo2,آرپه‌جق
 arpacık,eo6rbu3h||xu1fo2,آرپه‌جق
 arpacık,erbu3h xu1fo2,ارپه جق
 arpadan,eo6rbu3h||dbo1,آرپه‌دن
 arpala,eo6rbu3ele,آرپالا
 arpalamak,eo6rbu3elemfo2,آرپالامق
-arpalamak,eo6rbu3h<>lemfo2,آرپه‌لامق
 arpalamak,eo6rbu3h||lemfo2,آرپه‌لامق
 arpalık,eo6rbu3elfo2,آرپالق
-arpalık,eo6rbu3h<>lfo2,آرپه‌لق
 arpalık,eo6rbu3h||lfo2,آرپه‌لق
 arpalık,erbu3h lfo2,ارپه لق
 arpanın,eo6rbu3h||bo1ko3,آرپه‌نڭ
@@ -6405,7 +6319,6 @@ arsa,arzh||,عرصه‌
 arsalarına,arzh||lrybo1h,عرصه‌لرینه
 arsenik,eo6rsbo1bu2k,آرسنيک
 arsenik,eo6rsbo1yk,آرسنیک
-arsenik,eo6rsh<>bo1yk,آرسه‌نیک
 arsenik,eo6rsh||bo1yk,آرسه‌نیک
 arslan,eo6rslebo1,آرسلان
 arslan,erslebo1,ارسلان
@@ -6804,8 +6717,8 @@ arız,ao4eru4zo1o0,عَارِضْ
 arıza,aerzo1h||,عارضه‌
 arızalar,aerzo1h||lr,عارضه‌لر
 arızalarla,aerzo1h||lrlh,عارضه‌لرله
-arızalı,aerzo1h<>ly,عارضه‌لی
-arızasız,aerzo1h<>sro1,عارضه‌سز
+arızalı,aerzo1h||ly,عارضه‌لی
+arızasız,aerzo1h||sro1,عارضه‌سز
 arızayı,aerzo1h||yy,عارضه‌یی
 arızi,aerzo1y,عارضی
 arızi,ao4eru4zo1y,عَارِضی
@@ -6873,7 +6786,6 @@ asabi,azbu1y,عصبی
 asabilerde,azbu1ylrdh,عصبیلرده
 asabilik,azbu1ylk,عصبیلک
 asabiliktir,azbu1ylkdr,عصبیلکدر
-asabiyeci,azbu1yh<>xu1y,عصبیه‌جی
 asabiyeci,azbu1yh||xu1y,عصبیه‌جی
 asabiyemin,azbu1yh||mko3,عصبیه‌مڭ
 asabiyesine,azbu1yh||sbo1h,عصبیه‌سنه
@@ -6959,10 +6871,8 @@ asdır,eo6zdyr,آصدیر
 asdırmak,eo6zdyrmfo2,آصدیرمق
 asel,asl,عسل
 asel-i,aslu4,عسلِ
-asepsi,eo6sh<>bu3sy,آسه‌پسی
 asepsi,eo6sh||bu3sy,آسه‌پسی
 ases,ass,عسس
-asetilen,eo6sh<>bo2ylbo1,آسه‌تیلن
 asetilen,eo6sh||bo2ylbo1,آسه‌تیلن
 asfalt,eo6sfo1elbo2,آسفالت
 asfer,ezfo1r,اصفر
@@ -7168,7 +7078,6 @@ aslan,eo6rslebo1,آرسلان
 aslanağzı,eo6rslebo1 eo6ao1ro1y,آرسلان آغزی
 aslancı,eo6rslebo1xu1y,آرسلانجی
 aslankuyruğu,eo6rslebo1 fo2wyrwao1y,آرسلان قویروغی
-aslanpençesi,erslebo1 bu3bo1xu1h<>sy,ارسلان پنجه‌سی
 aslanpençesi,erslebo1 bu3bo1xu1h||sy,ارسلان پنجه‌سی
 aslen,eo5zleo44,أصلاً
 asli,ezly,اصلی
@@ -7241,7 +7150,6 @@ asma,ezmh,اصمه
 asma,ezmh||,اصمه‌
 asmak,eo6zmfo2,آصمق
 asmak,ezmfo2,اصمق
-asmakabağı,eo6zmh<>fo2bu1eao1y,آصمه‌قباغی
 asmakabağı,eo6zmh||fo2bu1eao1y,آصمه‌قباغی
 asmam,eo6zmem,آصمام
 asman,eo6smebo1,آسمان
@@ -7361,7 +7269,6 @@ asıl mâl sâhibi,ezl mel zexbu1y,اصل مال صاحبی
 asıl,eo5zl,أصل
 asıl,eo6zyl,آصیل
 asıl,ezl,اصل
-asılacak,eo6sylh<>xu1fo2,آسیله‌جق
 asılacak,eo6sylh||xu1fo2,آسیله‌جق
 asılacak,eo6zylexu1fo2,آصیلاجق
 asılacaksın,eo6zylexu1fo2sko3,آصیلاجقسڭ
@@ -7524,9 +7431,8 @@ aterina,eo6bo2rbu2bo1h,آترينه
 aterina,eo6bo2rybo1h||,آترینه‌
 ateş almak,ebo2so3 elmfo2,اتش المق
 ateş almamak,ebo2so3 elmemfo2,اتش المامق
-ateş balığı,eo6bo2so3<>bu1elyao1y,آتش‌بالیغی
+ateş balığı,eo6bo2so3||bu1elyao1y,آتش‌بالیغی
 ateş balığı,eo6bo2so3||bu1elbu2ao1y,آتش‌باليغی
-ateş böceği,eo6bo2so3<>bu1wxu1ky,آتش‌بوجکی
 ateş böceği,eo6bo2so3||bu1wxu1ky,آتش‌بوجکی
 ateş etmek,ebo2so3 e,اتش ا
 ateş gemisi,ebo2so3 kmbu2sy,اتش کميسی
@@ -7539,7 +7445,7 @@ ateş çakmak,ebo2so3 xu3efo2mfo2,اتش چاقمق
 ateş,ebo2so3,اتش
 ateş,eo6bo2so3,آتش
 ateş-i,eo6bo2so3u4,آتشِ
-ateşane,eo6bo2so3xo1ebo1h<>,آتشخانه‌
+ateşane,eo6bo2so3xo1ebo1h||,آتشخانه‌
 ateşbalığı,eo6bo2so3 bu1elyao1y,آتش بالیغی
 ateşbar,eo6bo2so3 bu1er,آتش بار
 ateşbaz,eo6bo2so3bu1ero1,آتشباز
@@ -7551,13 +7457,13 @@ ateşdem,eo6bo2so3 dm,آتش دم
 ateşe göstermek,ebo2so3hkwsbo2rmk,اتشهکوسترمک
 ateşe,eo6bo2so3h,آتشه
 ateşefruz,eo6bo2so3 efo1rwro1,آتش افروز
-ateşefşan,eo6bo2so3<>efo1so3ebo1,آتش‌افشان
+ateşefşan,eo6bo2so3||efo1so3ebo1,آتش‌افشان
 ateşeliğinizde,eo6bo2so3h||lko7ko3ro1dh,آتشه‌لگڭزده
 ateşemiliterliği,eo6bo2so3h||mylybo2rlko7y,آتشه‌میلیترلگی
-ateşengiz,eo6bo2so3<>ebo1kyro1,آتش‌انکیز
+ateşengiz,eo6bo2so3||ebo1kyro1,آتش‌انکیز
 ateşfam,eo6bo2so3 fo1em,آتش فام
 ateşfeşan,eo6bo2so3 fo1so3ebo1,آتش فشان
-ateşfeşan,eo6bo2so3<>fo1so3ebo1,آتش‌فشان
+ateşfeşan,eo6bo2so3||fo1so3ebo1,آتش‌فشان
 ateşgah,eo6bo2so3ko7eh||,آتشگاه‌
 ateşgede,eo6bo2so3kdh||,آتشکده‌
 ateşgede,eo6bo2so3ko7dh||,آتشگده‌
@@ -7621,7 +7527,7 @@ ateşsiz,eo6bo2so3sro1,آتشسز
 ateşte,eo6bo2so3dh,آتشده
 ateşten,eo6bo2so3dbo1,آتشدن
 ateştir,eo6bo2so3dr,آتشدر
-ateşzeban,eo6bo2so3<>ro1bu1ebo1,آتش‌زبان
+ateşzeban,eo6bo2so3||ro1bu1ebo1,آتش‌زبان
 ateşâne,eo6bo2so3xo1ebo1h||,آتشخانه‌
 ateşçi,eo6bo2so3xu1y,آتشجی
 ateşçilik,eo6bo2so3xu1bu2lk,آتشجيلک
@@ -7697,7 +7603,6 @@ ati̇k,ao4bo2u4yfo2o0,عَتِیقْ
 ati̇yye,ao4tu4yo4o8h||,عَطِیَّه‌
 ati̇yye-i̇ seni̇yye,atyhc sbo1yh||,عطیهء سنیه‌
 atkafalı,eo6bo2 fo2fo1ely,آت قفالی
-atkestanesi,eo6bo2 ksbo2ebo1h<>sy,آت کستانه‌سی
 atkestanesi,eo6bo2 ksbo2ebo1h||sy,آت کستانه‌سی
 atkulağı,eo6bo2 fo2wleao1y,آت قولاغی
 atkuyruğu,eo6bo2 fo2wyrwao1y,آت قویروغی
@@ -7712,7 +7617,7 @@ atla,eo6bo2le,آتلا
 atladı,eo6bo2ledy,آتلادی
 atladım,eo6bo2ledm,آتلادم
 atladığımı,eo6bo2ledyao1my,آتلادیغمی
-atlama,eo6bo2le<>mh||,آتلا‌مه‌
+atlama,eo6bo2le||mh||,آتلا‌مه‌
 atlama,eo6bo2lemh,آتلامه
 atlama,eo6bo2lemh||,آتلامه‌
 atlama,eo6bo2le||mh,آتلا‌مه
@@ -7722,8 +7627,8 @@ atlamak,eo6bo2lemfo2,آتلامق
 atlamakla,eo6bo2lemfo2lh,آتلامقله
 atlamaklar,eo6bo2lemfo2lr,آتلامقلر
 atlambaç,eo6bo2lembu1exu1,آتلامباج
-atlandır,eo6bo2le<>bo1dyr,آتلا‌ندیر
-atlandırmak,eo6bo2le<>bo1dyrmfo2,آتلا‌ندیرمق
+atlandır,eo6bo2le||bo1dyr,آتلا‌ندیر
+atlandırmak,eo6bo2le||bo1dyrmfo2,آتلا‌ندیرمق
 atlandırmak,eo6bo2lebo1dbu2rmfo2,آتلانديرمق
 atlandırmak,eo6bo2lebo1dyrmfo2,آتلاندیرمق
 atlandırmak,eo6bo2le||bo1dyrmfo2,آتلا‌ندیرمق
@@ -8292,16 +8197,14 @@ ayakaltı,eo6yefo2 eo6lbo2y,آیاق آلتی
 ayakdaş,ebu2efo2deso3,اياقداش
 ayakdaş,eyefo2deso3,ایاقداش
 ayakkabı,ebu2efo2 fo2ebu1y,اياق قابی
-ayakkabı,eo6yefo2<>fo2ebu1y,آیاق‌قابی
 ayakkabı,eo6yefo2||fo2ebu1y,آیاق‌قابی
 ayakkabı,eyefo2 fo2ebu1y,ایاق قابی
 ayakkabıcı,eo6yefo2 fo2ebu1yxu1y,آیاق قابیجی
-ayakla,eo6ye<>fo2le,آیا‌قلا
+ayakla,eo6ye||fo2le,آیا‌قلا
 ayaklamak,eo6bu2e||fo2lemfo2,آيا‌قلامق
-ayaklamak,eo6ye<>fo2lemfo2,آیا‌قلامق
+ayaklamak,eo6ye||fo2lemfo2,آیا‌قلامق
 ayaklan,eo6yefo2lebo1,آیاقلان
-ayaklandır,eo6ye<>fo2lebo1dyr,آیا‌قلاندیر
-ayaklandırmak,eo6ye<>fo2lebo1dyrmfo2,آیا‌قلاندیرمق
+ayaklandır,eo6ye||fo2lebo1dyr,آیا‌قلاندیر
 ayaklandırmak,eo6ye||fo2lebo1dyrmfo2,آیا‌قلاندیرمق
 ayaklanmak,ebu2efo2lbo1mfo2,اياقلنمق
 ayaklanmak,eo6yefo2lebo1mfo2,آیاقلانمق
@@ -8403,7 +8306,6 @@ ayağımızın,eo6yeao1mro1ko3,آیاغمزڭ
 ayağın üstü,ebu2eao1k ewsbo2y,اياغک اوستی
 ayağın üstü,eyeao1k ewsbo2y,ایاغک اوستی
 ayağın,eo6yeao1ko3,آیاغڭ
-ayağına çabuk,eo6ye<>ao1bo1h<>xu3ebu1wfo2,آیا‌غنه‌چابوق
 ayağına çabuk,eo6ye||ao1bo1h||xu3ebu1wfo2,آیا‌غنه‌چابوق
 ayağına,eo6yeao1bo1h,آیاغنه
 ayağında,eo6yeao1ko3dh,آیاغڭده
@@ -8554,15 +8456,13 @@ ayn-ı şükrân,ao4bu2o0bo1u4 so3o9ko0ro4ebo1o0,عَيْنِ شُکْرَانْ
 ayn-ı,aybo1u4,عینِ
 ayna,eo6ybo1h,آینه
 ayna,eo6ybo1h||,آینه‌
-aynacı,eo6ybo1h<>xu1y,آینه‌جی
 aynacı,eo6ybo1h||xu1y,آینه‌جی
 aynada,eo6yybo1h||dh,آیینه‌ده
 aynalarına,eo6yybo1h||lrybo1h,آیینه‌لرینه
-aynalı,eo6ybo1h<>ly,آینه‌لی
 aynalı,eo6ybo1h||ly,آینه‌لی
 aynasiyle,eo6yybo1h||sylh,آیینه‌سیله
 aynasız ,eo6ybo1h||sro1,آینه‌سز
-aynasız,eo6ybo1h<>sro1,آینه‌سز
+aynasız,eo6ybo1h||sro1,آینه‌سز
 aynda,aybo1dh,عینده
 ayndır,aybo1dr,عیندر
 aynel-yakîn,aybo1 elyfo2ybo1,عین الیقین
@@ -8740,7 +8640,7 @@ ayyari,ayery,عیاری
 ayyaş,ayeso3,عیاش
 ayyaş,ayo8eso3,عیّاش
 ayyaşlar,ayo8eso3lr,عیّاشلر
-ayyaşlık,aye<>so3lfo2,عیا‌شلق
+ayyaşlık,aye||so3lfo2,عیا‌شلق
 ayyaşlık,ayeso3lfo2,عیاشلق
 ayyaşlık,aye||so3lfo2,عیا‌شلق
 ayyaşın,ayo8eso3ko3,عیّاشڭ
@@ -9296,14 +9196,13 @@ azıt,eo6ro1ybo2,آزیت
 azıtmak,eo6ro1ybo2mfo2,آزیتمق
 aç bırakmak,exu1 bu1refo2mfo2,اج براقمق
 aç durmak,exu1 dwrmfo2,اج دورمق
-aç gözlü,eo6xu1<>kwro1ly,آج‌کوزلی
 aç gözlü,eo6xu1||kwro1ly,آج‌کوزلی
-aç gözlülük,eo6xu1<>kwro1lylk,آج‌کوزلیلک
+aç gözlülük,eo6xu1||kwro1lylk,آج‌کوزلیلک
 aç gözlülük,eo6xu1||kwro1lbu2lk,آج‌کوزليلک
 aç kalmak,exu1 fo2elmfo2,اج قالمق
-aç karnına,exu1<>fo2erbo1bo1h||,اج‌قارننه‌
+aç karnına,exu1||fo2erbo1bo1h||,اج‌قارننه‌
 aç karnına,exu1||fo2erbo1bo1h,اج‌قارننه
-aç karnına,exu3<>fo2erbo1bo1h||,اچ‌قارننه‌
+aç karnına,exu3||fo2erbo1bo1h||,اچ‌قارننه‌
 aç karnına,exu3||fo2erbo1bo1h,اچ‌قارننه
 aç koymak,exu1 fo2wmfo2,اج قومق
 aç olmak,exu1 ew,اج او
@@ -9340,10 +9239,8 @@ açarım,eo6xu3erm,آچارم
 açayım,eo6xu3eym,آچایم
 açgözlü,eo6xu1 kwro1lw,آج کوزلو
 açgözlü,exu1 kwro1lw,اج کوزلو
-açgözlü,exu1<>kwro1lw,اج‌کوزلو
 açgözlü,exu1||kwro1lw,اج‌کوزلو
 açgözlü,exu3 kwro1lw,اچ کوزلو
-açgözlü,exu3<>kwro1lw,اچ‌کوزلو
 açgözlü,exu3||kwro1lw,اچ‌کوزلو
 açkı,eo6xu3fo2y,آچقی
 açkıcı,eo6xu3fo2bu2xu1y,آچقيجی
@@ -9380,7 +9277,6 @@ açmakla,eo6xu3mfo2lh,آچمقله
 açmaktı,eo6xu3mfo2dy,آچمقدی
 açmaktır,eo6xu3mfo2dr,آچمقدر
 açmalarını,eo6xu3melrybo1y,آچمالرینی
-açmalık,eo6xu3mh<>lfo2,آچمه‌لق
 açmalık,eo6xu3mh||lfo2,آچمه‌لق
 açmalıyız,eo6xu3mely||yro1,آچمالی‌یز
 açmamak,eo6xu3memfo2,آچمامق
@@ -9478,7 +9374,7 @@ açık-saçıklıkla,eo6xu3yfo2 zexu3yfo2lfo2lh,آچیق صاچیقلقله
 açıkağız,eo6xu3bu2fo2 eo6ao1bu2ro1,آچيق آغيز
 açıkağız,eo6xu3yfo2 eo6ao1yro1,آچیق آغیز
 açıkağızlı,eo6xu3bu2fo2||eo6ao1ro1ly,آچيق‌آغزلی
-açıkağızlı,eo6xu3yfo2<>eo6ao1ro1ly,آچیق‌آغزلی
+açıkağızlı,eo6xu3yfo2||eo6ao1ro1ly,آچیق‌آغزلی
 açıkgöz,eo6xu3bu2fo2 ko7wro1,آچيق گوز
 açıkgöz,eo6xu3yfo2 ko7wro1,آچیق گوز
 açıkla,eo6xu1yfo2le,آجیقلا
@@ -9667,7 +9563,7 @@ ağaçkakan,eao1exu1 fo2efo2ebo1,اغاج قاقان
 ağaçkakan,eo6ao1exu1 fo2efo2ebo1,آغاج قاقان
 ağaçkavunu,eo6ao1exu1 fo2ewwbo1y,آغاج قاوونی
 ağaçkurdu,eo6ao1exu1 fo2wrdy,آغاج قوردی
-ağaçlalesi,eo6ao1exu1 le<>lh<>sy,آغاج لا‌له‌سی
+ağaçlalesi,eo6ao1exu1 le||lh||sy,آغاج لا‌له‌سی
 ağaçlar,eo6ao1exu1lr,آغاجلر
 ağaçlara,eo6ao1exu1lrh,آغاجلره
 ağaçlarda,eo6ao1exu1lrdh,آغاجلرده
@@ -9924,7 +9820,6 @@ ağyâr,eao1bu2er,اغيار
 ağz,eao1ro1,اغز
 ağza almak,eao1ro1h elmfo2,اغزه المق
 ağzı,eo6ao1ro1y,آغزی
-ağzıkara,eo6ao1ro1y<>fo2ere,آغزی‌قارا
 ağzıkara,eo6ao1ro1y||fo2ere,آغزی‌قارا
 ağzım,eo6ao1ro1m,آغزم
 ağzıma,eo6ao1ro1ymh,آغزیمه
