@@ -5,6 +5,7 @@ import (
 	dervaze "dervaze/lang"
 	"flag"
 	"fmt"
+	"log"
 	"net"
 	"regexp"
 	"strconv"
@@ -18,20 +19,31 @@ var (
 	port      = flag.Int("p", "9876", "port to listen to")
 )
 
-type dervazeServer struct {
+// DervazeServer implementation
+type DervazeServer struct {
 }
 
-func (*dervazeServer) VisencToOttoman(ctx context.Context, in *dervaze.OttomanWord, opts ...grpc.CallOption) (*dervaze.OttomanWord, error) {
+// NewDervazeServer builds a new server instance
+func NewDervazeServer() *DervazeServer {
+	return &DervazeServer{}
+}
 
-	out := dervaze.MakeOttomanWord(in.Visenc, "")
-	return &out, nil
+// VisencToOttoman converts a visenc string to Ottoman unicode
+func (*DervazeServer) VisencToOttoman(ctx context.Context, in *dervaze.OttomanWord, opts ...grpc.CallOption) (*dervaze.OttomanWord, error) {
+
+	out, err := dervaze.MakeOttomanWord(in.Visenc, "")
+	return out, err
 
 }
-func (*dervazeServer) OttomanToVisenc(ctx context.Context, in *dervaze.OttomanWord, opts ...grpc.CallOption) (*dervaze.OttomanWord, error) {
-	out := dervaze.MakeOttomanWord("", in.Unicode)
-	return &out, nil
+
+// OttomanToVisenc converts a Unicode string to Visenc
+func (*DervazeServer) OttomanToVisenc(ctx context.Context, in *dervaze.OttomanWord, opts ...grpc.CallOption) (*dervaze.OttomanWord, error) {
+	out, err := dervaze.MakeOttomanWord("", in.Unicode)
+	return out, err
 }
-func (*dervazeServer) SearchRoots(ctx context.Context, in *dervaze.SearchRequest, opts ...grpc.CallOption) (*dervaze.RootSet, error) {
+
+// SearchRoots makes a search with various fields and types and returns a Rootset described by the result
+func (*DervazeServer) SearchRoots(ctx context.Context, in *dervaze.SearchRequest, opts ...grpc.CallOption) (*dervaze.RootSet, error) {
 
 	var rootList []*dervaze.Root
 	var err error = nil
@@ -102,9 +114,14 @@ func (*dervazeServer) SearchRoots(ctx context.Context, in *dervaze.SearchRequest
 
 	}
 
-}
-func (*dervazeServer) Translate(ctx context.Context, in *dervaze.TranslateRequest, opts ...grpc.CallOption) (*dervaze.TranslateResponse, error) {
+	rs := dervaze.RootSet{Roots: rootList}
+	return &rs, err
 
+}
+
+// Translate returns the translation of an Ottoman or Turkish latin sentence
+func (*DervazeServer) Translate(ctx context.Context, in *dervaze.TranslateRequest, opts ...grpc.CallOption) (*dervaze.TranslateResponse, error) {
+	return nil, fmt.Errorf("Not Implemented")
 }
 func server(host, port string) {
 
@@ -116,9 +133,13 @@ func server(host, port string) {
 
 	server := grpc.NewServer()
 
-	ds := dervazeServer{}
+	ds := NewDervazeServer()
 
-	dervaze.RegisterDervazeServer(server, &ds)
+	dervaze.RegisterDervazeServer(server, *ds)
+
+	if err := server.Serve(listener); err != nil {
+		log.Fatalf("failed to serve: %s", err)
+	}
 
 }
 
@@ -131,6 +152,6 @@ func main() {
 		fmt.Printf("%s=%s [%s] \n", f.Name, f.Value.String(), f.Usage)
 	})
 
-	dervaze.InitSearch(inputfile)
-	server(host, port)
+	dervaze.InitSearch(*inputfile)
+	server(*host, *port)
 }
