@@ -293,26 +293,31 @@ func indexRegexSearch(keylist []string, r *regexp.Regexp) []*Root {
 	return roots
 }
 
-// RegexSearchTurkishLatin searches word in the string index via regexes.
+// FuzzySearchTurkishLatin searches word in the string index via regexes.
 // `word` is searched as `.?w.?o.?r.?d.?`
-func RegexSearchTurkishLatin(word string, maxLen int) []*Root {
+func FuzzySearchTurkishLatin(word string, maxLen int) []*Root {
 
 	runes := []rune(word)
 	var sb strings.Builder
-	sb.WriteString(".?")
+	sb.WriteString(".*")
 	for _, r := range runes {
 		sb.WriteRune(r)
-		sb.WriteString(".?")
+		sb.WriteString(".*")
 	}
 
 	searchRegex := regexp.MustCompile(sb.String())
+	return RegexSearchTurkishLatin(searchRegex, maxLen)
+}
+
+// RegexSearchTurkishLatin searches turkishLatinIndex with the supplied regex
+func RegexSearchTurkishLatin(regex *regexp.Regexp, maxLen int) []*Root {
 
 	results := make([]*Root, 0)
 
 	// TODO convert the search to goroutines
 
 	for _, indexList := range *turkishLatinIndex {
-		docResults := indexRegexSearch(indexList, searchRegex)
+		docResults := indexRegexSearch(indexList, regex)
 		results = append(results, docResults...)
 	}
 
@@ -325,25 +330,30 @@ func RegexSearchTurkishLatin(word string, maxLen int) []*Root {
 	return results
 }
 
-// RegexSearchUnicode searches `word` in unicode indices
-func RegexSearchUnicode(word string, maxLen int) []*Root {
+// FuzzySearchUnicode searches `word` in unicode indices
+func FuzzySearchUnicode(word string, maxLen int) []*Root {
 
 	runes := []rune(word)
 	var sb strings.Builder
-	sb.WriteString(".?")
+	sb.WriteString(".*")
 	for _, r := range runes {
 		sb.WriteRune(r)
-		sb.WriteString(".?")
+		sb.WriteString(".*")
 	}
 
 	searchRegex := regexp.MustCompile(sb.String())
+	return RegexSearchUnicode(searchRegex, maxLen)
+}
+
+// RegexSearchUnicode searches unicodeIndex with the supplied regex and returns at most maxLen results
+func RegexSearchUnicode(regex *regexp.Regexp, maxLen int) []*Root {
 
 	results := make([]*Root, 0)
 
 	// TODO convert the search to goroutines
 
 	for _, indexList := range *unicodeIndex {
-		docResults := indexRegexSearch(indexList, searchRegex)
+		docResults := indexRegexSearch(indexList, regex)
 		results = append(results, docResults...)
 	}
 
@@ -356,26 +366,32 @@ func RegexSearchUnicode(word string, maxLen int) []*Root {
 	return results
 }
 
-// RegexSearchVisenc searches word in visencIndices
-func RegexSearchVisenc(word string, maxLen int) []*Root {
+// FuzzySearchVisenc searches word in visencIndices using fuzzy matching
+func FuzzySearchVisenc(word string, maxLen int) []*Root {
 
 	visencLetters := SplitVisenc(word, false)
 
 	var sb strings.Builder
-	sb.WriteString(".?")
+	sb.WriteString(".*")
 	for _, v := range visencLetters {
 		sb.WriteString(v)
-		sb.WriteString(".?")
+		sb.WriteString(".*")
 	}
 
 	searchRegex := regexp.MustCompile(sb.String())
+	return RegexSearchVisenc(searchRegex, maxLen)
+
+}
+
+// RegexSearchVisenc makes a search in visenc field with the supplied regexp
+func RegexSearchVisenc(regex *regexp.Regexp, maxLen int) []*Root {
 
 	results := make([]*Root, 0)
 
 	// TODO convert the search to goroutines
 
 	for _, indexList := range *visencIndex {
-		docResults := indexRegexSearch(indexList, searchRegex)
+		docResults := indexRegexSearch(indexList, regex)
 		results = append(results, docResults...)
 	}
 
@@ -388,18 +404,34 @@ func RegexSearchVisenc(word string, maxLen int) []*Root {
 	return results
 }
 
-// RegexSearchAuto searches word in either of RegexSearchUnicode, RegexSearchTurkishLatin, RegexSearchVisenc and IndexSearchAbjad
-func RegexSearchAuto(word string, maxLen int) []*Root {
+// FuzzySearchAuto searches word in either of FuzzySearchUnicode, FuzzySearchTurkishLatin, FuzzySearchVisenc and IndexSearchAbjad
+func FuzzySearchAuto(word string, maxLen int) []*Root {
 
 	if ContainsArabicChars(word) {
-		return RegexSearchUnicode(word, maxLen)
+		return FuzzySearchUnicode(word, maxLen)
 	} else if ContainsDigits(word) {
 		if val, err := strconv.Atoi(word); err == nil {
 			return IndexSearchAbjad(int32(val), maxLen)
 		}
-		return RegexSearchVisenc(word, maxLen)
+		return FuzzySearchVisenc(word, maxLen)
 	}
-	return RegexSearchTurkishLatin(word, maxLen)
+	return FuzzySearchTurkishLatin(word, maxLen)
+}
+
+// RegexSearchAuto searches word in either of RegexSearchUnicode, RegexSearchTurkishLatin, RegexSearchVisenc and IndexSearchAbjad
+func RegexSearchAuto(regexp *regexp.Regexp, maxLen int) []*Root {
+
+	word := regexp.String()
+
+	if ContainsArabicChars(word) {
+		return RegexSearchUnicode(regexp, maxLen)
+	} else if ContainsDigits(word) {
+		if val, err := strconv.Atoi(word); err == nil {
+			return IndexSearchAbjad(int32(val), maxLen)
+		}
+		return RegexSearchVisenc(regexp, maxLen)
+	}
+	return RegexSearchTurkishLatin(regexp, maxLen)
 }
 
 // IndexSearchAbjad searches returns list roots containing `abjad` as value
