@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/golang/protobuf/jsonpb"
-	"github.com/golang/protobuf/proto"
+	"google.golang.org/protobuf/encoding/protojson"
+	"google.golang.org/protobuf/proto"
 )
 
 // SaveSuffixSetJSON saves a suffix set to a JSON file
@@ -21,13 +21,9 @@ func SaveSuffixSetJSON(filename string, suffixset *SuffixSet) {
 	}
 	defer file.Close()
 
-	marshaler := jsonpb.Marshaler{
-		OrigName:     false,
-		EnumsAsInts:  false,
-		EmitDefaults: true,
-		Indent:       "  ",
-	}
-	jsonString, err := marshaler.MarshalToString(suffixset)
+	jsonBytes, err := protojson.Marshal(suffixset)
+
+	jsonString := string(jsonBytes)
 
 	if err != nil {
 		log.Fatal(err)
@@ -54,14 +50,9 @@ func SaveRootSetJSON(filename string, rootset *RootSet) {
 		log.Fatal(err)
 	}
 	defer file.Close()
-	marshaler := jsonpb.Marshaler{
-		OrigName:     false,
-		EnumsAsInts:  false,
-		EmitDefaults: true,
-		Indent:       "  ",
-	}
 
-	jsonString, err := marshaler.MarshalToString(rootset)
+	jsonBytes, err := protojson.Marshal(rootset)
+	jsonString := string(jsonBytes)
 
 	if err != nil {
 		log.Fatal(err)

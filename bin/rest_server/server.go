@@ -13,11 +13,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/golang/protobuf/jsonpb"
+	// "github.com/golang/protobuf/jsonpb"
 	// "github.com/golang/protobuf/proto"
+
 	"github.com/gorilla/mux"
-	// "google.golang.org/protobuf/encoding/protojson"
-	// "google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/encoding/protojson"
 )
 
 // MAXRESULTLEN shows the maximum number of elements returned from searches
@@ -37,14 +37,9 @@ func transformRoots(roots []*dervaze.Root, transformer func(*dervaze.Root) *derv
 }
 
 func marshalRoots(outputRootSet *dervaze.RootSet) (string, error) {
-	marshaler := jsonpb.Marshaler{
-		OrigName:     true,
-		EnumsAsInts:  false,
-		EmitDefaults: false,
-		Indent:       "  ",
-	}
-	jsonStr, err := marshaler.MarshalToString(outputRootSet)
+	jsonBytes, err := protojson.Marshal(outputRootSet)
 
+	jsonStr := string(jsonBytes)
 	if err == nil {
 		return jsonStr, nil
 	}
@@ -427,7 +422,7 @@ func JSONVersion(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintln(w, "", string(err.Error()))
 	}
 }
-func server(host, port string) {
+func server(host string, port int) {
 
 	router := mux.NewRouter().StrictSlash(true)
 
@@ -445,7 +440,7 @@ func server(host, port string) {
 	router.HandleFunc("/v1/version/", JSONVersion)
 	srv := &http.Server{
 		Handler:      router,
-		Addr:         host + ":" + port,
+		Addr:         fmt.Sprintf("%s:%d", host, port),
 		WriteTimeout: 15 * time.Second,
 		ReadTimeout:  15 * time.Second,
 	}
@@ -457,12 +452,12 @@ func server(host, port string) {
 func main() {
 
 	var inputfile string
-	var port string
+	var port int
 	var host string
 
 	flag.StringVar(&inputfile, "i", "../../assets/dervaze-rootset.protobuf", "protobuffer file to load roots")
 	flag.StringVar(&host, "h", "127.0.0.1", "IP address or hostname to listen to")
-	flag.StringVar(&port, "p", "9876", "port to listen to")
+	flag.IntVar(&port, "p", 9876, "port to listen to")
 
 	flag.Parse()
 
