@@ -94,11 +94,11 @@ func console() {
 		case strings.HasPrefix(line, "o2v "):
 			println(dervaze.UnicodeToVisenc(line[4:]))
 		case strings.HasPrefix(line, "t "):
-			println(dervaze.PrintRoots(dervaze.RegexSearchTurkishLatin(line[2:], CONSOLEMAXRESULTLEN)))
+			println(dervaze.PrintRoots(dervaze.FuzzySearchTurkishLatin(line[2:], CONSOLEMAXRESULTLEN)))
 		case strings.HasPrefix(line, "v "):
-			println(dervaze.PrintRoots(dervaze.RegexSearchVisenc(line[2:], CONSOLEMAXRESULTLEN)))
+			println(dervaze.PrintRoots(dervaze.FuzzySearchVisenc(line[2:], CONSOLEMAXRESULTLEN)))
 		case strings.HasPrefix(line, "u "):
-			println(dervaze.PrintRoots(dervaze.RegexSearchUnicode(line[2:], CONSOLEMAXRESULTLEN)))
+			println(dervaze.PrintRoots(dervaze.FuzzySearchUnicode(line[2:], CONSOLEMAXRESULTLEN)))
 		case strings.HasPrefix(line, "pt "):
 			println(dervaze.PrintRoots(dervaze.PrefixSearchTurkishLatin(line[2:], CONSOLEMAXRESULTLEN)))
 		case strings.HasPrefix(line, "pv "):
@@ -114,7 +114,7 @@ func console() {
 			}
 		case line == "":
 		default:
-			println(dervaze.PrintRoots(dervaze.RegexSearchAuto(line, CONSOLEMAXRESULTLEN)))
+			println(dervaze.PrintRoots(dervaze.FuzzySearchAuto(line, CONSOLEMAXRESULTLEN)))
 		}
 	}
 }
