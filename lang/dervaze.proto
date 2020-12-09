@@ -17,16 +17,15 @@ service Dervaze {
 
 enum SearchType { PREFIX = 0; FUZZY = 1; REGEX = 2; }
 
+enum SearchField {
+  AUTO = 0; TURKISH_LATIN = 1; VISENC = 2; OTTOMAN = 3; ABJAD = 4;
+}
+
 enum Req { NEVER = 0; MAYBE = 1; ALWAYS = 2; }
 
 message SearchRequest {
-  oneof field {
-    string auto = 1;
-    string turkishLatin = 2;
-    string visenc = 3;
-    string ottoman = 4;
-    int32 abjad = 7;
-  }
+  SearchField searchField = 10;
+  string searchString = 11;
   SearchType searchType = 14;
   int32 resultLimit = 15;
 }
