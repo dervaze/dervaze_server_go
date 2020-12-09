@@ -91,7 +91,7 @@ func JSONPrefixTr(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	roots := dervaze.RegexSearchTurkishLatin(vars["word"], MAXRESULTLEN)
+	roots := dervaze.FuzzySearchTurkishLatin(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -122,7 +122,7 @@ func JSONPrefixOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	roots := dervaze.RegexSearchUnicode(vars["word"], MAXRESULTLEN)
+	roots := dervaze.FuzzySearchUnicode(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -238,7 +238,7 @@ func JSONSearchTr(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.RegexSearchTurkishLatin(vars["word"], MAXRESULTLEN)
+	roots := dervaze.FuzzySearchTurkishLatin(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -264,7 +264,7 @@ func JSONSearchOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.RegexSearchUnicode(vars["word"], MAXRESULTLEN)
+	roots := dervaze.FuzzySearchUnicode(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -293,7 +293,7 @@ func JSONSearchAuto(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.RegexSearchAuto(vars["word"], MAXRESULTLEN)
+	roots := dervaze.FuzzySearchAuto(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
