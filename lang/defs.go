@@ -85,7 +85,7 @@ var VisencToUnicodeMap = map[string]string{
 	"n9":     "۹",
 	"&zwnj;": "\u200C",
 	"||":     "\u200C",
-	"||":     "\u200C",
+	"<>":     "\u200C",
 	"&zwj;":  "\u200D",
 	"><":     "\u200D",
 	"&lrm;":  "\u200E",
