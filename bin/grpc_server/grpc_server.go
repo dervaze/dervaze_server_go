@@ -12,7 +12,7 @@ import (
 
 var (
 	inputfile = flag.String("i", "../../assets/dervaze-rootset.protobuf", "protobuffer file to load roots")
-	host      = flag.String("h", "127.0.0.1", "IP address or hostname to listen to")
+	host      = flag.String("h", "0.0.0.0", "IP address or hostname to listen to")
 	port      = flag.Int("p", 9876, "port to listen to")
 )
 
