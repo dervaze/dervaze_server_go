@@ -7,7 +7,6 @@ import (
 	"log"
 	"net"
 	"net/http"
-	"strings"
 
 	gmux "github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
@@ -27,14 +26,22 @@ func grpcHandlerFunc(grpcServer *grpc.Server, otherHandler http.Handler) http.Ha
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		// TODO(tamird): point to merged gRPC code rather than a PR.
 		// This is a partial recreation of gRPC's internal checks https://github.com/grpc/grpc-go/pull/514/files#diff-95e9a25b738459a2d3030e1e6fa2a718R61
+
+		// // Loop over header names
+		// for name, values := range r.Header {
+		// Loop over all values for the name.
+		// 	for _, value := range values {
+		// 		fmt.Println(name, value)
+		// 	}
+		// }
 		print(".")
-		print(r.ProtoMajor)
-		print(r.Header.Get("Content-Type"))
-		if r.ProtoMajor == 2 && strings.Contains(r.Header.Get("Content-Type"), "application/grpc") {
-			grpcServer.ServeHTTP(w, r)
-		} else {
-			otherHandler.ServeHTTP(w, r)
-		}
+		fmt.Printf("RequestURI: %s", r.RequestURI)
+		// if r.ProtoMajor == 2 && strings.Contains(r.Header.Get("Content-Type"), "application/grpc") {
+		// if r.ProtoMajor == 2 {
+		grpcServer.ServeHTTP(w, r)
+		// } else {
+		// 	otherHandler.ServeHTTP(w, r)
+		// }
 	})
 }
 
@@ -54,8 +61,16 @@ func commonServer(host string, port int) {
 	// })
 	// dopts := []grpc.DialOption{grpc.WithTransportCredentials(dcreds)}
 	//
-	dopts := []grpc.DialOption{grpc.WithInsecure()}
 
+	dopts := []grpc.DialOption{grpc.WithInsecure()}
+	gwmux := runtime.NewServeMux()
+	err := dervaze.RegisterDervazeHandlerFromEndpoint(ctx, gwmux, ":9876", dopts)
+	if err != nil {
+		fmt.Printf("serve: %v\n", err)
+		return
+	}
+
+	// REST router
 	router := gmux.NewRouter().StrictSlash(true)
 	// mux := http.NewServeMux()
 	router.HandleFunc("/v1/json/prefix/tr/{word}", dervaze.JSONPrefixTr)
@@ -70,14 +85,6 @@ func commonServer(host string, port int) {
 	router.HandleFunc("/v1/json/v2u/{word}", dervaze.JSONV2U)
 	router.HandleFunc("/v1/json/u2v/{word}", dervaze.JSONU2V)
 	router.HandleFunc("/v1/version/", dervaze.JSONVersion)
-
-	gwmux := runtime.NewServeMux()
-
-	err := dervaze.RegisterDervazeHandlerFromEndpoint(ctx, gwmux, addr, dopts)
-	if err != nil {
-		fmt.Printf("serve: %v\n", err)
-		return
-	}
 
 	router.Handle("/", gwmux)
 
