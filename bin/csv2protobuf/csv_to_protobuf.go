@@ -21,8 +21,8 @@ func readRecord(record []string, pos dervaze.PartOfSpeech) *dervaze.Root {
 	if len(record) >= 2 {
 		latin := record[0]
 		visenc := record[1]
-		root := dervaze.MakeRoot(latin, visenc, pos)
-		return &root
+		root := dervaze.NewRoot(latin, visenc, pos)
+		return root
 	}
 	return nil
 }

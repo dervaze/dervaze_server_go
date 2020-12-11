@@ -366,7 +366,7 @@ func TestLastConsonant(t *testing.T) {
 	}
 }
 
-func runUEST(r1, r2 Root, t *testing.T) {
+func runUEST(r1, r2 *Root, t *testing.T) {
 
 	if r1.EffectiveVisenc != r2.EffectiveVisenc {
 		t.Log(fmt.Sprintf("Fails for %s != %s", r1.EffectiveVisenc, r2.EffectiveVisenc))
@@ -382,12 +382,16 @@ func runUEST(r1, r2 Root, t *testing.T) {
 // func UpdateEffectiveSoftening(r *Root) {
 func TestUpdateEffectiveSoftening(t *testing.T) {
 
-	runUEST(MakeRoot("salağ", "zeleao1", PartOfSpeech_NOUN),
-		MakeRoot("salak", "zelefo2", PartOfSpeech_NOUN), t)
+	r1 := NewRoot("salağ", "zeleao1", PartOfSpeech_NOUN)
+	r2 := NewRoot("salak", "zelefo2", PartOfSpeech_NOUN)
+	runUEST(r1, r2, t)
 
-	runUEST(MakeRoot("malağ", "meleao1", PartOfSpeech_NOUN),
-		MakeRoot("malak", "melefo2", PartOfSpeech_NOUN), t)
+	r1 = NewRoot("malağ", "meleao1", PartOfSpeech_NOUN)
+	r2 = NewRoot("malak", "melefo2", PartOfSpeech_NOUN)
+	runUEST(r1, r2, t)
 
-	runUEST(MakeRoot("yalağ", "yeleao1", PartOfSpeech_NOUN),
-		MakeRoot("yalak", "yelefo2", PartOfSpeech_NOUN), t)
+	r1 = NewRoot("yalağ", "yeleao1", PartOfSpeech_NOUN)
+	r2 = NewRoot("yalak", "yelefo2", PartOfSpeech_NOUN)
+	runUEST(r1, r2, t)
+
 }

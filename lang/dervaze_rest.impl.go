@@ -1,7 +1,6 @@
-package main
+package lang
 
 import (
-	dervaze "dervaze/lang"
 	"os/exec"
 	"strconv"
 	"strings"
@@ -23,20 +22,20 @@ import (
 // MAXRESULTLEN shows the maximum number of elements returned from searches
 const MAXRESULTLEN = 20
 
-func transformRoots(roots []*dervaze.Root, transformer func(*dervaze.Root) *dervaze.Root) *dervaze.RootSet {
-	out := make([]*dervaze.Root, len(roots))
+func transformRoots(roots []*Root, transformer func(*Root) *Root) *RootSet {
+	out := make([]*Root, len(roots))
 
 	for i, r := range roots {
 		out[i] = transformer(r)
 	}
 
-	r := dervaze.RootSet{
+	r := RootSet{
 		Roots: out,
 	}
 	return &r
 }
 
-func marshalRoots(outputRootSet *dervaze.RootSet) (string, error) {
+func marshalRoots(outputRootSet *RootSet) (string, error) {
 	jsonBytes, err := protojson.Marshal(outputRootSet)
 
 	jsonStr := string(jsonBytes)
@@ -48,7 +47,7 @@ func marshalRoots(outputRootSet *dervaze.RootSet) (string, error) {
 }
 
 // validSearchCharacters defines all characters accepted for search
-var validSearchCharacters = []rune(dervaze.AllSearchableArabic + dervaze.AllSearchableLatin)
+var validSearchCharacters = []rune(AllSearchableArabic + AllSearchableLatin)
 var validSearchCharMap = make(map[rune]rune, len(validSearchCharacters))
 var validSearchMapInit = false
 
@@ -78,15 +77,15 @@ func cleanUpSearchString(s string) string {
 //
 func JSONPrefixTr(w http.ResponseWriter, r *http.Request) {
 
-	transformer := func(root *dervaze.Root) *dervaze.Root {
-		r := dervaze.Root{
+	transformer := func(root *Root) *Root {
+		r := Root{
 			TurkishLatin: root.TurkishLatin,
 		}
 		return &r
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	roots := dervaze.FuzzySearchTurkishLatin(vars["word"], MAXRESULTLEN)
+	roots := FuzzySearchTurkishLatin(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -107,9 +106,9 @@ func JSONPrefixTr(w http.ResponseWriter, r *http.Request) {
 // ```
 //
 func JSONPrefixOt(w http.ResponseWriter, r *http.Request) {
-	transformer := func(root *dervaze.Root) *dervaze.Root {
-		r := dervaze.Root{
-			Ottoman: &dervaze.OttomanWord{
+	transformer := func(root *Root) *Root {
+		r := Root{
+			Ottoman: &OttomanWord{
 				Unicode: root.Ottoman.Unicode,
 			},
 		}
@@ -117,7 +116,7 @@ func JSONPrefixOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	roots := dervaze.FuzzySearchUnicode(vars["word"], MAXRESULTLEN)
+	roots := FuzzySearchUnicode(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -151,11 +150,11 @@ func JSONPrefixOt(w http.ResponseWriter, r *http.Request) {
 //     ```
 //
 func JSONExactTr(w http.ResponseWriter, r *http.Request) {
-	transformer := func(root *dervaze.Root) *dervaze.Root {
-		r := dervaze.Root{
+	transformer := func(root *Root) *Root {
+		r := Root{
 			TurkishLatin: root.TurkishLatin,
 			Abjad:        root.Abjad,
-			Ottoman: &dervaze.OttomanWord{
+			Ottoman: &OttomanWord{
 				Unicode: root.Ottoman.Unicode,
 			},
 		}
@@ -163,7 +162,7 @@ func JSONExactTr(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.PrefixSearchTurkishLatinExact(vars["word"])
+	roots := PrefixSearchTurkishLatinExact(vars["word"])
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -196,11 +195,11 @@ func JSONExactTr(w http.ResponseWriter, r *http.Request) {
 //     ```
 //
 func JSONExactOt(w http.ResponseWriter, r *http.Request) {
-	transformer := func(root *dervaze.Root) *dervaze.Root {
-		r := dervaze.Root{
+	transformer := func(root *Root) *Root {
+		r := Root{
 			TurkishLatin: root.TurkishLatin,
 			Abjad:        root.Abjad,
-			Ottoman: &dervaze.OttomanWord{
+			Ottoman: &OttomanWord{
 				Unicode: root.Ottoman.Unicode,
 			},
 		}
@@ -208,7 +207,7 @@ func JSONExactOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.PrefixSearchUnicodeExact(vars["word"])
+	roots := PrefixSearchUnicodeExact(vars["word"])
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -221,11 +220,11 @@ func JSONExactOt(w http.ResponseWriter, r *http.Request) {
 // JSONSearchTr makes a regex search by interleaving .? between runes of `word`
 // `/v1/json/search/tr/{word}`
 func JSONSearchTr(w http.ResponseWriter, r *http.Request) {
-	transformer := func(root *dervaze.Root) *dervaze.Root {
-		r := dervaze.Root{
+	transformer := func(root *Root) *Root {
+		r := Root{
 			TurkishLatin: root.TurkishLatin,
 			Abjad:        root.Abjad,
-			Ottoman: &dervaze.OttomanWord{
+			Ottoman: &OttomanWord{
 				Unicode: root.Ottoman.Unicode,
 			},
 		}
@@ -233,7 +232,7 @@ func JSONSearchTr(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.FuzzySearchTurkishLatin(vars["word"], MAXRESULTLEN)
+	roots := FuzzySearchTurkishLatin(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -247,11 +246,11 @@ func JSONSearchTr(w http.ResponseWriter, r *http.Request) {
 // JSONSearchOt makes a regex search by interleaving .? between runes of `word`
 // `/v1/json/search/ot/{word}`
 func JSONSearchOt(w http.ResponseWriter, r *http.Request) {
-	transformer := func(root *dervaze.Root) *dervaze.Root {
-		r := dervaze.Root{
+	transformer := func(root *Root) *Root {
+		r := Root{
 			TurkishLatin: root.TurkishLatin,
 			Abjad:        root.Abjad,
-			Ottoman: &dervaze.OttomanWord{
+			Ottoman: &OttomanWord{
 				Unicode: root.Ottoman.Unicode,
 			},
 		}
@@ -259,7 +258,7 @@ func JSONSearchOt(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.FuzzySearchUnicode(vars["word"], MAXRESULTLEN)
+	roots := FuzzySearchUnicode(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -276,11 +275,11 @@ func JSONSearchOt(w http.ResponseWriter, r *http.Request) {
 // otherwise it searches as a Turkish latin word
 // `/v1/json/search/ot/{word}`
 func JSONSearchAuto(w http.ResponseWriter, r *http.Request) {
-	transformer := func(root *dervaze.Root) *dervaze.Root {
-		r := dervaze.Root{
+	transformer := func(root *Root) *Root {
+		r := Root{
 			TurkishLatin: root.TurkishLatin,
 			Abjad:        root.Abjad,
-			Ottoman: &dervaze.OttomanWord{
+			Ottoman: &OttomanWord{
 				Unicode: root.Ottoman.Unicode,
 			},
 		}
@@ -288,7 +287,7 @@ func JSONSearchAuto(w http.ResponseWriter, r *http.Request) {
 	}
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
-	roots := dervaze.FuzzySearchAuto(vars["word"], MAXRESULTLEN)
+	roots := FuzzySearchAuto(vars["word"], MAXRESULTLEN)
 	log.Printf("roots: %s", roots)
 
 	outputRootSet := transformRoots(roots, transformer)
@@ -323,11 +322,11 @@ func JSONSearchAuto(w http.ResponseWriter, r *http.Request) {
 //
 func JSONExactAbjad(w http.ResponseWriter, r *http.Request) {
 
-	transformer := func(root *dervaze.Root) *dervaze.Root {
-		r := dervaze.Root{
+	transformer := func(root *Root) *Root {
+		r := Root{
 			TurkishLatin: root.TurkishLatin,
 			Abjad:        root.Abjad,
-			Ottoman: &dervaze.OttomanWord{
+			Ottoman: &OttomanWord{
 				Unicode: root.Ottoman.Unicode,
 			},
 		}
@@ -336,12 +335,12 @@ func JSONExactAbjad(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	log.Printf("JsonExactTr Vars: %s", vars)
 	val, err := strconv.Atoi(vars["word"])
-	var roots []*dervaze.Root
+	var roots []*Root
 	if err == nil {
-		roots = dervaze.IndexSearchAbjad(int32(val), MAXRESULTLEN)
+		roots = IndexSearchAbjad(int32(val), MAXRESULTLEN)
 	} else {
 		log.Printf("Error in SearchAbjad parameter: %s", vars["word"])
-		roots = make([]*dervaze.Root, 0)
+		roots = make([]*Root, 0)
 	}
 	log.Printf("roots: %s", roots)
 
@@ -368,7 +367,7 @@ func JSONCalcAbjad(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	vars := mux.Vars(r)
 	log.Printf("JsonPrefixTr Vars: %s", vars)
-	abjad := dervaze.UnicodeToAbjad(vars["word"])
+	abjad := UnicodeToAbjad(vars["word"])
 	str := fmt.Sprintf("{ \"ottoman_unicode\": \"%s\", \"abjad\": %d }", vars["word"], abjad)
 	fmt.Fprintln(w, "", str)
 
@@ -388,7 +387,7 @@ func JSONV2U(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	vars := mux.Vars(r)
 	log.Printf("JsonV2U Vars: %s", vars)
-	unicode := dervaze.VisencToUnicode(vars["word"])
+	unicode := VisencToUnicode(vars["word"])
 	str := fmt.Sprintf("{ \"ottoman_unicode\": \"%s\", \"ottoman_unicode\": \"%s\" }", unicode, vars["word"])
 	fmt.Fprintln(w, "", str)
 }
@@ -407,7 +406,7 @@ func JSONU2V(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	vars := mux.Vars(r)
 	log.Printf("JsonU2V Vars: %s", vars)
-	visenc := dervaze.UnicodeToVisenc(vars["word"])
+	visenc := UnicodeToVisenc(vars["word"])
 	str := fmt.Sprintf("{ \"ottoman_unicode\": \"%s\", \"ottoman_unicode\": \"%s\" }", vars["word"], visenc)
 	fmt.Fprintln(w, "", str)
 }

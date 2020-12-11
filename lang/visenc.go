@@ -11,8 +11,8 @@ import (
 	"golang.org/x/text/unicode/norm"
 )
 
-// MakeRoot builds a Root from Latin and Visenc spelling of a word by automatically filling other information
-func MakeRoot(latin string, visenc string, pos PartOfSpeech) Root {
+// NewRoot builds a Root from Latin and Visenc spelling of a word by automatically filling other information
+func NewRoot(latin string, visenc string, pos PartOfSpeech) *Root {
 
 	if visenc == "" {
 		log.Println("Empty visenc for latin", latin)
@@ -44,7 +44,7 @@ func MakeRoot(latin string, visenc string, pos PartOfSpeech) Root {
 
 	UpdateEffectiveSoftening(&r)
 
-	return r
+	return &r
 }
 
 // MakeOttomanWord builds an OttomanWord from either visenc or unicode
