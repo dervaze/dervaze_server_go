@@ -104,7 +104,7 @@ type UnsafeDervazeServer interface {
 }
 
 func RegisterDervazeServer(s grpc.ServiceRegistrar, srv DervazeServer) {
-	s.RegisterService(&Dervaze_ServiceDesc, srv)
+	s.RegisterService(&_Dervaze_serviceDesc, srv)
 }
 
 func _Dervaze_VisencToOttoman_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
@@ -179,10 +179,7 @@ func _Dervaze_Translate_Handler(srv interface{}, ctx context.Context, dec func(i
 	return interceptor(ctx, in, info, handler)
 }
 
-// Dervaze_ServiceDesc is the grpc.ServiceDesc for Dervaze service.
-// It's only intended for direct use with grpc.RegisterService,
-// and not to be introspected or modified (even as a copy)
-var Dervaze_ServiceDesc = grpc.ServiceDesc{
+var _Dervaze_serviceDesc = grpc.ServiceDesc{
 	ServiceName: "dervaze.Dervaze",
 	HandlerType: (*DervazeServer)(nil),
 	Methods: []grpc.MethodDesc{
