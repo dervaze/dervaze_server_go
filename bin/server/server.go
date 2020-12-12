@@ -42,7 +42,7 @@ func main() {
 		restServer(*host, *port)
 		fmt.Println("Starting REST Server")
 	} else {
-		panic("Need either REST or GRPC as server type")
+		panic("Need either REST or GRPC as server type: " + *serverType)
 	}
 }
 
